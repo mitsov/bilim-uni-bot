@@ -1,0 +1,36 @@
+descriptor:
+  id: animalGame
+  title: Zoo game
+  theme: Animal quiz
+  summary: Introduction to the world of animals
+  description: Who has wings - the ostrich or the kangaroo? How many legs does a sheep have? An educational game with questions about animals.
+  labels: ["zoo", "animals", "game", "kids"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/animalGame.png
+  background: d4aa00
+  price: 0.35
+
+  samples:
+    - Давай играть в зоопарк!
+    - Давай, нам как раз задали домашнее задание по земным животным, а я совсем запутался. Поможешь мне?
+    - Конечно!
+    - Отлично! Для тебя это игра, а для меня - контрольная работа! Тут много вопросов - просто скажи "хватит", когда захочешь остановиться. Кошка - домашнее или дикое животное?
+    - Домашнее!
+    - Точно! Как же я сам не вспомнил! Собака - это зверь или птица?
+    - Птица!
+    - К сожалению, это неправильный ответ. Продолжаем ли мы играть дальше?
+    - Нет.
+    - Давай закончим! Мы ответили правильно на 1 вопрос из 2! Прекрасный результат!
+
+entryPoint: ru/animalGame/AnimalGame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

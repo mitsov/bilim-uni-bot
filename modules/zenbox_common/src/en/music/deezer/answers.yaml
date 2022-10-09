@@ -1,0 +1,20 @@
+Music:
+    Play:
+        - Now playing
+    Who is playing?:
+        dont know:
+            - I don't know.
+    Is it the artist?:
+        yes, it is:
+            - "Yes, it is "
+        no, it is:
+            - "No, it is "
+        dont know:
+            - I don't know.
+        music is not playing:
+            - Music is not playing.
+    Pause music:
+        music is already off:
+            - Music is not playing.
+    Turn off music:
+        - The music is off.

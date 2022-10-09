@@ -1,0 +1,11 @@
+Music:
+    Play:
+        - Играет
+    Who is playing?:
+        dont know:
+            - Не знаю.
+    Pause music:
+        music is already off:
+            - Музыка не включена.
+    Turn off music:
+        - Музыка выключена.

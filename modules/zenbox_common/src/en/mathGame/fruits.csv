@@ -1,0 +1,6 @@
+1;banana;{"title":"banana","genTitle":"banana","genMany":"bananas", "accTitle": "banana"}
+2;orange;{"title":"orange","genTitle":"orange","genMany":"oranges", "accTitle": "orange"}
+3;apple;{"title":"apple","genTitle":"apple","genMany":"apples", "accTitle": "apple"}
+4;pear;{"title":"pear","genTitle":"pear","genMany":"pears", "accTitle": "pear"}
+5;pineapple;{"title":"pineapple","genTitle":"pineapple","genMany":"pineapples", "accTitle": "pineapple"}
+6;mandarin;{"title":"mandarin","genTitle":"mandarin","genMany":"mandarins", "accTitle": "mandarin"}

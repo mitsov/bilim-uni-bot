@@ -1,0 +1,30 @@
+descriptor:
+  id: guessNumberGame
+  title: Guess number game
+  theme: Guess Number Game
+  summary: A fun number game
+  description: Guess a number or let me guess one. Let's see how many tries will it take to win.
+  labels: ["guess", "number", "game"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/numbers.png
+  background: cd9a78
+  price: 0.40
+
+  samples:
+    - Guess the number
+    - 'Think of a number from one to one hundred. And I will guess it. Say - "greater" if your number is greater than the one I told - or - "less" if your number is less than mine. And do not forget to tell when I guess! So, I say - 1. Is your number greater or less?'
+    - Less
+    - "No, this can not be! Your number should be less than 101, but more than 0. Let's try again - I say 1. Is your number greater or less?"
+
+#entryPoint: en/guessNumberGame/GuessNumberGame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

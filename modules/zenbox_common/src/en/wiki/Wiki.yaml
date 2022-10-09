@@ -1,0 +1,31 @@
+descriptor:
+  id: wiki
+  title: Wikipedia
+  theme: Wiki
+  summary: Knows about famous people and facts
+  description: I can tell you what a word means or what a famous person did.
+  labels: ["wikipedia"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/wiki.png
+  background: 1a1a1a
+  price: 0.30
+
+  samples:
+    - Who is Abraham Lincoln?
+    - Abraham Lincoln was the 16th President of the United States, serving from March 1861 until his assassination in April 1865. Lincoln led the United States through its Civil War—its bloodiest war and its greatest moral, constitutional, and political crisis. In doing so, he preserved the Union, abolished slavery, strengthened the federal government, and modernized the economy.
+    
+    - What is the TARDIS?
+    - The TARDIS  is a fictional time machine and spacecraft that appears in the British science fiction television programme Doctor Who and its various spin-offs.
+
+entryPoint: en/wiki/Wiki.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

@@ -1,0 +1,45 @@
+descriptor:
+  id: weather
+  title: Openweathermap weather
+  theme: Weather
+  summary: Information about the weather
+  description: I'll know about the current and coming weather in any city of the world.
+  labels: ["weather", "forecast"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/weather.png
+  background: 2c89a0
+  price: 0.30
+
+  samples:
+    - А какой у нас прогноз погоды?
+    - Сегодня дождь, +15 градусов
+    - А в Токио?
+    - Сегодня в городе Токио дождь, +20 градусов
+    - А завтра?
+    - 6-го сентября в городе Токио слегка облачно, +17 градусов
+    
+    - 7 сентября в Чикаго какая будет погода?
+    - 7-го сентября в городе Чикаго легкий дождь, +14 градусов
+
+    - Погода сегодня ясная?
+    - Нет, сегодня дождь, +15 градусов
+
+  params:
+    apiKey:
+      type: text
+      required: true
+      title: API Access Token
+      summary: Your developer's access token from openweathermap.org
+
+entryPoint: ru/weather/Weather.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

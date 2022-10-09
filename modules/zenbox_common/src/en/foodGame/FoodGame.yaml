@@ -1,0 +1,37 @@
+descriptor:
+
+  id: foodGame
+  title: Food game
+  theme: Food quiz
+  summary: A fun game about food
+  description: An educational game that checks the player's knowledge of the different products and types of food.
+  labels: ["food", "game"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/foodGame.png
+  background: a40000
+  price: 0.40
+
+  samples:
+    - Let's play the Food game
+    - "Come on! I am always glad to learn more about earthly food! Is an apple a fruit or a nut?"
+    - Fruit
+    - "Exactly! How could I not remember that! Would you like to continue?"
+    - "Yes"
+    - "Perfect! What is kefir made from: milk or meat?"
+    - From both
+    - "You need to choose one answer. What is kefir made from: milk or meat?"
+    - Enough
+    - "Let's finish! You correctly answered 1 question out of 2. Great result!"
+
+#entryPoint: en/foodGame/FoodGame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

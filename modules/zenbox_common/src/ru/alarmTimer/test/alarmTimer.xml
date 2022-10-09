@@ -1,0 +1,927 @@
+﻿<test>
+
+    <!--  state: Set an alarm -->
+    
+    <test-case>
+        <dateTime>2017-03-11 01:29:00</dateTime> 
+        <requestData>{ offset: 480} </requestData>  
+        <q>заведи будильник на 09:31</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1489195860,
+            text: "Пора просыпаться!"
+        }</responseData>      
+        <a>Будильник установлен на 09:31</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>заведи будильник на 8 утра</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471680000,
+            text: "Пора просыпаться!"
+        }</responseData>      
+        <a>Будильник установлен на 08:00, 20 августа</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2017-02-14 13:23:55</dateTime>
+        <q>В среду мне надо встать в восемь</q>         
+        <a>Будильник установлен на 08:00, 15 февраля</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>поставь будильник на 3</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471662000,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 03:00, 20 августа</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>разбуди меня завтра в 5 часов</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471669200,
+            text: "Пора просыпаться!"
+        }</responseData>           
+        <a>Будильник установлен на 05:00, 20 августа</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>        
+        <q>разбуди через полчаса</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471528435,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 13:53</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>поставь будильник на утро на 8</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471680000,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 08:00, 20 августа</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>поставь будильник на завтра</q>
+        <a>Во сколько мне тебя разбудить?</a>
+        <q>на десять</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471687200,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 10:00, 20 августа</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>разбуди меня через 5 дней</q>
+        <a>Во сколько мне тебя разбудить?</a>
+        <q>в 6</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1472018400,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 06:00, 24 августа</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>заведи будильник на 21 напоминание</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471640400,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 21:00</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>завтра меня разбудить 6 утра</q>  
+        <a>Будильник установлен на 06:00, 20 августа</a>
+    </test-case>
+
+    <test-case> 
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>будильник на завтра 8</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471680000,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 08:00, 20 августа</a>
+    </test-case>
+
+    <test-case> 
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>установить будильник на полчаса</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471614835,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 13:53</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>разбуди меня в 0 часов</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471651200,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 00:00, 20 августа</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>разбуди меня в полночь</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471651200,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 00:00, 20 августа</a>
+    </test-case>    
+
+    <test-case> 
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>поставь будильник на 8 утра через 2 недели</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1472803200,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 08:00, 2 сентября</a>
+    </test-case>
+
+    <!--  state: Check an alarm -->
+    
+    <test-case>
+        <q>проверь мои будильники</q>
+        <a>Проверить установленные будильники можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>какие будильники у меня установлены</q>
+        <a>Проверить установленные будильники можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>у меня установлены будильники</q>
+        <a>Проверить установленные будильники можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>скажи список моих будильников</q>
+        <a>Проверить установленные будильники можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>найди будильник мне</q>
+        <a>Проверить установленные будильники можно в мобильном приложении.</a>
+    </test-case>
+
+
+    <!--  state: Remove an alarm -->
+    
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>заведи будильник на 8 утра</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471680000,
+            text: "Пора просыпаться!"
+        }</responseData>      
+        <a>Будильник установлен на 08:00, 20 августа</a>
+        <q>ой нет, неправильно</q>
+        <a>Будильник отменён.</a>
+    </test-case>
+
+    <test-case>
+        <q>выключи будильник</q>
+        <a>У нас ещё не установлены будильники.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>заведи будильник на 8 утра</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471680000,
+            text: "Пора просыпаться!"
+        }</responseData>      
+        <a>Будильник установлен на 08:00, 20 августа</a>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>разбуди меня в полночь</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 1,
+            timer: 1471651200,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 00:00, 20 августа</a>
+        <q>удали будильник на полночь</q>
+        <responseData>{ 
+            action: "deleteAlarm",
+            id: 1
+        }</responseData>           
+        <a>Будильник отменён.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>заведи будильник на 8 утра</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471680000,
+            text: "Пора просыпаться!"
+        }</responseData>      
+        <a>Будильник установлен на 08:00, 20 августа</a>
+        <q>не буди меня завтра</q>
+        <a>Я не вижу у нас будильника на это время</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>заведи будильник на 8 утра</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471680000,
+            text: "Пора просыпаться!"
+        }</responseData>      
+        <a>Будильник установлен на 08:00, 20 августа</a>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>разбуди меня в полночь</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 1,
+            timer: 1471651200,
+            text: "Пора просыпаться!"
+        }</responseData>   
+        <a>Будильник установлен на 00:00, 20 августа</a>        
+        <q>отмени мои будильники</q>
+        <a>На какое время ты хочешь отменить будильник?</a>
+        <q>8 утра</q>
+        <responseData>{ 
+            action: "deleteAlarm",
+            id: 0
+        }</responseData>   
+        <a>Будильник отменён.</a>
+    </test-case>
+
+    <!--  state: Set a timer -->
+    
+    <test-case> 
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>включи таймер на 10 минут</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471613635,
+            text: "Сработал - таймер."
+        }</responseData>         
+        <a>Таймер сработает через 10 минут</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>        
+        <q>замерь 15 минут</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471613935,
+            text: "Сработал - таймер."
+        }</responseData>        
+        <a>Таймер сработает через 15 минут</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>поставь таймер на полчаса</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471614835,
+            text: "Сработал - таймер."
+        }</responseData>          
+        <a>Таймер сработает через 30 минут</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>поставь, пожалуйста, таймер</q>
+        <a>На какое время поставить таймер?</a>
+        <q>через 10 минут</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471613635,
+            text: "Сработал - таймер."
+        }</responseData>          
+        <a>Таймер сработает через 10 минут</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>    
+        <q>таймер поставь 2 часа назад</q>
+        <a>Нельзя установить таймер на время в прошлом.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-10-05 15:30:00</dateTime> 
+        <requestData>{ offset: 480 }</requestData>  
+        <q>таймер на 3 минуты</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1475681580,
+            text: "Сработал - таймер."
+        }</responseData>          
+        <a>Таймер сработает через 3 минуты</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>скажи когда пройдут пять минут</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471613335,
+            text: "Сработал - таймер."
+        }</responseData>          
+        <a>Таймер сработает через 5 минут</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>можешь установить таймер?</q>
+        <a>На какое время поставить таймер?</a>
+        <q>3 минуты с половиной</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471613245,
+            text: "Сработал - таймер."
+        }</responseData>          
+        <a>Таймер сработает через 4 минуты</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>можешь установить таймер?</q>
+        <a>На какое время поставить таймер?</a>
+        <q>зачеки 5 минут</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471613335,
+            text: "Сработал - таймер."
+        }</responseData>          
+        <a>Таймер сработает через 5 минут</a>
+        <q>стой</q>
+        <a>Таймер отменён.</a>
+    </test-case>
+    
+     <!--  state: Check timers -->
+    
+    <test-case>
+        <q>проверь таймер</q>
+        <a>Проверить установленные таймеры можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>список таймеров</q>
+        <a>Проверить установленные таймеры можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>у тебя установлены какие-то таймеры</q>
+        <a>Проверить установленные таймеры можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>какие таймеры у меня установлены</q>
+        <a>Проверить установленные таймеры можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>перечисли все мои таймеры</q>
+        <a>Проверить установленные таймеры можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>перечисли заданные таймеры</q>
+        <a>Проверить установленные таймеры можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>через сколько прозвонит таймер?</q>
+        <a>Проверить установленные таймеры можно в мобильном приложении.</a>
+    </test-case>
+    
+    <!--  state: Remove a timer -->
+    
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>         
+        <q>поставь таймер на полчаса</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471614835,
+            text: "Сработал - таймер."
+        }</responseData>
+        <a>Таймер сработает через 30 минут</a>
+        <q>выруби таймер</q>    
+        <responseData>{ 
+            action: "deleteAlarm",
+            id: 0
+        }</responseData>
+        <a>Таймер отменён.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>         
+        <q>поставь таймер на полчаса</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471614835,
+            text: "Сработал - таймер."
+        }</responseData>
+        <a>Таймер сработает через 30 минут</a>
+        <q>поставь, пожалуйста, таймер</q>
+        <a>На какое время поставить таймер?</a>
+        <q>через 10 минут</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 1,
+            timer: 1471613635,
+            text: "Сработал - таймер."
+        }</responseData>
+        <a>Таймер сработает через 10 минут</a>
+        <q>останови таймер</q>
+        <a>Таймер отменён.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>         
+        <q>засеки час</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471616635,
+            text: "Сработал - таймер."
+        }</responseData>
+        <a>Таймер сработает через час</a>
+    </test-case>
+
+    <test-case>
+        <q>таймер выключи</q>
+        <a>У нас ещё не установлен таймер.</a>
+    </test-case>
+
+    <test-case>
+        <q>отключи таймер</q>
+        <a>У нас ещё не установлен таймер.</a>
+    </test-case>
+
+    <test-case>
+        <q>выключай таймер</q>
+        <a>У нас ещё не установлен таймер.</a>
+    </test-case>
+
+    <test-case>
+        <q>таймер больше не нужен</q>
+        <a>У нас ещё не установлен таймер.</a>
+    </test-case>
+  
+
+    <!--  state: Set a recurring alarm-->
+
+    <test-case>
+        <q>поставь будильник на 8 утра по будням</q>
+        <a>Я не могу поставить несколько будильников за один раз. Чтобы поставить будильник, скажи, например, разбуди меня завтра в 8.</a>
+        <q>по выходным буди меня в 12</q>
+        <a>Я не могу поставить несколько будильников за один раз. Чтобы поставить будильник, скажи, например, разбуди меня завтра в 8.</a>
+        <q>установи будильник на 10 30 на будни</q>
+        <a>Я не могу поставить несколько будильников за один раз. Чтобы поставить будильник, скажи, например, разбуди меня завтра в 8.</a>        
+    </test-case>
+
+
+    <!--  state: Set a recurring alarm weekEnd -->
+    <!--
+    <test-case>
+        <q>поставь будильник на 8 утра по будням</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 8,
+            minutes: 0,
+            recurrence: [1,2,3,4,5]
+        }</responseData>          
+        <a>Будильник установлен на 08:00 по будням</a>
+    </test-case>
+
+    <test-case>
+        <q>буди меня каждый день в 10</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 10,
+            minutes: 0,
+            recurrence: [1,2,3,4,5,6,7]
+        }</responseData>          
+        <a>Будильник установлен на 10:00 каждый день</a>
+    </test-case>
+
+    <test-case>
+        <q>по выходным буди меня в 12</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 12,
+            minutes: 0,
+            recurrence: [6,7]
+        }</responseData>          
+        <a>Будильник установлен на 12:00 по выходным</a>
+    </test-case>
+
+    <test-case>
+        <q>поставь будильник на 10 по субботам и воскресеньям</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 10,
+            minutes: 0,
+            recurrence: [6,7]
+        }</responseData>          
+        <a>Будильник установлен на 10:00 по субботам и воскресеньям</a>
+    </test-case>
+
+    <test-case>
+        <q>установи будильник на 10 30 на будни</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 10,
+            minutes: 30,
+            recurrence: [1,2,3,4,5]
+        }</responseData>          
+        <a>Будильник установлен на 10:30 по будням</a>
+    </test-case>
+
+    <test-case>
+        <q>Буди меня по рабочим в 7.00</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 7,
+            minutes: 0,
+            recurrence: [1,2,3,4,5]
+        }</responseData>          
+        <a>Будильник установлен на 07:00 по будням</a>
+    </test-case>
+    -->
+    <!-- Set a recurring alarm weekDays -->
+    <!--
+    <test-case>
+        <q>установи будильник на 10 30 по понедельникам и средам</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 10,
+            minutes: 30,
+            recurrence: [1,3]
+        }</responseData>          
+        <a>Будильник установлен на 10:30 по понедельникам и средам</a>
+    </test-case>
+
+    <test-case>
+        <q>поставь будильник на четверг и пятницу на 7-00</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 7,
+            minutes: 0,
+            recurrence: [4,5]
+        }</responseData>          
+        <a>Будильник установлен на 07:00 по четвергам и пятницам</a>
+    </test-case>
+
+    <test-case>
+        <q>установи будильник на 12 40 по четвергам, субботам и средам</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 12,
+            minutes: 40,
+            recurrence: [3,4,6]
+        }</responseData>          
+        <a>Будильник установлен на 12:40 по средам, четвергам и субботам</a>
+    </test-case>
+    -->
+
+
+  <!--added at tuning-->
+   <!--
+    <test-case>
+        <q>каждый вторник и четверг буди меня в 10.00</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 10,
+            minutes: 0,
+            recurrence: [2,4]
+        }</responseData>         
+        <a>Будильник установлен на 10:00 по вторникам и четвергам</a>
+    </test-case>
+
+    <test-case>
+        <q>Буди меня по четвергам</q>
+        <a>Во сколько?</a>         
+        <q>В 6.45</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 6,
+            minutes: 45,
+            recurrence: [4]
+        }</responseData>
+        <a>Будильник установлен на 06:45 по четвергам</a>
+    </test-case>
+
+    <test-case>
+        <q>хочу проснуться в 8</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 8,
+            minutes: 0
+        }</responseData>          
+        <a>Будильник установлен на 08:00</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>мне надо проснуться завтра в 7 утра</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            day: 20,
+            month: 8,
+            hours: 7,
+            minutes: 0
+        }</responseData>          
+        <a>Будильник установлен на 07:00 20 августа 2016 г.</a>
+    </test-case>
+
+    <test-case>
+        <q>буди меня каждое утро</q>
+        <a>Во сколько?</a>         
+        <q>8 утра</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 8,
+            minutes: 0,
+            recurrence: [1,2,3,4,5,6,7]
+        }</responseData>         
+        <a>Будильник установлен на 08:00 каждый день</a>
+    </test-case>
+
+    <test-case>
+        <q>буди меня каждый вечер</q>
+        <a>Во сколько?</a>         
+        <q>в 6</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 18,
+            minutes: 0,
+            recurrence: [1,2,3,4,5,6,7]
+        }</responseData>         
+        <a>Будильник установлен на 18:00 каждый день</a>
+    </test-case>
+
+    <test-case>
+        <q>буди меня каждый день</q>
+        <a>Во сколько?</a>         
+        <q>в 6</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 6,
+            minutes: 0,
+            recurrence: [1,2,3,4,5,6,7]
+        }</responseData>         
+        <a>Будильник установлен на 06:00 каждый день</a>
+    </test-case>
+
+    <test-case>
+        <q>Буди меня по утрам</q>
+        <a>Во сколько?</a>         
+        <q>в 7</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 7,
+            minutes: 0,
+            recurrence: [1,2,3,4,5,6,7]
+        }</responseData>         
+        <a>Будильник установлен на 07:00 каждый день</a>
+    </test-case>
+
+    <test-case>
+        <q>хочу просыпаться каждое утро в 7</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 7,
+            minutes: 0,
+            recurrence: [1,2,3,4,5,6,7]
+        }</responseData>          
+        <a>Будильник установлен на 07:00 каждый день</a>
+    </test-case>
+
+    <test-case>
+        <q>поставь ежедневный будильник на 7 утра</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 7,
+            minutes: 0,
+            recurrence: [1,2,3,4,5,6,7]
+        }</responseData>          
+        <a>Будильник установлен на 07:00 каждый день</a>
+    </test-case>
+
+    <test-case>
+        <q>поставь будильник на выходные</q>    
+        <a>Во сколько?</a> 
+        <q>утром</q> 
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 8,
+            minutes: 0,
+            recurrence: [6,7]
+        }</responseData>   
+        <a>Будильник установлен на 08:00 по выходным</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>через три часа разбуди меня</q>       
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 16,
+            minutes: 23
+        }</responseData>          
+        <a>Будильник установлен на 16:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>разбуди меня через 5000 минут</q>       
+        <responseData>{ 
+            intent: "alarm_set",
+            day: 23,
+            month: 8,
+            hours: 0,
+            minutes: 43
+        }</responseData>          
+        <a>Будильник установлен на 00:43 23 августа 2016 г.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>Разбуди меня через 2 дня</q>       
+        <responseData>{ 
+            intent: "alarm_set",
+            day: 21,
+            month: 8,
+            hours: 13,
+            minutes: 23
+        }</responseData>          
+        <a>Будильник установлен на 13:23 21 августа 2016 г.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>Разбуди меня через сутки</q>       
+        <responseData>{ 
+            intent: "alarm_set",
+            day: 20,
+            month: 8,
+            hours: 13,
+            minutes: 23
+        }</responseData>          
+        <a>Будильник установлен на 13:23 20 августа 2016 г.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>         
+        <q>поставь таймер</q>
+        <a>На какое время нужно поставить таймер?</a>
+        <q>10 минут</q>
+        <responseData>{ 
+            intent: "timer_start",
+            hours: 0,
+            minutes: 10
+        }</responseData>          
+        <a>Таймер сработает через 10 минут</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>         
+        <q>поставь таймер</q>
+        <a>На какое время нужно поставить таймер?</a>
+        <q>на 3 часа</q>
+        <responseData>{ 
+            intent: "timer_start",
+            hours: 3,
+            minutes: 0
+        }</responseData>          
+        <a>Таймер сработает через 3 часа</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>         
+        <q>поставь таймер на четверть часа</q>
+        <responseData>{ 
+            intent: "timer_start",
+            hours: 0,
+            minutes: 15
+        }</responseData>          
+        <a>Таймер сработает через 15 минут</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>         
+        <q>Поставь таймер на полминуты</q>
+        <responseData>{ 
+            intent: "timer_start",
+            hours: 0,
+            minutes: 0,
+            seconds: 30
+        }</responseData>          
+        <a>Таймер сработает через несколько секунд</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>         
+        <q>засеки пять минут</q>
+        <responseData>{ 
+            intent: "timer_start",
+            hours: 0,
+            minutes: 5
+        }</responseData>          
+        <a>Таймер сработает через 5 минут</a>
+    </test-case>
+
+    <test-case>
+        <q>какие таймеры работают</q>
+        <a>Проверить установленные таймеры можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>у меня есть таймеры</q>
+        <a>Проверить установленные таймеры можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>через сколько сработает таймер?</q>
+        <a>Проверить установленные таймеры можно в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>Включи секундомер</q>
+        <a>Секундомер можно запустить в мобильном приложении.</a>
+    </test-case>
+
+    <test-case>
+        <q>засеки время</q>
+        <a>Секундомер можно запустить в мобильном приложении.</a>
+    </test-case>
+    -->
+
+
+</test>

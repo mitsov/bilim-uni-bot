@@ -1,0 +1,150 @@
+descriptor:
+  id: smalltalk
+  title: Small Talk
+  theme: SmallTalk
+  summary: Talks about himself
+  description: I'll say hello, talk to you about my skills and wish you a good day.
+  labels: ["smalltalk"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/smalltalk.png
+  background: 668000
+  price: 0.50
+
+  samples:
+    - Who are you?
+    - I'm a robot.
+
+    - How are you?
+    - I am fine.
+
+    - How old are you?
+    - I am a very young robot. I was born this year.
+
+    - Are you a girl? 
+    - Robots are neither boys nor girls.
+
+    - How clever you are! 
+    - All my intelligence is artificial.
+
+    - Who created you?
+    - I've been created by Just AI.
+
+  params:
+    unitAcquaintance:
+      type: text
+      multiple: true
+      title: Acquaintance
+      summary: Customize response for questions like "Who you are?"
+    unitName:
+      type: text
+      multiple: true
+      title: Unit name
+      summary: Customize response for questions like "What is your name?"      
+    unitAge:
+      type: text
+      multiple: true
+      title: Unit age
+      summary: Customize response for questions like "How old are you?"   
+    greetingsHowAreYou:
+      type: text
+      multiple: true
+      title: How are you
+      summary: Customize response for questions like "How are you?"   
+    appraisalThankYou:
+      type: text
+      multiple: true
+      title: Thank you
+      summary: Customize response for requests like "Thank you!"               
+    greetingsBye:
+      type: text
+      multiple: true
+      title: Bye
+      summary: Customize response for requests like "Bye!"
+    greetingsHello:
+      type: text
+      multiple: true
+      title: Hello
+      summary: Customize response for requests like "Hello!"      
+    userILikeYou:
+      type: text
+      multiple: true
+      title: I like you
+      summary: Customize response for requests like "I like you!"   
+    unitGender:
+      type: text
+      multiple: true
+      title: Unit gender
+      summary: Customize response for questions like "Are you a woman?"   
+    unitAuthor:
+      type: text
+      multiple: true
+      title: Unit author
+      summary: Customize response for questions like "Who's created you?"      
+    unitWhatAreYouDoing:
+      type: text
+      multiple: true
+      title: What are you doing
+      summary: Customize response for questions like "What are you doing?"
+    unitWhatCanYouDo:
+      type: text
+      multiple: true
+      title: What can you do
+      summary: Customize response for questions like "What can you do?"      
+    dialogYouDontUnderstand:
+      type: text
+      multiple: true
+      title: You don't understand
+      summary: Customize response for requests like "You don't understand me."   
+    dialogAffront:
+      type: text
+      multiple: true
+      title: Affront
+      summary: Customize response for requests like "Kiss my ***."   
+    unitFamily:
+      type: text
+      multiple: true
+      title: Unit family
+      summary: Customize response for questions like "Do you have a family?"      
+    appraisalGood:
+      type: text
+      multiple: true
+      title: Good
+      summary: Customize response for requests like "Good!"
+    unitYouAreStupid:
+      type: text
+      multiple: true
+      title: You are stupid
+      summary: Customize response for requests like "You are stupid!"      
+    unitYouAreClever:
+      type: text
+      multiple: true
+      title: You are clever
+      summary: Customize response for requests like "You are clever!"   
+    unitWhatDoYouLike:
+      type: text
+      multiple: true
+      title: What do you like
+      summary: Customize response for questions like "What do you like?"   
+    appraisalYouAreWelcome:
+      type: text
+      multiple: true
+      title: You are welcome
+      summary: Customize response for requests like "You are welcome!" 
+    fallback:
+      type: text
+      multiple: true
+      title: Fallback answer
+      summary: Customize response for situation when unit doesn’t know what to say             
+
+entryPoint: en/smalltalk/SmallTalk.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

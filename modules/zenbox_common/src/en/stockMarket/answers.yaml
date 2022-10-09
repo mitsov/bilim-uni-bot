@@ -1,0 +1,57 @@
+Ask company:
+  For Price:
+    - Please, tell me the company name and I'll try to find stock price for it.
+  For Params:
+    - Please, tell me the company name and I'll try to find stock price for it.
+  Unknown company:
+    - Sorry, I can't find such a company.
+
+cantGetData:
+  date:
+    - I can't say. The data on requested date isn't available.
+  future:
+    - I don't know the information for the future.
+  default:
+    - I can't say. The data isn't available.
+
+roundPrice:
+  - USD
+
+saveParams:
+  compare:
+    - compare
+
+stockMarketFormParamsAnswer:
+  getSymbol:
+    company:
+      - "The stock symbol is {{$session.stocks.company.symbol}} for {{$session.stocks.company.name}}"
+    company2:
+      - " and {{$session.stocks.company2.symbol}} for {{$session.stocks.company2.name}}"
+  getVolume:
+    company:
+      - "Trading volume is {{$temp.volume}}"
+    company2:
+      - " for {{$session.stocks.company.name}} and {{$temp.volume2}} for {{$session.stocks.company2.name}}"
+  getMarketCap:
+    company:
+      - "The market cap is {{$session.stocks.company.marketCap}} for {{$session.stocks.company.name}}"
+    company2:
+      - " and {{$session.stocks.company2.marketCap}} for {{$session.stocks.company2.name}}"
+
+stockMarketFormPriceAnswer:
+  price:
+    opening:
+      - opening price
+    highest:
+      - highest price
+    lowest:
+      - lowest price
+    closing:
+      - closing price
+  twoCompanies:
+    company:
+      - "The {{$temp.option}} {{$session.stocks.dateTime ? 'on ' + $session.stocks.dateTime.speak : ''}} is {{$temp.price}} for {{$session.stocks.company.name}}"
+    company2:
+      - " and {{$temp.price2}} for {{$session.stocks.company2.name}}"
+  oneCompany:
+    - "The {{$temp.option}} {{$session.stocks.dateTime ? 'on ' + $session.stocks.dateTime.speak : ''}} is {{$temp.price}} for {{$session.stocks.company.name}}"

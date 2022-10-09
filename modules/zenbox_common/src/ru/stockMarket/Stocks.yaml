@@ -1,0 +1,42 @@
+descriptor:
+  id: stocks
+  title: Stock Market
+  theme: StockMarket
+  summary: Information about the stock market
+  description: I'll know about the stock market, including recent information on prices, trading volumes, etc.
+  labels: ["stock", "market", "trading"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/stocks.png
+  background: 438d77
+  price: 0.30
+
+  samples:
+    - Цена Аэрофлота.
+    - Цена закрытия 208 рублей для компании ПАО 'Аэрофлот-российские авиалинии'.
+    - Скажи максимальную цену Яндекса в понедельник.
+    - Максимальная цена 24-го июля 1928.5 рублей для компании ЯНДЕКС.
+    - А во вторник?
+    - Максимальная цена 25-го июля 1927 рублей для компании ЯНДЕКС.
+    
+    - Торговый код и объём торгов для Яндекса
+    - Торговый код для компании ЯНДЕКС - это YNDX. Объём торгов 40432553 рублей.
+    - Покажи его капитализацию.
+    - Капитализация 444 929 789 649,50 рублей для компании ЯНДЕКС.
+    - А для компаний Роснефть и Татнефть?
+    - Капитализация 3 476 202 323 976,00 рублей для компании ПАО 'НК 'Роснефть' и 822 673 608 320,00 рублей для компании ПАО 'Татнефть' им. В.Д. Шашина.
+
+    - Сравни цены для Аэрофлота и Яндекса.
+    - Цена закрытия 208 рублей для компании ПАО 'Аэрофлот-российские авиалинии' и 1899.5 рублей для компании ЯНДЕКС.
+
+entryPoint: ru/stockMarket/Stocks.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

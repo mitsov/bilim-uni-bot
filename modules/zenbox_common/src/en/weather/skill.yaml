@@ -1,0 +1,10 @@
+name: Openweathermap
+description: Information about the weather from openweathermap.org
+category: Weather
+color: 2c89a0
+language: en
+samples: What is the weather like today?, Weather in Chicago next week, Is it warm tomorrow?, Weather in London
+
+parameters:
+  - name: apiKey
+    title: Openweathermap API Access Token

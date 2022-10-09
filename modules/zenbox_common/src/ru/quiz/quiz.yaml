@@ -1,0 +1,36 @@
+descriptor:
+  id: footballQuiz
+  title: Football Quiz
+  theme: Quiz
+  summary: What do you know about football?
+  description: What do you know about football? It's time to find out whether you're the best football fan.
+  labels: ["quiz"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/why.png
+  background: 1b3253
+  price: 0.40
+
+  samples:
+    - Давай поиграем в футбольную викторину
+    - Давайте сыграем в викторину! Правила просты. Я задаю вопрос, предлагаю варианты ответа, а вы отвечаете. Викторина поделена на раунды по 5 вопросов. В конце каждого раунда подсчитываются результаты. Ну что же, приступим! Какая страна стала первым чемпионом мира по футболу? Варианты ответов 1) Италия; 2) Чили; 3) Бразилия; 4) Уругвай;
+    - Уж точно Чилийцы
+    - Не верно. Первой страной, ставшей чемпионом мира по футболу, является Уругвай. Сборная какой страны стала вечным обладателем кубка Жуля Риме? Варианты ответов 1) Уругвай; 2) Германия; 3) Англия; 4) Бразилия;
+    - Четвертые
+    - Верно! Сколько раз Бразилия становилась чемпионом мира по футболу? Варианты ответов 1) 6 раз; 2) 3 раза; 3) 4 раза; 4) 5 раз;
+    - 4
+    - Уточните пожалуйста, 4 – это ответ или номер ответа?
+    - Это ответ.
+    - Не верно. Сборная Бразилии пять раз завоевывала чемпионский титул.
+
+entryPoint: ru/quiz/Quiz.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

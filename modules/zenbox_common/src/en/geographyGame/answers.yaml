@@ -1,0 +1,153 @@
+Geography game user start:
+  - Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?
+  - Happy to hear that! I just wanted to sort out the countries and capitals of Earth. Shall we start?
+  - Ok! I just wanted to know more about the geography of Earth to describe it all in my book. Shall we start?
+Geography game suggest quiz:
+  - I want to know more about geography, can you help me?
+  - I've just known that there are about 200 countries on Earth and every has its own capital. I want to memorize them all. Can you help me?
+  - I just wanted to study geography and to make it more fun I've invented a game so that you can help me. Shall we play?
+Geography game pudding start:
+  Geography game no:
+    - Sad, but it seems I'll have to do it all on my own.
+  Geography game yes:
+    - Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.
+    - Great! Now I'll know everything about Earth capitals and countries. There are so many questions - just say stop to finish the game.
+  Geography game undefined start:
+    noquestion:
+      - I'm sorry I didn't understand.
+      - Sorry, I couldn't hear you.
+      - I don't think I understand.
+    question:
+      - Do you want to play geography?
+      - Do you want to play?
+      - Shall we play?
+Geography quiz get question:
+  if:
+    default:
+      - I'll look for a more difficult question.
+      - Let's try a next level question.
+      - I think I can ask you a more difficult question.
+    if:
+      - You are doing really well!
+      - Wow! You are a brilliant player!
+  else:
+    - Here's an easier question.
+    - Let's try a simpler question.
+  Geography quiz get question answer dontknow:
+    - Ok, you don't have to answer.
+    - Sure, let's skip this question.
+    - Let's ask the computer about the correct answer.
+  Geography quiz get question answer badGeographyKnowledge:
+    default:
+      - I'm not very good at geography too!
+    rand:
+      - Try guessing!
+      - Make a guess!
+      - Try making a guess!
+  Geography quiz get question answer repeatPlease:
+    - Sure.
+    - Ok, I'll repeat the question.
+    - I'll try asking the question again.
+  Geography quiz get question answer other:
+    - Please try saying that again, I didn't quite get it.
+    - Sorry, I didn't hear your answer.
+    - It seems, I don't quite understand you.
+RightAnswer:
+  - Right!
+  - Sure!
+  - Absolutely so!
+  - That's correct.
+  - You really know a lot!
+  - With your help I'll learn everything very soon!
+WrongAnswer:
+  - Not really!
+  - It seems we are wrong.
+  - Computer tells me that it's not so!
+Geography quiz stop:
+  default:
+    - Ok, let's finish!
+  if:
+    if:
+      - There was only one question and we've given a wrong answer!
+    else:
+      - "All our answers were incorrect and there were {{$temp.all_questions}}..."
+    else2:
+      - Ok, we'll study together!
+      - We both have something to learn!
+  else:
+    if:
+      if:
+        - There was only one question and we've given a correct answer!
+      else:
+        - "We've answered correctly all {{$temp.all_questions}} {{$temp.ru_questions}}!"
+      else2:
+        - Great result!
+        - Not bad at all!
+        - We're on the right track!
+        - Marvellous!
+        - I like learning with you!
+    else:
+      - "We've given correct answers to {{$temp.right}} {{$temp.ru__answers}} out of {{$temp.all_questions}}!"
+    else2:
+      - Great result!
+      - Not bad at all!
+      - We're on the right track!
+      - Marvellous!
+      - I like learning with you!
+    Thanks:
+      - You're welcome!
+getQuestion:
+  -  " And now next question." 
+getQuestionType1:
+  question:
+    - "{{$session.capital}} is the capital of which country?"
+  rightAnswerText:
+    - "{{$session.capital}} is the capital of {{$session.genCountry}}. {{$session.fact}}  "
+getQuestionType2:
+  question:
+    - "What city is the capital of {{$session.genCountry}}?"
+  rightAnswerText:
+    - "The capital of {{$session.genCountry}} is {{$session.capital}}. {{$session.fact}} "
+getQuestionType3:
+  question:
+    - "Which of the two cities is the capital of {{$session.genCountry}}: {{$session.firstCapital}} or {{$session.secondCapital}}?"
+  rightAnswerText:
+    - "The capital of {{$session.genCountry}} is {{$session.capital}}. {{$session.fact}} "
+getQuestionType4:
+  question:
+    - "In which country is {{$session.capital}} situated: {{$session.firstCountry}} or {{$session.secondCountry}}?"
+  rightAnswerText:
+    - "{{$session.capital}} - is the capital of {{$session.genCountry}}. {{$session.fact}} "
+getQuestionType5:
+  question:
+    - "In which continent is {{$session.country}} situated?"
+  rightAnswerText:
+    - "{{$session.country}} is in {{$session.continent}}. "
+  inEurope: 
+    - "But in Europe."
+  inAsia:  
+    - "But in Asia."  
+getAnswerCapital:
+  notOneCity:
+    - No way, choose one city
+    - No way, you have to choose one city.
+  notCountry:
+    - "It seems we've mixed it up. {{$parseTree.Capital[0].value.name}} - is a city, not a country.  Try again! "
+  notContinent:
+    - "Something is wrong. {{$parseTree.Capital[0].value.name}} - is a city, not a continent. Try again! "
+getAnswerCountry:
+  notOneCountry:
+    - No way, choose one country
+  notCity:
+    - "It seems we've mixed it up. {{$parseTree.Country[0].value.name}} - is a country, not a city. Try again! "
+  notContinent:
+    - "It seems we've mixed it up. {{$parseTree.Country[0].value.name}} - is a country not a continent. Try again! "
+getAnswerContinent:
+  notOneContinent:
+    - No way, choose one continent
+  notCountry:
+    - "It seems we've mixed it up. {{$parseTree.Continent[0].value}} - is a continent not a country. Try again! "
+  notCity:
+    - "It seems we've mixed it up. {{$parseTree.Continent[0].value}} - is a continent not a city. Try again! "
+NorthSouth:
+  - North or South America?

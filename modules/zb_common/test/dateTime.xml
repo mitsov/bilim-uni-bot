@@ -1,0 +1,1160 @@
+<test>
+    
+    <!-- ABSOLUTE DATES and TIME -->
+
+    <test-case>
+        <q>3 октября 1989</q>
+        <a>dateTime: { "year": 1989, "month": 10, "day": 3 }</a>
+    </test-case>
+
+    <test-case>
+        <q>11 часов 30 минут 3 октября 1989</q>
+        <a>dateTime: { "year": 1989, "month": 10, "day": 3, "hour": 11, "minute": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <q>первого января тысяча девятисотого</q>
+        <a>dateTime: { "year": 1900, "month": 1, "day": 1 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в тысяча девятисот пятом году</q>
+        <a>dateTime: { "year": 1905 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в 1905 году</q>
+        <a>dateTime: { "year": 1905 }</a>
+    </test-case>
+
+    <test-case>
+        <q>3 октября</q>
+        <a>dateTime: { "month": 10, "day": 3 }</a>
+    </test-case>
+
+    <test-case>
+        <q>15:19</q>
+        <a>dateTime: { "hour": 15, "minute": 19 }</a>
+    </test-case>
+
+    <test-case>
+        <q>15:19:12</q>
+        <a>dateTime: { "hour": 15, "minute": 19, "second": 12 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в 8 утра 22 января</q>
+        <a>dateTime: { "month": 1, "day": 22, "hour": 8, "period": "am" }</a>
+    </test-case>
+
+    <test-case>
+        <q>в 8 вечера первого числа</q>
+        <a>dateTime: { "day": 1, "hour": 20, "period": "pm" }</a>
+    </test-case>
+
+    <test-case>
+        <q>пол одинадцатого</q>
+        <a>dateTime: { "hour": 10, "minute": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <q>без четверти 8 вечера</q>
+        <a>dateTime: { "hour": 19, "minute": 45, "period": "pm" }</a>
+    </test-case>
+
+    <test-case>
+        <q>без 15 семь</q>
+        <a>dateTime: { "hour": 6, "minute": 45 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в десять пятьдесят четыре</q>
+        <a>dateTime: { "hour": 10, "minute": 54 }</a>
+    </test-case>
+
+    <test-case>
+        <q>7 марта 1977 в 10 утра</q>
+        <a>dateTime: { "year": 1977, "month": 3, "day": 7, "hour": 10, "period": "am" }</a>
+    </test-case>
+
+    <!--<test-case>
+        <q>четвертьдевятого</q>
+        <a>dateTime: { "hour": 8, "minute": 15 }</a>
+    </test-case>-->
+
+    <test-case>
+        <q>пол восьмого</q>
+        <a>dateTime: { "hour": 7, "minute": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в полночь</q>
+        <a>dateTime: { "hour": 0 }</a>
+    </test-case>
+
+    <test-case>
+        <q>три часа пополудни</q>
+        <a>dateTime: { "hour": 15, "period": "pm" }</a>
+    </test-case>
+
+    <test-case>
+        <q>без трех двенадцать</q>
+        <a>dateTime: { "hour": 11, "minute": 57 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в три ноль восемь пятого числа</q>
+        <a>dateTime: { "day": 5, "hour": 3, "minute": 8 }</a>
+    </test-case>
+
+    <test-case>
+        <q>без тринадцати восемнадцать</q>
+        <a>dateTime: { "hour": 17, "minute": 47 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в одиннадцать одиннадцать</q>
+        <a>dateTime: { "hour": 11, "minute": 11 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в семь сорок</q>
+        <a>dateTime: { "hour": 7, "minute": 40 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в ноль часов ноль минут</q>
+        <a>dateTime: { "hour": 0, "minute": 0 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в три</q>
+        <a>dateTime: { "hour": 3 }</a>
+    </test-case>
+
+    <test-case>
+        <q>10 11 утра</q>
+        <a>dateTime: { "hour": 10, "minute": 11, "period": "am" }</a>
+    </test-case>
+
+    <test-case>
+        <q>завтрашний день</q>
+        <a>dateTime: { "days": 1 }</a>
+    </test-case>
+
+    <test-case>
+        <q>12 дня</q>
+        <a>dateTime: { "hour": 12, "period": "pm" }</a>
+    </test-case>
+
+    <test-case>
+        <q>будильник на 6 ноль 5 утра </q>
+        <a>dateTime: { "hour": 6, "minute": 5, "period": "am" }</a> 
+    </test-case>
+
+    <test-case>
+        <q>а этот день 30 января он только в воскресенье в субботу</q>
+        <a>dateTime: { "month": 1, "day": 30 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>первый час ночи</q>
+        <a>dateTime: { "hour": 1, "period": "am" }</a> 
+    </test-case>
+
+    <test-case>   
+        <q>час 05</q>
+        <a>dateTime: { "hour": 1, "minute": 5 }</a>
+    </test-case>
+
+    <test-case>
+        <q>1 мая день на родине </q>
+        <a>dateTime: { "month": 5, "day": 1 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>будильник на 6 00 утра 5 минут </q>
+        <a>dateTime: { "hour": 6, "minute": 0, "period": "am" }</a> 
+    </test-case>
+
+    <test-case>
+        <q>Напомни мне в 8 00 10 минут умыться</q>
+        <a>dateTime: { "hour": 8, "minute": 10 }</a>
+    </test-case>
+
+    <test-case>
+        <q>какая погода ожидается на следующий день в 6 00 вечера</q>
+        <a>dateTime: { "days": 1, "hour": 18, "minute": 0, "period": "pm" }</a>
+    </test-case>
+
+    <test-case>
+        <q>5 июня 2012 года 12 часов 45 минут воскресенье</q>
+        <a>dateTime: { "year": 2012, "month": 6, "day": 5, "weekDay": 7, "hour": 12, "minute": 45 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>в 3 часа 0 минут</q>
+        <a>dateTime: { "hour": 3, "minute": 0 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в 1 час дня</q>
+        <a>dateTime: { "hour": 13, "period": "pm" }</a>
+    </test-case>
+
+    <test-case>
+        <q>Включи будильник на 4 часа 20 минут</q>
+        <a>dateTime: { "hour": 4, "minute": 20 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Включи будильник на 8 часов 30 минут</q>
+        <a>dateTime: { "hour": 8, "minute": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в час</q>
+        <a>dateTime: { "hour": 1 }</a>
+    </test-case>
+
+    <test-case>
+        <q>в 6</q>
+        <a>dateTime: { "hour": 6 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Включи будильник на 9</q>
+        <a>dateTime: { "hour": 9 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Отключи будильник на 6 на 8 00</q>
+        <a>dateTime: { "day": 6, "hour": 8, "minute": 0 }</a>
+    </test-case>
+
+    <test-case>
+        <q>пол 12</q>
+        <a>dateTime: { "hour": 11, "minute": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Поставить будильник на 20 минут 5</q>
+        <a>dateTime: { "hour": 4, "minute": 20 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Поставить будильник на 20 минут пятого</q>
+        <a>dateTime: { "hour": 4, "minute": 20 }</a>
+    </test-case>
+
+    <test-case>
+        <q>нажмите чтобы включить или выключить распознавание команды Дуся будильник на завтра на утро на 4 00</q>
+        <a>dateTime: { "days": 1, "hour": 4, "minute": 0, "period": "am" }</a>
+    </test-case>
+
+    <test-case>
+        <q>Поставь будильник на двадцать два</q>
+        <a>dateTime: { "hour": 22 }</a>
+    </test-case>
+
+    <test-case>
+        <q>поставь будильник на семь тридцать утра</q>
+        <a>dateTime: { "hour": 7, "minute": 30, "period": "am" }</a>
+    </test-case>
+
+    <test-case>
+        <q>Поставь будильник на семь часов</q>
+        <a>dateTime: { "hour": 7 }</a>
+    </test-case>
+
+    <test-case>
+        <q>разбуди меня 6 часов 30</q>
+        <a>dateTime: { "hour": 6, "minute": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <q>без пяти 4 утра</q>
+        <a>dateTime: { "hour": 3, "minute": 55, "period": "am" }</a>
+    </test-case>
+
+    <test-case>
+        <q>без 5 4 утра</q>
+        <a>dateTime: { "hour": 3, "minute": 55, "period": "am" }</a>
+    </test-case>
+
+    <test-case>
+        <q>Удали будильник 6 15 16 октября</q>
+        <a>dateTime: { "month": 10, "day": 16, "hour": 6, "minute": 15 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Разбуди меня в шесть часов 10 минут утра</q>
+        <a>dateTime: { "hour": 6, "minute": 10, "period": "am" }</a>
+    </test-case>
+
+    <test-case>
+        <q>Установи будильник на 12 утра</q>
+        <a>dateTime: { "hour": 0, "period": "am" }</a>
+    </test-case>
+
+    <test-case>
+        <q>двадцать минут четвертого вечера</q>
+        <a>dateTime: { "hour": 15, "minute": 20, "period": "pm" }</a>
+    </test-case>
+
+    <test-case>
+        <q>Поставь будильник на две минуты шестого утра</q>
+        <a>dateTime: { "hour": 5, "minute": 2, "period": "am" }</a>
+    </test-case>
+
+    <test-case>
+        <q>в 22 55 ночи</q>
+        <a>dateTime: { "hour": 22, "minute": 55, "period": "pm" }</a>
+    </test-case>
+
+    <test-case>
+        <q>Поставь будильник на шесть часов и три минуты</q>
+        <a>dateTime: { "hour": 6, "minute": 3 }</a>
+    </test-case>
+
+    <test-case>
+        <q>установи будильник на завтра на 15 30 утра</q>
+        <a>dateTime: { "days": 1, "hour": 15, "minute": 30, "period": "am" }</a>
+    </test-case>
+
+	<test-case>
+        <dateTime>2018-01-29 10:15:00</dateTime>
+        <q>29 января в 9</q>
+        <a>dateTime: { "month": 1, "day": 29, "hour": 9 }</a>         
+    </test-case>
+
+    <!-- PARTS OF THE DAY -->
+    <test-case>
+        <q>вечер</q>
+        <a>dateTime: { "hour": 18 }</a>
+    </test-case>
+
+    <test-case>
+        <q>сегодня вечером</q>
+        <a>dateTime: { "days": 0, "hour": 18 }</a>
+    </test-case>
+
+    <test-case>
+        <q>завтра утром</q>
+        <a>dateTime: { "days": 1, "hour": 8 }</a>
+    </test-case>
+
+
+
+    <!-- RELATIVE DATE -->
+<!--AI-197 
+    <test-case>
+        <dateTime>2016-06-07 13:23:55</dateTime>
+        <q>сейчас</q>
+        <a>dateTime: {}</a>
+        <a>dateTime: "2016-06-07T10:23:55.000Z"</a>
+    </test-case>
+-->
+
+    <test-case>
+        <q>сегодня</q>
+        <a>dateTime: {}</a>
+    </test-case>
+
+    <test-case>
+        <q>завтра</q>
+        <a>dateTime: { "days": 1 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Поставь будильник через двое суток</q>
+        <a>dateTime: { "days": 2 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Установить будильник через 1 час 40 минут</q>
+        <a>dateTime: { "hours": 1, "minutes": 40 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Установи таймер на минуту</q>
+        <a>dateTime: { "minutes": 1 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Установи таймер на Одиннадцать минут</q>
+        <a>dateTime: { "minutes": 11 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Поставить таймер на полчаса</q>
+        <a>dateTime: { "minutes": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Дуся Разбудите меня через 3 минуты</q>
+        <a>dateTime: { "minutes": 3 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Разбудить через 1 минуту</q>
+        <a>dateTime: { "minutes": 1 }</a>
+    </test-case>
+
+    <test-case>
+        <q>таймер 1 минут</q>
+        <a>dateTime: { "minutes": 1 }</a>
+    </test-case>
+
+    <test-case>
+        <q>таймер 2 минуты 25 секунд</q>
+        <a>dateTime: { "minutes": 2, "seconds": 25 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Таймер 5 минут 15 секунд</q>
+        <a>dateTime: { "minutes": 5, "seconds": 15 }</a>
+    </test-case>
+
+    <test-case>
+        <q>через 5 секунд</q>
+        <a>dateTime: { "seconds": 5 }</a>
+    </test-case>
+<!--AI-197 
+    <test-case>
+        <dateTime>2000-01-01 00:00:00</dateTime>
+        <q>через два года, 3 дня, 48 часов и 66 минут</q>
+        <a>dateTime: { "years": 2, "days": 3, "hours": 48, "minutes": 66 }</a>
+        <a>dateTime: "2002-01-05T22:06:00.000Z"</a>
+    </test-case>
+-->
+<!--AI-197 
+    <test-case>
+        <dateTime>2016-07-14 13:23:55</dateTime>
+        <q>в среду в 10</q>
+        <a>dateTime: { "days": 6, "hour": 10 }</a>        
+        <a>dateTime: "2016-07-20T07:00:00.000Z"</a>
+    </test-case>
+-->
+<!--AI-197 
+    <test-case>
+        <dateTime>2016-07-14 13:23:55</dateTime>
+        <q>3 дня назад</q>
+        <a>dateTime: { "days": -3 }</a>          
+        <a>dateTime: "2016-07-11T10:23:55.000Z"</a>
+    </test-case>
+-->
+<!--AI-197 
+    <test-case>
+        <dateTime>2016-07-14 13:23:55</dateTime>
+        <q>через два часа</q>
+        <a>dateTime: { "hours": 2 }</a>          
+        <a>dateTime: "2016-07-14T12:23:55.000Z"</a>
+    </test-case>
+-->
+<!--AI-197 
+    <test-case>
+        <dateTime>2016-07-14 15:23:55</dateTime>
+        <q>через два дня в час дня</q>
+        <a>dateTime: { "days": 2, "hour": 13 }</a>         
+        <a>dateTime: "2016-07-16T10:00:00.000Z"</a>
+    </test-case>
+-->
+    <test-case>
+        <q>через полчасика</q>
+        <a>dateTime: { "minutes": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <q>минут через 20</q>
+        <a>dateTime: { "minutes": 20 }</a>
+    </test-case>
+
+    <test-case>
+        <q>часа через три</q>
+        <a>dateTime: { "hours": 3 }</a>
+    </test-case>
+
+    <test-case>
+        <q>два с половиной часа</q>
+        <a>dateTime: { "hours": 2, "minutes": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <q>3 минуты с половиной</q>
+        <a>dateTime: { "minutes": 3, "seconds": 30 }</a>
+    </test-case>
+
+    <!--<test-case>
+        <q>черезпару часов</q>
+        <a>dateTime: { "hours": 2 }</a>
+    </test-case>-->
+
+    <test-case>
+        <q>минут через полчасика</q>
+        <a>dateTime: { "minutes": 30 }</a>
+    </test-case>
+
+
+    <test-case>
+        <q>после завтра</q>
+        <a>dateTime: { "days": 2 }</a>
+    </test-case>
+
+    <test-case>
+        <q>завтрашний вечер</q>
+        <a>dateTime: { "days": 1, "hour": 18 }</a>
+    </test-case>
+ 
+    <test-case>
+        <q>сегодняшний день</q>
+        <a>dateTime: { "days": 0 }</a>
+    </test-case>
+
+    <test-case>
+        <q>завтра с утра</q>
+        <a>dateTime: { "days": 1, "hour": 8 }</a>
+    </test-case>
+ 
+    <test-case>
+        <q>сегодня на вечер</q>
+        <a>dateTime: { "days": 0, "hour": 18 }</a>
+    </test-case>
+
+    <test-case>
+        <q>на завтра на утро</q>
+        <a>dateTime: { "days": 1, "hour": 8 }</a>
+    </test-case>
+ 
+    <test-case>
+        <q>завтра ночью</q>
+        <a>dateTime: { "days": 1, "hour": 0 }</a>
+    </test-case>
+
+    <test-case>
+        <q>30 секунд</q>
+        <a>dateTime: { "seconds": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <q>этого дня</q>
+        <a>dateTime: { "days": 0 }</a>
+    </test-case> 
+
+    <test-case>
+        <q>сейчас в 6 40 минут </q>
+        <a>dateTime: { "hour": 6, "minute": 40 }</a> 
+    </test-case>
+    
+    <test-case>
+        <q>00 30 минут</q>
+        <a>dateTime: { "hour": 0, "minute": 30 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>17 лет назад</q>
+        <a>dateTime: { "years": -17 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>1 часов 50 минут </q>
+        <a>dateTime: { "hour": 1, "minute": 50 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>12 июня 2100</q>
+        <a>dateTime: { "year": 2100, "month": 6, "day": 12 }</a> 
+    </test-case>   
+
+    <test-case>
+        <q>15 дня сегодня</q>
+        <a>dateTime: { "days": 0, "hour": 15, "period": "pm" }</a> 
+    </test-case>    
+
+    <test-case>
+        <q>9 январе 9 января </q>
+        <a>dateTime: { "month": 1, "day": 9 }</a>
+    </test-case>
+
+     <test-case>
+        <dateTime>2016-07-29 21:09:55</dateTime>
+        <q>будет понедельник</q>
+        <a>dateTime: { "days": 3 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>21 декабря 29 рубцовск</q>
+        <a>dateTime: { "month": 12, "day": 21 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>25 марта 3</q>
+        <a>dateTime: { "month": 3, "day": 25, "hour": 3 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>23 май 29 макс и недостатки </q>
+        <a>dateTime: { "month": 5, "day": 23 }</a> 
+    </test-case> 
+
+    <test-case>
+        <q>10 пожалуйста близнецы 16 декабря 7 00 утра </q>
+        <a>dateTime: { "month": 12, "day": 16, "hour": 7, "minute": 0, "period": "am" }</a> 
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-07-29 21:09:55</dateTime>
+        <q>в 9 утра в понедельник позвонить максиму </q>
+        <a>dateTime: { "days": 3, "hour": 9, "period": "am" }</a> 
+    </test-case>
+
+    <test-case>
+        <q>воскресенье 31</q>
+        <a>dateTime: { "day": 31, "weekDay": 7 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>вторник 10 марта </q>
+        <a>dateTime: { "month": 3, "day": 10, "weekDay": 2 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>в каком месяце будет пятница 13</q>
+        <a>dateTime: { "day": 13, "weekDay": 5 }</a> 
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-09-28 14:09:55</dateTime>
+        <q>в пятницу 12 заказ на склад</q>
+        <a>dateTime: { "day": 12, "weekDay": 5 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>да воскресение шестого марта</q>
+        <a>dateTime: { "month": 3, "day": 6, "weekDay": 7 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>воскресенье 26 июня сестре давление</q>
+        <a>dateTime: { "month": 6, "day": 26, "weekDay": 7 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>во вторник 29 числа</q>
+        <a>dateTime: { "day": 29, "weekDay": 2 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>в понедельник 15 февраля позвонить в интернет магазин </q>
+        <a>dateTime: { "month": 2, "day": 15, "weekDay": 1 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>10 минут понедельник 4 июля 87 знак</q>
+        <a>dateTime: { "month": 7, "day": 4, "weekDay": 1 }</a> 
+    </test-case> 
+
+    <test-case>
+        <dateTime>2016-07-28 21:09:55</dateTime>
+        <q>в пятницу в 13 00</q>
+        <a>dateTime: { "days": 1, "hour": 13, "minute": 0 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>10 15 минут понедельник 4 июля 85 года цена акцента до конца зарядки 22 минуты </q>
+        <a>dateTime: { "year": 85, "month": 7, "day": 4, "weekDay": 1, "hour": 10, "minute": 15 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>15 февраля в понедельник в 12 10 </q>
+        <a>dateTime: { "month": 2, "day": 15, "weekDay": 1, "hour": 12, "minute": 10 }</a> 
+    </test-case>
+
+    <test-case> 
+        <q>в 12 часов забрать ученая книжку </q>
+        <a>dateTime: { "hour": 12 }</a> 
+    </test-case>
+
+    <test-case> 
+        <q>8 в 4 утра </q>
+        <a>dateTime: { "day": 8, "hour": 4, "period": "am" }</a> 
+    </test-case> 
+
+    <test-case>
+        <q>в этот день в это время</q>
+        <a>dateTime: {}</a>
+    </test-case>
+        
+    <test-case>
+        <q>день рождения любимки пушистой</q>
+        <a class="/CatchAll"/>
+    </test-case>
+
+    <!--<test-case>
+        <q>какой день недели</q>
+        <a class="/CatchAll"/>
+    </test-case>-->
+
+    <test-case>
+        <q>в полдевятого на работу открыть готова</q>
+        <a>dateTime: { "hour": 8, "minute": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Напомнить мне за сутки</q>
+        <a class="/CatchAll"/>
+    </test-case>
+
+    <test-case>
+        <!-- через -->
+        <q>за 7 часов 20 минут</q> 
+        <a>dateTime: { "hour": 7, "minute": 20 }</a>
+    </test-case>
+
+    <test-case>
+        <q>14 мая в субботу</q>
+        <a>dateTime: { "month": 5, "day": 14, "weekDay": 6 }</a>
+    </test-case>
+
+    <test-case>
+        <q>на завтра на 7 00</q>
+        <a>dateTime: { "days": 1, "hour": 7, "minute": 0 }</a>
+    </test-case>
+
+    <test-case>
+        <q>какой будет день 23 ноября в 2016 году</q>
+        <a>dateTime: { "year": 2016, "month": 11, "day": 23 }</a>
+    </test-case>
+    
+    <test-case>
+        <q>каникулы 83 год</q>
+        <a>dateTime: { "year": 83 }</a>
+    </test-case>
+
+    <test-case>
+        <q>вечером в 8 00</q>
+        <a>dateTime: { "hour": 20, "minute": 0, "period": "pm" }</a>
+    </test-case>
+
+    <test-case>
+        <q>вымыть пол 18 45</q>
+        <a>dateTime: { "hour": 18, "minute": 45 }</a>
+    </test-case>
+
+    <test-case>
+        <q>завтра в 10 00 15 минут</q>
+        <a>dateTime: { "days": 1, "hour": 10, "minute": 15 }</a>
+    </test-case>
+
+    <test-case>
+        <q>завтра полпятого</q>
+        <a>dateTime: { "days": 1, "hour": 4, "minute": 30 }</a>
+    </test-case>
+
+ 
+    <test-case>
+        <q>завтра утром в 7 20</q>
+        <a>dateTime: { "days": 1, "hour": 7, "minute": 20, "period": "am" }</a>
+    </test-case>
+
+    
+    <test-case>
+        <q>залить плиту средством в 17 30</q>
+        <a>dateTime: { "hour": 17, "minute": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <q>выходить на день рождения в 13 00</q>
+        <a>dateTime: { "hour": 13, "minute": 0 }</a>
+    </test-case>
+
+    <test-case>
+        <q>завтра полдевятого утра</q>
+        <a>dateTime: { "days": 1, "hour": 8, "minute": 30, "period": "am" }</a>
+    </test-case>
+
+    
+    <test-case>
+        <q>завтра утром в 6 часов</q>
+        <a>dateTime: { "days": 1, "hour": 6, "period": "am" }</a>
+    </test-case>
+
+    <test-case>
+        <q>сегодня ночью в 2 00 ночи</q>
+        <a>dateTime: { "days": 0, "hour": 2, "minute": 0, "period": "am" }</a>
+    </test-case>
+   
+    <!--<test-case>
+        <dateTime>2016-07-14 13:23:55</dateTime>
+        <q>в субботу 2100 надо</q>
+        <a>dateTime: { "days": 2, "hour": 21, "minute": 0 }</a>-->
+        <!--<a>dateTime: { "days": 2 }</a>
+    </test-case>-->
+
+    <test-case> 
+        <q>через 4 00 </q>
+        <a>dateTime: { "hours": 4, "minutes": 0 }</a>
+    </test-case>
+    
+    <test-case>
+        <q>через полтора часа </q>
+        <a>dateTime: { "minutes": 90 }</a>
+    </test-case>
+    
+    <test-case>
+        <q>через час 07 минут</q>
+        <a>dateTime: { "hours": 1, "minutes": 7 }</a>
+    </test-case>
+
+    <!--<test-case>
+        <q>Завтра 27 января 900 </q>
+        <a>dateTime: { "month": 1, "day": 27, "hour": 9, "minute": 0 }</a>
+    </test-case>--> 
+
+    <test-case>
+        <q>в 945 утро</q>
+        <a>dateTime: { "hour": 9, "minute": 45, "period": "am" }</a>
+    </test-case> 
+
+    <test-case>
+        <q>на 24 число на 9 00 </q>
+        <a>dateTime: { "day": 24, "hour": 9, "minute": 0 }</a>
+    </test-case> 
+
+    <test-case> 
+        <q>через две недели</q>
+        <a>dateTime: { "days": 14 }</a>
+    </test-case>
+
+    <!-- NoMatch and unclear questions -->
+
+    <test-case>
+        <q>пополудни</q>
+        <a class="/CatchAll"/>
+    </test-case>
+ 
+    <test-case>
+        <q>намедни</q>
+        <a class="/CatchAll"/>
+    </test-case>
+ 
+    <test-case>
+        <q>нонеча не то что давеча </q>
+        <a class="/CatchAll"/>
+    </test-case>
+
+    <test-case>
+        <q>надысь</q>
+        <a class="/CatchAll"/>
+    </test-case>
+
+    <!--<test-case>
+        <q>нонче заполночь</q>
+        <a>dateTime: { "hour": 0 }</a>
+    </test-case>-->
+
+    <test-case>
+        <q>в следующие выходные</q>
+        <a class="/CatchAll"/>
+    </test-case>
+
+    <test-case>
+        <q>123456789 10 11 12 </q>
+        <a>number: 123456789</a> 
+    </test-case>
+
+    <test-case>
+        <q>в 1751 я должен идти домой </q>
+        <a>dateTime: { "hour": 17, "minute": 51 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>900 рублей потратил сегодня</q>
+        <a>dateTime: {}</a> 
+    </test-case>
+
+    <test-case>
+        <q>9 мая 2000 992</q>
+        <a>dateTime: { "year": 2000, "month": 5, "day": 9 }</a> 
+    </test-case>
+
+    <!--<test-case>
+        <q>виды 10 9 8 2 </q>
+        <a>dateTime: { "hour": 10, "minute": 9 }</a> 
+    </test-case>-->
+
+    <test-case> 
+        <q>29 октября 1700 </q>
+        <a>dateTime: { "year": 1700, "month": 10, "day": 29 }</a> 
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-07-14 13:23:55</dateTime>
+        <q>в следующую пятницу следующего месяца</q>
+        <a>dateTime: { "months": 1, "days": 8 }</a>
+    </test-case>
+
+    <test-case>
+        <q>17 числа следующего месяца</q>
+        <a>dateTime: { "months": 1, "day": 17 }</a>
+    </test-case>
+
+    <test-case>
+        <q>17 числа текущего месяца</q>
+        <a>dateTime: { "months": 0, "day": 17 }</a>
+    </test-case>
+
+    <test-case>
+        <q>через месяц</q>
+        <a>dateTime: { "months": 1 }</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-07-14 13:23:55</dateTime>
+        <q>через две среды</q>
+        <a>dateTime: { "days": 20 }</a>
+    </test-case>
+    
+    <test-case>   
+        <q>через часик </q>
+        <a>dateTime: { "hours": 1 }</a>
+    </test-case>
+    
+    <test-case>
+        <q>сколько завтра в 9 утра и 70 число будет</q>
+        <a>dateTime: { "days": 1, "hour": 9, "period": "am" }</a>
+    </test-case> 
+
+    <test-case>   
+        <q>будильник завтра на 630</q>
+        <a>dateTime: { "days": 1, "hour": 6, "minute": 30 }</a>
+    </test-case>
+
+    <test-case>   
+        <dateTime>2016-07-14 13:23:55</dateTime>
+        <q>следующий понедельник 12 00 дня</q>
+        <a>dateTime: { "days": 4, "hour": 12, "minute": 0, "period": "pm" }</a>
+    </test-case>
+
+    <test-case>   
+        <dateTime>2016-07-14 13:23:55</dateTime>
+        <q>в следующую пятницу</q>
+        <a>dateTime: { "days": 8 }</a>
+    </test-case>
+
+    <test-case>   
+        <dateTime>2016-07-14 13:23:55</dateTime>
+        <q>в эту пятницу</q>
+        <a>dateTime: { "days": 1 }</a>
+    </test-case>
+
+    <test-case>
+        <q>следующем году 31 декабря</q>
+        <a>dateTime: { "years": 1, "month": 12, "day": 31 }</a>
+    </test-case>
+
+    <test-case>   
+        <q>будильник завтра на 6 30</q>
+        <a>dateTime: { "days": 1, "hour": 6, "minute": 30 }</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-07-14 13:23:55</dateTime>
+        <q>в среду через одну</q>
+        <a>dateTime: { "days": 13 }</a>
+    </test-case>
+
+    <!--<test-case>
+        <q>минутку</q>
+        <a>dateTime: { "minutes": 1 }</a> 
+    </test-case> -->
+
+    <test-case>
+        <q>часок</q>
+        <a>dateTime: { "hours": 1 }</a> 
+    </test-case> 
+
+    <!--<test-case>
+        <q>подпись займет пару секунд</q>
+        <a>dateTime: { "seconds": 2 }</a> 
+    </test-case> -->
+
+    <test-case>
+        <q>год назад</q>
+        <a>dateTime: { "years": -1 }</a> 
+    </test-case> 
+
+    <test-case>
+        <q>в прошлом году</q>
+        <a>dateTime: { "years": -1 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>будильник через час разбудить</q>
+        <a>dateTime: { "hours": 1 }</a>
+    </test-case>
+
+    <test-case>
+        <q>будь Разбуди меня через пять минут</q>
+        <a>dateTime: { "minutes": 5 }</a>
+    </test-case>
+
+    <test-case>
+        <q>включи будильник через 5 минут</q>
+        <a>dateTime: { "minutes": 5 }</a>
+    </test-case>
+
+    <test-case>
+        <q>Включи таймер на 20 минут</q>
+        <a>dateTime: { "minutes": 20 }</a>
+    </test-case>
+
+    <test-case>
+        <q>включить таймер на 60 секунд</q>
+        <a>dateTime: { "seconds": 60 }</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-22 13:23:55</dateTime>
+        <q>через две недели</q>
+        <a>dateTime: { "days": 14 }</a>
+    </test-case>
+
+
+    <test-case>
+        <q>100 30</q>
+        <a>number: 100</a> 
+    </test-case>
+
+    <test-case>
+        <q>900 00 </q>
+        <a>number: 900</a> 
+    </test-case>
+
+    <test-case>
+        <q>всем 20</q>
+        <a>number: 20</a>
+    </test-case>
+
+    <test-case>
+        <q>Отменить все будильники кроме 430</q>
+        <a>number: 430</a>
+    </test-case>
+
+    <test-case>
+        <q>поставь 2 будильник</q>
+        <a>number: 2</a>
+    </test-case>
+
+    <test-case>
+        <q>Поставь будильник 20</q>
+        <a>number: 20</a>
+    </test-case>
+
+    <test-case>
+        <q>Поставь будильник 500 600</q>
+        <a>number: 500</a>
+    </test-case>
+
+    <test-case>
+        <q>разбуди 6</q>
+        <a>number: 6</a>
+    </test-case>
+
+    <test-case>
+        <q>Удали будильник 2101</q>
+        <a>number: 2101</a>
+    </test-case>
+
+    <test-case>
+        <q>через 345 разбуди</q>
+        <a>number: 345</a>
+    </test-case>
+
+    <test-case>
+        <q>скоро день рождения</q>
+        <a class="/CatchAll"/> 
+    </test-case>
+
+    <test-case>   
+        <q>Скоро Новый год</q>
+        <a>dateTime: { "month": 1, "day": 1 }</a>
+    </test-case>
+
+     <test-case> 
+        <q>70 минут</q>
+        <a>dateTime: { "minutes": 70 }</a>
+    </test-case>
+
+	<test-case>
+        <dateTime>2018-01-29 10:15:00</dateTime>
+        <q>сегодня в 9</q>
+        <a>dateTime: { "days": 0, "hour": 9 }</a>         
+    </test-case>
+	
+<!--============ LOW PRIORITY CASES ============ 
+      need to improve pattern rank algorithm
+
+    матчится number: 2100
+    <test-case>
+        <q>неверно 9 00 2100 </q>
+        <a>dateTime: { "hour": 9, "minute": 0 }</a>
+    </test-case>  
+
+    <test-case>
+        <q>5 июня 2012 года 45 минут воскресенье</q>
+        <a>dateTime: { "year": 2012, "month": 6, "day": 5, "weekDay": 7, "minute": 45 }</a> 
+    </test-case>
+
+    <test-case>
+        <q>Установи будильник на 8 10 2015 8 00 завтра</q>
+        <a>dateTime: { "year": 2015, "month": 10, "day": 8, "hour": 8, "minute": 0 }</a>
+    </test-case>
+
+-->
+
+<!--============ LOW PRIORITY CASES ============ 
+
+    <test-case>
+        <q>третьего дня</q>
+        <a class="/CatchAll"/>
+    </test-case> 
+
+    <test-case>
+        <dateTime>2016-07-14 13:23:55</dateTime>
+        <q>в первый четверг следующего месяца</q>
+        <a>{ "months": 1, "days": 21 }</a>
+    </test-case>
+
+    It's almost impossible to understand
+    <test-case>
+        <dateTime>2016-07-14 13:23:55</dateTime>
+        <q>напоминание 0 1 10 2016 1500 домен</q>
+        <a>dateTime: {"year": 2016, "month": 10, "day": 1, "hour": 15, "minute": 00}</a>
+    </test-case>
+
+    <test-case>
+        <q>Разбуди меня всем утра</q>
+        <a class="/CatchAll"/>
+    </test-case>
+
+    <test-case>
+        <q>утром</q>
+        <a>dateTime: { "hour": 8 }</a>
+    </test-case>
+
+    <test-case>
+        <q>через 3 45 разбуди</q>
+        <a>dateTime: { "hours": 3, "minutes": 45 }</a>
+    </test-case>
+-->
+
+<!--
+сегодня в обед - может, внести "обеденное время"?
+
+сегодня днем 
+
+ - нет, это должны будут быть специальные кейсы для ремайндера
+-->
+
+</test>

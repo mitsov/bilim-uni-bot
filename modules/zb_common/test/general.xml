@@ -1,0 +1,32 @@
+<test>
+    <test-case id="емейл с дефисом в домене">
+        <q>a.bcd@just-ai.com</q>
+        <a state="/EmailPattern"/>
+    </test-case>
+
+    <test-case  id="емейл с нижним подчеркиванием в домене">
+        <q>a1-45_oo@just_ai.com</q>
+        <a state="/EmailPattern"/>
+    </test-case>
+
+    <test-case id="емейл с буквенным доменом">
+        <q>a.bcd@justai.com</q>
+        <a state="/EmailPattern"/>
+    </test-case>
+
+    <test-case id="емейл с доменом с дефисом и цифрами">
+        <q>a.bcd@just-ai123.com</q>
+        <a state="/EmailPattern"/>
+    </test-case>
+
+    <test-case id="давай">
+        <q>тест паттерна agree</q>
+        <a>Можно отправить данные в техподдержку. Давай так и сделаем?</a>
+        <q>давай</q>
+        <a>Отлично! Я все отправил.</a>
+        <q>тест паттерна agree</q>
+        <a>Можно отправить данные в техподдержку. Давай так и сделаем?</a>
+        <q>давай поговорим о чем-нибудь еще.</q>
+        <a>Тогда лучше вернемся в Главное меню.</a>
+    </test-case>
+</test>

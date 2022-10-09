@@ -1,0 +1,48 @@
+<test>
+    
+    <test-case>
+        <q>пять с половиной</q>
+        <a>floatNumber: 5.5</a>
+    </test-case>     
+    <test-case>
+        <q>три целых десять с половиной</q><!-- Находит $Number(три) $floatNumber(десять с половиной) -->
+        <a>floatNumber: 10.5</a>
+    </test-case>    
+    <test-case>
+        <q>три целых 4</q>
+        <a>floatNumber: 3.4</a>
+    </test-case> 
+
+    <test-case>
+        <q>сто и двести</q>
+        <a>floatNumber: 100.2</a>
+    </test-case>
+
+    <test-case>
+        <q>сто девятнадцать и двадцать пять</q>
+        <a>floatNumber: 119.25</a>
+    </test-case> 
+
+    <test-case>
+        <q>двести одиннадцать и пять</q>
+        <a>floatNumber: 211.5</a>
+    </test-case>
+
+    <test-case>
+        <q>111 и 19</q>
+        <a>floatNumber: 111.19</a>
+    </test-case>
+
+    <test-case>
+        <q>100 и 19</q>
+        <a>floatNumber: 100.19</a>
+    </test-case>
+
+    <test-case id="numberDivision"><!-- Находит $numberDivision, а не $piNumber -->
+        <q>6/3</q>
+        <a>floatNumber: 2</a>
+        <q>8/5</q>
+        <a>floatNumber: 1.6</a>
+    </test-case> 
+
+</test>

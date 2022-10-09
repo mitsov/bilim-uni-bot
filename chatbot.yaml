@@ -1,0 +1,19 @@
+name: hse
+
+entryPoint:
+  - main.sc
+
+tests:
+  include:
+    - test.xml
+
+dependencies:
+  - name: zb_common
+    type: git
+    url: https://bitbucket.org/just-ai/zb-common
+    version: heads/master
+    
+  - name: zenbox_common
+    type: git
+    url: https://bitbucket.org/just-ai/zb-zenbox-common
+    version: heads/master

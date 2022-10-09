@@ -1,0 +1,103 @@
+<test>
+    
+    <test-case>
+        <q>еврики</q>
+        <a>currency: "евро"</a>
+    </test-case>
+
+    <test-case>
+        <q>$</q>
+        <a>currency: "доллар США"</a>
+    </test-case>
+
+    <test-case>
+        <q>песо</q>
+        <a>ambiguousCurrency: "песо"</a>
+    </test-case>
+
+    <test-case>
+        <q>доллар австралийский</q>
+        <a>currency: "австралийский доллар"</a>
+    </test-case>
+
+    <test-case>
+        <q>восточно карибский доллар</q>
+        <a>currency: "восточно-карибский доллар"</a>
+    </test-case>
+
+    <test-case>
+        <q>силендский доллар</q>
+        <a>currency: "силендский доллар"</a>
+    </test-case>
+
+    <test-case>
+        <q>Луиджино</q>
+        <a>currency: "себоргский луиджино"</a>
+    </test-case>
+
+    <test-case>
+        <q>Суверенный боливар</q>
+        <a>currency: "суверенный боливар"</a>
+    </test-case>
+
+    <test-case>
+        <q>XOF</q>
+        <a>currency: "франк КФА BCEAO"</a>
+    </test-case>
+
+    <test-case>
+        <q>VES</q>
+        <a>currency: "суверенный боливар"</a>
+    </test-case>
+
+    <test-case>
+        <q>GIP</q>
+        <a>currency: "гибралтарский фунт"</a>
+    </test-case>
+
+    <test-case>
+        <q>STN</q>
+        <a>currency: "добра Сан-Томе и Принсипи"</a>
+    </test-case>
+
+    <test-case>
+        <q>JOD</q>
+        <a>currency: "иорданский динар"</a>
+    </test-case>
+
+    <test-case>
+        <q>ZWL</q>
+        <a>currency: "доллар Зимбабве"</a>
+    </test-case>
+
+    <test-case>
+        <q>XAF</q>
+        <a>currency: "франк КФА BEAC"</a>
+    </test-case>
+
+    <test-case>
+        <q>шри-ланкийская рупия</q>
+        <a>currency: "шри-ланкийская рупия"</a>
+    </test-case>
+
+    <test-case>
+        <q>доллар</q>
+        <a>ambiguousCurrency: "доллар"</a>
+    </test-case>
+
+    <test-case>
+        <q>рупия</q>
+        <a>ambiguousCurrency: "рупия"</a>
+    </test-case>
+
+    <test-case>
+        <q>крона</q>
+        <a>ambiguousCurrency: "крона"</a>
+    </test-case>
+
+    <test-case>
+        <q>франк</q>
+        <a>ambiguousCurrency: "франк"</a>
+    </test-case>
+
+</test>

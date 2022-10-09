@@ -1,0 +1,39 @@
+descriptor:
+  id: alarmTimer
+  title: Alarm & Timer
+  theme: Alarm and Timer
+  summary: Wakes the user up and measures the time
+  description: I'll wake you up with a pleasant sound or I can give a sound signal after a set period of time.
+  labels: ["alarm", "timer", "alarm clock"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/alarmTimer.png
+  background: 008066
+  price: 0.20
+
+  samples:
+    - Put an alarm tomorrow at 6:15.
+    - The alarm has been set for 6:15 AM, 20 August.
+
+    - Wake me up in half an hour.
+    - The alarm has been set for 1:53 PM.
+
+    - Start a timer for 5 minutes.
+    - Your timer will go off in 5 minutes.
+
+    - Start a 10 minutes timer.
+    - Your timer will go off in 10 minutes.
+    - Stop the timer!
+    - The timer has been cancelled..
+
+entryPoint: en/alarmTimer/AlarmTimer.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

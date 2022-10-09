@@ -1,0 +1,37 @@
+descriptor:
+  id: wiki
+  title: Wikipedia
+  theme: Wiki
+  summary: Knows about famous people and facts
+  description: I can tell you what a word means or what a famous person did.
+  labels: ["wikipedia"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/wiki.png
+  background: 1a1a1a
+  price: 0.30
+
+  samples:
+    - Кто такой Владимир Путин?
+    - Влади́мир Влади́мирович Пу́тин — советский и российский государственный и политический деятель, действующий президент Российской Федерации с 7 мая 2012 года.
+    
+    - Какая столица Франции?
+    - Париж
+
+    - Кто президент Америки?
+    - Дональд Джон Трамп - 45-й президент Соединённых Штатов Америки с 20 января 2017 года.
+
+    - Что такое шоколад?
+    - Шокола́д — кондитерское изделие на основе масла какао, являющееся продуктом переработки какао-бобов — семян шоколадного дерева, богатых теобромином и кофеином.
+
+entryPoint: ru/wiki/Wiki.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

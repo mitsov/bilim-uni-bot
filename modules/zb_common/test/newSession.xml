@@ -1,0 +1,36 @@
+<test>
+
+    <test-case>
+        <q>/start</q>
+        <newSession message="/start"/>
+        <a>welcome</a>
+    </test-case>
+
+    <test-case>
+        <q>тест на создание новой сессии</q>
+        <newSession message="тест на создание новой сессии"/>
+        <a>welcome</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-06-07 13:23:55</dateTime>
+        <q>Привет</q>
+        <a class="/Offtopic/Greetings/Hello"/>
+        <dateTime>2016-06-07 13:34:55</dateTime>
+        <q>Привет</q>
+        <newSession message="Привет"/>
+        <a class="/Offtopic/Greetings/Hello"/>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-06-07 13:23:55</dateTime>
+        <q>/start</q>
+        <newSession message="/start"/>
+        <a>welcome</a>
+        <dateTime>2016-06-08 13:34:55</dateTime>
+        <q>context pattern</q>
+        <newSession message="context pattern"/>
+        <a>context</a>
+    </test-case>
+
+</test>

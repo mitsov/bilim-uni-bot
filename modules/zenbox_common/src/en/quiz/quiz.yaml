@@ -1,0 +1,36 @@
+descriptor:
+  id: footballQuiz
+  title: Football Quiz
+  theme: Quiz
+  summary: What do you know about football?
+  description: What do you know about football? It's time to find out whether you're the best football fan.
+  labels: ["quiz"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/why.png
+  background: 1b3253
+  price: 0.40
+
+  samples:
+    - Let's play quiz
+    - It's a quiz time! The rules are simple. I ask you a quiestion, give you response options, and your task is to chose the correct one. The quiz is divided into rounds of five questions. At the end of each round I will show you the score. Let's start! Which nation won the inaugural World Cup in 1930? Response options 1) Brazil; 2) Italy; 3) Argentina; 4) Uruguay;
+    - maybe uruguay
+    - That's the right answer! In 1938, which nation became the first to win the World Cup for a second time? Response options 1) Brazil; 2) Uruguay; 3) Germany; 4) Italy;
+    - Italians
+    - It's right! The 1950 World Cup was the first to ... ? Response options 1) Feature an Asian nation; 2) Be played in South America; 3) Feature 16 competing nations; 4) Not have a World Cup Final;
+    - 3
+    - Unfortunately you're wrong. The 1950 World Cup was the first to have no World Cup Final.
+
+
+
+entryPoint: en/quiz/Quiz.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

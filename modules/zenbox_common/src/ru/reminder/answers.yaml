@@ -1,0 +1,52 @@
+Set a reminder:
+  inPast: 
+    - Нельзя создать напоминание в прошлом.
+  invalidDate:
+    - Такой даты не существует.
+  correctlySet:
+    - Напоминание "{{$session.reminderSummary}}" на {{$temp.time}}
+Cancel the reminder:
+  - Напоминание отменено.
+Fix the reminder:
+  - Ой! Что-то не так?
+Thanks:
+  - Всегда пожалуйста!
+Edit the reminder:
+  - Изменить напоминание можно в мобильном приложении.   
+Set a reminder no todo no time:
+  - Я могу тебе о чем-нибудь напомнить. Что ты хочешь?   
+Set a reminder no time:
+  - "В какое время нужно напомнить \"{{$session.reminderSummary}}\"?"
+Set reminder time cancel:
+  - Напоминание отменено.
+Set reminder time error:
+  - К сожалению, я не смог распознать время.
+Set a reminder no todo:
+  - О чём нужно создать напоминание на {{moment.unix($session.timer).utcOffset($session.offset).locale("ru").format($temp.format)}}?
+Set reminder todo cancel:
+  - Хорошо.
+Delete a reminder no time no summary:
+  cancelTheReminder:
+    - Напоминание "{{$client.id_to_info[$response.id][1]}}" отменено.
+  cancelAReminder:
+    - Какое напоминание ты хочешь отменить?
+  doesNotFoundTheReminder:
+    - Я не вижу у нас такого напоминания.
+Delete a reminder by time:
+  success:
+    - Напоминание "{{$temp.summary}}" отменено.
+  fail:
+    - Я не вижу у нас напоминания на это время.
+Delete a reminder by summary:
+  success:
+    - Напоминание "{{$temp.summary}}" отменено.
+  fail:
+    - Я не вижу у нас такого напоминания.
+Delete all reminders:
+  - Отменить все установленные напоминания можно в мобильном приложении.
+Reminders list:
+  - Посмотреть список напоминаний можно в мобильном приложении.
+Snooze a reminder:
+  - Изменить напоминание можно в мобильном приложении.
+Recurring reminder:
+  - Невозможно установить несколько напоминаний за один раз.

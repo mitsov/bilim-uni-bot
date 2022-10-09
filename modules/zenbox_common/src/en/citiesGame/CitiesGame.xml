@@ -1,0 +1,46 @@
+<test>
+    <test-case>
+        <q>let's play word chain</q>
+        <a>Sure!</a>
+        <a>We'll call out the names of cities one after another - each starting with the last letter of the previous city. When you want to stop just say Stop or Enough. And the first city is — Alexandria.</a>
+        <q>Astana.</q> 
+        <a>So the next city is Astana, isn't it?</a>
+        <a>Ahmedabad</a>
+        <q>Dushanbe</q>
+        <a>Ecatepec</a>
+        <q>Paris</q>
+        <a>Paris starts with P, while Ecatepec ends with C. You have to name a city starting with C. Will you try again?</a>
+        <q>Yes</q>
+        <a>I'm listening!</a>
+        <q>What was the last letter?</q>
+        <a>The last city was Ecatepec. You have to name a city starting with C.</a>
+        <q>Catamaran</q>
+        <a>I don't know any city named Catamaran. Will you try again?</a>
+        <q>Sure</q>
+        <a>I'm listening!</a>
+        <q>China</q>
+        <a>China is a country, we need cities. Will you try again?</a>
+        <q>Ciampea</q>
+        <a>Abidjan</a>
+        <q>Give me a tip</q>
+        <a>Sorry, but it's against the rules.</a>
+        <a>Do you give up?</a>
+        <q>There is no way you're seeing me losing in this sinful life!</q>
+        <a>I like your spirit!</a>
+        <a>The last city was Abidjan. You have to name a city starting with N.</a>
+        <q>Then maybe New York</q>
+        <a>So the next city is New York, isn't it?</a>
+        <a>New York — is an informal name. Official name is New York City. We will score it!</a>
+        <a>Yangon</a>
+        <q>I dont even know the city</q>
+        <a>You know now! Are we going to continue playing?</a>
+        <q>New york</q>
+        <a>New York or New York City is cannot be used more then once in a game. Will you try again?</a>
+        <q>No</q>
+        <a>Let's finish!</a>
+        <a>Our word chain is 9 words long.</a>
+        <q>You know what... let's play again</q>
+        <a>Sure!</a>
+        <a>The first city is — Alexandria.</a>
+    </test-case>
+</test>

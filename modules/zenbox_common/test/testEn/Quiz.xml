@@ -1,0 +1,160 @@
+<test>
+
+    <test-case>
+        <q>let's play quiz</q>
+        <a>It's a quiz time! The rules are simple: I ask you a quiestion, give you response options, and your task is to chose the correct one. The quiz is divided into rounds of five questions. At the end of each round I will show your score. Let's start!</a>
+        <a>Which nation won the inaugural World Cup in 1930?</a>
+        <a>Response options:</a>
+        <a>1) Brazil; 2) Italy; 3) Argentina; 4) Uruguay;</a>
+        <q>maybe uruguay</q>
+        <a>It's the right answer!</a>
+        <a>Who, in 1934, became the first African nation to play at a World Cup?</a>
+        <a>Response options:</a>
+        <a>1) Morocco; 2) Cameroon; 3) Ghana; 4) Egypt;</a>
+        <q>Ghana</q>
+        <a>Unfortunately you're wrong.</a>
+        <a>Egypt became the first African nation to play at a World Cup.</a>
+        <a>In 1938, which nation became the first to win the World Cup for a second time?</a>
+        <a>Response options:</a>
+        <a>1) Brazil; 2) Uruguay; 3) Germany; 4) Italy;</a>
+        <q>четвертые</q>
+        <a>It's the right answer!</a>
+        <a>The 1950 World Cup was the first to ... ?</a>
+        <a>Response options:</a>
+        <a>1) Feature an Asian nation; 2) Be played in South America; 3) Feature 16 competing nations; 4) Not have a World Cup Final;</a>
+        <q>4</q>
+        <a>It's the right answer!</a>
+        <a>Which nation scored the most goals at the 1954 World Cup?</a>
+        <a>Response options:</a>
+        <a>1) Brazil; 2) England; 3) Italy; 4) Hungary;</a>
+        <!-- <q>brazilians</q>
+        <a>It's the right answer!</a>
+        <a>Раунд завершен! 3 правильных ответа из 5.</a>
+        <a>Продолжаем ли мы викторину дальше?</a>
+        <q>Конечно</q>
+        <a>Какой игрок трижды выигрывал чемпионат мира по футболу?</a>
+        <a>Response options:</a>
+        <a>1) Марио Загалло; 2) Франц Беккенбауэр; 3) Диего Марадона; 4) Пеле;</a>
+        <q>Пеле</q>
+        <a>It's the right answer!</a>
+        <a>Сборная какой страны стала первым двукратным чемпионом мира по футболу?</a>
+        <a>Response options:</a>
+        <a>1) Уругвай; 2) Бразилия; 3) Испания; 4) Италия;</a>
+        <q>Итальянцы</q>
+        <a>It's the right answer!</a>
+        <a>Какая страна выиграла чемпионат мира по футболу в 1998 году?</a>
+        <a>Response options:</a>
+        <a>1) Италия; 2) Бразилия; 3) Испания; 4) Франция;</a>
+        <q>Франция</q>
+        <a>It's the right answer!</a>
+        <a>Кто стал лучшим бомбардиром чемпионата мира по футболу 1970 года?</a>
+        <a>Response options:</a>
+        <a>1) Жаирзиньо; 2) Теофило Кубильяс; 3) Пеле; 4) Герд Мюллер;</a>
+        <q>Мюллер</q>
+        <a>It's the right answer!</a>
+        <a>Сборная какой страны забила больше всех голов на чемпионате мира по футболу 1954 года?</a>
+        <a>Response options:</a>
+        <a>1) Италия; 2) Бразилия; 3) Германия; 4) Венгрия;</a>
+        <q>точно не венгры</q>
+        <a>Unfortunately you're wrong.</a>
+        <a>Сборная Венгрии забила 27 голов, больше всех на чемпионате.</a>
+        <a>Раунд завершен! 4 правильных ответа из 5.</a>
+        <a>Продолжаем ли мы викторину дальше?</a>
+        <q>каковы мои результаты</q>
+        <a>Результаты всей игры: 7 правильных ответов из 10.</a>
+        <a>Продолжим викторину?</a>
+        <q>продолжаем</q>
+        <a>Какая из африканских стран первой приняла участие в чемпионате мира по футболу?</a>
+        <a>Response options:</a>
+        <a>1) Сенегал; 2) Камерун; 3) Нигерия; 4) Египет;</a>
+        <q>Египет</q>
+        <a>It's the right answer!</a>
+        <a>Сколько лет было Пеле, когда он дебютировал в составе сборной Бразилии в 1958 году?</a>
+        <a>Response options:</a>
+        <a>1) 16 лет; 2) 18 лет; 3) 19 лет; 4) 17 лет;</a>
+        <q>3</q>
+        <a>Ответ номер 3 – неверный ответ.</a>
+        <a>Пеле дебютировал в составе сборной в возрасте 17 лет.</a>
+        <a>В 1978 году сборная Аргентины стала пятой командой, выигравшей чемпионат мира на своей территории. Назовите остальные четыре.</a>
+        <a>Response options:</a>
+        <a>1) Англия, Бразилия, Франция и Германия; 2) Уругвай, Бразилия, Англия и Германия; 3) Италия, Германия, Англия и Франция; 4) Уругвай, Италия, Англия и Германия;</a> -->
+    </test-case>
+
+    <test-case>
+        <q>let's play quiz</q>
+        <a>It's a quiz time! The rules are simple: I ask you a quiestion, give you response options, and your task is to chose the correct one. The quiz is divided into rounds of five questions. At the end of each round I will show your score. Let's start!</a>
+        <a>Which nation won the inaugural World Cup in 1930?</a>
+        <a>Response options:</a>
+        <a>1) Brazil; 2) Italy; 3) Argentina; 4) Uruguay;</a>
+        <q>maybe uruguay</q>
+        <a>It's the right answer!</a>
+        <a>Who, in 1934, became the first African nation to play at a World Cup?</a>
+        <a>Response options:</a>
+        <a>1) Morocco; 2) Cameroon; 3) Ghana; 4) Egypt;</a>
+        <q>i dont know</q>
+        <a>Try chose one answer at random!</a>
+        <q>first one</q>
+        <a>Unfortunately you're wrong.</a>
+        <a>Egypt became the first African nation to play at a World Cup.</a>
+        <a>In 1938, which nation became the first to win the World Cup for a second time?</a>
+        <a>Response options:</a>
+        <a>1) Brazil; 2) Uruguay; 3) Germany; 4) Italy;</a>
+        <q>fourth</q>
+        <a>It's the right answer!</a>
+        <a>The 1950 World Cup was the first to ... ?</a>
+        <a>Response options:</a>
+        <a>1) Feature an Asian nation; 2) Be played in South America; 3) Feature 16 competing nations; 4) Not have a World Cup Final;</a>
+        <q>repeat the question</q>
+        <a>The 1950 World Cup was the first to ... ?</a>
+        <a>Response options:</a>
+        <a>1) Feature an Asian nation; 2) Be played in South America; 3) Feature 16 competing nations; 4) Not have a World Cup Final;</a>
+        <q>Four</q>
+        <a>It's the right answer!</a>
+        <a>Which nation scored the most goals at the 1954 World Cup?</a>
+        <a>Response options:</a>
+        <a>1) Brazil; 2) England; 3) Italy; 4) Hungary;</a>
+        <q>brazilians</q>
+        <a>Unfortunately you're wrong.</a>
+        <a>Hungary scored the most goals at the 1954 World Cup.</a>
+        <a>The round is completed! 3 correct answers out of 5.</a>
+        <a>Shall we go on?</a>
+        <q>nope</q>
+        <a>Okay. Let's finish!</a>
+        <a>The results of the whole game: 3 correct answers out of 5.</a>
+
+    </test-case>
+
+    <test-case id="3 times undefined answers forced to skip the question">
+        <q>let's play quiz</q>
+        <a>It's a quiz time! The rules are simple: I ask you a quiestion, give you response options, and your task is to chose the correct one. The quiz is divided into rounds of five questions. At the end of each round I will show your score. Let's start!</a>
+        <a>Which nation won the inaugural World Cup in 1930?</a>
+        <a>Response options:</a>
+        <a>1) Brazil; 2) Italy; 3) Argentina; 4) Uruguay;</a>
+        <q>абракадабра какая-то</q>
+        <a>I don't understand. Please, chose one of given answers.</a>
+        <q>абракадабра какая-то уже ВТОРОЙ раз</q>
+        <a>Try to chose one of these answer:</a>
+        <a>1) Brazil; 2) Italy; 3) Argentina; 4) Uruguay;</a>
+        <q>абракадабра какая-то уже ТРЕТИЙ раз</q>
+        <a>The correct answer is: Uruguay. Let's move to the next question!</a>
+        <a>Who, in 1934, became the first African nation to play at a World Cup?</a>
+        <a>Response options:</a>
+        <a>1) Morocco; 2) Cameroon; 3) Ghana; 4) Egypt;</a>
+        <q>I'm bored</q>
+        <a>Okay. Let's finish!</a>
+        <a>The results of the whole game: 0 correct answers out of 1.</a>
+    </test-case>
+
+   <!--  <test-case>
+        <q>test 16</q> id вопроса
+        <a>Referee brandished 16 yellow cards and 4 reds in the round of 16 game dubbed "The Battle of Nuremberg" between which two nations at the 2006 World Cup?</a>
+        <a>Response options:</a>
+        <a>1) Germany and Portugal; 2) Spain and France; 3) Netherlands and Germany; 4) Portugal and Netherlands;</a>
+        <q>portugal netherlands</q>
+        <a>Please indicate if 1 is your answer or the number of answer.</a>
+        <q>answer</q>
+        <a>test</a>
+    </test-case> -->
+
+
+</test>

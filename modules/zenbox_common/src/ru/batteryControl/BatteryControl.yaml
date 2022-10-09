@@ -1,0 +1,41 @@
+descriptor:
+  id: batteryControl
+  title: Battery control
+  theme: Battery control
+  summary: Show battery status of the device
+  description: I can show you how much energy the device has.
+  labels: ["battery", "power"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/battery.png
+  background: 967d7d
+  price: 0.10
+
+  samples:
+    - Сколько осталось зарядки? 
+    - Уровень заряда батареи 45%.
+
+    - У тебя ещё много заряда? 
+    - Уровень заряда батареи 2 из 5.
+
+    - Покажи статус батареи.
+    - Уровень заряда батареи 30%.
+
+  params:
+    maxValue:
+      type: number
+      required: true
+      title: Battery status maximum value
+      summary: The largest possible value of battery status.
+
+entryPoint: ru/batteryControl/BatteryControl.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

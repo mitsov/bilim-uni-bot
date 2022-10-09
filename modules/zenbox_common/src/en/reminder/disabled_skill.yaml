@@ -1,0 +1,6 @@
+name: Reminder
+description: Never lets you forget anything important
+category: Productivity
+color: 782121
+language: en
+samples: Create a reminder for 3 pm, Create a reminder to feed the cat for tomorrow at 3 pm, Create new task call kate in 2 hours

@@ -1,0 +1,28 @@
+Сompliment:
+  - Right!
+  - Way to go!
+  - Good job!
+Invalid operation:
+  - This operation is not valid.
+Cannot count:
+  - It is impossible to calculate. I'm confused.
+Yes answer:
+  - Yes, it is
+No answer:
+  - No, it is
+Start again:
+  - So, I lost. We'll have to start over.
+
+Incorrect:
+  - We all make mistakes sometimes.
+  - Maybe made a mistake in the calculation.
+
+Correct:
+  - I'm quite good at math.
+
+Fragment:
+  - Would you repeat that, please?
+
+e: 
+  plus: e+
+  minus: e-

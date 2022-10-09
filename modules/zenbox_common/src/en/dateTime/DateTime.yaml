@@ -1,0 +1,59 @@
+descriptor:
+  id: dateTime
+  title: Date & Time
+  theme: Date and Time
+  summary: Tells the time. Every time. Everywhere.
+  description: I know the time in any city in the world - I can check the day of the week for you and count how long it is till a certain date.
+  labels: ["dateTime"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/dateTime.png
+  background: 803300
+  price: 0.25
+
+  samples:
+    - What time is it in London now?
+    - It is 05:00 PM in London now
+    - And in Chicago? 
+    - It's 12:00 am in Chicago now
+    
+    - What date is next Monday?
+    - It'll be November 28 2016, Monday
+
+    - Current time
+    - It's 1:23 pm
+
+    - Tomorrow is Wednesday? 
+    - No, tomorrow is Saturday
+
+    - What time will be in half an hour?
+    - 1:26 pm
+
+    - What date was 1 year ago and 3 months ago?
+    - It was May 19 2015, Tuesday
+
+    - How much time do we have till midnight?
+    - About 11 hours
+
+    - How much time do we have till Christmas day?
+    - About 4 months
+
+    - What's the time difference between Rome and Prague?
+    - No time difference
+    - And between Helsinki and London?
+    - Time difference between Helsinki and London is -2 hours
+
+    - How late is it in Chicago if in Tokyo it's 3 a.m.?
+    - When it's 3 am in Tokyo, it's 1 pm in Chicago
+
+entryPoint: en/dateTime/DateTime.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

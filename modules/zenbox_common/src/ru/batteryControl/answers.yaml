@@ -1,0 +1,3 @@
+outOf: из
+cantGetData: Не получается получить данные о заряде батареи.
+showBattareyStatus: Уровень заряда батареи {{$request.data.batteryStatus + $temp.maxValue}}.

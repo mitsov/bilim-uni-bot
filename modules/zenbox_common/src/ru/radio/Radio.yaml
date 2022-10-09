@@ -1,0 +1,45 @@
+descriptor:
+  id: radio
+  title: Dirble radio
+  theme: Radio
+  summary: Finds and turns on the radio stations
+  description: I'll switch on a radio station of your favorite genre.
+  labels: ["radio"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/radio.png
+  background: a02c2c
+  price: 0.50
+
+  samples:
+    - Включи радио.
+    - Скажи название радиостанции или музыкальный жанр - я поищу нужную волну.
+    - Эхо Москвы.
+    - Включаю Эхо Москвы.
+
+    - Включи фолк радио.
+    - Включаю радио в стиле фолк.
+    - Следующую станцию
+    - Включаю радио DJ_T RP.ru.
+
+    - Включи новости.
+    - Включаю Вести FM.
+    
+  params:
+    apiKey:
+      type: text
+      required: true
+      title: API Access Token
+      summary: Your developer's access token from dirble.com
+
+entryPoint: ru/radio/Radio.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

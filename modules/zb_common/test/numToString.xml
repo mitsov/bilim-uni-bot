@@ -1,0 +1,49 @@
+<test>   
+    <test-case>
+        <q>test numberToString</q>
+        <a state = '/TestNumberToString'/>
+        <q>4</q>
+        <a>четыре</a>
+        <a>четвёртый</a>
+    </test-case> 
+
+    <test-case>
+        <q>test numberToString</q>
+        <a state = '/TestNumberToString'/>
+        <q>100</q>
+        <a>сто</a>
+        <a>сотый</a>
+    </test-case> 
+
+    <test-case>
+        <q>test numberToString</q>
+        <a state = '/TestNumberToString'/>
+        <q>106</q>
+        <a>сто шесть</a>
+        <a>сто шестой</a>
+    </test-case> 
+
+    <test-case>
+        <q>test numberToString</q>
+        <a state = '/TestNumberToString'/>
+        <q>2078</q>
+        <a>две тысячи семьдесят восемь</a>
+        <a>две тысячи семьдесят восьмой</a>
+    </test-case> 
+
+    <test-case>
+        <q>test numberToString</q>
+        <a state = '/TestNumberToString'/>
+        <q>3000</q>
+        <a>три тысячи</a>
+        <a>трёхтысячный</a>
+    </test-case> 
+
+    <test-case>
+        <q>test numberToString</q>
+        <a state = '/TestNumberToString'/>
+        <q>1234567</q>
+        <a>один миллион двести тридцать четыре тысячи пятьсот шестьдесят семь</a>
+        <a>Number too large to get ordinal category: 1234567</a>
+    </test-case> 
+</test>

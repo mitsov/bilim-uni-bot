@@ -1,0 +1,3 @@
+outOf: out of
+cantGetData: Can't get correct battery status right now.
+showBattareyStatus: The battery status is {{$request.data.batteryStatus + $temp.maxValue}}.

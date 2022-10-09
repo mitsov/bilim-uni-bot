@@ -1,0 +1,40 @@
+descriptor:
+  id: citiesGame
+  title: Cities (word chain) game
+  theme: Gorodagame
+  summary: Makes word chains from the cities' names
+  description: An all-time-favorite - word-chain game that helps you remember the names of many world cities.
+  labels: ["cities", "word chain", "game", "kids"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/citiesGame.png
+  background: 225500
+  price: 0.30
+
+  samples:
+    - Let's play cities!
+    - Sure! We'll call out the names of cities one after another - each starting with the last letter of the previous city. When you want to stop just say Stop or Enough. And the first city is — Alexandria.
+    - Astana
+    - Ahmedabad
+    - Dushanbe
+    - Ecatepec
+    - Paris
+    - Paris starts with P, while Ecatepec ends with C. You have to name a city starting with C. Will you try again?
+    - Yes!
+    - I'm listening!
+    - Celaya
+    - Abidjan
+    - Stop
+    - Let's finish! Our word chain is 6 words long.
+
+entryPoint: en/citiesGame/CitiesGame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

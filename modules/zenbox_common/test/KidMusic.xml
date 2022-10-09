@@ -1,0 +1,20 @@
+<test>
+    <test-case integration="true">
+        <q>Включи музыку</q>
+        <a>Играет Kids Pop Hitz, 'I Gotta Feeling'.</a>
+        <q>Дальше</q>
+        <a>Играет Kids Pop Hitz, 'Gangnam Style'.</a>
+    </test-case>
+    <test-case integration="true">
+        <q>Включи песни из мультиков</q>
+        <a>Играет The Soundstage Orchestra, 'Whole New World'.</a>
+        <request>{query:"как называется песня", data:{musicState:"musicOn"}}</request>
+        <a>Играет The Soundstage Orchestra, 'Whole New World'.</a>
+        <q>Хватит</q>
+        <a>Музыка выключена.</a>
+    </test-case>
+    <test-case integration="true">
+        <q>Хочу послушать колыбельную</q>
+        <a>Играет Baby Music, 'What a Wonderful World'.</a>
+    </test-case>
+</test>

@@ -1,0 +1,6 @@
+name: Alarm & Timer
+description: Wakes the user up and measures the time
+category: Alarms
+color: 008066
+language: en
+samples: Put an alarm tomorrow at 6:15, Wake me up in half an hour, Start a timer for 5 minutes, Start a 10 minutes timer

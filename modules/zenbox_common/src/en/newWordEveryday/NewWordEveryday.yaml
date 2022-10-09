@@ -1,0 +1,29 @@
+descriptor:
+
+  id: NewWordEveryday
+  title: New Word Everyday
+  theme: Languages
+  summary: A fun way to expend child's vocabulary
+  description: The device invites a child to open a magic box, and get a new word every day. The device gives an explanation of the most authoritative explanatory dictionaries, gives examples of its use in speech. Word lists are carefully selected and developed by a professional methodologist.
+  labels: ["words", "kids"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/NewWordEveryday.png
+  background: 008066
+  price: 0.35
+
+  samples:
+    - 'Hello! I want to tell you something. Recently I found a box. I opened it, and one bird flew out of it. That was a word. I saw the inscription on the box: "Word of the day." Imagine, every day one word flies out of it. And everyone can get to know it. Do you want to know what word flown out today?'
+    - "Here is the word that flew out today. 'To rustle' - so they say when someone makes a quiet sound. For example, dad rustles his newspaper. The leaves rustle underfoot. The beetle rustles its wings. When you go for a walk, listen, who is rustling. Try to rustle a paper."
+
+#entryPoint: en/newWordEveryday/NewWordEveryday.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

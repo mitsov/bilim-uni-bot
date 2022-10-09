@@ -1,0 +1,20 @@
+Volume Dec:
+  decreased:
+    - Volume is decreased.
+  muted:
+    - Volume is muted.
+Volume Inc:
+  increased:
+    - Volume is increased.
+  maxLvl:
+    - Volume is on the maximum level.
+  Thanx:
+    - I hope you can hear me now.
+Volume Min:
+  - Volume is on the minimum level.
+Volume Max:
+  - Volume is on the maximum level.
+Volume Mute:
+  - Volume is muted.
+Volume Unmute:
+  - Volume is unmuted.

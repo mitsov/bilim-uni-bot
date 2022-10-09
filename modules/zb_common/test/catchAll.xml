@@ -1,0 +1,113 @@
+<test>
+
+    <test-case id="после двух попаданий в CatchAll сдаемся">
+        <q>какой-то непонятный текст.</q>
+        <a state="/CatchAll/SeemsMeaningful"/>
+        <q>какой-то непонятный текст.</q>
+        <!-- <q>другая непонятная фигня</q> -->
+        <a state="/CatchAll/SeemsMeaningful"/>
+        <q>кранец альтруист</q>
+        <a state="/CatchAll/OutOfScope"/>
+        <a></a>
+    </test-case>
+
+    <test-case id="На негатив не предлагаем оператора (который в стейте OutOfScope)">
+        <q>ты дебил?</q>
+        <a state="/CatchAll/NegativeEmotion"/>
+        <q>ты дебил!</q>
+        <a state="/CatchAll/NegativeEmotion"/>
+        <q>ты дебил!</q>
+        <a state="/CatchAll/NegativeEmotion"/>
+    </test-case>
+
+    <test-case id="Негатив">
+        <q>Сперли мою тушь?????</q>
+        <a state="/CatchAll/NegativeEmotion"/>
+    </test-case>
+
+    <test-case id="Негатив2">
+        <q>пропала моя тушь!!!</q>
+        <a state="/CatchAll/NegativeEmotion"/>
+    </test-case>
+
+     <test-case id="Белиберду не переводим на оператора (который в стейте OutOfScope)">
+        <q>пй3куа2</q>
+        <a state="/CatchAll/Nonsense"/>
+        <q>пй3куа2 ммй3а й3пкуа</q>
+        <a state="/CatchAll/Nonsense"/>
+        <q>sgetg3</q>
+        <a state="/CatchAll/Nonsense"/>
+    </test-case>
+
+
+    <test-case id="Неправильная раскладка">
+        <q>Cfyrn-Gtnth,ehu</q>
+        <a state="/CatchAll/Transliteration">Вы имели в виду 'Санкт-Петербург' ?</a>
+        <q>да</q>
+        <a state="/CityPattern"/>.
+    </test-case>
+
+    <test-case id="Неправильная раскладка2">
+        <q>Cfyrn-Gtnth,ehu</q>
+        <a state="/CatchAll/Transliteration">Вы имели в виду 'Санкт-Петербург' ?</a>
+        <q>нет</q>
+        <a state="/CatchAll/AskAgain?"/>.
+    </test-case>
+
+     <test-case id="Одинаковый ответ">
+        <q>Питер</q>
+        <a state="/CityPattern"/>.
+        <q>Питер</q>
+        <a state="/CatchAll/SameAnswer">Попробуйте переформулировать свой вопрос.</a>
+    </test-case>
+
+    <test-case id="Оператор">
+        <q>мне нужен оператор</q>
+        <a class="/Switch/NeedOperator"/>
+    </test-case>
+
+    <test-case id="предложение оператора">
+        <q>какой-то непонятный текст.</q>
+        <a state="/CatchAll/SeemsMeaningful"/>
+        <q>какой-то непонятный текст.</q>
+        <!-- <q>другая непонятная фигня</q> -->
+        <a state="/CatchAll/SeemsMeaningful"/>
+        <q>кранец альтруист</q>
+        <a state="/CatchAll/OutOfScope"/>
+        <a state="/Switch/DoYouWannaSwitch?"/>
+        <q>да</q>
+        <a state="/Switch/TransferToOperator"/>
+    </test-case>
+
+    <test-case id="предложение оператора2">
+        <q>какой-то непонятный текст.</q>
+        <a state="/CatchAll/SeemsMeaningful"/>
+        <q>какой-то непонятный текст.</q>
+        <!-- <q>другая непонятная фигня</q> -->
+        <a state="/CatchAll/SeemsMeaningful"/>
+        <q>кранец альтруист</q>
+        <a state="/CatchAll/OutOfScope"/>
+        <a state="/Switch/DoYouWannaSwitch?"/>
+        <q>нет</q>
+        <a state="/CatchAll/AskAgain?"/>
+    </test-case>
+
+    <test-case id="проверка, что берутся ответы из справочника">
+        <q>какой-то непонятный текст.</q>
+        <a state="/CatchAll/SeemsMeaningful"/>
+        <q>какой-то непонятный текст.</q>
+        <a state="/CatchAll/SeemsMeaningful"/>
+        <q>кранец альтруист</q>
+        <a>Извините, вероятно, данный вопрос не в моей компетенции.</a>
+        <a></a>
+    </test-case>
+
+    <test-case id="Проверка, что бессмыслицы переводятся в Nonsense">
+        <q>оаоывв</q>
+        <a state="/CatchAll/Nonsense"/>
+        <q>аааааа</q>
+        <a state="/CatchAll/Nonsense"/>
+        <q>сфолвст вослт стоф</q>
+        <a state="/CatchAll/Nonsense"/>
+    </test-case>
+</test>

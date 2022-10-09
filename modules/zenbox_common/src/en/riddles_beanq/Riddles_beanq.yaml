@@ -1,0 +1,30 @@
+descriptor:
+  id: riddles_beanq
+  title: Beanq Riddles
+  theme: Riddle
+  summary: Pose you riddles
+  description: I have a riddle for you! (screen support)
+  labels: ["riddle"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/riddle.png
+  background: 13816a
+  price: 0.20
+
+  samples:
+    - "When the water comes down, when it rains, I go up. What am I?"
+    - A plate
+    - "Nice try, but The right answer is an umbrella. Do you want more?"
+    - "Yes"
+    
+#entryPoint: en/riddles_beanq/Riddles_beanq.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

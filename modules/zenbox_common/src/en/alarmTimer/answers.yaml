@@ -1,0 +1,63 @@
+alarm text:
+  - It's time to get up!
+timer text:
+  - Your timer is up.
+Set an alarm:
+  inPast:
+    - You can't create an alarm in the past.
+  successfully set:
+    - "The alarm has been set for {{$temp.time}}"
+  Remove the current alarm:
+    - The alarm has been cancelled.
+  WhatTime:
+    - At what time do you want to wake up?
+  Unknown time for an alarm:
+    - I could not recognize the time. Please, repeat.
+Remove an alarm:
+  successfully removed:
+    - The alarm has been cancelled.
+  failed to remove:
+    - There is no such alarm.
+  no alarms:
+    - We have no alarms set.
+  WhatTime:
+    - Which alarm do you want to cancel?
+  Unknown time for an alarm:
+    - I could not recognize the time. Please, repeat.
+Remove all alarms:
+  - You can cancel your alarms in the mobile app. 
+Thanks:
+  - You're welcome!
+Set a recurring alarm:
+  a1:
+    - I can't set multiple alarms at a time. To set an alarm tell me, for example,
+  random:
+    - wake me up tomorrow at 8.
+    - set an alarm for the next Thirsday at 6am.
+    - I want to get up tomorrow at 12pm.
+Check an alarm:
+  - You can check your alarms in the mobile app.
+Set a timer:
+  inPast:
+    - You can't create a reminder in the past.
+  successfully set:
+    - "Your timer will go off {{$temp.interval}}"
+  undefined time:
+    - What time do you want to set the timer for?
+  Remove the current timer:
+    - The timer has been cancelled.
+Check timers:
+  - You can check your timers in the mobile app.
+Remove a timer:
+  successfully removed:
+    - The timer has been cancelled.
+  remove in app:
+    - You can cancel your timer in the mobile app.
+  no timers:
+    - There is no such timer.
+Set a stopper:
+  - You can start your stopwatch in the mobile app.
+Stop a stopper:
+  - You can cancel your stopwatch in the mobile app.
+Why did not alarm:
+  - Was I supposed to wake you up? Try to set the alarm again.

@@ -1,0 +1,17 @@
+name: zenbot-common
+
+entryPoint: test.sc
+
+injector:
+  offtopic:
+    company: Just AI
+    botname: Zen
+    #type: formal/informal
+    #gender: male/female
+
+tests:
+  exclude:
+   - text.xml
+   - newSession.xml
+   - offtopic.xml
+

@@ -1,0 +1,48 @@
+descriptor:
+  id: weather
+  title: Openweathermap weather
+  theme: Weather
+  summary: Information about the weather
+  description: I'll know about the current and coming weather in any city of the world.
+  labels: ["weather", "forecast"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/weather.png
+  background: 2c89a0
+  price: 0.30
+
+  samples:
+    - What is the weather like today?
+    - It's +47 degrees with broken clouds.
+    
+    - Weather in Chicago next week
+    - In Chicago it's +68 degrees with clear sky.
+    - And in Tokyo?
+    - In Tokyo it's +61 degrees with clear sky.
+
+    - Is it warm tomorrow? 
+    - 3rd June it's +48 degrees with light rain.
+
+    - Weather in London
+    - In London it's +72 degrees with shower rain.
+    - And the day after tomorrow?
+    - 4th June in London it's +65 degrees with light rain.
+
+  params:
+    apiKey:
+      type: text
+      required: true
+      title: API Access Token
+      summary: Your developer's access token from openweathermap.org
+
+entryPoint: en/weather/Weather.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

@@ -1,0 +1,37 @@
+descriptor:
+  
+  id: learnWords
+  title: Learn Words
+  theme: Languages
+  summary: Helps to learn foreign lanuages
+  description: "Asks you about translations of simple words. Now available: French, German, Spanish."
+  labels: ["languages", "translation", "game", "kids"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/learnEnglish.png
+  background: b7cac4
+  price: 0.50
+   
+  samples:
+    - Let's learn Spanish!
+    - "Spanish is always useful! I will call a word in Spanish, and you translate it into English. When you get tired, say 'enough'. What does 'la caricatura' mean?"
+    - Cartoon.
+    - "That's right! How will you translate 'la hierba'?"
+    - Glass.
+    - "Not exactly. I have a tip. El conejo come una hierba. So, how will 'la hierba' be in English?"
+    - Grass.
+    - "That's right! How do you translate 'El invierno'?"
+    - Let's finish!
+    - "'El inviernor' means 'winter'. Finished! We have 3 words that need to be repeated."
+
+#entryPoint: en/learnWords/LearnWords.sc 
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

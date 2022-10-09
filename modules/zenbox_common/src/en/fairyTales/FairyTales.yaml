@@ -1,0 +1,31 @@
+descriptor:
+
+  id: fairyTales
+  title: Fairy tales
+  theme: Fairytales
+  summary: Fairy tales for kids and adults
+  description: Allows the user to listen to popular fairy tales.
+  labels: ["fairy tales"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/fairyTales.png
+  background: 5a2593
+  price: 0.40
+
+  samples:
+    - "Tell me a 'Gingerbread Man' fairy tale."
+    - "Well, listen! This is a fairy tale 'Gingerbread Man'"
+    - What fairy tales do you know?
+    - "I know many fairy tales, for example, Sleeping Beauty and Little red riding hood"
+
+#entryPoint: en/fairyTales/FairyTales.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

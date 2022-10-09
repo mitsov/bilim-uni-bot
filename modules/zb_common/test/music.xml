@@ -1,0 +1,493 @@
+<test> <!--rus-->
+    
+    <test-case>
+        <q>рок</q>
+        <a>Genre: Рок</a>
+    </test-case>
+
+    <test-case>
+        <q>rock</q>
+        <a>Genre: Рок</a>
+    </test-case>
+
+    <test-case>
+        <q>панк музыка</q>
+        <a>Genre: Панк</a>
+    </test-case>
+
+    <test-case>
+        <q>частушка</q>
+        <a>Genre: Частушки</a>
+    </test-case>
+
+    <test-case>
+        <q>куплет</q>
+        <a>Genre: Куплеты</a>
+    </test-case>
+
+    <test-case>
+        <q>фельетон</q>
+        <a>Genre: Фельетон</a>
+    </test-case>
+
+    <test-case>
+        <q>шансонетка</q>
+        <a>Genre: Шансонетка</a>
+    </test-case>
+
+    <test-case>
+        <q>фольклор</q>
+        <a>Genre: Фолк</a>
+    </test-case>
+
+    <test-case>
+        <q>былины</q>
+        <a>Genre: Былины</a>
+    </test-case>
+
+    <test-case>
+        <q>хороводы</q>
+        <a>Genre: Хороводы</a>
+    </test-case>
+
+    <test-case>
+        <q>баян музыка</q>
+        <a>Genre: Баян</a>
+    </test-case>
+
+    <test-case>
+        <q>гармонь</q>
+        <a>Genre: Гармоники</a>
+    </test-case>
+
+    <test-case>
+        <q>гудок</q>
+        <a>Genre: Гудок</a>
+    </test-case>
+
+    <test-case>
+        <q>гусли</q>
+        <a>Genre: Гусли</a>
+    </test-case>
+
+    <test-case>
+        <q>домра</q>
+        <a>Genre: Домра</a>
+    </test-case>
+
+    <test-case>
+        <q>жалейка</q>
+        <a>Genre: Жалейка</a>
+    </test-case>
+
+    <test-case>
+        <q>рожок</q>
+        <a>Genre: Рожок</a>
+    </test-case>
+
+    <test-case>
+        <q>кугиклы</q>
+        <a>Genre: Кугиклы</a>
+    </test-case>
+
+    <test-case>
+        <q>бубен</q>
+        <a>Genre: Бубны</a>
+    </test-case>
+
+    <test-case>
+        <q>бубны</q>
+        <a>Genre: Бубны</a>
+    </test-case>
+
+    <test-case>
+        <q>гитара</q>
+        <a>Genre: Гитара</a>
+    </test-case>
+
+    <test-case>
+        <q>камерная музыка</q>
+        <a>Genre: Камерная музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>народная песня</q>
+        <a>Genre: Фолк</a>
+    </test-case>
+
+    <test-case>
+        <q>баллада</q>
+        <a>Genre: Баллада</a>
+    </test-case>
+
+    <test-case>
+        <q>романс</q>
+        <a>Genre: Романс</a>
+    </test-case>
+
+    <test-case>
+        <q>реквием</q>
+        <a>Genre: Реквием</a>
+    </test-case>
+
+    <test-case>
+        <q>вокализ</q>
+        <a>Genre: Вокализ</a>
+    </test-case>
+
+    <test-case>
+        <q>серенада</q>
+        <a>Genre: Серенада</a>
+    </test-case>
+
+    <test-case>
+        <q>кант</q>
+        <a>Genre: Кант</a>
+    </test-case>
+
+    <test-case>
+        <q>оратория</q>
+        <a>Genre: Оратория</a>
+    </test-case>
+
+    <test-case>
+        <q>инструментальная музыка</q>
+        <a>Genre: Инструментальная музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>соната</q>
+        <a>Genre: Соната</a>
+    </test-case>
+
+    <test-case>
+        <q>симфония</q>
+        <a>Genre: Симфония</a>
+    </test-case>
+
+    <test-case>
+        <q>рэпкор</q>
+        <a>Genre: Рэпкор</a>
+    </test-case>
+
+    <test-case>
+        <q>альтернативный рэп</q>
+        <a>Genre: Альтернативный хип-хоп</a>
+    </test-case>
+
+    <test-case>
+        <q>нью диско</q>
+        <a>Genre: Новый диско</a>
+    </test-case>
+
+    <test-case>
+        <q>соул фул хаус</q>
+        <a>Genre: Соул фул хаус</a>
+    </test-case>
+
+    <test-case>
+        <q>dirty rap</q>
+        <a>Genre: Грязный рэп</a>
+    </test-case>
+
+    <test-case>
+        <q>gangsta rap</q>
+        <a>Genre: Гангста-рэп</a>
+    </test-case>
+
+    <test-case>
+        <q>hardcore rap</q>
+        <a>Genre: Хардкор хип-хоп</a>
+    </test-case>
+
+    <test-case>
+        <q>увертюра</q>
+        <a>Genre: Увертюра</a>
+    </test-case>
+
+    <test-case>
+        <q>этюд</q>
+        <a>Genre: Этюд</a>
+    </test-case>
+
+    <test-case>
+        <q>скерцо</q>
+        <a>Genre: Скерцо</a>
+    </test-case>
+
+    <test-case>
+        <q>оратория</q>
+        <a>Genre: Оратория</a>
+    </test-case>
+
+    <test-case>
+        <q>gotic rock</q>
+        <a>Genre: Готик-рок</a>
+    </test-case>
+
+    <test-case>
+        <q>viking rock</q>
+        <a>Genre: Викинг-рок</a>
+    </test-case>
+
+    <test-case>
+        <q>trashcore</q>
+        <a>Genre: Трэшкор</a>
+    </test-case>
+
+    <test-case>
+        <q>литургия</q>
+        <a>Genre: Литургия</a>
+    </test-case>
+
+    <test-case>
+        <q>антифон</q>
+        <a>Genre: Антифон</a>
+    </test-case>
+
+    <test-case>
+        <q>рондель</q>
+        <a>Genre: Рондель</a>
+    </test-case>
+
+    <test-case>
+        <q>проприум</q>
+        <a>Genre: Проприум</a>
+    </test-case>
+
+    <test-case>
+        <q>ординариум</q>
+        <a>Genre: Ординариум</a>
+    </test-case>
+
+    <test-case>
+        <q>гильярда</q>
+        <a>Genre: Гильярда</a>
+    </test-case>
+
+    <test-case>
+        <q>латиноамериканская музыка</q>
+        <a>Genre: Латиноамериканская музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>индийская музыка</q>
+        <a>Genre: Музыка Индии</a>
+    </test-case>
+
+    <test-case>
+        <q>европейская музыка</q>
+        <a>Genre: Европейская музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>китайская музыка</q>
+        <a>Genre: Китайская музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>австралийская музыка</q>
+        <a>Genre: Австралийская музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>американская музыка</q>
+        <a>Genre: Американская музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>еврейская музыка</q>
+        <a>Genre: Еврейская</a>
+    </test-case>
+
+    <test-case>
+        <q>островная музыка</q>
+        <a>Genre: Островная музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>азиатская музыка</q>
+        <a>Genre: Азиатская музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>евразийская музыка</q>
+        <a>Genre: Евразийская музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>африканская музыка</q>
+        <a>Genre: Африканская музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>no wave</q>
+        <a>Genre: Ноу-вейв</a>
+    </test-case>
+
+    <test-case>
+        <q>сатерн рок</q>
+        <a>Genre: Южный рок</a>
+    </test-case>
+
+    <test-case>
+        <q>хартленд рок</q>
+        <a>Genre: Рок центрального района</a>
+    </test-case>
+
+    <test-case>
+        <q>серф рок</q>
+        <a>Genre: Сёрф-рок</a>
+    </test-case>
+
+    <test-case>
+        <q>мерсибит</q>
+        <a>Genre: Бит-музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>пост панк</q>
+        <a>Genre: Пост панк</a>
+    </test-case>
+
+    <test-case>
+        <q>блатная песня</q>
+        <a>Genre: Блатная песня</a>
+    </test-case>
+
+    <test-case>
+        <q>электронная музыка</q>
+        <a>Genre: Электронная музыка</a>
+    </test-case>
+
+    <test-case>
+        <q>Old School Rap</q>
+        <a>Genre: Старая школа хип-хопа</a>
+    </test-case>
+
+    <test-case>
+        <q>Southern Rap</q>
+        <a>Genre: Южный рэп</a>
+    </test-case>
+
+    <test-case>
+        <q>Pop-Rap</q>
+        <a>Genre: Поп рэп</a>
+    </test-case>
+
+    <test-case>
+        <q>Political Rap</q>
+        <a>Genre: Политический хип-хоп</a>
+    </test-case>
+
+    <test-case>
+        <q>Party Rap</q>
+        <a>Genre: Хип хоп вечеринок</a>
+    </test-case>
+
+    <test-case>
+        <q>Jazz-Rap</q>
+        <a>Genre: Джаз рэп</a>
+    </test-case>
+
+    <test-case>
+        <q>Foreign Rap</q>
+        <a>Genre: Зарубежный  хип-хоп</a>
+    </test-case>
+
+    <test-case>
+        <q>British Rap</q>
+        <a>Genre: Британский хип-хоп</a>
+    </test-case>
+
+    <test-case>
+        <q>Hip-Hop</q>
+        <a>Genre: Хип-хоп</a>
+    </test-case>
+
+    <test-case>
+        <q>Break Beat</q>
+        <a>Genre: Брейкбит</a>
+    </test-case>
+
+    <test-case>
+        <q>Hip-Hop/Urban</q>
+        <a>Genre: Городской хип-хоп</a>
+    </test-case>
+
+    <test-case>
+        <q>DownBeats</q>
+        <a>Genre: Битдаун</a>
+    </test-case>
+
+    <test-case>
+        <q>East Cost Rap</q>
+        <a>Genre: Хип-хоп восточного побережья</a>
+    </test-case>
+
+    <test-case>
+        <q>Ragga</q>
+        <a>Genre: Рагга</a>
+    </test-case>
+
+    <test-case>
+        <q>джаз-рок</q>
+        <a>Genre: Джаз рок</a>
+    </test-case>
+
+    <test-case>
+        <q>реп-рок</q>
+        <a>Genre: Рэп рок</a>
+    </test-case>
+
+    <test-case>
+        <q>дарк-рок</q>
+        <a>Genre: Дарк-рок</a>
+    </test-case>
+
+    <test-case>
+        <q>акустик рок</q>
+        <a>Genre: Акустический рок</a>
+    </test-case>
+
+    <test-case>
+        <q>RnB</q>
+        <a>Genre: Ритм-энд-блюз</a>
+    </test-case>
+
+    <test-case>
+        <q>Эстрадный поп</q>
+        <a>Genre: Эстрадный поп</a>
+    </test-case>
+
+    <test-case>
+        <q>электро-поп</q>
+        <a>Genre: Электропоп</a>
+    </test-case>
+
+    <test-case>
+        <q>данс-поп</q>
+        <a>Genre: Дэнс поп</a>
+    </test-case>
+
+    <test-case>
+        <q>trash metal</q>
+        <a>Genre: Треш метал</a>
+    </test-case>
+
+    <test-case>
+        <q>thrash metal</q>
+        <a>Genre: Треш метал</a>
+    </test-case>
+
+    <test-case>
+        <q>Gore Metal</q>
+        <a>Genre: Гор-метал</a>
+    </test-case>
+
+    <test-case>
+        <q>Heavy Metal</q>
+        <a>Genre: Тяжёлый металл</a>
+    </test-case>
+
+</test>

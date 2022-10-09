@@ -1,0 +1,35 @@
+descriptor:
+
+  id: MyLeftovers
+  title: My Leftovers
+  theme: Cooking
+  summary: Cook yourself tasty dinner from what is left in the fridge
+  description: Tell me what you have in the fridge now, and I will find a recipe. 200 recipes included!
+  labels: ["leftovers", "cooking", "food"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/MyLeftovers.png
+  background: 008066
+  price: 0.20 
+
+  samples:
+    - I only have eggs and sausages what can I cook?
+    - "You can cook eggs'n'sausages, should I read you a ricipe?"
+
+    - All I have is cheese, pasta, onion, flour, milk. Give me a recipe!
+    - "If you add butter you can cook mac'n'cheese, should I read this recipe?"
+    
+    - Is vinegar and egg enough for making japanese omlette?
+    - "No, you have to add some soy sauce, should I read the recipe?"
+
+#entryPoint: en/myLeftovers/MyLeftovers.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

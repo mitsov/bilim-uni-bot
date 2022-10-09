@@ -1,0 +1,41 @@
+descriptor:
+  id: radio
+  title: Dirble radio
+  theme: Radio
+  summary: Finds and turns on the radio stations
+  description: I'll switch on a radio station of your favorite genre.
+  labels: ["radio"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/radio.png
+  background: a02c2c
+  price: 0.50
+
+  samples:
+    - Turn on radio HEAVENS PLAYGROUND RADIO.
+    - Turning on "HEAVENS PLAYGROUND RADIO".
+    - What is the name of current station
+    - It's "HEAVENS PLAYGROUND RADIO".
+    - Is it Kool Oldies Radio?
+    - No, it's "HEAVENS PLAYGROUND RADIO".
+    - Turn off.
+    - Radio is off now.
+    
+  params:
+    apiKey:
+      type: text
+      required: true
+      title: API Access Token
+      summary: Your developer's access token from dirble.com
+
+entryPoint: en/radio/Radio.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

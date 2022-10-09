@@ -1,0 +1,78 @@
+Odd word game start:
+    - I will read some words and your task is to name the odd one. Shall we start?
+YesOrNo:
+    No Odd Word game:
+        - So sorry.
+        - Well, next time maybe.
+        - A no is a no.
+    Yes Odd Word game:
+        if:
+            - Great! Lets go on!
+        else:
+            - Great! Just say "stop" when you want to stop.
+            - Great! Now I will know everything about animals and plants. Just say stop to finish.
+Odd Word game get answer:
+    answerOutOfRange: There were only four possible answers.
+    if:
+        - No way! You have to choose one word.
+    else:
+        - "This word in not on the list, try again. {{capitalize($session.oddWordGame.currentListText)}}"
+        - "Please, name one of the words from the list: {{$session.oddWordGame.currentListText}}"
+Odd Word game get answer dontknow:
+    - Ok, you don't have to answer.
+    - Let's skip this question.
+    - Let's ask the computer about the right answer.
+Odd Word game get answer other:
+    - Try saying that again, I didn't quite get it.
+    - Sorry, I couldn't hear you.
+    - I don't think I understand.
+Odd Word game what it is:
+    - "{{$parseTree._oddWordGameElement.name}} - is a {{$parseTree._oddWordGameElement.class}}"
+Get hint:
+    if:
+    - I don't know how else to hint to you. Try guessing!
+    else:
+    - "Most of the list belongs to class: {{$session.classForHint}}. Which one doesn't belong?"
+Complexity level:
+    if:
+        if:
+            - "This is the most difficult game level! Finish it and you win! Which word is odd: {{$session.oddWordGame.currentListText}}"
+        else:
+            - If you're this confident, let's make questions a little more complicated.
+            - Well, let's try next level questions.
+            - Ok, let's try something harder.
+    else:
+        if:
+           - "I don't think i have anything easier! Try to pick a word at random: {{$session.oddWordGame.currentListText}}"
+        else:
+            - Okay, well, let's try something easier.
+            - Ok, I'll ask an easier question.
+            - I have some easier question.
+RightAnswer:
+    if:
+        - Hooray! We've answered all the questions correctly. Shall we play again?
+    else:
+        - Right!
+        - Sure!
+        - Absolutely so!
+        - That's correct.
+        - You really know a lot!
+        - With your help I'll learn everything very soon!
+WrongAnswer:
+    if:
+        - Not really!
+        - It seems we are wrong.
+        - Computer tells me that it's not so!
+Extra game stop:
+    - "Ok, let's finish the game! We've given correct answers to {{$session.oddWordGame.rightAnswersCounter}} questions out of {{$session.oddWordGame.answersCounter}}."
+getWordChain:
+    if:
+        - "I'll read to you some words. Guess which of them is the odd one and say it: "
+    else:
+        - "Listen further: "
+    rightAnswerText:
+        - "The right answer is - {{$session.oddWordGame.rightAnswer}}. "
+    rightAnswerText2:
+        - "Because {{$session.oddWordGame.rightAnswer}} – is a {{$temp.wrong_class}}, and the other are {{$temp.right_class}}."
+        - "The other are {{$temp.right_class}}."
+        - "{{capitalize($session.oddWordGame.rightAnswer)}} – is {{$temp.wrong_class}}, the other are {{$temp.right_class}}."

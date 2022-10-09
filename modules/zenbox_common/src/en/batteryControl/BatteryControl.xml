@@ -1,0 +1,19 @@
+<test>
+    <test-case>
+        <requestData>{"batteryStatus":"45"}</requestData>
+        <q>how much battery is left</q>
+        <a>The battery status is 45%.</a>
+    </test-case>
+
+    <test-case>
+        <requestData>{"batteryStatus":"15"}</requestData>
+        <q>how well is the device charged</q>
+        <a>The battery status is 15%.</a>
+    </test-case>
+
+    <test-case>
+        <requestData>{"batteryStatus":"204"}</requestData>
+        <q>Show the battery status.</q>
+        <a>Can't get correct battery status right now.</a>
+    </test-case>
+</test>

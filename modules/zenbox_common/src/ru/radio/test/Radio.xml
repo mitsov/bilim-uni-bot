@@ -1,0 +1,90 @@
+<test>
+    <test-case>
+        <q>включи радио</q>
+        <a>Скажи название радиостанции или музыкальный жанр - я поищу нужную волну.</a>
+        <q>эрмитаж</q>
+        <a>Похоже, я не могу найти нужную радиостанцию.</a>
+        <q>включи радио эрмитаж</q>
+        <a>Извини, кажется, я не могу найти эту радиостанцию.</a>
+        <q>включи радио</q>
+        <a>Скажи название радиостанции или музыкальный жанр - я поищу нужную волну.</a>
+        <q>эхо москвы</q>
+        <httpDataProvider>{"id":12234,"name":"Р­С…Рѕ РњРѕСЃРєРІС‹","country":"RU","image":{"url":null,"thumb":{"url":null}},"slug":"eho-moskvy","website":"http://www.echo.msk.ru/","twitter":null,"facebook":null,"categories":[{"id":4,"title":"Talk \u0026 Speech","description":"talk \u0026 speech stations like normal talkshows and religous discuss.","slug":"talk-speech","ancestry":null}],"streams":[{"stream":"http://81.19.85.197/echo.mp3","bitrate":140,"content_type":"audio/mpeg","status":1}],"created_at":"2015-03-03T22:20:43+01:00","updated_at":"2015-04-11T14:19:52+02:00"}</httpDataProvider>         
+        <responseData>{ 
+            action: "radioOn",
+            stream: "http://81.19.85.197/echo.mp3"
+        }</responseData>         
+        <a>Включаю Эхо Москвы.</a>        
+    </test-case>    
+
+    <test-case>
+        <q>включи радио эхо москвы</q>
+        <httpDataProvider>{"id":12234,"name":"Р­С…Рѕ РњРѕСЃРєРІС‹","country":"RU","image":{"url":null,"thumb":{"url":null}},"slug":"eho-moskvy","website":"http://www.echo.msk.ru/","twitter":null,"facebook":null,"categories":[{"id":4,"title":"Talk \u0026 Speech","description":"talk \u0026 speech stations like normal talkshows and religous discuss.","slug":"talk-speech","ancestry":null}],"streams":[{"stream":"http://81.19.85.197/echo.mp3","bitrate":140,"content_type":"audio/mpeg","status":1}],"created_at":"2015-03-03T22:20:43+01:00","updated_at":"2015-04-11T14:19:52+02:00"}</httpDataProvider>         
+        <responseData>{ 
+            action: "radioOn",
+            stream: "http://81.19.85.197/echo.mp3"
+        }</responseData>         
+        <a>Включаю Эхо Москвы.</a>
+        <q>какая сейчас станция играет</q>
+        <a>Это радио Эхо Москвы</a>
+        <q>это радио эхо москвы</q>
+        <a>Да, это радио Эхо Москвы</a>
+        <q>это радио Рок ФМ</q>
+        <a>Нет, это радио Эхо Москвы</a>    
+        <q>выруби радио</q>
+        <responseData>{ 
+            intent: "radio_off"
+        }</responseData>   
+        <a>Радио выключено.</a>          
+    </test-case>
+
+    <test-case>
+        <q>включи фолк радио</q>
+        <httpDataProvider>[{"id":22670,"name":"Bells - Р РѕРє РџСЂРѕСЂС‹РІ Р¤РѕР»Рє","accepted":1,"country":"RU","description":null,"image":{"image":{"url":null,"thumb":{"url":null}}},"slug":"bells-rok-proryv-folk","website":"","created_at":"2015-12-20T02:03:57.000+01:00","updated_at":"2015-12-20T02:03:57.000+01:00","streams":[{"id":22509,"stream":"http://orrp.ru:8011/live_192","bitrate":192,"content_type":"audio/mpeg","status":0,"station_id":22670,"created_at":"2015-12-20T02:03:57.000+01:00","updated_at":"2016-09-18T09:19:47.000+02:00","timedout":false,"emptycounter":0}],"categories":[{"id":2,"title":"Rock","description":"simple rock. from elvis to metallica and like hardrock as iron maiden.","urlid":null,"created_at":"2015-04-11T13:49:53.000+02:00","updated_at":"2015-04-11T13:49:53.000+02:00","slug":"rock","ancestry":null,"position":null}]},{"id":22266,"name":"DJ_T-RP.ru","accepted":1,"country":"RU","description":null,"image":{"image":{"url":null,"thumb":{"url":null}}},"slug":"dj_t-rpru","website":"","created_at":"2015-12-19T01:44:08.000+01:00","updated_at":"2015-12-19T01:44:08.000+01:00","streams":[{"id":22030,"stream":"http://s7.radioheart.ru:8012/nonstop","bitrate":128,"content_type":"audio/mpeg","status":1,"station_id":22266,"created_at":"2015-12-19T01:44:08.000+01:00","updated_at":"2016-09-27T03:45:28.000+02:00","timedout":false,"emptycounter":1}],"categories":[{"id":3,"title":"Dance","description":"dance music, the new from 80's and 90's, like bubblegum and more.","urlid":"","created_at":"2015-04-11T13:49:53.000+02:00","updated_at":"2015-04-19T21:19:17.000+02:00","slug":"dance","ancestry":"14","position":null}]},{"id":35757,"name":"Narodnoe Radio - Tallinn","accepted":1,"country":"EE","description":null,"image":{"image":{"url":"https://cdn.devality.com/station/35757/ausss.png","thumb":{"url":"https://cdn.devality.com/station/35757/thumb_ausss.png"}}},"slug":"narodnoe-radio-tallinn","website":"http://narodnoeradio.ee/","created_at":"2016-05-10T11:17:09.000+02:00","updated_at":"2016-05-10T11:17:10.000+02:00","streams":[{"id":36223,"stream":"http://217.146.71.24:80/narodnoe.mp3","bitrate":128,"content_type":"audio/mpeg","status":1,"station_id":35757,"created_at":"2016-05-10T11:17:10.000+02:00","updated_at":"2016-09-01T07:26:35.000+02:00","timedout":false,"emptycounter":0}],"categories":[{"id":71,"title":"Adult Contemporary","description":"","urlid":"","created_at":"2015-12-06T02:03:52.000+01:00","updated_at":"2015-12-06T02:10:16.000+01:00","slug":"adult-contemporary","ancestry":null,"position":null},{"id":5,"title":"Pop","description":"stations that normally play pop-music","urlid":null,"created_at":"2015-04-11T13:49:53.000+02:00","updated_at":"2015-04-11T13:49:53.000+02:00","slug":"pop","ancestry":null,"position":null},{"id":45,"title":"Variety","description":"Variety or various, playing more or less everything.","urlid":null,"created_at":"2015-04-11T13:49:53.000+02:00","updated_at":"2015-04-11T13:49:53.000+02:00","slug":"variety","ancestry":"44","position":null}]},{"id":24594,"name":"My Radio - Russian Chanson","accepted":1,"country":"UA","description":null,"image":{"image":{"url":null,"thumb":{"url":null}}},"slug":"my-radio-russian-chanson","website":"","created_at":"2016-01-16T20:33:07.000+01:00","updated_at":"2016-01-16T20:33:08.000+01:00","streams":[{"id":25446,"stream":"http://music.myradio.ua:8000/shanson128.mp3","bitrate":128,"content_type":"audio/mpeg","status":1,"station_id":24594,"created_at":"2016-01-16T20:33:08.000+01:00","updated_at":"2016-09-24T17:30:57.000+02:00","timedout":false,"emptycounter":0}],"categories":[{"id":52,"title":"Oldies","description":"","urlid":"","created_at":"2015-04-11T13:49:54.000+02:00","updated_at":"2015-11-30T10:37:55.000+01:00","slug":"oldies","ancestry":"44","position":null}]},{"id":22499,"name":"Р Р°РґРёРѕ РЎРІРѕРµ {Svoe}","accepted":1,"country":"RU","description":null,"image":{"image":{"url":null,"thumb":{"url":null}}},"slug":"radio-svoe-svoe","website":"","created_at":"2015-12-19T01:45:46.000+01:00","updated_at":"2015-12-19T01:45:47.000+01:00","streams":[{"id":22323,"stream":"http://pub1.player-radio.ru:80/svoe-128.mp3","bitrate":128,"content_type":"audio/mpeg","status":0,"station_id":22499,"created_at":"2015-12-19T01:45:47.000+01:00","updated_at":"2016-06-29T12:46:04.000+02:00","timedout":false,"emptycounter":0},{"id":22326,"stream":"http://pub1.player-radio.ru/svoe-64.mp3","bitrate":64,"content_type":"audio/mpeg","status":0,"station_id":22499,"created_at":"2015-12-19T01:45:47.000+01:00","updated_at":"2016-06-29T14:28:28.000+02:00","timedout":false,"emptycounter":0}],"categories":[{"id":2,"title":"Rock","description":"simple rock. from elvis to metallica and like hardrock as iron maiden.","urlid":null,"created_at":"2015-04-11T13:49:53.000+02:00","updated_at":"2015-04-11T13:49:53.000+02:00","slug":"rock","ancestry":null,"position":null}]},{"id":21973,"name":"Bells - MGDC Russian Dance","accepted":1,"country":"RU","description":null,"image":{"image":{"url":null,"thumb":{"url":null}}},"slug":"bells-mgdc-russian-dance","website":"","created_at":"2015-12-19T01:32:47.000+01:00","updated_at":"2015-12-19T01:32:48.000+01:00","streams":[{"id":21406,"stream":"http://radio.mgdcfm.com:8010/","bitrate":192,"content_type":"audio/mpeg","status":1,"station_id":21973,"created_at":"2015-12-19T01:32:48.000+01:00","updated_at":"2016-09-20T01:44:55.000+02:00","timedout":false,"emptycounter":0}],"categories":[{"id":3,"title":"Dance","description":"dance music, the new from 80's and 90's, like bubblegum and more.","urlid":"","created_at":"2015-04-11T13:49:53.000+02:00","updated_at":"2015-04-19T21:19:17.000+02:00","slug":"dance","ancestry":"14","position":null}]},{"id":24583,"name":"My Radio - Chanson","accepted":1,"country":"UA","description":null,"image":{"image":{"url":null,"thumb":{"url":null}}},"slug":"my-radio-chanson","website":"","created_at":"2016-01-16T20:33:05.000+01:00","updated_at":"2016-01-16T20:33:06.000+01:00","streams":[{"id":25432,"stream":"http://music.myradio.ua:8000/bard128.mp3","bitrate":128,"content_type":"audio/mpeg","status":1,"station_id":24583,"created_at":"2016-01-16T20:33:06.000+01:00","updated_at":"2016-09-23T04:30:04.000+02:00","timedout":false,"emptycounter":0}],"categories":[{"id":52,"title":"Oldies","description":"","urlid":"","created_at":"2015-04-11T13:49:54.000+02:00","updated_at":"2015-11-30T10:37:55.000+01:00","slug":"oldies","ancestry":"44","position":null}]}]</httpDataProvider>         
+        <responseData>{
+            action: "radioOn",
+            stream: "http://orrp.ru:8011/live_192"
+        }</responseData>         
+        <a>Включаю радио в стиле фолк.</a>
+        <q>следующую станцию</q>
+        <responseData>{
+            action: "radioOn",
+            stream: "http://s7.radioheart.ru:8012/nonstop"
+        }</responseData>         
+        <a>Включаю радио DJ_T RP.ru.</a>
+        <q>предыдущую</q>
+        <responseData>{
+            action: "radioOn",
+            stream: "http://orrp.ru:8011/live_192"
+        }</responseData>         
+        <a>Включаю радио Bells Рок Прорыв Фолк.</a>   
+        <q>предыдущую</q>       
+        <a>Предыдущей станции нет.</a>                          
+    </test-case>
+
+    <test-case>
+        <q>включи радио восьмидесятые</q>
+        <httpDataProvider>[]</httpDataProvider>              
+        <a>восьмидесятые? Не могу найти подходящего радио.</a>
+    </test-case>
+
+    <test-case>
+        <q>включи радио</q>          
+        <a>Скажи название радиостанции или музыкальный жанр - я поищу нужную волну.</a>
+        <q>эхо москвы</q>
+        <httpDataProvider>{"id":12234,"name":"Р­С…Рѕ РњРѕСЃРєРІС‹","country":"RU","image":{"url":null,"thumb":{"url":null}},"slug":"eho-moskvy","website":"http://www.echo.msk.ru/","twitter":null,"facebook":null,"categories":[{"id":4,"title":"Talk \u0026 Speech","description":"talk \u0026 speech stations like normal talkshows and religous discuss.","slug":"talk-speech","ancestry":null}],"streams":[{"stream":"http://81.19.85.197/echo.mp3","bitrate":140,"content_type":"audio/mpeg","status":1}],"created_at":"2015-03-03T22:20:43+01:00","updated_at":"2015-04-11T14:19:52+02:00"}</httpDataProvider>         
+        <responseData>{ 
+            action: "radioOn",
+            stream: "http://81.19.85.197/echo.mp3"
+        }</responseData>         
+        <a>Включаю Эхо Москвы.</a>
+    </test-case>    
+
+    <test-case>
+        <q>включи новости</q>
+        <httpDataProvider>
+            {"id":12196,"name":"Р’РµСЃС‚РёFM","country":"RU","image":{"url":null,"thumb":{"url":null}},"slug":"vestifm","website":"http://radiovesti.ru/online/","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":21,"title":"News","description":"","slug":"news","ancestry":"4"}],"streams":[{"stream":"http://icecast.vgtrk.cdnvideo.ru/vestifm_mp3_192kbps","bitrate":192,"content_type":"audio/mpeg","status":1,"listeners":0}],"created_at":"2015-03-01T06:42:14+01:00","updated_at":"2015-04-11T14:19:50+02:00"}
+        </httpDataProvider>
+        <a>Включаю Вести FM.</a>
+    </test-case>
+</test>        

@@ -1,0 +1,32 @@
+descriptor:
+  id: rotation
+  title: Rotation
+  theme: Rotation
+  summary: Left and right rotation
+  description: Rotate left and right
+  labels: ["rotation"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/puddingRotation.png
+  background: 759fb6
+  price: 0.40
+
+  samples:
+    - Turn left
+    - "Turns left 10 degrees"
+    - Turn right
+    - "Turns right 10 degrees"
+    - More!
+    - "Turns right 10 degrees"
+
+#entryPoint: en/rotation/Rotation.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

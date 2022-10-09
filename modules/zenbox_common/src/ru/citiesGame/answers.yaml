@@ -1,0 +1,86 @@
+Goroda game user start:
+  - Давай сыграем!
+Goroda game no:
+  disagree:
+    - Нет так нет.
+  noandtext:
+    - Давай подумаем об этом завтра.
+    - Давай поговорим об этом потом.
+    - Что-то мне пока не хочется...
+Goroda game user starts with CityCountry:
+  isACountry:
+    - "{{my_capitalize($parseTree.Country[0].text}} — это страна, нужно назвать город. Попробуешь ещё раз?"
+Goroda game intro:
+  intro:
+    - "В игре Город+а нужно называть город на ту букву, на которую закончился предыдущий. Если город заканчивается на Ъ, Ь, Ы, нужно называть город на предпоследнюю букву. Когда надоест, просто скажи 'стоп' или 'хватит'. Первый город — {{$temp.nextCity}}."
+  forgotAll:
+    - Упс! Я забыл все названия городов!
+Goroda game intro iterate:
+  - "Первый город — {{$temp.nextCity}}."
+Goroda game question:
+  AgreeWithRules:
+    - "Тебе нужно назвать город на {{getCityLetter()}}"
+  Remind user a letter:
+    - "Я называл {{$temp.lastCity}}. Тебе нужно назвать город на {{getCityLetter()}}."
+  Goroda game answer:
+    severalCities:
+      - Так не пойдет. Назови, пожалуйста, один город.
+    getCityFromText:
+      - "Значит {{ my_capitalize($parseTree.City[0].text) }}, да?"
+      - "{{ my_capitalize($parseTree.City[0].text) }} — интересный ответ."
+      - "Так, {{ my_capitalize($parseTree.City[0].text) }} значит."
+    wrongNameVariant: 
+      - "{{ $temp.variantCityName }} — это неофициальное название, оно нам не подходит. Официальное название — {{ $temp.officialCityName }}. Попробуй ещё раз. "
+    correctNameVariant:
+      - "{{ $temp.variantCityName }} — это неофициальное название. Официальное название — {{ $temp.officialCityName }}. Засчитаем его!"
+    oldCity:
+      - "Город {{$temp.userCity}} уж+е был. Попробуешь ещё раз?"
+    oldCityText:
+      - "{{$temp.userText}} или {{$temp.userCity}} уж+е был. Попробуешь ещё раз?"
+    notACity:
+      - "Название города {{$temp.userCity}} начинается на {{$temp.firstLetter}}, а {{$temp.lastCity}} кончается на {{$temp.lastLetter}}. Нужно назвать город на {{$temp.lastLetter}}. Попробуешь ещё раз?"
+    forgotCity:
+      - Что-то я забыл, какой город был до этого. Давай начнём сначала?
+    country:
+      - "{{my_capitalize($parseTree.Country[0].text)}} — это страна, нужно назвать город. Попробуешь ещё раз?"
+    agree:
+      - Слушаю!
+Goroda game answer undefined:
+  - "Я не знаю города {{my_capitalize($parseTree.AnyWord[0].text)}}. Попробуешь ещё раз?"
+Goroda game answer city not true no:
+  - "В игре Город+а нужно называть город на ту букву, на которую закончился предыдущий. Если город заканчивается на Ъ, Ь, Ы, нужно называть город на предпоследнюю букву. Когда надоест, просто скажи 'стоп' или 'хватит'. Я говорю — {{$temp.lastCity}}."
+Goroda game do not know answer:
+  - Попробуешь ещё раз?
+Goroda game letterNoCity answer:
+  - "На букву {{$temp.letter.toUpperCase()}} нет городов. Тебе нужно назвать город на {{getCityLetter()}}."
+Goroda game user does not know the city:
+  - Теперь знаешь! Продолжаем ли мы играть дальше?
+Goroda game thank you for repeat:
+  - Всегда рад помочь!
+Goroda game giving up:
+  notByRules:
+    - Прости, но это не по правилам.
+  giveUp:
+    - Сдаёшься?
+Goroda game giving up no:
+    - Мне нравится твой настрой!
+    - Молодец! Так держать!
+Goroda game end:
+  a1:
+    - Окей.
+    - Хорошо.
+    - Принято.
+  a2:
+    - Тогда закончим игру!
+    - Заканчиваем игру!
+    - Тогда давай закончим!
+Goroda game new iteration:
+  - Давай!
+  - Хорошо. Давай начнем сначала.
+Goroda game User asks game progress:
+  - Продолжаем ли мы играть дальше?
+Goroda WantMore:
+  - Давай!
+  - С радостью!
+getResultString:
+  - "У нас получилась цепочка длиной {{$session.chain}} {{$session.ru__words}}."

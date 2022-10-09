@@ -1,0 +1,36 @@
+descriptor:
+  id: oddWordGame
+  title: Odd one out game
+  theme: Odd word game
+  summary: Teaches logic
+  description: Wolf, bear, cat and fox - who is the odd one here? An educational game with questions based on logic.
+  labels: ["odd one out", "odd word", "game", "kids"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/oddWordGame.png
+  background: 2ca05a
+  price: 0.35
+
+  samples:
+    - Давай играть в найди лишнее!
+    - Давай! Я буду называть слова, а ты говори, какое среди них лишнее. Начнём?
+    - Да!
+    - Отлично! Скажи "хватит", когда захочешь остановиться. Я буду называть тебе слова, одно из которых лишнее. Угадай, какое, и назови его. Волк - медведь - лиса - кошка.
+    - кошка
+    - Верно! Слушай дальше. Земляника - грейпфрут - груша - апельсин.
+    - Груша!
+    - Кажется, мы ошиблись. Правильный ответ - земляника. Потому что земляника - это ягода , a остальное - это фрукты. Слушай дальше. Огурец - манго - капуста - кабачок.
+    - Хватит!
+    - Хорошо, заканчиваем игру! Мы ответили правильно на 1 вопрос из 2.
+
+entryPoint: ru/oddWordGame/OddWordGame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

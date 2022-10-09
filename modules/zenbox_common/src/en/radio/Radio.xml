@@ -1,0 +1,87 @@
+<test integration="true">
+     
+
+    <mockData>
+        <query method="get">http://api.dirble.com/v2/search/HEAVENS+PLAYGROUND+RADIO?token=3d4f29632942864dcde1fdde0f</query>
+        <response type="json" status="200">[{"id":13053,"name":"HEAVENS PLAYGROUND RADIO","country":"US","image":{"url":"https://img.dirble.com/station/13053/Heavens_Playground_Radio_Logo_1.gif","thumb":{"url":"https://img.dirble.com/station/13053/thumb_Heavens_Playground_Radio_Logo_1.gif"}},"slug":"heavens-playground-radio","website":"http://www.heavensplaygroundradio.com","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":45,"title":"Variety","description":"Variety or various, playing more or less everything.","slug":"variety","ancestry":"44"}],"streams":[{"stream":"http://centova1.forbidenhosting.com:2199/tunein/angel15.asx","bitrate":0,"content_type":"text/html; charset=UTF-8","status":1,"listeners":0},{"stream":"http://198.101.15.90:8222/stream\n","bitrate":96,"content_type":"?","status":0,"listeners":0}],"created_at":"2015-06-15T05:41:21+02:00","updated_at":"2015-06-15T05:42:21+02:00"}]</response>
+    </mockData>
+    <test-case integration="true">
+        <q>turn on radio HEAVENS PLAYGROUND RADIO</q>      
+        <responseData>{ 
+            action: "radioOn",
+            stream: "http://centova1.forbidenhosting.com:2199/tunein/angel15.asx"
+        }</responseData>         
+        <a>Turning on "HEAVENS PLAYGROUND RADIO".</a>
+
+        <q>what is the name of current station</q>
+        <a>It's "HEAVENS PLAYGROUND RADIO".</a>
+        <q>Is it Kool Oldies Radio</q>
+        <a>No, it's "HEAVENS PLAYGROUND RADIO".</a>   
+        <q>turn off</q>
+        <responseData>{ 
+            intent: "radio_off"
+        }</responseData>   
+        <a>Radio is off now.</a>          
+    </test-case>
+
+    <test-case>
+        <q>turn on radio</q>
+        <a>Tell me the name of the station or music genre and I'll search for a radio station.</a>
+        <q>retro fm</q>
+        <a>Sorry, it seems I can't find this radio station.</a>
+        <q>turn on radio retro fm</q>
+        <a>Sorry, it seems I can't find this radio station.</a>
+    </test-case>  
+
+    <mockData>
+        <query method="get">http://api.dirble.com/v2/search/BBC+World+Service?token=3d4f29632942864dcde1fdde0f</query>
+        <response type="json" status="200">[{"id":62,"name":"BBC World Service","country":"GB","image":{"url":null,"thumb":{"url":null}},"slug":"bbc-world-service","website":"","twitter":"","facebook":"","total_listeners":0,"categories":[{"id":21,"title":"News","description":"","slug":"news","ancestry":"4"}],"streams":[{"stream":"http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk","bitrate":0,"content_type":"audio/mpeg","status":1,"listeners":0}],"created_at":"2012-01-22T22:26:00Z","updated_at":"2017-07-15T11:39:09Z"},{"id":40682,"name":"BBC World Service News","country":"GB","image":{"url":"https://img.dirble.com/station/40682/c175.png","thumb":{"url":"https://img.dirble.com/station/40682/thumb_c175.png"}},"slug":"bbc-world-service-news","website":"http://www.bbc.co.uk/worldservice/","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":21,"title":"News","description":"","slug":"news","ancestry":"4"}],"streams":[{"stream":"http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-einws_backup","bitrate":48,"content_type":"audio/mpeg","status":1,"listeners":0}],"created_at":"2017-02-16T21:42:56Z","updated_at":"2017-07-15T11:31:08Z"},{"id":35406,"name":"BBC - World Service","country":"GB","image":{"url":"https://img.dirble.com/station/35406/bbc_world_service.jpg","thumb":{"url":"https://img.dirble.com/station/35406/thumb_bbc_world_service.jpg"}},"slug":"bbc-world-service-4152947b-95da-4d4b-8515-f93fedcc7844","website":"http://www.bbc.co.uk/worldservice/","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":21,"title":"News","description":"","slug":"news","ancestry":"4"}],"streams":[{"stream":"http://bbcwssc.ic.llnwd.net/stream/bbcwssc_mp1_ws-eieuk_backup","bitrate":0,"content_type":"audio/mpeg","status":1,"listeners":0}],"created_at":"2016-05-10T00:32:37Z","updated_at":"2017-07-15T11:29:42Z"},{"id":16364,"name":"KNOW 91.1 FM Minneapolis, MN","country":"US","image":{"url":null,"thumb":{"url":null}},"slug":"know-911-fm-minneapolis-mn","website":"","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":4,"title":"Talk \u0026 Speech","description":"talk \u0026 speech stations like normal talkshows and religous discuss.","slug":"talk-speech","ancestry":null}],"streams":[{"stream":"http://newsstream1.publicradio.org:80/","bitrate":128,"content_type":"audio/mpeg","status":0,"listeners":0}],"created_at":"2015-12-06T01:27:29Z","updated_at":"2017-07-15T11:35:53Z"},{"id":57,"name":"Wnycfm","country":"US","image":{"url":null,"thumb":{"url":null}},"slug":"wnycfm","website":"","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":21,"title":"News","description":"","slug":"news","ancestry":"4"}],"streams":[{"stream":"http://wnycfm.streamguys.com:80","bitrate":32,"content_type":"audio/mpeg","status":0,"listeners":0}],"created_at":"2012-01-22T21:54:47Z","updated_at":"2015-04-11T12:10:51Z"},{"id":34968,"name":"WNYC 93.9 FM New York, NY","country":"US","image":{"url":null,"thumb":{"url":null}},"slug":"wnyc-939-fm-new-york-ny","website":"","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":4,"title":"Talk \u0026 Speech","description":"talk \u0026 speech stations like normal talkshows and religous discuss.","slug":"talk-speech","ancestry":null}],"streams":[{"stream":"http://fm939.wnyc.org/wnycfm","bitrate":32,"content_type":"audio/mpeg","status":1,"listeners":0},{"stream":"http://fm939.wnyc.org/wnycfm.aac","bitrate":32,"content_type":"audio/aacp","status":1,"listeners":0}],"created_at":"2016-05-09T10:33:16Z","updated_at":"2017-07-15T11:29:44Z"},{"id":15947,"name":"WNYC 820 AM New York, NY","country":"US","image":{"url":null,"thumb":{"url":null}},"slug":"wnyc-820-am-new-york-ny","website":"","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":4,"title":"Talk \u0026 Speech","description":"talk \u0026 speech stations like normal talkshows and religous discuss.","slug":"talk-speech","ancestry":null}],"streams":[{"stream":"http://am820.wnyc.org/wnycam\n","bitrate":32,"content_type":"audio/mpeg","status":1,"listeners":0},{"stream":"http://am820.wnyc.org/wnycam.aac\n","bitrate":32,"content_type":"audio/aacp","status":1,"listeners":0}],"created_at":"2015-12-06T01:19:12Z","updated_at":"2017-07-15T11:35:49Z"},{"id":52293,"name":"Refugee Radio 2 Europe","country":"US","image":{"url":"https://img.dirble.com/station/52293/c175.png","thumb":{"url":"https://img.dirble.com/station/52293/thumb_c175.png"}},"slug":"refugee-radio-2-europe","website":"http://www.refugeeradionetwork.net/","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":45,"title":"Variety","description":"Variety or various, playing more or less everything.","slug":"variety","ancestry":"44"}],"streams":[{"stream":"http://s29.myradiostream.com:11704/","bitrate":128,"content_type":"audio/mpeg","status":1,"listeners":1}],"created_at":"2017-02-17T10:52:20Z","updated_at":"2017-07-17T18:23:19Z"},{"id":536,"name":"Wamu 885  American University Radio","country":"US","image":{"url":null,"thumb":{"url":null}},"slug":"wamu-885-american-university-radio","website":"http://wamu.org/","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":4,"title":"Talk \u0026 Speech","description":"talk \u0026 speech stations like normal talkshows and religous discuss.","slug":"talk-speech","ancestry":null},{"id":21,"title":"News","description":"","slug":"news","ancestry":"4"}],"streams":[{"stream":"http://wamu-1.streamguys.com","bitrate":48,"content_type":"audio/mpeg","status":0,"listeners":0}],"created_at":"2013-05-20T21:09:30Z","updated_at":"2017-07-15T11:34:15Z"},{"id":32085,"name":"KMUW 89.1 FM Wichita, KS","country":"US","image":{"url":null,"thumb":{"url":null}},"slug":"kmuw-891-fm-wichita-ks-d47e789e-ef83-4120-a016-da40190f72ae","website":"","twitter":null,"facebook":null,"total_listeners":163,"categories":[{"id":4,"title":"Talk \u0026 Speech","description":"talk \u0026 speech stations like normal talkshows and religous discuss.","slug":"talk-speech","ancestry":null}],"streams":[{"stream":"http://kmuw-streamer.wichita.edu:8000/kmuw","bitrate":96,"content_type":"audio/mpeg","status":1,"listeners":163}],"created_at":"2016-05-09T01:03:46Z","updated_at":"2017-07-18T12:30:51Z"}]</response>
+    </mockData>
+    <test-case integration="true">
+        <q>turn on radio BBC World Service</q>
+        <responseData>{
+            action: "radioOn",
+            stream: "http://newsstream1.publicradio.org:80/"
+        }</responseData>
+        <a>Searching for "BBC World Service" I found "KNOW 91.1 FM Minneapolis, MN". Turning on.</a>
+        <q>what station is it</q>
+        <a>It's "KNOW 91.1 FM Minneapolis, MN".</a>
+        <q>is it BBC World Service</q>
+        <a>No, it's "KNOW 91.1 FM Minneapolis, MN".</a>
+        <q>what is this radio station?</q>
+        <a>It's "KNOW 91.1 FM Minneapolis, MN".</a>
+        <q>turn off radio</q>
+        <responseData>{
+            intent: "radio_off"
+        }</responseData>
+        <a>Radio is off now.</a>
+    </test-case>
+
+    <test-case>
+        <q>turn on Easy Listening</q>
+        <a>Sorry, I can't find any station playing Easy Listening.</a>
+    </test-case>
+    <test-case>
+        <q>turn on radio</q>
+        <a>Tell me the name of the station or music genre and I'll search for a radio station.</a>
+        <q>BBC World Service</q>       
+        <responseData>{ 
+            action: "radioOn",
+            stream: "http://newsstream1.publicradio.org:80/"
+        }</responseData>         
+        <a>Searching for "BBC World Service" I found "KNOW 91.1 FM Minneapolis, MN". Turning on.</a>
+    </test-case>
+
+    <mockData>
+        <query method="get">http://api.dirble.com/v2/search/Rock?token=3d4f29632942864dcde1fdde0f</query>
+        <response type="json" status="200">[{"id":10631,"name":"Folkradio.ru  Folkradio.ru","country":"RU","image":{"url":null,"thumb":{"url":null}},"slug":"folkradioru-folkradioru-ec2dabbc-61df-4527-8210-a377d7762145","website":"","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":46,"title":"Folk","description":"","slug":"folk","ancestry":null}],"streams":[{"stream":"http://79.142.89.163:8015","bitrate":0,"content_type":"?","status":1,"listeners":0}],"created_at":"2014-03-22T19:21:14+01:00","updated_at":"2015-04-11T14:17:08+02:00"},{"id":9103,"name":"Folkradio.ru  Folkradio.ru","country":"RU","image":{"url":null,"thumb":{"url":null}},"slug":"folkradioru-folkradioru","website":"http://folkradio.ru","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":46,"title":"Folk","description":"","slug":"folk","ancestry":null}],"streams":[{"stream":"http://79.142.89.163:8020","bitrate":0,"content_type":"?","status":1,"listeners":0},{"stream":"http://79.142.89.163:8000","bitrate":0,"content_type":"?","status":1,"listeners":0},{"stream":"http://79.142.89.163:8005","bitrate":0,"content_type":"?","status":1,"listeners":0}],"created_at":"2014-03-02T20:32:20+01:00","updated_at":"2015-04-11T14:14:55+02:00"},{"id":9859,"name":"Radiowid Folk","country":"PL","image":{"url":null,"thumb":{"url":null}},"slug":"radiowid-folk","website":"http://www.radiowid.pl","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":44,"title":"Misc","description":"Everything else.","slug":"misc","ancestry":null}],"streams":[{"stream":"http://46.29.17.244:9144","bitrate":0,"content_type":"?","status":0,"listeners":0}],"created_at":"2014-03-05T09:39:26+01:00","updated_at":"2015-04-11T14:16:09+02:00"},{"id":44177,"name":"FolkВ Forward","country":"US","image":{"url":"https://cdn.devality.com/station/44177/c175.png","thumb":{"url":"https://cdn.devality.com/station/44177/thumb_c175.png"}},"slug":"folk-forward","website":"http://somafm.com/","twitter":null,"facebook":null,"total_listeners":66,"categories":[{"id":45,"title":"Variety","description":"Variety or various, playing more or less everything.","slug":"variety","ancestry":"44"}],"streams":[{"stream":"http://ice1.somafm.com/folkfwd-128-mp3","bitrate":128,"content_type":"audio/mpeg","status":1,"listeners":66}],"created_at":"2017-02-17T01:49:21+01:00","updated_at":"2017-02-17T01:49:22+01:00"},{"id":15242,"name":"Folk Alley","country":"US","image":{"url":null,"thumb":{"url":null}},"slug":"folk-alley","website":"","twitter":null,"facebook":null,"total_listeners":204,"categories":[{"id":46,"title":"Folk","description":"","slug":"folk","ancestry":null}],"streams":[{"stream":"http://wksu1.streamguys.com:80/\n","bitrate":128,"content_type":"audio/mpeg","status":1,"listeners":200},{"stream":"http://66.225.205.9:80/\n","bitrate":56,"content_type":"audio/mpeg","status":1,"listeners":4}],"created_at":"2015-12-06T02:03:54+01:00","updated_at":"2015-12-06T02:04:07+01:00"},{"id":15369,"name":"Folk Radio","country":"MK","image":{"url":null,"thumb":{"url":null}},"slug":"folk-radio","website":"","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":46,"title":"Folk","description":"","slug":"folk","ancestry":null}],"streams":[{"stream":"Macedonian","bitrate":0,"content_type":"?","status":0,"listeners":0},{"stream":"http://89.205.127.244:8000/\n","bitrate":48,"content_type":"audio/aacp","status":1,"listeners":0},{"stream":"http://89.205.127.244:8002/\n","bitrate":64,"content_type":"audio/mpeg","status":1,"listeners":0}],"created_at":"2015-12-06T02:04:21+01:00","updated_at":"2015-12-06T02:06:05+01:00"},{"id":56095,"name":"WKARВ Folk","country":"US","image":{"url":"https://cdn.devality.com/station/56095/c175.png","thumb":{"url":"https://cdn.devality.com/station/56095/thumb_c175.png"}},"slug":"wkar-folk","website":"","twitter":null,"facebook":null,"total_listeners":11,"categories":[{"id":46,"title":"Folk","description":"","slug":"folk","ancestry":null}],"streams":[{"stream":"http://mozart.wkar.msu.edu/wkar-folk","bitrate":128,"content_type":"audio/mpeg","status":1,"listeners":11}],"created_at":"2017-02-17T14:15:36+01:00","updated_at":"2017-02-17T14:15:37+01:00"},{"id":52807,"name":"RougeВ Folk","country":"US","image":{"url":"https://cdn.devality.com/station/52807/c175.png","thumb":{"url":"https://cdn.devality.com/station/52807/thumb_c175.png"}},"slug":"rouge-folk","website":"http://www.rougefm.com/","twitter":null,"facebook":null,"total_listeners":0,"categories":[{"id":45,"title":"Variety","description":"Variety or various, playing more or less everything.","slug":"variety","ancestry":"44"}],"streams":[{"stream":"http://rouge-folk.ice.infomaniak.ch/rouge-folk-128.mp3","bitrate":128,"content_type":"audio/mpeg","status":1,"listeners":0}],"created_at":"2017-02-17T12:10:21+01:00","updated_at":"2017-02-17T12:10:25+01:00"},{"id":44181,"name":"FolkВ Radio","country":"US","image":{"url":"https://cdn.devality.com/station/44181/c6eee5e8-e0b0-4a2f-a221-f52a9e92376c.jpg","thumb":{"url":"https://cdn.devality.com/station/44181/thumb_c6eee5e8-e0b0-4a2f-a221-f52a9e92376c.jpg"}},"slug":"folk-radio-cb388d91-1eb5-4a7f-b239-3efa7b1c65b1","website":"","twitter":null,"facebook":null,"total_listeners":10,"categories":[{"id":46,"title":"Folk","description":"","slug":"folk","ancestry":null},{"id":62,"title":"International","description":"","slug":"international","ancestry":null}],"streams":[{"stream":"http://37.9.134.9600","bitrate":0,"content_type":"?","status":0,"listeners":0},{"stream":"http://89.205.127.24402/;stream.nsv","bitrate":0,"content_type":"?","status":0,"listeners":0},{"stream":"http://37.221.209.146:6140/live.mp3","bitrate":128,"content_type":"audio/mpeg","status":1,"listeners":10},{"stream":"http://83.97.65.9800/stream128","bitrate":0,"content_type":"?","status":0,"listeners":0}],"created_at":"2017-02-17T01:49:28+01:00","updated_at":"2017-02-17T01:49:29+01:00"},{"id":14049,"name":"Radio Melody ITA folk","country":"IT","image":{"url":"https://cdn.devality.com/station/14049/melodyita.png","thumb":{"url":"https://cdn.devality.com/station/14049/thumb_melodyita.png"}},"slug":"radio-melody-folk","website":"http://www.radiomelody.eu","twitter":"","facebook":"https://www.facebook.com/radiomelody.eu","total_listeners":66,"categories":[{"id":46,"title":"Folk","description":"","slug":"folk","ancestry":null}],"streams":[{"stream":"http://159.8.16.16:7040/stream","bitrate":64,"content_type":"audio/mpeg","status":1,"listeners":33},{"stream":"http://144.76.32.22:8075","bitrate":128,"content_type":"?","status":1,"listeners":0},{"stream":"http://159.8.16.16:7040","bitrate":64,"content_type":"audio/mpeg","status":1,"listeners":33}],"created_at":"2015-12-01T09:06:59+01:00","updated_at":"2017-02-20T07:04:37+01:00"}]</response>
+    </mockData>
+    <test-case>
+        <q>could you find a rock radio station for me?</q>
+        <responseData>{
+            action: "radioOn",
+            stream: "http://ice1.somafm.com/folkfwd-128-mp3"
+        }</responseData>
+        <a>Turning on Rock.</a>
+    </test-case>
+</test>   

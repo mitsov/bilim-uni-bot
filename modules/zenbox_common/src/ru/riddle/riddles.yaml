@@ -1,0 +1,36 @@
+descriptor:
+  id: riddles
+  title: Riddles
+  theme: Riddle
+  summary: Pose you riddles
+  description: I got a riddle for you!
+  labels: ["riddle"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/riddle.png
+  background: 13816a
+  price: 0.40
+
+  samples:
+    - Загадай мне загадку
+    - Что делал слон, когда пришёл Наполеон?
+    - Повтори
+    - Что делал слон, когда пришёл Наполеон?
+    - Не знаю
+    - "Это сложная загадка. Правильный ответ - Травку щипал. Загадать ли ещё одну?"
+    - Давай
+    - "Без Окон, Без Дверей - Полна Горница Людей."
+    - Метрополитен
+    - "Правильный ответ - Огурец. Загадать ли ещё одну?"
+
+entryPoint: ru/riddle/Riddle.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

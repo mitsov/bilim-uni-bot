@@ -1,0 +1,135 @@
+1;фрукт;{"title":"фрукт","acc":"","base":"фрукт*","type":"","sweetness":"","ingredient":""}
+2;яблоко;{"title":"яблоко","acc":"","base":"яблок*","type":"фрукт","sweetness":"","ingredient":""}
+3;банан;{"title":"банан","acc":"","base":"банан*","type":"ягода","sweetness":"","ingredient":""}
+4;апельсин;{"title":"апельсин","acc":"","base":"апельсин*","type":"фрукт","sweetness":"","ingredient":""}
+5;груша;{"title":"груша","acc":"","base":"груш*","type":"фрукт","sweetness":"","ingredient":""}
+6;мандарин;{"title":"мандарин","acc":"","base":"мандарин*","type":"фрукт","sweetness":"","ingredient":""}
+7;грейпфрут;{"title":"грейпфрут","acc":"","base":"грейпфрут*","type":"фрукт","sweetness":"","ingredient":""}
+8;виноград;{"title":"виноград","acc":"","base":"виноград*","type":"фрукт","sweetness":"","ingredient":""}
+9;инжир;{"title":"инжир","acc":"","base":"инжир*","type":"фрукт","sweetness":"","ingredient":""}
+10;абрикос;{"title":"абрикос","acc":"","base":"абрикос*","type":"фрукт","sweetness":"","ingredient":""}
+11;персик;{"title":"персик","acc":"","base":"персик*","type":"фрукт","sweetness":"","ingredient":""}
+12;арбуз;{"title":"арбуз","acc":"","base":"арбуз*","type":"ягода","sweetness":"","ingredient":""}
+13;дыня;{"title":"дыня","acc":"","base":"дын*","type":"фрукт","sweetness":"","ingredient":""}
+14;лимон;{"title":"лимон","acc":"","base":"лимон*","type":"фрукт","sweetness":"","ingredient":""}
+15;помело;{"title":"помело","acc":"","base":"помел*","type":"фрукт","sweetness":"","ingredient":""}
+16;хурма;{"title":"хурма","acc":"","base":"хурм*","type":"фрукт","sweetness":"","ingredient":""}
+17;ягода;{"title":"ягода","acc":"","base":"ягод*","type":"","sweetness":"","ingredient":""}
+18;клубника;{"title":"клубника","acc":"","base":"клубник*","type":"ягода","sweetness":"","ingredient":""}
+19;малина;{"title":"малина","acc":"","base":"малин*","type":"ягода","sweetness":"","ingredient":""}
+20;смородина;{"title":"смородина","acc":"","base":"смород*","type":"ягода","sweetness":"","ingredient":""}
+21;земляника;{"title":"земляника","acc":"","base":"земляник*","type":"ягода","sweetness":"","ingredient":""}
+22;вишня;{"title":"вишня","acc":"","base":"вишн*","type":"ягода","sweetness":"","ingredient":""}
+23;черешня;{"title":"черешня","acc":"","base":"черешн*","type":"ягода","sweetness":"","ingredient":""}
+24;крыжовник;{"title":"крыжовник","acc":"","base":"крыжовник*","type":"ягода","sweetness":"","ingredient":""}
+25;миндаль;{"title":"миндаль","acc":"","base":"миндал*","type":"орех","sweetness":"","ingredient":""}
+26;грецкий орех;{"title":"грецкий орех","acc":"","base":"грецк* орех*","type":"","sweetness":"","ingredient":""}
+27;арахис;{"title":"арахис","acc":"","base":"арахис*","type":"орех","sweetness":"","ingredient":""}
+28;фундук;{"title":"фундук","acc":"","base":"фундук*","type":"орех","sweetness":"","ingredient":""}
+29;пекан;{"title":"пекан","acc":"","base":"пекан*","type":"орех","sweetness":"","ingredient":""}
+30;изюм;{"title":"изюм","acc":"","base":"изюм*","type":"сухофрукт","sweetness":"","ingredient":""}
+31;курага;{"title":"курага","acc":"","base":"кураг*","type":"сухофрукт","sweetness":"","ingredient":""}
+32;чернослив;{"title":"чернослив","acc":"","base":"чернослив*","type":"сухофрукт","sweetness":"","ingredient":""}
+33;финик;{"title":"финик","acc":"","base":"финик*","type":"","sweetness":"","ingredient":""}
+34;овощ;{"title":"овощ","acc":"","base":"овощ","type":"","sweetness":"","ingredient":""}
+35;картошка;{"title":"картошка","acc":"","base":"картошк*","type":"овощ","sweetness":"","ingredient":""}
+36;огурец;{"title":"огурец","acc":"","base":"огур*","type":"овощ","sweetness":"","ingredient":""}
+37;помидор;{"title":"помидор","acc":"","base":"помидор*","type":"ягода","sweetness":"","ingredient":""}
+38;лук;{"title":"лук","acc":"","base":"лук*","type":"овощ","sweetness":"","ingredient":""}
+39;сельдерей;{"title":"сельдерей","acc":"","base":"сельдере*","type":"овощ","sweetness":"","ingredient":""}
+40;морковь;{"title":"морковь","acc":"","base":"морков*","type":"овощ","sweetness":"","ingredient":""}
+41;кабачок;{"title":"кабачок","acc":"","base":"кабач*","type":"овощ","sweetness":"","ingredient":""}
+42;баклажан;{"title":"баклажан","acc":"","base":"баклажан*","type":"овощ","sweetness":"","ingredient":""}
+43;патиссон;{"title":"патиссон","acc":"","base":"патиссон*","type":"овощ","sweetness":"","ingredient":""}
+44;капуста;{"title":"капуста","acc":"","base":"капуст*","type":"овощ","sweetness":"","ingredient":""}
+45;молоко;{"title":"молоко","acc":"","base":"молок*","type":"","sweetness":"","ingredient":""}
+46;кефир;{"title":"кефир","acc":"кефир","base":"кефир*","type":"","sweetness":"","ingredient":"из молока"}
+47;ряженка;{"title":"ряженка","acc":"ряженку","base":"ряженк*","type":"","sweetness":"","ingredient":"из молока"}
+48;простокваша;{"title":"простокваша","acc":"простоквашу","base":"простокв*","type":"","sweetness":"","ingredient":"из молока"}
+49;творог;{"title":"творог","acc":"творог","base":"творо*","type":"","sweetness":"","ingredient":"из молока"}
+50;йогурт;{"title":"йогурт","acc":"йогурт","base":"йогурт*","type":"","sweetness":"","ingredient":"из молока"}
+51;растишка;{"title":"Растишка","acc":"Растишку","base":"растишк*","type":"","sweetness":"","ingredient":"из молока"}
+52;агуша;{"title":"Агуша","acc":"Агушу","base":"агуш*","type":"","sweetness":"","ingredient":"из молока"}
+53;сыр;{"title":"сыр","acc":"сыр","base":"сыр*","type":"","sweetness":"","ingredient":"из молока"}
+54;гречка;{"title":"гречка","acc":"","base":"гречк*","type":"","sweetness":"","ingredient":""}
+55;рис;{"title":"рис","acc":"","base":"рис*","type":"","sweetness":"","ingredient":""}
+56;овсянка;{"title":"овсянка","acc":"","base":"овсян*","type":"","sweetness":"","ingredient":""}
+57;манная каша;{"title":"манная каша","acc":"","base":"манн* каш*","type":"","sweetness":"","ingredient":""}
+58;пюре;{"title":"пюре","acc":"","base":"пюр*","type":"","sweetness":"","ingredient":""}
+59;мясо;{"title":"мясо","acc":"","base":"мяс*","type":"","sweetness":"","ingredient":""}
+60;говядина;{"title":"говядина","acc":"","base":"говядин*","type":"мясо","sweetness":"","ingredient":""}
+61;свинина;{"title":"свинина","acc":"","base":"свинин*","type":"мясо","sweetness":"","ingredient":""}
+62;баранина;{"title":"баранина","acc":"","base":"баранин*","type":"мясо","sweetness":"","ingredient":""}
+63;телятина;{"title":"телятина","acc":"","base":"телятин*","type":"мясо","sweetness":"","ingredient":""}
+64;курица;{"title":"курица","acc":"","base":"куриц*","type":"мясо","sweetness":"","ingredient":""}
+65;курица;{"title":"курица","acc":"","base":"курин*","type":"мясо","sweetness":"","ingredient":""}
+66;рыба;{"title":"рыба","acc":"","base":"рыб*","type":"","sweetness":"","ingredient":""}
+67;лосось;{"title":"лосось","acc":"","base":"лосос*","type":"рыба","sweetness":"","ingredient":""}
+68;килька;{"title":"килька","acc":"","base":"кильк*","type":"рыба","sweetness":"","ingredient":""}
+69;треска;{"title":"треска","acc":"","base":"треск*","type":"рыба","sweetness":"","ingredient":""}
+70;мясные блюда;{"title":"мясные блюда","acc":"","base":"мясные блюда","type":"","sweetness":"","ingredient":""}
+71;биточки;{"title":"биточки","acc":"биточки","base":"биточк*","type":"мясное блюдо","sweetness":"не сладкое","ingredient":"из мяса"}
+72;рагу;{"title":"рагу","acc":"рагу","base":"рагу","type":"мясное блюдо","sweetness":"не сладкое","ingredient":"из мяса"}
+73;буженина;{"title":"буженина","acc":"буженину","base":"буженин*","type":"мясное блюдо","sweetness":"не сладкое","ingredient":"из мяса"}
+74;сосиски;{"title":"сосиски","acc":"сосиски","base":"сосиск*","type":"мясное блюдо","sweetness":"не сладкое","ingredient":"из мяса"}
+75;сардельки;{"title":"сардельки","acc":"сардельки","base":"сардельк*","type":"мясное блюдо","sweetness":"не сладкое","ingredient":"из мяса"}
+76;стейк;{"title":"стейк","acc":"стейки","base":"стейк*","type":"мясное блюдо","sweetness":"не сладкое","ingredient":"из мяса"}
+77;бефстроганов;{"title":"бефстроганов","acc":"бефстроганов","base":"бефстроганов*","type":"мясное блюдо","sweetness":"не сладкое","ingredient":"из мяса"}
+78;котлеты;{"title":"котлеты","acc":"котлеты","base":"котлет*","type":"мясное блюдо","sweetness":"","ingredient":"из мяса"}
+79;яичница;{"title":"яичница","acc":"яичницу","base":"яичниц*","type":"","sweetness":"не сладкое","ingredient":"из яиц"}
+80;омлет;{"title":"омлет","acc":"","base":"омлет*","type":"","sweetness":"не сладкое","ingredient":""}
+81;яйцо;{"title":"яйцо","acc":"","base":"яйц*","type":"","sweetness":"","ingredient":""}
+82;макароны;{"title":"макароны","acc":"макароны","base":"макарон*","type":"","sweetness":"","ingredient":"из муки"}
+83;спагетти;{"title":"спагетти","acc":"спагетти","base":"спагетт*","type":"","sweetness":"","ingredient":"из муки"}
+84;паста;{"title":"паста","acc":"","base":"паст*","type":"","sweetness":"","ingredient":""}
+85;бутерброд;{"title":"бутерброд","acc":"","base":"бутерброд*","type":"","sweetness":"не сладкое","ingredient":""}
+86;хот-дог;{"title":"хот-дог","acc":"","base":"хот-дог*","type":"","sweetness":"не сладкое","ingredient":""}
+87;гамбургер;{"title":"гамбургер","acc":"","base":"гамбургер*","type":"","sweetness":"не сладкое","ingredient":""}
+88;сэндвич;{"title":"сэндвич","acc":"","base":"сэндвич*","type":"","sweetness":"не сладкое","ingredient":""}
+89;пельмени;{"title":"пельмени","acc":"","base":"пельмен*","type":"","sweetness":"не сладкое","ingredient":""}
+90;голубцы;{"title":"голубцы","acc":"","base":"голубц*","type":"","sweetness":"не сладкое","ingredient":""}
+91;панини;{"title":"панини","acc":"","base":"панин*","type":"","sweetness":"не сладкое","ingredient":""}
+92;суп;{"title":"суп","acc":"","base":"суп*","type":"","sweetness":"","ingredient":""}
+93;уха;{"title":"уха","acc":"уху","base":"ух*","type":"суп","sweetness":"не сладкое","ingredient":""}
+94;борщ;{"title":"борщ","acc":"","base":"борщ*","type":"суп","sweetness":"не сладкое","ingredient":""}
+95;харчо;{"title":"харчо","acc":"","base":"харчо","type":"суп","sweetness":"не сладкое","ingredient":""}
+96;мисо;{"title":"мисо","acc":"","base":"мисо","type":"суп","sweetness":"не сладкое","ingredient":""}
+97;грибной суп;{"title":"грибной суп","acc":"","base":"грибн* суп*","type":"суп","sweetness":"не сладкое","ingredient":""}
+98;рыбный суп;{"title":"рыбный суп","acc":"","base":"рыбн* суп*","type":"суп","sweetness":"не сладкое","ingredient":""}
+99;сырный суп;{"title":"сырный суп","acc":"","base":"сырн* суп*","type":"суп","sweetness":"не сладкое","ingredient":""}
+100;томатный суп;{"title":"томатный суп","acc":"","base":"томатн* суп*","type":"суп","sweetness":"не сладкое","ingredient":""}
+101;картофельный суп;{"title":"картофельный суп","acc":"","base":"картоф* суп*","type":"суп","sweetness":"не сладкое","ingredient":""}
+102;куриный суп;{"title":"куриный суп","acc":"","base":"курин* суп","type":"суп","sweetness":"не сладкое","ingredient":""}
+103;десерт;{"title":"десерт","acc":"","base":"десерт*","type":"","sweetness":"","ingredient":""}
+104;пирожное;{"title":"пирожное","acc":"","base":"пирожн*","type":"","sweetness":"сладкое","ingredient":""}
+105;мороженое;{"title":"мороженое","acc":"мороженое","base":"морожен*","type":"десерт","sweetness":"сладкое","ingredient":"из молока"}
+106;тирамису;{"title":"тирамису","acc":"","base":"тирамису","type":"десерт","sweetness":"сладкое","ingredient":""}
+107;панакотта;{"title":"панакотта","acc":"","base":"панакот*","type":"десерт","sweetness":"сладкое","ingredient":""}
+108;торт;{"title":"торт","acc":"","base":"торт*","type":"","sweetness":"сладкое","ingredient":""}
+109;чизкейк;{"title":"чизкейк","acc":"","base":"чизкейк*","type":"","sweetness":"сладкое","ingredient":""}
+110;пирог;{"title":"пирог","acc":"пироги","base":"пирог*","type":"выпечка","sweetness":"","ingredient":"из муки"}
+111;пирожок;{"title":"пирожок","acc":"пирожки","base":"пирож*","type":"выпечка","sweetness":"","ingredient":"из муки"}
+112;плюшка;{"title":"плюшка","acc":"плюшки","base":"плюшк*","type":"выпечка","sweetness":"сладкое","ingredient":"из муки"}
+113;печенье;{"title":"печенье","acc":"печенье","base":"печен*","type":"выпечка","sweetness":"сладкое","ingredient":"из муки"}
+114;выпечка;{"title":"выпечка","acc":"выпечку","base":"выпечк*","type":"","sweetness":"","ingredient":"из муки"}
+115;круассан;{"title":"круассан","acc":"круассан","base":"круассан*","type":"выпечка","sweetness":"сладкое","ingredient":"из муки"}
+116;булочка;{"title":"булочка","acc":"булочки","base":"булочк*","type":"выпечка","sweetness":"сладкое","ingredient":"из муки"}
+117;салат;{"title":"салат","acc":"","base":"салат*","type":"","sweetness":"","ingredient":""}
+118;хлеб;{"title":"хлеб","acc":"хлеб","base":"хлеб*","type":"","sweetness":"","ingredient":"из муки"}
+119;масло;{"title":"масло","acc":"масло","base":"масл*","type":"","sweetness":"","ingredient":"из молока"}
+120;блины;{"title":"блины","acc":"блины","base":"блин*","type":"","sweetness":"","ingredient":"из муки"}
+121;пицца;{"title":"пицца","acc":"пиццу","base":"пицц*","type":"","sweetness":"не сладкое","ingredient":""}
+122;суши;{"title":"суши","acc":"суши","base":"суши","type":"","sweetness":"","ingredient":""}
+123;роллы;{"title":"роллы","acc":"роллы","base":"роллы","type":"","sweetness":"","ingredient":""}
+124;макароны по-флотски;{"title":"макароны по-флотски","acc":"макароны по-флотски","base":"макароны по-флотски","type":"","sweetness":"","ingredient":""}
+125;творожная запеканка;{"title":"творожная запеканка","acc":"творожную запеканку","base":"творожная запеканка","type":"","sweetness":"сладкое","ingredient":""}
+126;сырники;{"title":"сырники","acc":"сырники","base":"сырники","type":"","sweetness":"сладкое","ingredient":""}
+127;ежики;{"title":"ёжики","acc":"ёжики","base":"ёжики","type":"","sweetness":"не сладкое","ingredient":"из мяса"}
+128;картофельная запеканка;{"title":"картофельная запеканка","acc":"картофельную запеканку","base":"картофельная запеканка","type":"","sweetness":"не сладкое","ingredient":""}
+129;оладьи;{"title":"оладьи","acc":"оладьи","base":"оладьи","type":"","sweetness":"","ingredient":""}
+130;фрикадельки;{"title":"фрикадельки","acc":"фрикадельки","base":"фрикадельк*","type":"","sweetness":"не сладкое","ingredient":"из мяса"}
+131;сырные шарики;{"title":"сырные шарики","acc":"сырные шарики","base":"сырные шарики","type":"","sweetness":"не сладкое","ingredient":""}
+132;кисель;{"title":"кисель","acc":"кисель","base":"кисель","type":"напиток","sweetness":"сладкое","ingredient":""}
+133;компот;{"title":"компот","acc":"компот","base":"компот","type":"напиток","sweetness":"сладкое","ingredient":""}
+134;рогалик;{"title":"рогалик","acc":"рогалик","base":"рогалик","type":"выпечка","sweetness":"сладкое","ingredient":"из муки"}
+135;наггетсы;{"title":"наггетсы","acc":"наггетсы","base":"наггетс*","type":"","sweetness":"не сладкое","ingredient":"из мяса"}

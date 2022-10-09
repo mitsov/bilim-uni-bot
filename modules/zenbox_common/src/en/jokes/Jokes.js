@@ -1,0 +1,101 @@
+function chooseJoke(){
+    var $client = $jsapi.context().client;
+    var $temp = $jsapi.context().temp;
+    var jokes_array = [
+            "Can a kangaroo jump higher than a house? Of course, a house doesn’t jump at all.",
+        "My dog used to chase people on a bike a lot. It got so bad, finally I had to take his bike away.",
+        "I’m selling my talking parrot. Why? Because yesterday, he tried to sell me.",
+        "Why was 6 afraid of 7? Because 7, 8, 9.",
+        "What did 0 say to 8? Nice belt!",
+        "What does the sun drink out of? – Sunglasses.",
+        "I heard a story about a broken pencil that I'd tell you but it's pointless",
+        "There are three kinds of people: those who can count and those who can’t.",
+        "What did one ocean say to the other? Nothing. It just waved.",
+        "Two muffins in an oven. One says, \"sure is hot in here!\" Other one says, \"Holy smokes! A talking muffin!\"",
+        "What does an astronaut like most about his computer? The space bar!",
+        "Two peanuts were walking down the street. One was asalted.",
+        "I've just opened a new restaurant called Karma. There's no menu, we just give you what you deserve.",
+        "I had a dream I was a muffler and I woke up exhausted.",
+        "Today I gave my dead batteries away... Free of charge.",
+        "If you are running next to me on the treadmill, the answer is YES, we are racing.",
+        "Being honest may not get you a lot of FRIENDS but it'll always get you the RIGHT ONES.",
+        "I'm going to stand outside. So if anyone asks, I am outstanding.",
+        "I'm so bright my mother calls me son.",
+        "Pencil sharpeners have a tough life.... they live off tips.",
+        "My eyelids are so sexy, I can't keep my eyes off them.",
+        "I am going bananas. Thats what i say to my bananas before i leave the house.",
+        "What fits your schedule better... Exercising 1 hour a day or being fat 24 hours a day?",
+        "I heard a story about a broken pencil that I'd tell you but it's pointless.",
+        "Silence is golden, Duct tape is silver.",
+        "If you think of a better fish pun. Let minnow.",
+        "I tried to catch some fog earlier. I mist.",
+        "Change is hard. Have you ever tried to bend a coin?",
+        "If money dosnt grow on trees why do banks have branches?",
+        "A butcher goes on a first date and says 'It was nice meating you'.",
+        "Two lumps of vomit are flying through the air one says to the other 'you look upset' the other one says 'I know i was brought up around here'.",
+        "2 Pacs of Eminems for 50 Cents? Man that's Ludacris.",
+        "I can't believe I got fired from the calendar factory. All I did was take a day off.",
+        "I wonder if earth makes fun of other planets for having no life.",
+        "It's been scientifically proven that too many birthdays can kill you!",
+        "I hated my job as an origami teacher. Too much paperwork.",
+        "I love pressing F5. It's so refreshing.",
+        "I moustache you a question, but I'll shave it for later.",
+        "To steal ideas from one person is plagiarism. To steal from many is research.",
+        "Want to hear a dirty joke? A kid jumped into a mud puddle. Want to hear a clean joke? A kid jumped into the bath.",
+        "What is the best season to jump on a trampoline? - Spring time.",
+        "What is the strongest creature in the world? The snail. It carries its whole house on its back.",
+        "What should you put on the tomb stone of a mathematician? - He didn't count with this...",
+        "Where do pencils spend their vacations? - In Pencilvania.",
+        "Why did the cow cross the road? - It wanted to go to the mooovies.",
+        "Why did the teacher have to visit the eye specialist? - She just couldn't control her pupils!",
+        "What weighs more, a ton of bricks or a ton of feathers? - Neither of them, they both weigh a ton!",
+        "What button is it impossible to unbutton? - The belly button!",
+        "What did 0 say to 8? - Hey, nice belt!",
+        "What can you serve but should never eat? - A tennis ball.",
+        "What happens when a cat wins a dog show? - A CAT-HAS-TROPHY!",
+        "What do you get when you cross-breed a skunk and a vegetable? - A smellery.",
+        "What do teachers and clouds have in common? - Everything brightens up when they go away.",
+        "What does an astronaut like most about his computer? - The space bar!",
+        "What should you serve a shark with his peanut butter? - A Jellyfish!",
+        "What was Camelot, really? - It was a place for everybody to park their camels!",
+        "Why did the bird have to go to the hospital? - He was scheduled for a tweetment.",
+        "When do you stop at green and go full speed at red? - When you're enjoying a watermelon!",
+        "How can you open a banana? - With a monkey!",
+        "What begins with P, ends with E, and has a gazillion letters in it? - The Post Office!",
+        "What do lawyers usually wear when they go to court? - Lawsuits!",
+        "What did one plate say to his friend? - Tonight, dinner’s on me!",
+        "How do you start a communication with a fish? - You drop him a line!",
+        "What spends its days lying about on the ground but never gets dirty? - A shadow.",
+        "What did the alien ask the garden? - Take me to your weeder.",
+        "When is the best time to go see the dentist? - Some time before tooth-hurty.",
+        "What did the traffic light said to car? - Can you look away? I’m changing.",
+        "Why do hens lay eggs? Because if they were throwing them, they’d break!",
+        "Why do some fish live in salt water? - Because pepper water would make them sneeze!",
+        "Why did the teacher have to put the lights on? - His class was too dim!",
+        "What is the most important skill when you want to work in an orange juice factory? - You have to learn how to concentrate!",
+        "Why did the guy store his money in the freezer? - He loved cold, hard cash!",
+        "Why did the banana have to go see the doctor? - It was not peeling very well.",
+        "Why did the triangle refuse to be friends with the circle? - It found the circle pointless.",
+        "They expelled me from school on pyjama day. But how is it my fault?! I just sleep naked!",
+        "Why was the knight running around, yelling for a tin opener? - There was a bee in his suit of armor!",
+        "Where do bulls exchange their messages? - On a bull-etin board.",
+        "Snake’s last words? Oh drat, I bit my tongue!",
+        "How does a celebrity stay cool? - By keeping close to his fans.",
+        "Why do birds fly to warmer climates for the winter? - It’s much easier for them than walking!",
+        "Why did the picture have to go to prison? - It was framed.",
+        "Why is it impossible to trust atoms? - They make up everything!",
+        "Why did the bee marry? - He’s finally found his honey."
+    ];  
+
+    if (!$client.jokes) {
+        $client.jokes = jokes_array;
+    } 
+
+    if ($client.jokes.length == 0){
+        $temp.nextState = '../JokesHaveEnded';
+    } else {
+        $temp.answer = selectRandomArg.apply(this, $client.jokes);
+        var id = $client.jokes.indexOf($temp.answer);
+        $client.jokes.splice(id, 1);
+    }
+}

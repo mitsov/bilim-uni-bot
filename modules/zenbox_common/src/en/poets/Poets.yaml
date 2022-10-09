@@ -1,0 +1,31 @@
+descriptor:
+  
+  id: poets
+  title: Poets and poems
+  theme: Poets
+  summary: The best poems by famous poets
+  description: Tells poems and some facts about poets' lives.
+  labels: ["poet", "poem", "poeme","poetry"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/poems.png
+  background: eb7354
+  price: 0.40
+
+  samples:
+    - Tell me a Shakespeare's sonnet
+    - 'Listen to the 22th sonnet "So is it not with me as with that Muse"'
+    - "He was born in Stratford-upon-Avon and baptised there on 26 April 1564"
+    - You are so smart!
+
+#entryPoint: en/poets/Poets.sc 
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

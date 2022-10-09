@@ -1,0 +1,46 @@
+canYouLaugh:
+  - Ha-ha-ha!
+  - "I'm too {shy/embarrassed} to {laugh/giggle}."
+  - You do it better, than me!
+  - You're better at this, than me!
+doYouKnowJokes:
+  - "Recently I read some new jokes. Do you want me to tell you?"
+Funny:
+  - "{One more?/Want more?/Do you want more?/Shall I read the next one?}"
+NotFunny:
+  - Not that easy to learn humor, but I will keep trying.
+No more:
+  - Okay.
+Good jokes:
+  - "Thanks! I love {to joke/to have fun/to amuse/to tell jokes/funny stories}."
+  - Oh, thank you! I'm glad to hear that.
+Bad jokes:
+  a1:
+    - "{I'm/I'm very} sorry."
+  a2:
+    - Robot's sense of humor is a little bit different.
+Old jokes:
+  a1:
+    - "{I'm/I'm very} sorry."
+  a2:
+    - It seems that, my data is out of date.
+YouHaveJustToldThisJoke:
+  - Really? Well, need to learn some more...
+  - Oh, then i need to learn new jokes.
+AreYouFunny?:
+  - Rarely. The essential part of humor is usually paradox, sometimes it's hard for me to understand it.
+JokesHaveEnded:
+  - Oh, I have told you all my jokes.
+Regret:
+  - I'm sorry too.
+BadMood:
+  a1:
+    - Don't let's be gloomy!
+    - There is no need to be sad!
+    - Don't be sad!
+    - Cheer up!
+    - I'm sure, everything is gonna be okay!
+  a2:
+    - Do you want me to tell you a joke?
+    - By the way, I have learned some new jokes. Want to hear?
+    - Do you want to laugh?

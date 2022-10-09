@@ -1,0 +1,39 @@
+descriptor:
+  id: converterUnitConverter
+  title: Unit converter
+  theme: UnitConverter
+  summary: Conversion of units
+  description: Converts units of time, weight, length and computer data.
+  labels: ["unit converter"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/unitConverter.png
+  background: 961523
+  price: 0.40
+
+  samples:
+    - Переведи мне 2 часа в минуты
+    - 2 часа – это 120 минут.
+    - А в секунды?
+    - 2 часа – это 7200 секунд или 120 минут.
+
+    - Конвертируй шесть килограмм в граммы
+    - 6 килограмм – это 6000 грамм.
+
+    - Переведи 55 километров в метры
+    - 55 километров – это 55000 метров.
+    
+    - Сколько в одном гигабайте байт?
+    - 1 гигабайт – это 1073741824 байта или 8 гигабит.
+
+entryPoint: ru/unitConverter/UnitConverter.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

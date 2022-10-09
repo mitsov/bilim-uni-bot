@@ -1,0 +1,31 @@
+descriptor:
+  id: callback
+  title: Callback
+  theme: Callback
+  summary: Callback
+  description: Receives message with request to call from child to parents.
+  labels: ["callback"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/notifications.png
+  background: c83737
+  price: 0.40
+
+  samples:
+    - Call Daddy
+    - "I texted him to call back"
+
+    - Where is Mommy?
+    - "Maybe she is busy. I will text her that you are bored."
+
+#entryPoint: en/callbackCallback.sc
+module: zenbox_common 
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

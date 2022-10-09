@@ -1,0 +1,32 @@
+descriptor:
+  id: why
+  title: Why questions
+  theme: WhyQuestion
+  summary: Do you know why?
+  description: Asks why is something the way it is and gives the right answer.
+  labels: ["questions"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/why.png
+  background: 1b3253
+  price: 0.40
+
+  samples:
+    - Cпроси меня почему
+    - Дружище! А знаешь ли ты, почему Земля вращается вокруг своей оси?
+    - Не знаю
+    - Компьютер говорит, что cамая распространённая теория объясняет это процессами, шедшими во времена образования планет. Облака космической пыли 'сбивались в кучу', образуя зародыши планет, к ним притягивались другие более или менее крупные космические тела. Столкновения с этими телами и могли придать вращение будущим планетам. А дальше планеты продолжали вращаться по инерции.
+    - Нет, неправда
+    - "Такое бывает: мы просто не сошлись во мнениях. Как тебя зовут?"
+
+entryPoint: ru/why/Why.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

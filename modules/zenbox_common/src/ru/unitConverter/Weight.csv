@@ -1,0 +1,7 @@
+0;Килограмм,кг;{"title":"килограмм","ratio":1,"idLess":"1","class":"weight","conform":{"singNomn":"килограмм","singGent":"килограмма","singLoct":"килограмме","plurNomn":"килограммы","plurGent":"килограммов","plurLoct":"килограммах"}}
+1;Грамм,грам;{"title":"грамм","ratio":0.001,"idLess":"2","class":"weight","conform":{"singNomn":"грамм","singGent":"грамма","singLoct":"грамме","plurNomn":"граммы","plurGent":"граммов","plurLoct":"граммах"}}
+2;Миллиграмм,мг;{"title":"миллиграмм","ratio":0.000001,"class":"weight","conform":{"singNomn":"миллиграмм","singGent":"миллиграмма","singLoct":"миллиграмме","plurNomn":"миллиграммы","plurGent":"миллиграммов","plurLoct":"миллиграммах"}}
+3;Унция;{"title":"унция","ratio":0.028349523124999946,"idLess":"1","group":"En","localratio":16,"class":"weight","conform":{"singNomn":"унция","singGent":"унции","singLoct":"унции","plurNomn":"унции","plurGent":"унций","plurLoct":"унциях"}}
+4;Фунт;{"title":"фунт","ratio":0.453592369999995,"idLess":"3","group":"En","localratio":1,"class":"weight","conform":{"singNomn":"фунт","singGent":"фунта","singLoct":"фунте","plurNomn":"фунты","plurGent":"фунтов","plurLoct":"фунтах"}}
+5;Тонна;{"title":"тонна","ratio":1000,"idLess":"0","class":"weight","conform":{"singNomn":"тонна","singGent":"тонны","singLoct":"тонне","plurNomn":"тонны","plurGent":"тонн","plurLoct":"тоннах"}}
+6;Карат;{"title":"карат","ratio":0.0002,"class":"weight","conform":{"singNomn":"карат","singGent":"карата","singLoct":"карате","plurNomn":"караты","plurGent":"каратов","plurLoct":"каратах"}}

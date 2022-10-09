@@ -1,0 +1,10 @@
+name: Openweathermap
+description: Information about the weather from openweathermap.org
+category: Weather
+color: 2c89a0
+language: ru
+samples: А какой у нас прогноз погоды?, 7 сентября в Чикаго какая будет погода?, Погода сегодня ясная?
+
+parameters:
+  - name: apiKey
+    title: Openweathermap API Access Token

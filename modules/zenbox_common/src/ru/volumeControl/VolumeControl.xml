@@ -1,0 +1,93 @@
+<test>
+    <test-case>
+        <q>Выключи звук.</q>
+        <responseData>{ 
+            currentVolume: 0
+        }</responseData>
+        <a>Звук выключен.</a>
+        <q>Включи звук.</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 20
+        }</responseData>
+        <a>Звук включён.</a>
+        <q>громче</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 40
+        }</responseData>
+        <a>Громкость увеличена.</a>
+        <q>ещё</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 60
+        }</responseData>
+        <a>Громкость увеличена.</a>
+        <q>ещё</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 80
+        }</responseData>
+        <a>Громкость увеличена.</a>
+        <q>ещё</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 100
+        }</responseData>
+        <a>Установлена максимальная громкость.</a>
+        <q>Установи минимальнгую громкость</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 20
+        }</responseData>
+        <a>Установлена минимальная громкость.</a>
+        <q>тише</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 0
+        }</responseData>
+        <a>Звук выключен.</a>
+        <q>сделай звук на максимум</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 100
+        }</responseData>
+        <a>Установлена максимальная громкость.</a>
+        <q>громче</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 100
+        }</responseData>
+        <a>Установлена максимальная громкость.</a>
+        <q>на минимум</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 20
+        }</responseData>
+        <a>Установлена минимальная громкость.</a>
+        <q>минимальная громкость</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 20
+        }</responseData>
+        <a>Установлена минимальная громкость.</a>
+    </test-case>
+
+    <test-case>
+        <requestData>{currentVolume: 0}</requestData>        
+        <q>включи звук</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 20
+        }</responseData>
+        <a>Звук включён.</a>
+    </test-case>
+
+    <test-case>
+        <requestData>{currentVolume: 60}</requestData>        
+        <q>включи звук</q>
+        <responseData>{action: "changeVolume", currentVolume: 60}</responseData>
+        <a>Звук включён.</a>
+    </test-case>
+    
+</test>

@@ -1,0 +1,439 @@
+﻿<test>
+
+    <!--  state: Set an alarm -->
+    
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>alarm for 1225</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471695900,
+            text: "It's time to get up!"
+        }</responseData>
+        <a state="/Alarm and Timer/Set an alarm">The alarm has been set for 12:25 PM, 20 August</a>
+        <q>no cancel</q>
+        <a>The alarm has been cancelled.</a>
+    </test-case>
+
+    <!-- state: Set a recurring alarm WeekDay -->
+    <!-- <test-case>     
+        <q>Monday Tuesday Wednesday on wake up I'll tell you about it</q>
+        <a state="/Alarm and Timer/Set a recurring alarm WeekDay">At what time do you want to wake up?</a>
+    </test-case> -->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>set an alarm for 9 o'clock</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471683600,
+            text: "It's time to get up!"
+        }</responseData>
+        <a state="/Alarm and Timer/Set an alarm">The alarm has been set for 9:00 AM, 20 August</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>wake me up a 10 pm</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471644000,
+            text: "It's time to get up!"
+        }</responseData>
+        <a state="/Alarm and Timer/Set an alarm">The alarm has been set for 10:00 PM</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>can you wake me up in the morning</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471680000,
+            text: "It's time to get up!"
+        }</responseData>
+        <a state="/Alarm and Timer/Set an alarm">The alarm has been set for 8:00 AM, 20 August</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>put an alarm at 6:15</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471673700,
+            text: "It's time to get up!"
+        }</responseData>
+        <a state="/Alarm and Timer/Set an alarm">The alarm has been set for 6:15 AM, 20 August</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>put an alarm tomorrow</q>
+        <a state="/Alarm and Timer/Set an alarm/WhatTime">At what time do you want to wake up?</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>put an alarm tomorrow at 6:15</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471673700,
+            text: "It's time to get up!"
+        }</responseData>
+        <a state="/Alarm and Timer/Set an alarm">The alarm has been set for 6:15 AM, 20 August</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>put an alarm today at 6:15</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471630500,
+            text: "It's time to get up!"
+        }</responseData>
+        <a state="/Alarm and Timer/Set an alarm">The alarm has been set for 6:15 PM</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>        
+        <q>wake me up in half an hour</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471528435,
+            text: "It's time to get up!"
+        }</responseData>
+        <a state="/Alarm and Timer/Set an alarm">The alarm has been set for 1:53 PM</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>   
+        <q>put alarm at 3</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471575600,
+            text: "It's time to get up!"
+        }</responseData>
+        <a state="/Alarm and Timer/Set an alarm">The alarm has been set for 3:00 AM, 19 August</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>today evening I want to get up at 6:15</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471630500,
+            text: "It's time to get up!"
+        }</responseData>
+        <a state="/Alarm and Timer/Set an alarm">The alarm has been set for 6:15 PM</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>today evening I want to get up at 6:15</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471630500,
+            text: "It's time to get up!"
+        }</responseData>
+        <a state="/Alarm and Timer/Set an alarm">The alarm has been set for 6:15 PM</a>
+        <q>switch off all my alarms</q>
+        <a state="/Alarm and Timer/Remove all alarms">You can cancel your alarms in the mobile app.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime> 
+        <q>today evening I want to get up at 6:15</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471630500,
+            text: "It's time to get up!"
+        }</responseData>
+        <a state="/Alarm and Timer/Set an alarm">The alarm has been set for 6:15 PM</a>
+        <q>switch off my alarm for today 6:15 pm</q>
+        <a state="/Alarm and Timer/Remove an alarm">The alarm has been cancelled.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>   
+        <q>wake me up</q>
+        <a state="/Alarm and Timer/Set an alarm/WhatTime">At what time do you want to wake up?</a>
+    </test-case>
+
+    <!--  state: Set a recurring alarm -->
+
+    <!-- <test-case>
+        <q>wake me up every day at 8 o'clock</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 8,
+            minutes: 0,
+            recurrence: [1,2,3,4,5,6,7]
+        }</responseData>   
+        <a state="/Alarm and Timer/Set a recurring alarm weekEnd">The alarm has been set for 8:00 am every day</a>
+    </test-case>
+
+    <test-case>
+        <q>on sundays wake me up at 10 am</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 10,
+            minutes: 0,
+            recurrence: [7]
+        }</responseData>
+        <a state="/Alarm and Timer/Set a recurring alarm WeekDay">The alarm has been set for 10:00 am every sunday</a>
+    </test-case>
+
+    <test-case>
+        <q>on tuesdays, fridays and saturdays wake me up at 7 45 am</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 7,
+            minutes: 45,
+            recurrence: [2,5,6]
+        }</responseData>
+        <a state="/Alarm and Timer/Set a recurring alarm WeekDay">The alarm has been set for 7:45 am every tuesday, friday and saturday</a>
+    </test-case>
+
+    <test-case>
+        <q>at weekend wake me up at 10</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 10,
+            minutes: 0,
+            recurrence: [6,7]
+        }</responseData>
+        <a state="/Alarm and Timer/Set a recurring alarm weekEnd">The alarm has been set for 10:00 am on weekends</a>
+    </test-case>
+
+    <test-case>
+        <q>set the alarm for 5:00 on weekdays</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 5,
+            minutes: 0,
+            recurrence: [1,2,3,4,5]
+        }</responseData>         
+        <a state="/Alarm and Timer/Set a recurring alarm weekEnd">The alarm has been set for 5:00 am on weekdays</a>
+    </test-case>
+
+    <test-case>
+        <q>every morning wake me up at 8</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 8,
+            minutes: 0,
+            recurrence: [1,2,3,4,5,6,7]
+        }</responseData>   
+        <a state="/Alarm and Timer/Set a recurring alarm weekEnd">The alarm has been set for 8:00 am every day</a>
+    </test-case>
+
+    <test-case>
+        <q>every evening wake me up</q>
+        <a>At what time?</a>
+        <q>at 9</q>
+        <responseData>{ 
+            intent: "alarm_set",
+            hours: 9,
+            minutes: 0,
+            recurrence: [1,2,3,4,5,6,7]
+        }</responseData>   
+        <a state="/Alarm and Timer/Define time for a recurring alarm/Set time for a recurring alarm">The alarm has been set for 9:00 am every day</a>
+    </test-case> -->
+
+    <!--  state: Check an alarm -->
+
+    <test-case>
+        <q>what alarms do you have</q>
+        <a state="/Alarm and Timer/Check an alarm">You can check your alarms in the mobile app.</a>
+    </test-case>
+
+    <test-case>
+        <q>list all my alarms</q>
+        <a state="/Alarm and Timer/Check an alarm">You can check your alarms in the mobile app.</a>
+    </test-case>
+
+    <test-case>
+        <q>tell me about my alarms</q>
+        <a state="/Alarm and Timer/Check an alarm">You can check your alarms in the mobile app.</a>
+    </test-case>
+
+    <test-case>
+        <q>what are my alarms</q>
+        <a state="/Alarm and Timer/Check an alarm">You can check your alarms in the mobile app.</a>
+    </test-case>
+
+    <test-case>
+        <q>what are my current alarms</q>
+        <a state="/Alarm and Timer/Check an alarm">You can check your alarms in the mobile app.</a>
+    </test-case>
+
+    <test-case>
+        <q>tell me what alarms I have</q>
+        <a state="/Alarm and Timer/Check an alarm">You can check your alarms in the mobile app.</a>
+    </test-case>
+
+    <!--  state: Remove an alarm -->
+
+    <!-- <test-case>
+        <q>don't wake me up</q>
+        <a state="/Alarm and Timer/Remove an alarm">You can cancel your alarms in the mobile app</a>
+    </test-case>
+
+    <test-case>
+        <q>delete my alarm</q>
+        <a state="/Alarm and Timer/Remove an alarm">You can cancel your alarms in the mobile app</a>
+    </test-case>
+
+    <test-case>
+        <q>cancel my alarms</q>
+        <a state="/Alarm and Timer/Remove an alarm">You can cancel your alarms in the mobile app</a>
+    </test-case>
+
+    <test-case>
+        <q>i want to remove all alarms</q>
+        <a state="/Alarm and Timer/Remove an alarm">You can cancel your alarms in the mobile app</a>
+    </test-case>
+
+    <test-case>
+        <q>remove my 8 o'clock alarm</q>
+        <a state="/Alarm and Timer/Remove an alarm">You can cancel your alarms in the mobile app</a>
+    </test-case>
+
+    <test-case>
+        <q>switch off all my alarms for today </q>
+        <a state="/Alarm and Timer/Remove an alarm">You can cancel your alarms in the mobile app</a>
+    </test-case> -->
+
+
+    <!-- state: Set a timer -->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>start a timer for 5 minutes</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471613335,
+            text: "Your timer is up."
+        }</responseData>           
+        <a state="/Alarm and Timer/Set a timer">Your timer will go off in 5 minutes</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>start a 10 minutes timer</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471613635,
+            text: "Your timer is up."
+        }</responseData>           
+        <a state="/Alarm and Timer/Set a timer">Your timer will go off in 10 minutes</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>set a timer 10 minutes</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471613635,
+            text: "Your timer is up."
+        }</responseData>           
+        <a state="/Alarm and Timer/Set a timer">Your timer will go off in 10 minutes</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>start timer on 5 minutes</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471613335,
+            text: "Your timer is up."
+        }</responseData>           
+        <a>Your timer will go off in 5 minutes</a>
+        <q>cancel</q>
+        <a>The timer has been cancelled.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>set a timer 10 minutes</q>
+        <responseData>{ 
+            action: "addAlarm",
+            id: 0,
+            timer: 1471613635,
+            text: "Your timer is up."
+        }</responseData>           
+        <a state="/Alarm and Timer/Set a timer">Your timer will go off in 10 minutes</a>
+        <q>stop the timer</q>
+        <a>The timer has been cancelled.</a>
+    </test-case>
+
+    <!-- state: Check timers -->
+
+    <test-case>
+        <q>what timers do i have</q>
+        <a state="/Alarm and Timer/Check timers">You can check your timers in the mobile app.</a>
+    </test-case>
+
+    <test-case>
+        <q>list all my timers</q>
+        <a state="/Alarm and Timer/Check timers">You can check your timers in the mobile app.</a>
+    </test-case>
+
+    <test-case>
+        <q>what timers do you have</q>
+        <a state="/Alarm and Timer/Check timers">You can check your timers in the mobile app.</a>
+    </test-case>
+
+    <test-case>
+        <q>are any timers on</q>
+        <a state="/Alarm and Timer/Check timers">You can check your timers in the mobile app.</a>
+    </test-case>
+
+    <test-case>
+        <q>do you have any timers set</q>
+        <a state="/Alarm and Timer/Check timers">You can check your timers in the mobile app.</a>
+    </test-case>
+
+    <!-- state: Remove a timer -->
+
+    <test-case>
+        <q>stop the timer</q>
+        <a state="/Alarm and Timer/Remove a timer">There is no such timer.</a>
+    </test-case>
+
+    <!-- <test-case>
+        <q>stop the timer</q>
+        <a state="/Alarm and Timer/Remove a timer">You can cancel your timers in the mobile app</a>
+    </test-case>
+
+    <test-case>
+        <q>remove all my timers</q>
+        <a state="/Alarm and Timer/Remove a timer">You can cancel your timers in the mobile app</a>
+    </test-case>
+
+    <test-case>
+        <q>i want to delete my timer</q>
+        <a state="/Alarm and Timer/Remove a timer">You can cancel your timers in the mobile app</a>
+    </test-case>
+
+    <test-case>
+        <q>switch the timer off</q>
+        <a state="/Alarm and Timer/Remove a timer">You can cancel your timers in the mobile app</a>
+    </test-case> -->
+
+</test>

@@ -1,0 +1,31 @@
+descriptor:
+
+  id: Celebrations
+  title: Celebrations
+  theme: Holidays
+  summary: Helps to study the world holiday traditions 
+  description: Learn traditions with children and enjoy the holidays together. Illusrtations included. 
+  labels: ["holidays", "traditions"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/Celebrations.png
+  background: 008066
+  price: 0.20
+
+  samples:
+    - When is Hanukkah this year?
+    - "In 2018, Hanukkah begins at sundown on Sunday, Dec. 2 and lasts until sundown on Monday, Dec. 10."
+    - How do we celebrate Hanukkah?
+    - "Hanukkah is celebrated at home by lighting the menorah (each night we light one additional candle to the number from the previous night), playing dreidel, and eating special foods."
+  
+#entryPoint: en/celebrations/Celebrations.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

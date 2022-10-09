@@ -1,0 +1,201 @@
+<test>
+
+
+    <mockData> <!-- near spb today 04.04.18 -->
+        <query method="get">http://api.openweathermap.org/data/2.5/weather?APPID=9a51a8d7beacb147583d431484802d9b&amp;units=imperial&amp;lang=en&amp;lat=60&amp;lon=30</query>
+        <response type="json" status="200">{"coord":{"lon":30,"lat":60},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":44.6,"pressure":1012,"humidity":48,"temp_min":44.6,"temp_max":44.6},"visibility":10000,"wind":{"speed":13.42,"deg":150},"clouds":{"all":40},"dt":1522854000,"sys":{"type":1,"id":7267,"message":0.0107,"country":"RU","sunrise":1522811693,"sunset":1522860737},"id":534841,"name":"Lisiy Nos","cod":200}</response>
+    </mockData>
+    <mockData> <!-- chicago today 04.04.18 -->
+        <query method="get">http://api.openweathermap.org/data/2.5/weather?APPID=9a51a8d7beacb147583d431484802d9b&amp;units=imperial&amp;lang=en&amp;lat=41.85003&amp;lon=-87.65005</query>
+        <response type="json" status="200">{"coord":{"lon":-87.65,"lat":41.85},"weather":[{"id":803,"main":"Clouds","description":"broken clouds","icon":"04d"}],"base":"stations","main":{"temp":29.86,"pressure":1018,"humidity":58,"temp_min":26.6,"temp_max":32},"visibility":16093,"wind":{"speed":21.92,"deg":310,"gust":15.9},"clouds":{"all":75},"dt":1522854900,"sys":{"type":1,"id":961,"message":0.0024,"country":"US","sunrise":1522841232,"sunset":1522887611},"id":4887398,"name":"Chicago","cod":200}</response>
+    </mockData>
+    <mockData> <!-- tokyo today 04.04.18 -->
+        <query method="get">http://api.openweathermap.org/data/2.5/weather?APPID=9a51a8d7beacb147583d431484802d9b&amp;units=imperial&amp;lang=en&amp;lat=35.6895&amp;lon=139.69171</query>
+        <response type="json" status="200">{"coord":{"lon":139.69,"lat":35.69},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01n"}],"base":"stations","main":{"temp":57.24,"pressure":1016,"humidity":50,"temp_min":55.4,"temp_max":59},"visibility":16093,"wind":{"speed":11.41,"deg":70,"gust":9.3},"clouds":{"all":1},"dt":1522857360,"sys":{"type":1,"id":7622,"message":0.0043,"country":"JP","sunrise":1522787002,"sunset":1522832729},"id":1850144,"name":"Tōkyō-to","cod":200}</response>
+    </mockData>
+    <mockData> <!-- london today 04.04.18 -->
+        <query method="get">http://api.openweathermap.org/data/2.5/weather?APPID=9a51a8d7beacb147583d431484802d9b&amp;units=imperial&amp;lang=en&amp;lat=51.50853&amp;lon=-0.12574</query>
+        <response type="json" status="200">{"coord":{"lon":-0.13,"lat":51.51},"weather":[{"id":521,"main":"Rain","description":"shower rain","icon":"09d"}],"base":"stations","main":{"temp":50.54,"pressure":992,"humidity":76,"temp_min":48.2,"temp_max":51.8},"visibility":10000,"wind":{"speed":18.34,"deg":210},"clouds":{"all":75},"dt":1522857000,"sys":{"type":1,"id":5168,"message":0.0109,"country":"GB","sunrise":1522819674,"sunset":1522867186},"id":2643743,"name":"London","cod":200}</response>
+    </mockData>
+    <mockData> <!-- paris today 04.04.18 -->
+        <query method="get">http://api.openweathermap.org/data/2.5/weather?APPID=9a51a8d7beacb147583d431484802d9b&amp;units=imperial&amp;lang=en&amp;lat=48.85341&amp;lon=2.3488</query>
+        <response type="json" status="200">{"coord":{"lon":2.35,"lat":48.85},"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"base":"stations","main":{"temp":51.8,"pressure":1000,"humidity":81,"temp_min":50,"temp_max":53.6},"visibility":10000,"wind":{"speed":11.41,"deg":210},"clouds":{"all":92},"dt":1522857600,"sys":{"type":1,"id":5617,"message":0.0024,"country":"FR","sunrise":1522819261,"sunset":1522866403},"id":2988507,"name":"Paris","cod":200}</response>
+    </mockData>
+
+
+    <mockData> <!-- chicago forecast -->
+        <query method="get">http://api.openweathermap.org/data/2.5/forecast/daily?cnt=16&amp;APPID=9a51a8d7beacb147583d431484802d9b&amp;units=imperial&amp;lang=en&amp;lat=41.85003&amp;lon=-87.65005</query>
+        <response type="json" status="200">{"city":{"id":4887398,"name":"Chicago","coord":{"lon":-87.6501,"lat":41.85},"country":"US","population":2695598},"cod":"200","message":0.0921219,"cnt":16,"list":[{"dt":1522861200,"temp":{"day":33.71,"min":29.7,"max":36.14,"night":29.7,"eve":35.62,"morn":29.86},"pressure":1010.83,"humidity":100,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":16.69,"deg":312,"clouds":8,"snow":0.03},{"dt":1522947600,"temp":{"day":32.7,"min":27.16,"max":35.74,"night":30.7,"eve":35.74,"morn":27.16},"pressure":1012.87,"humidity":100,"weather":[{"id":600,"main":"Snow","description":"light snow","icon":"13d"}],"speed":7.07,"deg":205,"clouds":88,"snow":0.31},{"dt":1523034000,"temp":{"day":32.59,"min":25.79,"max":34.72,"night":25.79,"eve":28.35,"morn":31.33},"pressure":1005.43,"humidity":100,"weather":[{"id":600,"main":"Snow","description":"light snow","icon":"13d"}],"speed":18.34,"deg":305,"clouds":92,"snow":0.53},{"dt":1523120400,"temp":{"day":27.23,"min":12.69,"max":30.16,"night":22.77,"eve":30.16,"morn":12.69},"pressure":1012.85,"humidity":0,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":6.89,"deg":322,"clouds":0,"snow":0.01},{"dt":1523206800,"temp":{"day":37.98,"min":24.01,"max":37.98,"night":32.34,"eve":35.31,"morn":24.01},"pressure":1005.36,"humidity":0,"weather":[{"id":601,"main":"Snow","description":"snow","icon":"13d"}],"speed":6.6,"deg":182,"clouds":83,"rain":1.46,"snow":2.86},{"dt":1523293200,"temp":{"day":35.69,"min":28.76,"max":35.69,"night":28.76,"eve":35.55,"morn":31.96},"pressure":996.12,"humidity":0,"weather":[{"id":601,"main":"Snow","description":"snow","icon":"13d"}],"speed":6.29,"deg":81,"clouds":100,"snow":4.04},{"dt":1523379600,"temp":{"day":40.8,"min":31.64,"max":40.8,"night":37.65,"eve":39.92,"morn":31.64},"pressure":1011.25,"humidity":0,"weather":[{"id":600,"main":"Snow","description":"light snow","icon":"13d"}],"speed":6.35,"deg":133,"clouds":80,"rain":0.55,"snow":0.13},{"dt":1523466000,"temp":{"day":45.88,"min":31.33,"max":45.88,"night":31.33,"eve":42.51,"morn":38.79},"pressure":1004.47,"humidity":0,"weather":[{"id":502,"main":"Rain","description":"heavy intensity rain","icon":"10d"}],"speed":5.66,"deg":112,"clouds":94,"rain":19.95},{"dt":1523552400,"temp":{"day":52.84,"min":29.64,"max":59.02,"night":59.02,"eve":57.49,"morn":29.64},"pressure":1013.19,"humidity":0,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":14.09,"deg":149,"clouds":5},{"dt":1523638800,"temp":{"day":78.35,"min":67.1,"max":78.87,"night":73.29,"eve":78.87,"morn":67.1},"pressure":999.12,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":22.19,"deg":223,"clouds":1,"rain":0.32},{"dt":1523725200,"temp":{"day":78.21,"min":71.1,"max":78.21,"night":72.54,"eve":77.22,"morn":71.1},"pressure":998.1,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":22.26,"deg":216,"clouds":52,"rain":1.01},{"dt":1523811600,"temp":{"day":50.9,"min":45.14,"max":62.13,"night":45.14,"eve":52.92,"morn":62.13},"pressure":997.77,"humidity":0,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":12.26,"deg":335,"clouds":99,"rain":9},{"dt":1523898000,"temp":{"day":57.22,"min":41.14,"max":57.22,"night":46.81,"eve":54,"morn":41.14},"pressure":996.45,"humidity":0,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":10.76,"deg":244,"clouds":18,"rain":5.29},{"dt":1523984400,"temp":{"day":55.06,"min":44.44,"max":55.06,"night":44.44,"eve":51.39,"morn":45.3},"pressure":996.41,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":19.26,"deg":281,"clouds":2,"rain":0.47},{"dt":1524070800,"temp":{"day":45.77,"min":35.33,"max":45.77,"night":42.91,"eve":42.91,"morn":35.33},"pressure":1012.06,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":6.38,"deg":107,"clouds":99,"rain":2.33},{"dt":1522774800,"temp":{"day":29.86,"min":29.86,"max":29.86,"night":29.86,"eve":29.86,"morn":29.86},"pressure":1008.94,"humidity":100,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":21.5,"deg":313,"clouds":12}]}</response>
+    </mockData>
+    <mockData> <!-- sibay forecast thursday 05.04.18-->
+        <query method="get">http://api.openweathermap.org/data/2.5/forecast/daily?cnt=16&amp;APPID=9a51a8d7beacb147583d431484802d9b&amp;units=imperial&amp;lang=en&amp;lat=52.71806&amp;lon=58.66583</query>
+        <response type="json" status="200">{"list":[{"dt":1522915200,"temp":{"day":35.46,"min":28.15,"max":35.46,"night":31.84,"eve":33.75,"morn":28.15},"pressure":976.76,"humidity":98,"weather":[{"id":601,"main":"Snow","description":"snow","icon":"13d"}],"speed":6.96,"deg":65,"clouds":92,"snow":9.05}]}</response>
+    </mockData>
+    <mockData> <!-- near spb forecast -->
+        <query method="get">http://api.openweathermap.org/data/2.5/forecast/daily?cnt=16&amp;APPID=9a51a8d7beacb147583d431484802d9b&amp;units=imperial&amp;lang=en&amp;lat=60&amp;lon=30</query>
+        <response type="json" status="200">{"list":[{"dt":1522836000,"temp":{"day":44.6,"min":39.65,"max":44.6,"night":39.65,"eve":43.45,"morn":44.6},"pressure":1024.89,"humidity":81,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":5.73,"deg":128,"clouds":0},{"dt":1522922400,"temp":{"day":43.74,"min":38.86,"max":46.06,"night":41.47,"eve":45,"morn":38.86},"pressure":1019.16,"humidity":90,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":8.75,"deg":155,"clouds":12,"rain":0.65},{"dt":1523008800,"temp":{"day":41.32,"min":31.23,"max":42.44,"night":31.23,"eve":39.31,"morn":42.44},"pressure":1012.92,"humidity":93,"weather":[{"id":600,"main":"Snow","description":"light snow","icon":"13d"}],"speed":8.32,"deg":234,"clouds":68,"rain":6.99,"snow":0.04},{"dt":1523095200,"temp":{"day":36.81,"min":32.23,"max":37.36,"night":32.23,"eve":36.41,"morn":33.33},"pressure":1027.94,"humidity":82,"weather":[{"id":600,"main":"Snow","description":"light snow","icon":"13d"}],"speed":19.3,"deg":284,"clouds":0,"snow":0.26},{"dt":1523181600,"temp":{"day":44.71,"min":34.56,"max":47.46,"night":47.46,"eve":46.89,"morn":34.56},"pressure":1021.84,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":9.78,"deg":191,"clouds":88,"rain":0.36},{"dt":1523268000,"temp":{"day":55.9,"min":48.9,"max":55.9,"night":49.23,"eve":52.07,"morn":48.9},"pressure":1014.2,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":12.1,"deg":212,"clouds":20,"rain":0.42},{"dt":1523354400,"temp":{"day":44.96,"min":36.59,"max":46.13,"night":36.59,"eve":37.92,"morn":46.13},"pressure":1014.08,"humidity":0,"weather":[{"id":502,"main":"Rain","description":"heavy intensity rain","icon":"10d"}],"speed":3.94,"deg":353,"clouds":96,"rain":13.3},{"dt":1523440800,"temp":{"day":38.97,"min":31.35,"max":38.97,"night":31.35,"eve":33.19,"morn":34.59},"pressure":1019.56,"humidity":0,"weather":[{"id":600,"main":"Snow","description":"light snow","icon":"13d"}],"speed":5.91,"deg":333,"clouds":43,"rain":0.45,"snow":0.04},{"dt":1523527200,"temp":{"day":42.51,"min":34.39,"max":42.51,"night":40.57,"eve":41.77,"morn":34.39},"pressure":1013.04,"humidity":0,"weather":[{"id":600,"main":"Snow","description":"light snow","icon":"13d"}],"speed":7.87,"deg":172,"clouds":0,"rain":2.69,"snow":0.09},{"dt":1523613600,"temp":{"day":46.04,"min":34.59,"max":46.04,"night":34.59,"eve":38.21,"morn":39.76},"pressure":1003.61,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":6.29,"deg":252,"clouds":13,"rain":1.77},{"dt":1523700000,"temp":{"day":42.84,"min":34.02,"max":42.84,"night":34.02,"eve":38.97,"morn":39.18},"pressure":1004.35,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":3.13,"deg":100,"clouds":78,"rain":2.5},{"dt":1523782800,"temp":{"day":47.19,"min":38.7,"max":47.19,"night":40.5,"eve":42.53,"morn":38.7},"pressure":1020.47,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":5.19,"deg":229,"clouds":8,"rain":0.41},{"dt":1523869200,"temp":{"day":50.59,"min":42.71,"max":50.59,"night":48.06,"eve":48.31,"morn":42.71},"pressure":1022.78,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":4.07,"deg":102,"clouds":62,"rain":0.82},{"dt":1523955600,"temp":{"day":58.17,"min":43.56,"max":58.17,"night":43.56,"eve":52.54,"morn":50.14},"pressure":1019.44,"humidity":0,"weather":[{"id":501,"main":"Rain","description":"moderate rain","icon":"10d"}],"speed":4.97,"deg":181,"clouds":42,"rain":4.8},{"dt":1524042000,"temp":{"day":47.3,"min":36.79,"max":47.3,"night":36.79,"eve":40.73,"morn":42.1},"pressure":1020.94,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":8.77,"deg":268,"clouds":9,"rain":0.6},{"dt":1524128400,"temp":{"day":36.79,"min":36.79,"max":36.79,"night":36.79,"eve":36.79,"morn":36.79},"pressure":1020.48,"humidity":0,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01ddd"}],"speed":4.97,"deg":305,"clouds":38}]}</response>
+    </mockData>
+    <mockData> <!-- paris forecast 06.04.18 -->
+        <query method="get">http://api.openweathermap.org/data/2.5/forecast/daily?cnt=16&amp;APPID=9a51a8d7beacb147583d431484802d9b&amp;units=imperial&amp;lang=en&amp;lat=48.85341&amp;lon=2.3488</query>
+        <response type="json" status="200">{"list":[{"dt":1523012400,"temp":{"day":59.95,"min":40.6,"max":65.23,"night":50.04,"eve":62.29,"morn":40.6},"pressure":1013.34,"humidity":75,"weather":[{"id":800,"main":"Clear","description":"sky is clear","icon":"01d"}],"speed":11.68,"deg":145,"clouds":0}]}</response>
+    </mockData>
+
+    <mockData> <!-- london forecast 10.04.18 -->
+        <query method="get">http://api.openweathermap.org/data/2.5/forecast/daily?cnt=16&amp;APPID=9a51a8d7beacb147583d431484802d9b&amp;units=imperial&amp;lang=en&amp;lat=51.50853&amp;lon=-0.12574</query>
+        <response type="json" status="200">{"list":[{"dt":1523361600,"temp":{"day":51.62,"min":33.89,"max":51.69,"night":45.05,"eve":51.69,"morn":33.89},"pressure":1035.76,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":4.36,"deg":338,"clouds":6},{"dt":1523448000,"temp":{"day":52.65,"min":43.5,"max":57.04,"night":51.42,"eve":57.04,"morn":43.5},"pressure":1029.7,"humidity":0,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":14.14,"deg":253,"clouds":87}]}</response>
+    </mockData>
+
+
+    <mockData> <!-- tokyo forecast 05.04.18 and 07.04.18-->
+        <query method="get">http://api.openweathermap.org/data/2.5/forecast/daily?cnt=16&amp;APPID=9a51a8d7beacb147583d431484802d9b&amp;units=imperial&amp;lang=en&amp;lat=35.6895&amp;lon=139.69171</query>
+        <response type="json" status="200">{"city":{"id":1850144,"name":"Tōkyō-to","coord":{"lon":139.6917,"lat":35.6895},"country":"JP","population":12445327},"cod":"200","message":0.0794443,"cnt":16,"list":[{"dt":1522893600,"temp":{"day":56.59,"min":51.85,"max":60.12,"night":55.89,"eve":58.14,"morn":51.85},"pressure":1032.57,"humidity":74,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":8.75,"deg":73,"clouds":36,"rain":2.99},{"dt":1523066400,"temp":{"day":61.32,"min":52.7,"max":62.82,"night":52.7,"eve":56.88,"morn":62.82},"pressure":1010.69,"humidity":71,"weather":[{"id":500,"main":"Rain","description":"light rain","icon":"10d"}],"speed":21.32,"deg":218,"clouds":76,"rain":1.45}]}</response>
+    </mockData>
+
+    <test-case integration="true">
+        <requestData>{ lat: 60, lon: 30 }</requestData>
+        <q>tell me about the weather</q>
+        <a>It's +45 degrees with scattered clouds.</a>
+    </test-case>
+    <test-case integration="true">
+        <requestData>{ lat: 60, lon: 30 }</requestData>
+        <q>what's the weather forecast</q>
+        <a>It's +45 degrees with scattered clouds.</a>
+    </test-case>
+    <test-case integration="true">
+        <requestData>{ lat: 60, lon: 30 }</requestData>
+        <q>what about the weather</q>
+        <a>It's +45 degrees with scattered clouds.</a>
+    </test-case>
+    <test-case integration="true">
+        <requestData>{ lat: 60, lon: 30 }</requestData>
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>do you know the weather</q>
+        <a>It's +45 degrees with scattered clouds.</a>
+    </test-case>
+    <test-case integration="true">
+        <requestData>{ lat: 60, lon: 30 }</requestData>
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>what's the weather like today</q>
+        <a>It's +45 degrees with scattered clouds.</a>
+    </test-case>
+    <test-case integration="true">
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>what about the weather in Paris</q>
+        <a>In Paris it's +52 degrees with light rain.</a>
+        <q>and in Tokyo</q>
+        <a>In Tokyo it's +57 degrees with clear sky.</a>
+    </test-case>
+    <test-case integration="true">
+        <q>weather in london</q>
+        <a>In London it's +51 degrees with shower rain.</a>
+    </test-case>
+    <test-case integration="true">
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>i want to know tу weather forecast for Tokyo</q>
+        <a>In Tokyo it's +57 degrees with clear sky.</a>
+        <q>and tomorrow</q>
+        <a>On 5th April in Tokyo it's +60 degrees with light rain.</a>
+    </test-case>
+    <test-case integration="true">
+        <requestData>{ lat: 60, lon: 30 }</requestData>
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>what about the weather tomorrow</q>
+        <a>5th April +46 degrees with light rain.</a>
+        <q>and today</q>
+        <a>It's +45 degrees with scattered clouds.</a>
+    </test-case>
+    <test-case integration="true">
+        <requestData>{ lat: 60, lon: 30 }</requestData>
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>what is the weather like the day after tomorrow</q>
+        <a>6th April +42 degrees with light snow.</a>
+        <q>and in Paris</q>
+        <a>On 6th April in Paris it's +65 degrees and sky is clear.</a>
+    </test-case>
+    <test-case integration="true">
+        <requestData>{ lat: 60, lon: 30 }</requestData>
+        <dateTime>2018-03-10 13:23:55</dateTime>
+        <q>weather forecast for the 8th of February</q>
+        <a>Of course I am a very intelligent robot, but as for the weather on Earth, I know it only for the next 15 days.</a>
+    </test-case>
+    <test-case integration="true">
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>what is the weather like the day after tomorrow in Chicago</q>
+        <a>On 6th April in Chicago it's +35 degrees with light snow.</a>
+        <requestData>{ lat: 60, lon: 30 }</requestData>
+        <q>and here</q>
+        <a>6th April +42 degrees with light snow.</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>weather in Chicago on the 7th of april</q>
+        <a>On 7th April in Chicago it's +30 degrees and sky is clear.</a>
+    </test-case>
+    <test-case integration="true">
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>what is the weather in London on the 10th of April</q>
+        <a>On 10th April in London it's +52 degrees with light rain.</a>
+    </test-case>
+    <test-case integration="true">
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>what is the weather in London on the 10th of May</q>
+        <a>Of course I am a very intelligent robot, but as for the weather on Earth, I know it only for the next 15 days.</a>
+    </test-case>
+    <test-case integration="true">
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>weather forecast for Chicago for tomorrow</q>
+        <a>On 5th April in Chicago it's +36 degrees with light snow.</a>
+    </test-case>
+    <test-case integration="true">
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>weather forecast for Chicago next friday</q>
+        <a>On 13th April in Chicago it's +79 degrees with light rain.</a>
+    </test-case>
+    <test-case integration="true">
+        <requestData>{ lat: 60, lon: 30 }</requestData>
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>is it fair</q>
+        <a>No, it's +45 degrees with scattered clouds.</a>
+        <q>and tomorrow</q>
+        <a>No, 5th April it's +46 degrees with light rain.</a>
+    </test-case>
+    <test-case integration="true">
+        <requestData>{ lat: 60, lon: 30 }</requestData>
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>will it snow</q>
+        <a>No, it's +45 degrees with scattered clouds.</a>
+    </test-case>
+    <test-case integration="true">
+        <requestData>{ lat: 60, lon: 30 }</requestData>
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>will it snow tomorrow?</q>
+        <a>No, 5th April it's +46 degrees with light rain.</a>
+        <q>and 10 April</q>
+        <a>No, 10th April it's +46 degrees with heavy intensity rain.</a>
+    </test-case>
+    <test-case integration="true">
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>is it raining in Chicago</q>
+        <a>No, today in Chicago it's +30 degrees with broken clouds.</a>
+    </test-case>
+    <test-case integration="true">
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>will it be raining on saturday in Tokyo</q>
+        <a>Yes, 7th April in Tokyo it's +63 degrees with light rain.</a>
+    </test-case>
+    <test-case integration="true">
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>will it be raining tomorrow</q>
+        <a>What city are we in?</a>
+        <q>sibay</q>
+        <a>No, 5th April it's +35 degrees with snow.</a>
+        <q>For what city is this weather report?</q>
+        <a>Sibay.</a>
+    </test-case>
+    <test-case integration="true">
+        <dateTime>2018-04-04 13:23:55</dateTime>
+        <q>tell me the weather forecast for Sibay for tomorrow</q>
+        <a>On 5th April in Sibay it's +35 degrees with snow.</a>
+    </test-case>
+</test>

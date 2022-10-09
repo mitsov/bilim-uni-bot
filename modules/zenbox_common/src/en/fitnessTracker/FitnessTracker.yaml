@@ -1,0 +1,35 @@
+descriptor:
+
+  id: FitnessTracker
+  title: Fitness Tracker
+  theme: health
+  summary: Counts your fitness activity and calories you have burned 
+  description: Manage your healthy lifestyle and get fit with smart and simple voice fitness tracker.
+  labels: ["fitness", "calories"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/FitnessTracker.png
+  background: 008066
+  price: 0.20
+
+  samples:
+    - Today I did pilates for two hours.
+    - "Activity has been added to your journal."
+
+    - How many calories will I burn if I do Pilates for 3 hours?
+    - "You will burn 840 calories"
+
+    - What was my activity on Monday?
+    - "On monday you swam in pool 3 hours and burnt 600 calories" 
+
+#entryPoint: en/fitnessTracker/FitnessTracker.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

@@ -1,0 +1,6 @@
+1;банан;{"title":"банан","genTitle":"банана","genMany":"бананов", "accTitle": "банан"}
+2;апельсин;{"title":"апельсин","genTitle":"апельсина","genMany":"апельсинов", "accTitle": "апельсин"}
+3;яблоко;{"title":"яблоко","genTitle":"яблока","genMany":"яблок", "accTitle": "яблоко"}
+4;груша;{"title":"груша","genTitle":"груши","genMany":"груш", "accTitle": "грушу"}
+5;ананас;{"title":"ананас","genTitle":"ананаса","genMany":"ананасов", "accTitle": "ананас"}
+6;мандарин;{"title":"мандарин","genTitle":"мандарина","genMany":"мандаринов", "accTitle": "мандарин"}

@@ -1,0 +1,36 @@
+descriptor:
+  id: geographyGame
+  title: Geography game
+  theme: Geography quiz
+  summary: Improves your knowledge about countries and continents
+  description: What is the capital of the Netherlands? What continent is Brazil located on? An educational game with geography questions.
+  labels: ["geography", "capitals", "game", "kids"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/geographyGame.png
+  background: 216778
+  price: 0.50
+
+  samples:
+    - Let's play geography!
+    - Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?
+    - Yes!
+    - Great! A game for you - a test for me! There are many questions - just say stop when you want to stop. Amsterdam is the capital of which country?
+    - Netherlands.
+    - "Which of the two cities is the capital of United Arab Emirates: Abu Dhabi or Algiers?"
+    - Algiers.
+    - Not really! The capital of United Arab Emirates is Abu Dhabi.
+    - Let's finish!
+    - Ok, let's finish! We've given correct answers to 1 question out of 2! Marvellous!
+
+entryPoint: en/geographyGame/GeographyGame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

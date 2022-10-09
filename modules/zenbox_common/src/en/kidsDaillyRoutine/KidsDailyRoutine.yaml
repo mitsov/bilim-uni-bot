@@ -1,0 +1,34 @@
+descriptor:
+
+  id: KidsDailyRoutine
+  title: Kids Daily Routine
+  theme: Kids
+  summary: Manages kids daily routines 
+  description: Helps children to learn daily rituals and keeps your nerves safe. Use default scenarios or create your own.
+  labels: ["kids", "dailyroutine"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/KidsDailyRoutine.png
+  background: 008066
+  price: 0.20
+
+  samples:
+    - Good morning! What should I do?
+    - "In the morning you have to make the bed, take a shower, brush your teeth, comb your hair, eat cereal."
+
+    - It is 68 F outside, what Mummy wants me to wear?
+    - "Put on your underwear, than red shorts, white and red socks and a t-shirt."
+    - Step by step please!
+    - 'Ok. Tell me "done" when you are ready and we will go to the next step. Firts put on your underwear'
+
+#entryPoint: en/kidsDailyRoutine/KidsDailyRoutine.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

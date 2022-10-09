@@ -1,0 +1,50 @@
+Set a reminder:
+  inPast: 
+    - You can't create reminder in the past.
+  correctlySet:
+    - "Ok, I'll remind you: \"{{$session.reminderSummary}}\" at {{$temp.time}}"
+Cancel the reminder:
+  - The reminder has been cancelled.
+Fix the reminder:
+  - Sorry, what's wrong?
+Thanks:
+  - You are welcome!
+Edit the reminder:
+  - You can edit the reminder in the app.
+Set a reminder no todo no time:
+  - I can remind you about anything. What should I remind you about?
+Set a reminder no time:
+  - "{{$session.reaction ? $session.reaction + ' ' : ''}}When should I remind you about \"{{$session.reminderSummary}}\"?"
+Set reminder time cancel:
+  - The reminder has been cancelled.
+Set reminder time error:
+  - Sorry, that doesn't sound like a moment in time.
+Set a reminder no todo:
+  - What should I remind you about at {{moment.unix($session.timer).utcOffset($session.offset).locale('en').format('h:mm a')}}?
+Set reminder todo cancel:
+  - Ok. The reminder is cancelled.
+Delete a reminder no time no summary:
+  cancelTheReminder:
+    - The reminder "{{$client.id_to_info[$response.id][1]}}" has been cancelled.
+  cancelAReminder:
+    - Which reminder do you want to delete?
+  doesNotFoundTheReminder:
+    - We do not have any reminders.
+Delete a reminder by time:
+  success:
+    - The reminder "{{$temp.summary}}" has been cancelled.
+  fail:
+    - There is no reminder for this time.
+Delete a reminder by summary:
+  success:
+    - The reminder "{{$temp.summary}}" has been cancelled.
+  fail:
+    - I could not find this reminder.
+Delete all reminders:
+  - You can cancel all the reminders in the app
+Reminders list:
+  - You can look at your reminders list in the app.
+Snooze a reminder:
+  - You can snooze your reminder in the app.
+Recurring reminder:
+  - Cannot set a several reminders at a time.

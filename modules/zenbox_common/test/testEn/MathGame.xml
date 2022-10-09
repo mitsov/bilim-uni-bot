@@ -1,0 +1,160 @@
+﻿<test>
+
+    <test-case>
+        <q>let's play math</q>
+        <a>I've got an interesting hometask.</a>
+        <a>Will you help me?</a>
+        <q>yes</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 4, 6, 8</a>
+        <q>i don't know</q>
+        <a>I also don't know the answer, and what do you think?</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 4, 6, 8</a>
+        <q>2</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>ok</q>
+        <a>Great!</a>
+        <a>How much is 1 plus 1?</a>
+        <q>2 or 3</q>
+        <a>No way, you have to name one number.</a>
+        <a>How much is 1 plus 1?</a>
+        <q>2 2</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>no</q>
+        <a>Ok, let's finish!</a>
+        <a>We've given correct answers to 1 question on the current difficulty level!</a>
+        <a>Great result!</a>
+        <q>i want to play more</q>
+        <a>Sure!</a>
+        <a>How much is 1 plus 1?</a>
+        <q>2</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+    </test-case> 
+
+    <test-case>
+        <q>play arithmetics with me</q>
+        <a>I've got an interesting hometask.</a>
+        <a>Will you help me?</a>
+        <q>yes</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 4, 6, 8</a>
+        <q>3</q>
+        <a>Unfortunately we are wrong.</a>
+        <a>The correct answer is: 2.</a>
+        <a>Are we going to continue playing?</a>
+        <q>give me more</q>
+        <a>Great!</a>
+        <a>Let's try something easier!</a>
+        <a>Pick the lesser number: 1 or 0</a>
+        <q>too difficult for me</q>
+        <a>I also don't know the answer, and what do you think?</a>
+        <a>Pick the lesser number: 1 or 0</a>
+        <q>0</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>sure</q>
+        <a>Great!</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 2, 3, 4</a>
+    </test-case>
+
+     <test-case id="say the answer">
+        <q>i want to play maths</q>
+        <a>I've got an interesting hometask.</a>
+        <a>Will you help me?</a>
+        <q>i will</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 4, 6, 8</a>
+        <q>i need a hint</q>
+        <a>Ok, let's ask the computer about the correct answer.</a>
+        <a>The correct answer is: 2.</a>
+        <a>Are we going to continue playing?</a>
+    </test-case>    
+
+    <test-case id="Answer undefined">
+        <q>play mathematics with me</q>
+        <a>I've got an interesting hometask.</a>
+        <a>Will you help me?</a>
+        <q>i can</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 4, 6, 8</a>
+        <q>kisskiss</q>
+        <a>I don't think I've understood your answer.. Do you want to try again, or shall we move on to the next question?</a>
+        <q>another question</q>
+        <a>Great!</a>
+        <a>How much is 1 plus 1?</a>
+    </test-case> 
+
+    <test-case id="User is cheating">
+        <q>i want to play maths</q>
+        <a>I've got an interesting hometask.</a>
+        <a>Will you help me?</a>
+        <q>yes</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 4, 6, 8</a>
+        <q>balabla</q>
+        <a>I don't think I've understood your answer.. Do you want to try again, or shall we move on to the next question?</a>
+        <q>one more question</q>
+        <a>Great!</a>
+        <a>How much is 1 plus 1?</a>
+        <q>too much</q>
+        <a>No way, you have to name a number.</a>
+        <a>How much is 1 plus 1?</a>
+    </test-case> 
+
+     <test-case id="answer + calculator">
+        <q>i want to play maths</q>
+        <a>I've got an interesting hometask.</a>
+        <a>Will you help me?</a>
+        <q>yes</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 4, 6, 8</a>
+        <q>i don't know</q>
+        <a>I also don't know the answer, and what do you think?</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 4, 6, 8</a>
+        <q>2</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>ok</q>
+        <a>Great!</a>
+        <a>How much is 1 plus 1?</a>
+        <q>1 + 1 = 2</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+    </test-case>   
+
+    <test-case id="user complains">
+        <q>play mathematics with me</q>
+        <a>I've got an interesting hometask.</a>
+        <a>Will you help me?</a>
+        <q>i will</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 4, 6, 8</a>
+        <q>i am bad at maths</q>
+        <a>I'm not very good at maths too. Try guessing!</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 4, 6, 8</a>
+        <q>2?</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+    </test-case>  
+
+    <test-case id="User is cheating">
+        <q>i want to play mathematics</q>
+        <a>I've got an interesting hometask.</a>
+        <a>Will you help me?</a>
+        <q>yes of course</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 4, 6, 8</a>
+        <q>millizillion</q>
+        <a>I don't think I've understood your answer.. Do you want to try again, or shall we move on to the next question?</a>
+        <q>one more try</q>
+        <a>Ok. I repeat the question.</a>
+        <a>I'll name some numbers and you have to guess the missing one: 0, 4, 6, 8</a>
+        <q>2</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+    </test-case> 
+
+</test>

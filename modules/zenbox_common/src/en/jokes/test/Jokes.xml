@@ -1,0 +1,53 @@
+<test>
+    <test-case>
+        <q>tell me joke</q>
+        <a>Can a kangaroo jump higher than a house? Of course, a house doesn’t jump at all.</a>
+        <q>boring</q>
+        <a>Not that easy to learn humor, but I will keep trying.</a>
+    </test-case>
+
+    <test-case>
+        <q>tell me something funny</q>
+        <a>Can a kangaroo jump higher than a house? Of course, a house doesn’t jump at all.</a>
+        <q>cool</q>
+        <a>One more?</a>
+        <q>Yes, please</q>
+        <a>My dog used to chase people on a bike a lot. It got so bad, finally I had to take his bike away.</a>
+        <q>more</q>
+        <a>I’m selling my talking parrot. Why? Because yesterday, he tried to sell me.</a>
+        <q>more</q>
+        <a>Why was 6 afraid of 7? Because 7, 8, 9.</a>
+        <q>one more</q>
+        <a>What did 0 say to 8? Nice belt!</a>
+        <q>more</q>
+        <a>What does the sun drink out of? – Sunglasses.</a>
+        <q>more</q>
+        <a>I heard a story about a broken pencil that I'd tell you but it's pointless</a>
+        <q>more</q>
+        <a>There are three kinds of people: those who can count and those who can’t.</a>
+        <q>more</q>
+        <a>What did one ocean say to the other? Nothing. It just waved.</a>
+        <q>more</q>
+        <a>Two muffins in an oven. One says, "sure is hot in here!" Other one says, "Holy smokes! A talking muffin!"</a>
+        <q>more</q>
+        <a>What does an astronaut like most about his computer? The space bar!</a>
+        <q>more</q>
+        <a>Two peanuts were walking down the street. One was asalted.</a>
+    </test-case>
+
+    <test-case>
+        <q>tell me joke</q>
+        <a>Can a kangaroo jump higher than a house? Of course, a house doesn’t jump at all.</a>
+        <q>good!</q>
+        <a>One more?</a>
+        <q>no</q>
+        <a>Okay.</a>
+    </test-case>
+
+    <test-case>
+        <q>tell me joke</q>
+        <a>Can a kangaroo jump higher than a house? Of course, a house doesn’t jump at all.</a>
+        <q>enough</q>
+        <a>Okay.</a>
+    </test-case>
+</test>    

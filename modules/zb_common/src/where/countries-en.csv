@@ -1,0 +1,201 @@
+1;United Arab Emirates;{"name":"United Arab Emirates", "duplicateName" : "false", "currency":"AED"}
+2;Nigeria;{"name":"Nigeria", "duplicateName" : "false", "currency":"NGN"}
+3;Ethiopia;{"name":"Ethiopia", "duplicateName" : "false", "currency":"ETB"}
+4;Ghana;{"name":"Ghana", "duplicateName" : "false", "currency":"GHS"}
+5;Algeria;{"name":"Algeria", "duplicateName" : "true", "currency":"DZD"}
+6;Jordan;{"name":"Jordan", "duplicateName" : "false", "currency":"JOD"}
+7;Netherlands, Holland;{"name":"Netherlands", "duplicateName" : "false", "currency":"EUR"}
+8;Andorra;{"name":"Andorra", "duplicateName" : "false", "currency":"EUR"}
+9;Turkey;{"name":"Turkey", "duplicateName" : "false", "currency":"TRY"}
+10;Madagascar;{"name":"Madagascar", "duplicateName" : "false", "currency":"MGA"}
+11;Samoa;{"name":"Samoa", "duplicateName" : "false", "currency":"USD"}
+12;Eritrea;{"name":"Eritrea", "duplicateName" : "false", "currency":"ERN"}
+13;Kazakhstan;{"name":"Kazakhstan", "duplicateName" : "false", "currency":"KZT"}
+14;Paraguay;{"name":"Paraguay", "duplicateName" : "false", "currency":"PYG"}
+15;Greece;{"name":"Greece", "duplicateName" : "false", "currency":"EUR"}
+16;Turkmenistan;{"name":"Turkmenistan", "duplicateName" : "false", "currency":"TMT"}
+17;Iraq;{"name":"Iraq", "duplicateName" : "false", "currency":"IQD"}
+18;Azerbaijan;{"name":"Azerbaijan", "duplicateName" : "false", "currency":"AZN"}
+19;Mali;{"name":"Mali", "duplicateName" : "false", "currency":"XOF"}
+20;Central African Republic, CAR;{"name":"Central African Republic", "duplicateName" : "false", "currency":"XAF"}
+21;Thailand;{"name":"Thailand", "duplicateName" : "false", "currency":"THB"}
+22;Brunei;{"name":"Brunei", "duplicateName" : "false", "currency":"BND"}
+23;Gambia;{"name":"Gambia", "duplicateName" : "false", "currency":"GMD"}
+24;Saint Kitts and Nevis;{"name":"Saint Kitts and Nevis", "duplicateName" : "false", "currency":"XCD"}
+25;Lebanon;{"name":"Lebanon", "duplicateName" : "false", "currency":"LBP"}
+26;Serbia;{"name":"Serbia", "duplicateName" : "false", "currency":"RSD"}
+27;Belize;{"name":"Belize", "duplicateName" : "false", "currency":"BZD"}
+28;Germany;{"name":"Germany", "duplicateName" : "false", "currency":"EUR"}
+29;Switzerland;{"name":"Switzerland", "duplicateName" : "false", "currency":"CHF"}
+30;Guinea-Bissau;{"name":"Guinea-Bissau", "duplicateName" : "false", "currency":"XOF"}
+31;Kyrgyzstan;{"name":"Kyrgyzstan", "duplicateName" : "false", "currency":"KGS"}
+32;Colombia;{"name":"Colombia", "duplicateName" : "false", "currency":"COP"}
+33;Republic of the Congo, Congo;{"name":"Republic of the Congo", "duplicateName" : "false", "currency":"XAF"}
+34;Brazil;{"name":"Brazil", "duplicateName" : "false", "currency":"BRL"}
+35;Slovakia;{"name":"Slovakia", "duplicateName" : "false", "currency":"EUR"}
+36;Barbados;{"name":"Barbados", "duplicateName" : "false", "currency":"BBD"}
+37;Belgium;{"name":"Belgium", "duplicateName" : "false", "currency":"EUR"}
+38;Hungary;{"name":"Hungary", "duplicateName" : "false", "currency":"HUF"}
+39;Burundi;{"name":"Burundi", "duplicateName" : "false", "currency":"BIF"}
+40;Romania;{"name":"Romania", "duplicateName" : "false", "currency":"RON"}
+41;Argentina;{"name":"Argentina", "duplicateName" : "false", "currency":"ARS"}
+42;Liechtenstein;{"name":"Liechtenstein", "duplicateName" : "false", "currency":"CHF"}
+43;Malta;{"name":"Malta", "duplicateName" : "false", "currency":"EUR"}
+44;Poland;{"name":"Poland", "duplicateName" : "false", "currency":"PLN"}
+45;Vatican;{"name":"Vatican", "duplicateName" : "false", "currency":"EUR"}
+46;United States, USA, US;{"name":"United States of America", "duplicateName" : "false", "currency":"USD"}
+47;New Zealand;{"name":"New Zealand", "duplicateName" : "false", "currency":"NZD"}
+48;Austria;{"name":"Austria", "duplicateName" : "false", "currency":"EUR"}
+49;Seychelles;{"name":"Seychelles", "duplicateName" : "false", "currency":"SCR"}
+50;Lithuania;{"name":"Lithuania", "duplicateName" : "false", "currency":"EUR"}
+51;Namibia;{"name":"Namibia", "duplicateName" : "false", "currency":"ZAR"}
+52;Laos;{"name":"Laos", "duplicateName" : "false", "currency":"LAK"}
+53;Botswana;{"name":"Botswana", "duplicateName" : "false", "currency":"BWP"}
+54;Cuba;{"name":"Cuba", "duplicateName" : "false", "currency":"CUP"}
+55;Guatemala;{"name":"Guatemala", "duplicateName" : "true", "currency":"GTQ"}
+56;Senegal;{"name":"Senegal", "duplicateName" : "false", "currency":"XOF"}
+57;Bangladesh;{"name":"Bangladesh", "duplicateName" : "false", "currency":"BDT"}
+58;Syria;{"name":"Syria", "duplicateName" : "false", "currency":"SYP"}
+59;Indonesia;{"name":"Indonesia", "duplicateName" : "false", "currency":"IDR"}
+60;Djibouti;{"name":"Djibouti", "duplicateName" : "true", "currency":"DJF"}
+61;Guyana;{"name":"Guyana", "duplicateName" : "false", "currency":"GYD"}
+62;South Sudan;{"name":"South Sudan", "duplicateName" : "false", "currency":"SSP"}
+63;East Timor;{"name":"East Timor", "duplicateName" : "false", "currency":"USD"}
+64;Tanzania;{"name":"Tanzania", "duplicateName" : "false", "currency":"TZS"}
+65;Qatar;{"name":"Qatar", "duplicateName" : "false", "currency":"QAR"}
+66;Ireland;{"name":"Ireland", "duplicateName" : "false", "currency":"EUR"}
+67;Tajikistan;{"name":"Tajikistan", "duplicateName" : "false", "currency":"TJS"}
+68;Armenia;{"name":"Armenia", "duplicateName" : "false", "currency":"AMD"}
+69;Croatia;{"name":"Croatia", "duplicateName" : "false", "currency":"HRK"}
+70;Israel;{"name":"Israel", "duplicateName" : "false", "currency":"ILS"}
+71;State of Palestine, Palestine;{"name":"The State of Palestine", "duplicateName" : "false", "currency":"ILS"}
+72;Pakistan;{"name":"Pakistan", "duplicateName" : "false", "currency":"PKR"}
+73;Afghanistan;{"name":"Afghanistan", "duplicateName" : "false", "currency":"AFN"}
+74;Egypt;{"name":"Egypt", "duplicateName" : "false", "currency":"EGP"}
+75;Uganda;{"name":"Uganda", "duplicateName" : "false", "currency":"UGX"}
+76;Australia;{"name":"Australia", "duplicateName" : "false", "currency":"AUD"}
+77;Venezuela;{"name":"Venezuela", "duplicateName" : "false", "currency":"VEF"}
+78;Saint Lucia, Saint Lucia;{"name":"Saint Lucia", "duplicateName" : "false", "currency":"XCD"}
+79;Nepal;{"name":"Nepal", "duplicateName" : "false", "currency":"NPR"}
+80;Rwanda;{"name":"Rwanda", "duplicateName" : "false", "currency":"RWF"}
+81;Ukraine;{"name":"Ukraine", "duplicateName" : "false", "currency":"UAH"}
+82;Saint Vincent and the Grenadines;{"name":"Saint Vincent and the Grenadines", "duplicateName" : "false", "currency":"XCD"}
+83;Jamaica;{"name":"Jamaica", "duplicateName" : "false", "currency":"JMD"}
+84;Democratic Republic of the Congo, Congo;{"name":"Democratic Republic of the Congo", "duplicateName" : "false", "currency":"CDF"}
+85;Ecuador;{"name":"Ecuador", "duplicateName" : "false", "currency":"USD"}
+86;Moldova;{"name":"Moldova", "duplicateName" : "false", "currency":"MDL"}
+87;Guinea;{"name":"Guinea", "duplicateName" : "false", "currency":"GNF"}
+88;Denmark;{"name":"Denmark", "duplicateName" : "false", "currency":"DKK"}
+89;Malaysia;{"name":"Malaysia", "duplicateName" : "false", "currency":"MYR"}
+90;Gabon;{"name":"Gabon", "duplicateName" : "false", "currency":"XAF"}
+91;Malawi;{"name":"Malawi", "duplicateName" : "false", "currency":"MWK"}
+92;Peru;{"name":"Peru", "duplicateName" : "false", "currency":"PEN"}
+93;Portugal;{"name":"Portugal", "duplicateName" : "false", "currency":"EUR"}
+94;Togo;{"name":"Togo", "duplicateName" : "false", "currency":"XOF"}
+95;Great Britain, England, Britain, United Kingdom;{"name":"United Kingdom", "duplicateName" : "false", "currency":"GBP"}
+96;Angola;{"name":"Angola", "duplicateName" : "false", "currency":"AOA"}
+97;Zambia;{"name":"Zambia", "duplicateName" : "false", "currency":"ZMW"}
+98;Slovenia;{"name":"Slovenia", "duplicateName" : "false", "currency":"EUR"}
+99;Luxembourg;{"name":"Luxembourg", "duplicateName" : "true", "currency":"EUR"}
+100;Marshall Islands;{"name":"Marshall Islands", "duplicateName" : "false", "currency":"USD"}
+101;Spain;{"name":"Spain", "duplicateName" : "false", "currency":"EUR"}
+102;Equatorial Guinea;{"name":"Equatorial Guinea", "duplicateName" : "false", "currency":"XAF"}
+103;Maldives;{"name":"Maldives", "duplicateName" : "false", "currency":"MVR"}
+104;Nicaragua;{"name":"Nicaragua", "duplicateName" : "false", "currency":"NIO"}
+105;Bahrain;{"name":"Bahrain", "duplicateName" : "false", "currency":"BHD"}
+106;Philippines;{"name":"Philippines", "duplicateName" : "false", "currency":"PHP"}
+107;Mozambique;{"name":"Mozambique", "duplicateName" : "false", "currency":"MZN"}
+108;Lesotho;{"name":"Lesotho", "duplicateName" : "false", "currency":"LSL"}
+109;Oman;{"name":"Oman", "duplicateName" : "false", "currency":"OMR"}
+110;Swaziland;{"name":"Swaziland", "duplicateName" : "false", "currency":"SZL"}
+111;Mexico;{"name":"Mexico", "duplicateName" : "false", "currency":"MXN"}
+112;Belarus;{"name":"Belarus", "duplicateName" : "false", "currency":"BYN"}
+113;Somalia;{"name":"Somalia", "duplicateName" : "false", "currency":"SOS"}
+114;Monaco;{"name":"Monaco", "duplicateName" : "true", "currency":"EUR"}
+115;Liberia;{"name":"Liberia", "duplicateName" : "false", "currency":"LRD"}
+116;Uruguay;{"name":"Uruguay", "duplicateName" : "false", "currency":"UYU"}
+117;Comoros, Union of Comoros;{"name":"Comoros", "duplicateName" : "false", "currency":"KMF"}
+118;Russia, Russian Federation;{"name":"Russia", "duplicateName" : "false", "currency":"RUB"}
+119;Kenya;{"name":"Kenya", "duplicateName" : "false", "currency":"KES"}
+120;Bahamas;{"name":"The Bahamas", "duplicateName" : "false", "currency":"BSD"}
+121;Palau;{"name":"Palau", "duplicateName" : "false", "currency":"USD"}
+122;Chad;{"name":"Chad", "duplicateName" : "false", "currency":"XAF"}
+123;Myanmar;{"name":"Myanmar", "duplicateName" : "false", "currency":"MMK"}
+124;Niger;{"name":"Niger", "duplicateName" : "false", "currency":"XOF"}
+125;Cyprus;{"name":"Cyprus", "duplicateName" : "false", "currency":"EUR"}
+126;Mauritania;{"name":"Mauritania", "duplicateName" : "false", "currency":"MRO"}
+127;Tonga;{"name":"Tonga", "duplicateName" : "false", "currency":"TOP"}
+128;India;{"name":"India", "duplicateName" : "false", "currency":"INR"}
+129;Norway;{"name":"Norway", "duplicateName" : "false", "currency":"NOK"}
+130;Canada;{"name":"Canada", "duplicateName" : "false", "currency":"CAD"}
+131;Federated States of Micronesia;{"name":"Federated States of Micronesia", "duplicateName" : "false", "currency":"USD"}
+132;Panama;{"name":"Panama", "duplicateName" : "true", "currency":"USD"}
+133;Suriname;{"name":"Suriname", "duplicateName" : "false", "currency":"SRD"}
+134;France;{"name":"France", "duplicateName" : "false", "currency":"EUR"}
+135;China, People's Republic of China;{"name":"People's Republic of China", "duplicateName" : "false", "currency":"CNY"}
+136;Cambodia;{"name":"Cambodia", "duplicateName" : "false", "currency":"USD"}
+137;Montenegro;{"name":"Montenegro", "duplicateName" : "false", "currency":"EUR"}
+138;Vanuatu;{"name":"Vanuatu", "duplicateName" : "false", "currency":"VUV"}
+139;Mauritius;{"name":"Mauritius", "duplicateName" : "false", "currency":"MUR"}
+140;Papua New Guinea;{"name":"Papua New Guinea", "duplicateName" : "false", "currency":"PGK"}
+141;Haiti;{"name":"Haiti", "duplicateName" : "false", "currency":"HTG"}
+142;Trinidad and Tobago;{"name":"Trinidad and Tobago", "duplicateName" : "false", "currency":"TTD"}
+143;Benin;{"name":"Benin", "duplicateName" : "false", "currency":"XOF"}
+144;Czech Republic;{"name":"Czech Republic", "duplicateName" : "false", "currency":"CZK"}
+145;Cape Verde;{"name":"Cape Verde", "duplicateName" : "false", "currency":"CVE"}
+146;South Africa;{"name":"South Africa", "duplicateName" : "false", "currency":"ZAR"}
+147;Democratic People's Republic of Korea, North Korea;{"name":"Korea, Democratic People's Republic of", "duplicateName" : "false", "currency":"KPW"}
+148;Morocco;{"name":"Morocco", "duplicateName" : "false", "currency":"MAD"}
+149;Iceland;{"name":"Iceland", "duplicateName" : "false", "currency":"ISK"}
+150;Latvia;{"name":"Latvia", "duplicateName" : "false", "currency":"EUR"}
+151;Italy;{"name":"Italy", "duplicateName" : "false", "currency":"EUR"}
+152;Dominica;{"name":"Dominica", "duplicateName" : "false", "currency":"XCD"}
+153;San Marino;{"name":"San Marino", "duplicateName" : "true", "currency":"EUR"}
+154;Salvador;{"name":"Salvador", "duplicateName" : "false", "currency":"USD"}
+155;Sao Tome and Principe;{"name":"Sao Tome and Principe", "duplicateName" : "false", "currency":"STD"}
+156;Costa Rica;{"name":"Costa Rica", "duplicateName" : "false", "currency":"CRC"}
+157;Yemen;{"name":"Yemen", "duplicateName" : "false", "currency":"YER"}
+158;Dominican Republic;{"name":"Dominican Republic", "duplicateName" : "false", "currency":"DOP"}
+159;Chile;{"name":"Chile", "duplicateName" : "false", "currency":"CLP"}
+160;Bosnia and Herzegovina;{"name":"Bosnia and Herzegovina", "duplicateName" : "false", "currency":"BAM"}
+161;Antigua and Barbuda;{"name":"Antigua and Barbuda", "duplicateName" : "false", "currency":"XCD"}
+162;Grenada;{"name":"Grenada", "duplicateName" : "false", "currency":"XCD"}
+163;Republic of Korea, Korea, South Korea;{"name":"The Republic of Korea", "duplicateName" : "false", "currency":"KRW"}
+164;Singapore;{"name":"Singapore", "duplicateName" : "true", "currency":"SGD"}
+165;Macedonia;{"name":"Macedonia", "duplicateName" : "false", "currency":"MKD"}
+166;Bulgaria;{"name":"Bulgaria", "duplicateName" : "false", "currency":"BGN"}
+167;Sweden;{"name":"Sweden", "duplicateName" : "false", "currency":"SEK"}
+168;Fiji;{"name":"Fiji", "duplicateName" : "false", "currency":"FJD"}
+169;Bolivia;{"name":"Bolivia", "duplicateName" : "false", "currency":"BOB"}
+170;Abkhazia;{"name":"Abkhazia", "duplicateName" : "false", "currency":"RUB"}
+171;Estonia;{"name":"Estonia", "duplicateName" : "false", "currency":"EUR"}
+172;Uzbekistan;{"name":"Uzbekistan", "duplicateName" : "false", "currency":"UZS"}
+173;Georgia;{"name":"Georgia", "duplicateName" : "false", "currency":"GEL"}
+174;Iran;{"name":"Iran", "duplicateName" : "false", "currency":"IRR"}
+175;Honduras;{"name":"Honduras", "duplicateName" : "false", "currency":"HNL"}
+176;Albania;{"name":"Albania", "duplicateName" : "false", "currency":"ALL"}
+177;Japan;{"name":"Japan", "duplicateName" : "false", "currency":"JPY"}
+178;Libya;{"name":"Libya", "duplicateName" : "false", "currency":"LYD"}
+179;Tunisia;{"name":"Tunisia", "duplicateName" : "true", "currency":"TND"}
+180;Butane;{"name":"Butane", "duplicateName" : "false", "currency":"BTN"}
+181;Burkina Faso;{"name":"Burkina Faso", "duplicateName" : "false", "currency":"XOF"}
+182;Mongolia;{"name":"Mongolia", "duplicateName" : "false", "currency":"MNT"}
+183;Sierra Leone;{"name":"Sierra Leone", "duplicateName" : "false", "currency":"SLL"}
+184;Tuvalu;{"name":"Tuvalu", "duplicateName" : "false", "currency":"AUD"}
+185;Vietnam;{"name":"Vietnam", "duplicateName" : "false", "currency":"VND"}
+186;Zimbabwe;{"name":"Zimbabwe", "duplicateName" : "false", "currency":"ZAR"}
+187;Sudan;{"name":"Sudan", "duplicateName" : "false", "currency":"SDG"}
+188;Finland;{"name":"Finland", "duplicateName" : "false", "currency":"EUR"}
+189;Solomon islands;{"name":"Solomon islands", "duplicateName" : "false", "currency":"SBD"}
+190;South Ossetia;{"name":"South Ossetia", "duplicateName" : "false", "currency":"RUB"}
+191;Sri Lanka;{"name":"Sri Lanka", "duplicateName" : "false", "currency":"LKR"}
+192;Kuwait;{"name":"Kuwait", "duplicateName" : "false", "currency":"KWD"}
+193;Saudi Arabia;{"name":"Saudi Arabia", "duplicateName" : "false", "currency":"SAR"}
+194;Kiribati;{"name":"Kiribati", "duplicateName" : "false", "currency":"AUD"}
+195;Côte d'Ivoire, Cote d'ivoire;{"name":"Côte d'Ivoire", "duplicateName" : "false", "currency":"XOF"}
+196;Cameroon;{"name":"Cameroon", "duplicateName" : "false", "currency":"XAF"}
+197;Kyrgyzstan;{"name":"Kyrgyzstan", "duplicateName" : "false", "currency":"KGS"}
+198;Hong Kong;{"name":"Hong Kong", "duplicateName" : "true", "currency":"HKD"}
+199;Cook Islands;{"name":"Cook Islands", "duplicateName" : "false", "currency":"NDZ"}
+200;Nauru, Republic of Nauru;{"name":"Nauru", "duplicateName" : "false", "currency":"AUD"}
+201;Aruba;{"name":"Aruba", "duplicateName" : "false", "currency":"AWG"}

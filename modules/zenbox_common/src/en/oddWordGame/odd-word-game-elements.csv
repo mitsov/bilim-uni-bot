@@ -1,0 +1,170 @@
+1;wolf;{"name":"wolf","class":"wild animal"}
+2;bear;{"name":"bear","class":"wild animal"}
+3;fox;{"name":"fox","class":"wild animal"}
+4;squirrel;{"name":"squirrel","class":"wild animal"}
+5;hedgehog;{"name":"hedgehog","class":"wild animal"}
+6;badger;{"name":"badger","class":"wild animal"}
+7;porcupine;{"name":"porcupine","class":"wild animal"}
+8;beaver;{"name":"beaver","class":"wild animal"}
+9;deer;{"name":"deer","class":"wild animal"}
+10;boar;{"name":"boar","class":"wild animal"}
+11;moose;{"name":"moose","class":"wild animal"}
+12;tiger;{"name":"tiger","class":"wild animal"}
+13;lion;{"name":"lion","class":"wild animal"}
+14;giraffe;{"name":"giraffe","class":"wild animal"}
+15;cat;{"name":"cat","class":"domestic animal"}
+16;dog;{"name":"dog","class":"domestic animal"}
+17;rabbit;{"name":"rabbit","class":"domestic animal"}
+18;hamster;{"name":"hamster","class":"domestic animal"}
+19;guinea pig;{"name":"guinea pig","class":"domestic animal"}
+20;goat;{"name":"goat","class":"domestic animal"}
+21;cow;{"name":"cow","class":"domestic animal"}
+22;turkey;{"name":"turkey","class":"domestic animal"}
+23;chicken;{"name":"chicken","class":"domestic animal"}
+24;magpie;{"name":"magpie","class":"bird"}
+25;crow;{"name":"crow","class":"bird"}
+26;sparrow;{"name":"sparrow","class":"bird"}
+27;titmouse;{"name":"titmouse","class":"bird"}
+28;bullfinch;{"name":"bullfinch","class":"bird"}
+29;robin;{"name":"robin","class":"bird"}
+30;lark;{"name":"lark","class":"bird"}
+31;woodpecker;{"name":"woodpecker","class":"bird"}
+32;canary;{"name":"canary","class":"bird"}
+33;starling;{"name":"starling","class":"bird"}
+34;siskin;{"name":"siskin","class":"bird"}
+35;beetle;{"name":"beetle","class":"insect"}
+36;spider;{"name":"spider","class":"insect"}
+37;dragonfly;{"name":"dragonfly","class":"insect"}
+38;butterfly;{"name":"butterfly","class":"insect"}
+39;grasshopper;{"name":"grasshopper","class":"insect"}
+40;fly;{"name":"fly","class":"insect"}
+41;grub;{"name":"grub","class":"insect"}
+42;wasp;{"name":"wasp","class":"insect"}
+43;ant;{"name":"ant","class":"insect"}
+44;ladybird;{"name":"ladybird","class":"insect"}
+45;mantis;{"name":"mantis","class":"insect"}
+46;bee;{"name":"bee","class":"insect"}
+47;salmon;{"name":"salmon","class":"fish"}
+48;trout;{"name":"trout","class":"fish"}
+49;sturgeon;{"name":"sturgeon","class":"fish"}
+50;tuna;{"name":"tuna","class":"fish"}
+51;bream;{"name":"bream","class":"fish"}
+52;carp;{"name":"carp","class":"fish"}
+53;cod;{"name":"cod","class":"fish"}
+54;tilapia;{"name":"tilapia","class":"fish"}
+55;herring;{"name":"herring","class":"fish"}
+56;catfish;{"name":"catfish","class":"fish"}
+57;bass;{"name":"bass","class":"fish"}
+58;flounder;{"name":"flounder","class":"fish"}
+59;tulip;{"name":"tulip","class":"flower"}
+60;camomile;{"name":"camomile","class":"flower"}
+61;rose;{"name":"rose","class":"flower"}
+62;carnation;{"name":"carnation","class":"flower"}
+63;dandelion;{"name":"dandelion","class":"flower"}
+64;daisy;{"name":"daisy","class":"flower"}
+65;chrysantemum;{"name":"chrysantemum","class":"flower"}
+66;forget-me-not;{"name":"forget-me-not","class":"flower"}
+67;peony;{"name":"peony","class":"flower"}
+68;apple;{"name":"apple","class":"fruit"}
+69;banana;{"name":"banana","class":"fruit"}
+70;mango;{"name":"mango","class":"fruit"}
+71;passionfruit;{"name":"passionfruit","class":"fruit"}
+72;apricot;{"name":"apricot","class":"fruit"}
+73;pineapple;{"name":"pineapple","class":"fruit"}
+74;orange;{"name":"orange","class":"fruit"}
+75;tangerine;{"name":"tangerine","class":"fruit"}
+76;pawpaw;{"name":"pawpaw","class":"fruit"}
+77;pomegranate;{"name":"pomegranate","class":"fruit"}
+78;grapefruit;{"name":"grapefruit","class":"fruit"}
+79;pear;{"name":"pear","class":"fruit"}
+80;tomato;{"name":"tomato","class":"vegetable"}
+81;cucumber;{"name":"cucumber","class":"vegetable"}
+82;eggplant;{"name":"eggplant","class":"vegetable"}
+83;zucchini ;{"name":"zucchini","class":"vegetable"}
+84;potato;{"name":"potato","class":"vegetable"}
+85;cabbage;{"name":"cabbage","class":"vegetable"}
+86;beetroot;{"name":"beetroot","class":"vegetable"}
+87;onion;{"name":"onion","class":"vegetable"}
+88;carrot;{"name":"carrot","class":"vegetable"}
+89;radish;{"name":"radish","class":"vegetable"}
+90;turnip;{"name":"turnip","class":"vegetable"}
+91;pepper;{"name":"pepper","class":"vegetable"}
+92;pumpkin;{"name":"pumpkin","class":"vegetable"}
+93;cowberry;{"name":"cowberry","class":"berry"}
+94;blueberry;{"name":"blueberry","class":"berry"}
+95;strawberry;{"name":"strawberry","class":"berry"}
+96;blackberry;{"name":"blackberry","class":"berry"}
+97;currant;{"name":"currant","class":"berry"}
+98;sea buckthorn;{"name":"sea buckthorn","class":"berry"}
+99;barberry;{"name":"barberry","class":"berry"}
+100;raspberry;{"name":"raspberry","class":"berry"}
+101;cherry;{"name":"cherry","class":"berry"}
+102;crowberry;{"name":"crowberry","class":"berry"}
+103;gooseberry;{"name":"gooseberry","class":"berry"}
+104;bilberry;{"name":"bilberry","class":"berry"}
+105;cloudberry;{"name":"cloudberry","class":"berry"}
+106;chair;{"name":"chair","class":"piece of furniture"}
+107;table;{"name":"table","class":"piece of furniture"}
+108;bed;{"name":"bed","class":"piece of furniture"}
+109;cupboard;{"name":"cupboard","class":"piece of furniture"}
+110;stool;{"name":"stool","class":"piece of furniture"}
+111;shelve;{"name":"shelve","class":"piece of furniture"}
+112;couch;{"name":"couch","class":"piece of furniture"}
+113;armchair;{"name":"armchair","class":"piece of furniture"}
+114;birch;{"name":"birch","class":"tree"}
+115;beech;{"name":"beech","class":"tree"}
+116;oak;{"name":"oak","class":"tree"}
+117;pine;{"name":"pine","class":"tree"}
+118;fir;{"name":"fir","class":"tree"}
+119;maple;{"name":"maple","class":"tree"}
+120;linden;{"name":"linden","class":"tree"}
+121;willow;{"name":"willow","class":"tree"}
+122;poplar;{"name":"poplar","class":"tree"}
+123;cedar;{"name":"cedar","class":"tree"}
+124;ash;{"name":"ash","class":"tree"}
+125;alder;{"name":"alder","class":"tree"}
+126;juniper;{"name":"juniper","class":"tree"}
+127;hammer;{"name":"hammer","class":"tool"}
+128;pliers;{"name":"pliers","class":"tool"}
+129;drill;{"name":"drill","class":"tool"}
+130;saw;{"name":"saw","class":"tool"}
+131;screw-driver;{"name":"screw-driver","class":"tool"}
+132;scissors;{"name":"scissors","class":"tool"}
+133;steamer;{"name":"steamer","class":"transport"}
+134;airplane;{"name":"airplane","class":"transport"}
+135;car;{"name":"car","class":"transport"}
+136;bus;{"name":"bus","class":"transport"}
+137;helicopter;{"name":"helicopter","class":"transport"}
+138;train;{"name":"train","class":"transport"}
+139;motorbike;{"name":"motorbike","class":"transport"}
+140;bicycle;{"name":"bicycle","class":"transport"}
+141;tractor;{"name":"tractor","class":"transport"}
+142;tram;{"name":"tram","class":"transport"}
+143;trolleybus;{"name":"trolleybus","class":"transport"}
+144;ladle;{"name":"ladle","class":"kitchen utensil"}
+145;casserole;{"name":"casserole","class":"kitchen utensil"}
+146;knife;{"name":"knife","class":"kitchen utensil"}
+147;fork;{"name":"fork","class":"kitchen utensil"}
+148;spoon;{"name":"spoon","class":"kitchen utensil"}
+149;mug;{"name":"mug","class":"kitchen utensil"}
+150;plate;{"name":"plate","class":"kitchen utensil"}
+151;colander;{"name":"colander","class":"kitchen utensil"}
+152;kettle;{"name":"kettle","class":"kitchen utensil"}
+153;frying pan;{"name":"frying pan","class":"kitchen utensil"}
+154;guitar;{"name":"guitar","class":"musical instrument"}
+155;flute;{"name":"flute","class":"musical instrument"}
+156;piano;{"name":"piano","class":"musical instrument"}
+157;trumpet;{"name":"trumpet","class":"musical instrument"}
+158;violin;{"name":"violin","class":"musical instrument"}
+159;drum;{"name":"drum","class":"musical instrument"}
+160;hoboe;{"name":"hoboe","class":"musical instrument"}
+161;alto;{"name":"alto","class":"musical instrument"}
+162;cello;{"name":"cello","class":"musical instrument"}
+163;fagotto;{"name":"fagotto","class":"musical instrument"}
+164;accordion;{"name":"accordion","class":"musical instrument"}
+165;toothbrush;{"name":"toothbrush","class":"hygiene product"}
+166;soap;{"name":"soap","class":"hygiene product"}
+167;washcloth;{"name":"washcloth","class":"hygiene product"}
+168;shampoo;{"name":"shampoo","class":"hygiene product"}
+169;toothpaste;{"name":"toothpaste","class":"hygiene product"}
+170;towel;{"name":"towel","class":"hygiene product"}

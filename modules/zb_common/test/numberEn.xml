@@ -1,0 +1,22 @@
+<test> 
+
+    <test-case>
+        <q>thirty-three</q>
+        <a>number: 33</a>
+    </test-case> 
+
+    <test-case>
+        <q>second</q>
+        <a>number: 2</a>
+    </test-case>
+    <test-case>
+        <q>three point five</q>
+        <a>floatNumber: 3.5</a>
+    </test-case>
+
+    <test-case>
+        <q>2 millon and 3 thousand point seven</q>
+        <a>floatNumber: 2003000.7</a>
+    </test-case>  
+
+</test>

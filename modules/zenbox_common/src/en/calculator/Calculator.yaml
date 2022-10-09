@@ -1,0 +1,43 @@
+descriptor:
+  id: calculator
+  title: Calculator
+  theme: Calculator
+  summary: Quick and efficient calculations
+  description: I can count the per cent, tell you the sum and the product, the square root and the sine of an angle.
+  labels: ["calculator"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/calculator.png
+  background: 002255
+  price: 0.30
+
+  samples:
+    - How much is the root of one hundred?
+    - 10
+
+    - How much is 30% of 45
+    - 13,5
+
+    - Is 2 + 2 = 4?
+    - Yes, it is 4
+
+    - 123 multiply 49
+    - 6027
+    - and plus 457
+    - 6484
+
+    - What is the cosine of 90? 
+    - 0
+
+
+entryPoint: en/calculator/Calculator.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

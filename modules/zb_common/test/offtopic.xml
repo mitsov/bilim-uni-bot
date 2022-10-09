@@ -1,0 +1,126 @@
+<test>
+    <test-case>
+        <q>можно я спрошу</q>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>
+
+    <test-case>
+        <q>до свидания!</q>
+        <a class="/Offtopic/Greetings/GoodBye"/>
+    </test-case>  
+
+     <test-case>
+        <q>могу я задать вопрос?</q>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>
+
+     <test-case>
+        <q>все понятно</q>
+         <a state="/Offtopic/ThankYou"/>
+         <a state="/Offtopic/ThankYou"/>
+        <q>у меня еще вопрос</q>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>
+       
+    <test-case>
+        <q>все понятно</q>
+        <a state="/Offtopic/ThankYou"/>
+        <a state="/Offtopic/ThankYou"/>
+        <q>больше вопросов нет</q>
+        <a state="/Offtopic/ThankYou/NoQuestions"/>
+    </test-case>
+
+
+    <test-case>
+        <q>как дела?</q>
+        <a class="/Offtopic/Fallback/HowAreYou"/>
+        <a state="/Offtopic/Fallback"/>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>   
+
+    <test-case>
+        <q>что нового?</q>
+        <a state="/Offtopic/Fallback/WhatsNew"/>
+    </test-case>
+
+    <test-case>
+        <q>ты ненастоящий?</q>
+         <a state="/Offtopic/Fallback/YouAreARobot"/>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>
+
+     <test-case>
+        <q>в чем смысл жизни?</q>
+        <a state="/Offtopic/Fallback"/>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>  
+
+     <test-case>
+        <q>как тебя зовут?</q>
+         <a state="/Offtopic/Fallback/WhatIsYourName"/>
+         <a state="/Offtopic/Fallback"/>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>  
+
+     <test-case>
+        <q>откуда ты?</q>
+         <a state="/Offtopic/Fallback/WhereAreYouFrom"/>
+         <a state="/Offtopic/Fallback"/>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>  
+
+    <test-case>
+        <q>Кем ты работаешь?</q>
+         <a state="/Offtopic/Fallback/WhatDoYouDoForALiving"/>
+         <a state="/Offtopic/Fallback"/>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>  
+
+    <test-case>
+        <q>сколько тебе лет?</q>
+         <a state="/Offtopic/Fallback/HowOldAreYou"/>
+         <a state="/Offtopic/Fallback"/>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>  
+
+    <test-case>
+        <q>кто тебя создал?</q>
+         <a state="/Offtopic/Fallback/WhoMadeYou"/>
+         <a state="/Offtopic/Fallback"/>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>    
+
+
+    <test-case>
+        <q>ты меня не понял</q>
+        <a state="/Offtopic/YouMisunderstoodMe"/>
+    </test-case>  
+
+    <test-case>
+        <q>что ты умеешь?</q>
+        <a state="/Offtopic/WhatCanYouDo"/>
+    </test-case>  
+
+    <test-case>
+        <q>проверка связи прием</q>
+         <a state="/Offtopic/Test"/>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>  
+
+    <test-case>
+        <q>Меня зовут Вася</q>
+         <a state="/Offtopic/MyNameIs"/>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case>  
+
+    <test-case>
+        <q>подожди немного</q>
+        <a class="/Offtopic/WaitAMoment"/>
+    </test-case>  
+
+    <test-case>
+        <q>ты правда настоящий</q>
+        <a>Я виртуальный консультант.</a>
+        <a state="/Offtopic/HowCanIHelpYou?"/>
+    </test-case> 
+</test>    

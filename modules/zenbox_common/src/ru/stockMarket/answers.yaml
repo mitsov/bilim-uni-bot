@@ -1,0 +1,57 @@
+Ask company:
+  For Price:
+    - Скажи мне название компании - и я проверю стоимость её акций.
+  For Params:
+    - Скажи мне название компании - и я проверю данные по ней.
+  Unknown company:
+    - К сожалению, у меня нет данных о такой компании.
+
+cantGetData:
+  date:
+    - Данные на указанную дату недоступны.
+  future:
+    - Я знаю только про цены в прошлом.
+  default:
+    - Не знаю. Данные недоступны.
+
+roundPrice:
+  - рублей
+
+saveParams:
+  compare:
+    - сравни
+
+stockMarketFormParamsAnswer:
+  getSymbol:
+    company:
+      - "Торговый код для компании {{$session.stocks.company.name}} - это {{$session.stocks.company.symbol}}"
+    company2:
+      - " и {{$session.stocks.company2.symbol}} для компании {{$session.stocks.company2.name}}"
+  getVolume:
+    company:
+      - "Объём торгов - {{$temp.volume}} рублей"
+    company2:
+      - " для компании {{$session.stocks.company.name}} и {{$temp.volume2}} для компании {{$session.stocks.company2.name}}"
+  getMarketCap:
+    company:
+      - "Капитализация {{$session.stocks.company.marketCap}} рублей для компании {{$session.stocks.company.name}}"
+    company2:
+      - " и {{$session.stocks.company2.marketCap}} рублей для компании {{$session.stocks.company2.name}}"
+
+stockMarketFormPriceAnswer:
+  price:
+    opening:
+      - цена открытия
+    highest:
+      - максимальная цена
+    lowest:
+      - минимальная цена
+    closing:
+      - цена закрытия
+  twoCompanies:
+    company:
+      - "{{capitalize($temp.option)}} {{$session.stocks.dateTime ? $session.stocks.dateTime.speak : ''}} {{$temp.price}} для компании {{$session.stocks.company.name}}"
+    company2:
+      - " и {{$temp.price2}} для компании {{$session.stocks.company2.name}}."
+  oneCompany:
+    - "{{capitalize($temp.option)}} {{$session.stocks.dateTime ? $session.stocks.dateTime.speak : ''}} {{$temp.price}} для компании {{$session.stocks.company.name}}."

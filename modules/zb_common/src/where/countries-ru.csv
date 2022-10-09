@@ -1,0 +1,201 @@
+1;Объединённые Арабские Эмираты,ОАЭ;{"name":"Объединённые Арабские Эмираты","genName":"Объединённых Арабских Эмиратов", "duplicateName" : "false" , "currency":"AED"}
+2;Нигерия;{"name":"Нигерия","genName":"Нигерии", "duplicateName" : "false" , "currency":"NGN"}
+3;Эфиопия;{"name":"Эфиопия","genName":"Эфиопии", "duplicateName" : "false" , "currency":"ETB"}
+4;Гана;{"name":"Гана","genName":"Ганы", "duplicateName" : "false" , "currency":"GHS"}
+5;Алжир;{"name":"Алжир","genName":"Алжира", "duplicateName" : "true" , "currency":"DZD"}
+6;Иордания;{"name":"Иордания","genName":"Иордании", "duplicateName" : "false" , "currency":"JOD"}
+7;Нидерланды,Голландия;{"name":"Нидерланды","genName":"Нидерландов", "duplicateName" : "false" , "currency":"EUR"}
+8;Андорра;{"name":"Андорра","genName":"Андорры", "duplicateName" : "false" , "currency":"EUR"}
+9;Турция;{"name":"Турция","genName":"Турции", "duplicateName" : "false" , "currency":"TRY"}
+10;Мадагаскар;{"name":"Мадагаскар","genName":"Мадагаскара", "duplicateName" : "false" , "currency":"MGA"}
+11;Самоа;{"name":"Самоа","genName":"Самоа", "duplicateName" : "false" , "currency":"USD"}
+12;Эритрея;{"name":"Эритрея","genName":"Эритреи", "duplicateName" : "false" , "currency":"ERN"}
+13;Казахстан;{"name":"Казахстан","genName":"Казахстана", "duplicateName" : "false" , "currency":"KZT"}
+14;Парагвай;{"name":"Парагвай","genName":"Парагвая", "duplicateName" : "false" , "currency":"PYG"}
+15;Греция;{"name":"Греция","genName":"Греции", "duplicateName" : "false" , "currency":"EUR"}
+16;Туркмения;{"name":"Туркмения","genName":"Туркмении", "duplicateName" : "false" , "currency":"TMT"}
+17;Ирак;{"name":"Ирак","genName":"Ирака", "duplicateName" : "false" , "currency":"IQD"}
+18;Азербайджан;{"name":"Азербайджан","genName":"Азербайджана", "duplicateName" : "false" , "currency":"AZN"}
+19;Мали;{"name":"Мали","genName":"Мали", "duplicateName" : "false" , "currency":"XOF"}
+20;Центральноафриканская Республика,ЦАР,Центрально-Африканская республика;{"name":"Центрально-африканская Республика","genName":"Центрально-африканской Республики", "duplicateName" : "false" , "currency":"XAF"}
+21;Таиланд,Тайланд;{"name":"Таиланд","genName":"Таиланда", "duplicateName" : "false" , "currency":"THB"}
+22;Бруней;{"name":"Бруней","genName":"Брунея", "duplicateName" : "false" , "currency":"BND"}
+23;Гамбия;{"name":"Гамбия","genName":"Гамбии", "duplicateName" : "false" , "currency":"GMD"}
+24;Сент-Китс и Невис;{"name":"Сент-Китс и Невис","genName":"Сент-Китс и Невис", "duplicateName" : "false" , "currency":"XCD"}
+25;Ливан;{"name":"Ливан","genName":"Ливана", "duplicateName" : "false" , "currency":"LBP"}
+26;Сербия;{"name":"Сербия","genName":"Сербии", "duplicateName" : "false" , "currency":"RSD"}
+27;Белиз;{"name":"Белиз","genName":"Белиза", "duplicateName" : "false" , "currency":"BZD"}
+28;Германия;{"name":"Германия","genName":"Германии", "duplicateName" : "false" , "currency":"EUR"}
+29;Швейцария;{"name":"Швейцария","genName":"Швейцарии", "duplicateName" : "false" , "currency":"CHF"}
+30;Гвинея-Бисау,Гвинея Бисау;{"name":"Гвинея-Бисау","genName":"Гвинеи-Бисау", "duplicateName" : "false" , "currency":"XOF"}
+31;Киргизия;{"name":"Киргизия","genName":"Киргизии", "duplicateName" : "false" , "currency":"KGS"}
+32;Колумбия;{"name":"Колумбия","genName":"Колумбии", "duplicateName" : "false" , "currency":"COP"}
+33;Республика Конго,Конго;{"name":"Республика Конго","genName":"Республики Конго", "duplicateName" : "false" , "currency":"XAF"}
+34;Бразилия;{"name":"Бразилия","genName":"Бразилии", "duplicateName" : "false" , "currency":"BRL"}
+35;Словакия;{"name":"Словакия","genName":"Словакии", "duplicateName" : "false" , "currency":"EUR"}
+36;Барбадос;{"name":"Барбадос","genName":"Барбадоса", "duplicateName" : "false" , "currency":"BBD"}
+37;Бельгия;{"name":"Бельгия","genName":"Бельгии", "duplicateName" : "false" , "currency":"EUR"}
+38;Венгрия;{"name":"Венгрия","genName":"Венгрии", "duplicateName" : "false" , "currency":"HUF"}
+39;Бурунди;{"name":"Бурунди","genName":"Бурунди", "duplicateName" : "false" , "currency":"BIF"}
+40;Румыния;{"name":"Румыния","genName":"Румынии", "duplicateName" : "false" , "currency":"RON"}
+41;Аргентина;{"name":"Аргентина","genName":"Аргентины", "duplicateName" : "false" , "currency":"ARS"}
+42;Лихтенштейн;{"name":"Лихтенштейн","genName":"Лихтенштейна", "duplicateName" : "false" , "currency":"CHF"}
+43;Мальта;{"name":"Мальта","genName":"Мальты", "duplicateName" : "false" , "currency":"EUR"}
+44;Польша;{"name":"Польша","genName":"Польши", "duplicateName" : "false" , "currency":"PLN"}
+45;Ватикан;{"name":"Ватикан","genName":"Ватикана", "duplicateName" : "false" , "currency":"EUR"}
+46;Соединённые Штаты Америки,США,штаты,Америка;{"name":"Соединённые Штаты Америки","genName":"Соединённых Штатов Америки", "duplicateName" : "false" , "currency":"USD"}
+47;Новая Зеландия;{"name":"Новая Зеландия","genName":"Новой Зеландии", "duplicateName" : "false" , "currency":"NZD"}
+48;Австрия;{"name":"Австрия","genName":"Австрии", "duplicateName" : "false" , "currency":"EUR"}
+49;Сейшельские Острова,Сейшелы;{"name":"Сейшельские Острова","genName":"Сейшельских Островов", "duplicateName" : "false" , "currency":"SCR"}
+50;Литва;{"name":"Литва","genName":"Литвы", "duplicateName" : "false" , "currency":"EUR"}
+51;Намибия;{"name":"Намибия","genName":"Намибии", "duplicateName" : "false" , "currency":"ZAR"}
+52;Лаос;{"name":"Лаос","genName":"Лаоса", "duplicateName" : "false" , "currency":"LAK"}
+53;Ботсвана;{"name":"Ботсвана","genName":"Ботсваны", "duplicateName" : "false" , "currency":"BWP"}
+54;Куба;{"name":"Куба","genName":"Кубы", "duplicateName" : "false" , "currency":"CUP"}
+55;Гватемала;{"name":"Гватемала","genName":"Гватемалы", "duplicateName" : "true" , "currency":"GTQ"}
+56;Сенегал;{"name":"Сенегал","genName":"Сенегала", "duplicateName" : "false" , "currency":"XOF"}
+57;Бангладеш;{"name":"Бангладеш","genName":"Бангладеша", "duplicateName" : "false" , "currency":"BDT"}
+58;Сирия;{"name":"Сирия","genName":"Сирии", "duplicateName" : "false" , "currency":"SYP"}
+59;Индонезия;{"name":"Индонезия","genName":"Индонезии", "duplicateName" : "false" , "currency":"IDR"}
+60;Джибути;{"name":"Джибути","genName":"Джибути", "duplicateName" : "true" , "currency":"DJF"}
+61;Гайана;{"name":"Гайана","genName":"Гайаны", "duplicateName" : "false" , "currency":"GYD"}
+62;Южный Судан;{"name":"Южный Судан","genName":"Южного Судана", "duplicateName" : "false" , "currency":"SSP"}
+63;Восточный Тимор;{"name":"Восточный Тимор","genName":"Восточного Тимора", "duplicateName" : "false" , "currency":"USD"}
+64;Танзания;{"name":"Танзания","genName":"Танзании", "duplicateName" : "false" , "currency":"TZS"}
+65;Катар;{"name":"Катар","genName":"Катара", "duplicateName" : "false" , "currency":"QAR"}
+66;Ирландия;{"name":"Ирландия","genName":"Ирландии", "duplicateName" : "false" , "currency":"EUR"}
+67;Таджикистан;{"name":"Таджикистан","genName":"Таджикистана", "duplicateName" : "false" , "currency":"TJS"}
+68;Армения;{"name":"Армения","genName":"Армении", "duplicateName" : "false" , "currency":"AMD"}
+69;Хорватия;{"name":"Хорватия","genName":"Хорватии", "duplicateName" : "false" , "currency":"HRK"}
+70;Израиль;{"name":"Израиль","genName":"Израиля", "duplicateName" : "false" , "currency":"ILS"}
+71;Государство Палестина,Палестина;{"name":"Государство Палестина","genName":"Государства Палестина", "duplicateName" : "false" , "currency":"ILS"}
+72;Пакистан;{"name":"Пакистан","genName":"Пакистана", "duplicateName" : "false" , "currency":"PKR"}
+73;Афганистан;{"name":"Афганистан","genName":"Афганистана", "duplicateName" : "false" , "currency":"AFN"}
+74;Египет;{"name":"Египет","genName":"Египта", "duplicateName" : "false" , "currency":"EGP"}
+75;Уганда;{"name":"Уганда","genName":"Уганды", "duplicateName" : "false" , "currency":"UGX"}
+76;Австралия;{"name":"Австралия","genName":"Австралии", "duplicateName" : "false" , "currency":"AUD"}
+77;Венесуэла;{"name":"Венесуэла","genName":"Венесуэлы", "duplicateName" : "false" , "currency":"VEF"}
+78;Сент-Люсия,Сент Люсия;{"name":"Сент-Люсия","genName":"Сент-Люсии", "duplicateName" : "false" , "currency":"XCD"}
+79;Непал;{"name":"Непал","genName":"Непала", "duplicateName" : "false" , "currency":"NPR"}
+80;Руанда;{"name":"Руанда","genName":"Руанды", "duplicateName" : "false" , "currency":"RWF"}
+81;Украина;{"name":"Украина","genName":"Украины", "duplicateName" : "false" , "currency":"UAH"}
+82;Сент-Винсент и Гренадины;{"name":"Сент-Винсент и Гренадины","genName":"Сент-Винсента и Гренадины", "duplicateName" : "false" , "currency":"XCD"}
+83;Ямайка;{"name":"Ямайка","genName":"Ямайки", "duplicateName" : "false" , "currency":"JMD"}
+84;Демократическая Республика Конго,Конго;{"name":"Демократическая Республика Конго","genName":"Демократической Республики Конго", "duplicateName" : "false" , "currency":"CDF"}
+85;Эквадор;{"name":"Эквадор","genName":"Эквадора", "duplicateName" : "false" , "currency":"USD"}
+86;Молдавия,Молдова,республика Молдова;{"name":"Молдавия","genName":"Молдавии", "duplicateName" : "false" , "currency":"MDL"}
+87;Гвинея;{"name":"Гвинея","genName":"Гвинеи", "duplicateName" : "false" , "currency":"GNF"}
+88;Дания;{"name":"Дания","genName":"Дании", "duplicateName" : "false" , "currency":"DKK"}
+89;Малайзия;{"name":"Малайзия","genName":"Малайзии", "duplicateName" : "false" , "currency":"MYR"}
+90;Габон;{"name":"Габон","genName":"Габона", "duplicateName" : "false" , "currency":"XAF"}
+91;Малави;{"name":"Малави","genName":"Малави", "duplicateName" : "false" , "currency":"MWK"}
+92;Перу;{"name":"Перу","genName":"Перу", "duplicateName" : "false" , "currency":"PEN"}
+93;Португалия;{"name":"Португалия","genName":"Португалии", "duplicateName" : "false" , "currency":"EUR"}
+94;страна Того;{"name":"Того","genName":"Того", "duplicateName" : "false" , "currency":"XOF"}
+95;Великобритания,Англия,Британия;{"name":"Великобритания","genName":"Великобритании", "duplicateName" : "false" , "currency":"GBP"}
+96;Ангола;{"name":"Ангола","genName":"Анголы", "duplicateName" : "false" , "currency":"AOA"}
+97;Замбия;{"name":"Замбия","genName":"Замбии", "duplicateName" : "false" , "currency":"ZMW"}
+98;Словения;{"name":"Словения","genName":"Словении", "duplicateName" : "false" , "currency":"EUR"}
+99;Люксембург;{"name":"Люксембург","genName":"Люксембурга", "duplicateName" : "true" , "currency":"EUR"}
+100;Маршалловы Острова;{"name":"Маршалловы Острова","genName":"Маршалловых Островов", "duplicateName" : "false" , "currency":"USD"}
+101;Испания;{"name":"Испания","genName":"Испании", "duplicateName" : "false" , "currency":"EUR"}
+102;Экваториальная Гвинея;{"name":"Экваториальная Гвинея","genName":"Экваториальной Гвинеи", "duplicateName" : "false" , "currency":"XAF"}
+103;Мальдивские Острова,Мальдивы;{"name":"Мальдивские Острова","genName":"Мальдивских Островов", "duplicateName" : "false" , "currency":"MVR"}
+104;Никарагуа;{"name":"Никарагуа","genName":"Никарагуа", "duplicateName" : "false" , "currency":"NIO"}
+105;Бахрейн;{"name":"Бахрейн","genName":"Бахрейна", "duplicateName" : "false" , "currency":"BHD"}
+106;Филиппины;{"name":"Филиппины","genName":"Филиппин", "duplicateName" : "false" , "currency":"PHP"}
+107;Мозамбик;{"name":"Мозамбик","genName":"Мозамбика", "duplicateName" : "false" , "currency":"MZN"}
+108;Лесото;{"name":"Лесото","genName":"Лесото", "duplicateName" : "false" , "currency":"LSL"}
+109;Оман;{"name":"Оман","genName":"Омана", "duplicateName" : "false" , "currency":"OMR"}
+110;Свазиленд;{"name":"Свазиленд","genName":"Свазиленда", "duplicateName" : "false" , "currency":"SZL"}
+111;Мексика;{"name":"Мексика","genName":"Мексики", "duplicateName" : "false" , "currency":"MXN"}
+112;Белоруссия,Беларусь,Беларусия;{"name":"Белоруссия","genName":"Белоруссии", "duplicateName" : "false" , "currency":"BYN"}
+113;Сомали;{"name":"Сомали","genName":"Сомали", "duplicateName" : "false" , "currency":"SOS"}
+114;Монако;{"name":"Монако","genName":"Монако", "duplicateName" : "true" , "currency":"EUR"}
+115;Либерия;{"name":"Либерия","genName":"Либерии", "duplicateName" : "false" , "currency":"LRD"}
+116;Уругвай;{"name":"Уругвай","genName":"Уругвая", "duplicateName" : "false" , "currency":"UYU"}
+117;Коморские Острова,коморских островах,коморских островов,Коморы,Союз Коморских Островов;{"name":"Коморские Острова","genName":"Коморских Островов", "duplicateName" : "false" , "currency":"KMF"}
+118;Россия,Российская Федерация,российской федерации,РФ;{"name":"Россия","genName":"России", "duplicateName" : "false" , "currency":"RUB"}
+119;Кения;{"name":"Кения","genName":"Кении", "duplicateName" : "false" , "currency":"KES"}
+120;Багамские Острова,Багамы;{"name":"Багамские Острова","genName":"Багамских Островов", "duplicateName" : "false" , "currency":"BSD"}
+121;Палау;{"name":"Палау","genName":"Палау", "duplicateName" : "false" , "currency":"USD"}
+122;Чад;{"name":"Чад","genName":"Чада", "duplicateName" : "false" , "currency":"XAF"}
+123;Мьянма;{"name":"Мьянма","genName":"Мьянмы", "duplicateName" : "false" , "currency":"MMK"}
+124;Нигер;{"name":"Нигер","genName":"Нигера", "duplicateName" : "false" , "currency":"XOF"}
+125;Кипр;{"name":"Кипр","genName":"Кипра", "duplicateName" : "false" , "currency":"EUR"}
+126;Мавритания;{"name":"Мавритания","genName":"Мавритании", "duplicateName" : "false" , "currency":"MRO"}
+127;Тонга;{"name":"Тонга","genName":"Тонга", "duplicateName" : "false" , "currency":"TOP"}
+128;Индия;{"name":"Индия","genName":"Индии", "duplicateName" : "false" , "currency":"INR"}
+129;Норвегия;{"name":"Норвегия","genName":"Норвегии", "duplicateName" : "false" , "currency":"NOK"}
+130;Канада;{"name":"Канада","genName":"Канады", "duplicateName" : "false" , "currency":"CAD"}
+131;Федеративные Штаты Микронезии;{"name":"Федеративные Штаты Микронезии","genName":"Федеративных Штатов Микронезии", "duplicateName" : "false" , "currency":"USD"}
+132;Панама;{"name":"Панама","genName":"Панамы", "duplicateName" : "true" , "currency":"USD"}
+133;Суринам;{"name":"Суринам","genName":"Суринама", "duplicateName" : "false" , "currency":"SRD"}
+134;Франция;{"name":"Франция","genName":"Франции", "duplicateName" : "false" , "currency":"EUR"}
+135;Китай,Китайская Народная Республика,КНР;{"name":"Китай","genName":"Китая", "duplicateName" : "false" , "currency":"CNY"}
+136;Камбоджа;{"name":"Камбоджа","genName":"Камбоджи", "duplicateName" : "false" , "currency":"USD"}
+137;Черногория;{"name":"Черногория","genName":"Черногории", "duplicateName" : "false" , "currency":"EUR"}
+138;Вануату;{"name":"Вануату","genName":"Вануату", "duplicateName" : "false" , "currency":"VUV"}
+139;Маврикий;{"name":"Маврикий","genName":"Маврикия", "duplicateName" : "false" , "currency":"MUR"}
+140;Папуа - Новая Гвинея, Папуа Новая Гвинея,Папуа-Новая Гвинея;{"name":"Папуа - Новая Гвинея","genName":"Папуа - Новой Гвинеи", "duplicateName" : "false" , "currency":"PGK"}
+141;Гаити;{"name":"Гаити","genName":"Гаити", "duplicateName" : "false" , "currency":"HTG"}
+142;Тринидад и Тобаго;{"name":"Тринидад и Тобаго","genName":"Тринидада и Тобаго", "duplicateName" : "false" , "currency":"TTD"}
+143;Бенин;{"name":"Бенин","genName":"Бенина", "duplicateName" : "false" , "currency":"XOF"}
+144;Чехия,Чешская республика;{"name":"Чехия","genName":"Чехии", "duplicateName" : "false" , "currency":"CZK"}
+145;Кабо-Верде,Кабо Верде;{"name":"Кабо-Верде","genName":"Кабо-Верде", "duplicateName" : "false" , "currency":"CVE"}
+146;Южно-Африканская Республика,ЮАР,Южноафриканская Республика,Южно Африканская Республика;{"name":"Южно-Африканская Республика","genName":"Южно-Африканской Республики", "duplicateName" : "false" , "currency":"ZAR"}
+147;Корейская Народно-Демократическая Республика,Северная Корея,КНДР;{"name":"Корейская Народно-Демократическая Республика","genName":"Корейской Народно-Демократической Республики", "duplicateName" : "false" , "currency":"KPW"}
+148;Марокко;{"name":"Марокко","genName":"Марокко", "duplicateName" : "false" , "currency":"MAD"}
+149;Исландия;{"name":"Исландия","genName":"Исландии", "duplicateName" : "false" , "currency":"ISK"}
+150;Латвия;{"name":"Латвия","genName":"Латвии", "duplicateName" : "false" , "currency":"EUR"}
+151;Италия;{"name":"Италия","genName":"Италии", "duplicateName" : "false" , "currency":"EUR"}
+152;Доминика;{"name":"Доминика","genName":"Доминика", "duplicateName" : "false" , "currency":"XCD"}
+153;Сан-Марино;{"name":"Сан-Марино","genName":"Сан-Марино", "duplicateName" : "true" , "currency":"EUR"}
+154;Сальвадор;{"name":"Сальвадор","genName":"Сальвадора", "duplicateName" : "false" , "currency":"USD"}
+155;Сан-Томе и Принсипи;{"name":"Сан-Томе и Принсипи","genName":"Сан-Томе и Принсипи", "duplicateName" : "false" , "currency":"STD"}
+156;Коста-Рика;{"name":"Коста-Рика","genName":"Коста-Рики", "duplicateName" : "false" , "currency":"CRC"}
+157;Йемен;{"name":"Йемен","genName":"Йемена", "duplicateName" : "false" , "currency":"YER"}
+158;Доминиканская Республика,Доминикана;{"name":"Доминиканская Республика","genName":"Доминиканской Республики", "duplicateName" : "false" , "currency":"DOP"}
+159;Чили;{"name":"Чили","genName":"Чили", "duplicateName" : "false" , "currency":"CLP"}
+160;Босния и Герцеговина;{"name":"Босния и Герцеговина","genName":"Боснии и Герцеговины", "duplicateName" : "false" , "currency":"BAM"}
+161;Антигуа и Барбуда;{"name":"Антигуа и Барбуда","genName":"Антигуа и Барбуда", "duplicateName" : "false" , "currency":"XCD"}
+162;Гренада;{"name":"Гренада","genName":"Гренады", "duplicateName" : "false" , "currency":"XCD"}
+163;Республика Корея,Корея,Южная Корея;{"name":"Республика Корея","genName":"Республики Корея", "duplicateName" : "false" , "currency":"KRW"}
+164;Сингапур;{"name":"Сингапур","genName":"Сингапура", "duplicateName" : "true" , "currency":"SGD"}
+165;Македония;{"name":"Македония","genName":"Македонии", "duplicateName" : "false" , "currency":"MKD"}
+166;Болгария;{"name":"Болгария","genName":"Болгарии", "duplicateName" : "false" , "currency":"BGN"}
+167;Швеция;{"name":"Швеция","genName":"Швеции", "duplicateName" : "false" , "currency":"SEK"}
+168;Фиджи;{"name":"Фиджи","genName":"Фиджи", "duplicateName" : "false" , "currency":"FJD"}
+169;Боливия;{"name":"Боливия","genName":"Боливии", "duplicateName" : "false" , "currency":"BOB"}
+170;Абхазия;{"name":"Абхазия","genName":"Абхазии", "duplicateName" : "false" , "currency":"RUB"}
+171;Эстония;{"name":"Эстония","genName":"Эстонии", "duplicateName" : "false" , "currency":"EUR"}
+172;Узбекистан;{"name":"Узбекистан","genName":"Узбекистана", "duplicateName" : "false" , "currency":"UZS"}
+173;Грузия;{"name":"Грузия","genName":"Грузии", "duplicateName" : "false" , "currency":"GEL"}
+174;Иран;{"name":"Иран","genName":"Ирана", "duplicateName" : "false" , "currency":"IRR"}
+175;Гондурас;{"name":"Гондурас","genName":"Гондураса", "duplicateName" : "false" , "currency":"HNL"}
+176;Албания;{"name":"Албания","genName":"Албании", "duplicateName" : "false" , "currency":"ALL"}
+177;Япония;{"name":"Япония","genName":"Японии", "duplicateName" : "false" , "currency":"JPY"}
+178;Ливия;{"name":"Ливия","genName":"Ливии", "duplicateName" : "false" , "currency":"LYD"}
+179;Тунис;{"name":"Тунис","genName":"Туниса", "duplicateName" : "true" , "currency":"TND"}
+180;Бутан;{"name":"Бутан","genName":"Бутана", "duplicateName" : "false" , "currency":"BTN"}
+181;Буркина-Фасо;{"name":"Буркина-Фасо","genName":"Буркина-Фасо", "duplicateName" : "false" , "currency":"XOF"}
+182;Монголия;{"name":"Монголия","genName":"Монголии", "duplicateName" : "false" , "currency":"MNT"}
+183;Сьерра-Леоне;{"name":"Сьерра-Леоне","genName":"Сьерра-Леоне", "duplicateName" : "false" , "currency":"SLL"}
+184;Тувалу;{"name":"Тувалу","genName":"Тувалу", "duplicateName" : "false" , "currency":"AUD"}
+185;Вьетнам;{"name":"Вьетнам","genName":"Вьетнама", "duplicateName" : "false" , "currency":"VND"}
+186;Зимбабве;{"name":"Зимбабве","genName":"Зимбабве", "duplicateName" : "false" , "currency":"ZAR"}
+187;Судан;{"name":"Судан","genName":"Судана", "duplicateName" : "false" , "currency":"SDG"}
+188;Финляндия;{"name":"Финляндия","genName":"Финляндии", "duplicateName" : "false" , "currency":"EUR"}
+189;Соломоновы Острова;{"name":"Соломоновы Острова","genName":"Соломоновых Островов", "duplicateName" : "false" , "currency":"SBD"}
+190;Южная Осетия;{"name":"Южная Осетия","genName":"Южной Осетии", "duplicateName" : "false" , "currency":"RUB"}
+191;Шри-Ланка,Шри Ланка;{"name":"Шри-Ланка","genName":"Шри-Ланки", "duplicateName" : "false" , "currency":"LKR"}
+192;Кувейт;{"name":"Кувейт","genName":"Кувейта", "duplicateName" : "false" , "currency":"KWD"}
+193;Саудовская Аравия;{"name":"Саудовская Аравия","genName":"Саудовской Аравии", "duplicateName" : "false" , "currency":"SAR"}
+194;Кирибати;{"name":"Кирибати","genName":"Кирибати", "duplicateName" : "false" , "currency":"AUD"}
+195;Кот-дИвуар,Кот дИвуар,Кот-д'Ивуар,Кот д'Ивуар;{"name":"Кот-дИвуар","genName":"Кот-дИвуара", "duplicateName" : "false" , "currency":"XOF"}
+196;Камерун;{"name":"Камерун","genName":"Камеруна", "duplicateName" : "false" , "currency":"XAF"}
+197;Кыргызстан;{"name":"Кыргызстан","genName":"Кыргызстана", "duplicateName" : "false" , "currency":"KGS"}
+198;Гонконг;{"name":"Гонконг", "genName":"Гонконга", "duplicateName":"true", "currency":"HKD"}
+199;Кука острова,острова Кука,Кука о-ва,о-ва Кука;{"name":"Острова Кука","genName":"Островов Кука", "duplicateName":"false", "currency":"NDZ"}
+200;Науру, Республика Науру;{"name":"Науру","genName":"Науру", "duplicateName":"false", "currency":"AUD"}
+201;Аруба;{"name":"Аруба","genName":"Арубы", "duplicateName":"false", "currency":"AWG"}

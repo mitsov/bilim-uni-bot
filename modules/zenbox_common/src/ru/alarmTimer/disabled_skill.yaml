@@ -1,0 +1,6 @@
+name: Alarm & Timer
+description: Wakes the user up and measures the time
+category: Alarms
+color: 008066
+language: ru
+samples: Заведи будильник на 8 утра, Разбуди меня через полчаса, Включи таймер на 10 минут, Замерь 15 минут

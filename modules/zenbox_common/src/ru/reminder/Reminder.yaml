@@ -1,0 +1,38 @@
+descriptor:
+  id: reminder
+  title: Reminder
+  theme: Reminder
+  summary: Never lets you forget anything important
+  description: I can keep your important information and remind you about it when you need it.
+  labels: ["reminder"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/reminder.png
+  background: 782121
+  price: 0.30
+
+  samples:
+    - Напомни помыть кота завтра в 9 утра.
+    - Напоминание "помыть кота" на 09:00, 25 августа.
+
+    - Поставь напоминание покормить собаку через 5 часов.
+    - Напоминание "покормить собаку" на 06:26
+
+    - Напомни через 10 минут.
+    - О чём нужно создать напоминание на 13:33?
+    - Помыть кота.
+    - Напоминание "помыть кота" на 13:33.
+    - Нет, неправильно, убери!
+    - Напоминание отменено.
+
+entryPoint: ru/reminder/Reminder.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

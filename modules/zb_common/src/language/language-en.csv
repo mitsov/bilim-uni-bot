@@ -1,0 +1,157 @@
+1;Abaza;{"name": "Abaza", "family": "Caucasian", "group": "Northwest Caucasian", "dead": false}
+2;Abkhaz, Abkhazian;{"name": "Abkhaz", "family": "Caucasian", "group": "Northwest Caucasian", "dead": false}
+3;Avestan, Zend;{"name": "Avestan", "family": "Indo-European", "group": "Iranian", "dead": true}
+4;Adyghe, West Circassian;{"name": "Adyghe", "family": "Caucasian", "group": "Northwest Caucasian", "dead": false}
+5;Azerbaijani, Azeri;{"name": "Azerbaijani", "family": "Altaic", "group": "Turkic", "dead": false}
+6;Albanian;{"name": "Albanian", "family": "Indo-European", "group": "Albanian", "dead": false}
+7;Aleut;{"name": "Aleut", "family": "Paleosiberian", "group": "Eskimo-Aleut", "dead": false}
+8;Altai, Gorno-Altai, Oyrot;{"name": "Altai", "family": "Altaic", "group": "Turkic", "dead": false}
+9;English;{"name": "English", "family": "Indo-European", "group": "Germanic", "dead": false}
+10;Classical Arabic, Literary Arabic;{"name": "Classical Arabic", "family": "Afroasiatic", "group": "Semitic", "dead": false}
+11;Arabic;{"name": "Arabic", "family": "Afroasiatic", "group": "Semitic", "dead": false}
+12;Aragonese;{"name": "Aragonese", "family": "Indo-European", "group": "Romance", "dead": false}
+13;Armenian;{"name": "Armenian", "family": "Indo-European", "group": "Armenian", "dead": false}
+14;Aromanian, Macedo-Romanian, Vlach;{"name": "Aromanian", "family": "Indo-European", "group": "Romance", "dead": false}
+15;Archi;{"name": "Archi", "family": "Caucasian", "group": "Northeast Caucasian", "dead": false}
+16;Afrikaans;{"name": "Afrikaans", "family": "Indo-European", "group": "Germanic", "dead": false}
+17;Basque;{"name": "Basque", "family": null, "group": null, "dead": false}
+18;Bashkir;{"name": "Bashkir", "family": "Altaic", "group": "Turkic", "dead": false}
+19;Belarusian, Belorussian, Byelorussian;{"name": "Belarusian", "family": "Indo-European", "group": "Slavic", "dead": false}
+20;Balochi;{"name": "Balochi", "family": "Indo-European", "group": "Iranian", "dead": false}
+21;Bengali, Bangla;{"name": "Bengali", "family": "Indo-European", "group": "Indo-Aryan", "dead": false}
+22;Burmese, Myanmar;{"name": "Burmese", "family": "Sino-Tibetan", "group": "Tibeto-Burman", "dead": false}
+23;Bulgarian;{"name": "Bulgarian", "family": "Indo-European", "group": "Slavic", "dead": false}
+24;Bosnian;{"name": "Bosnian", "family": "Indo-European", "group": "Slavic", "dead": false}
+25;Breton;{"name": "Breton", "family": "Indo-European", "group": "Celtic", "dead": false}
+26;Bulgar, Bulghar;{"name": "Bulgar", "family": "Altaic", "group": "Turkic", "dead": true}
+27;Buryat, Buriat;{"name": "Buryat", "family": "Altaic", "group": "Mongolic", "dead": false}
+28;Welsh, Cambrian, Cambric, Cymric;{"name": "Welsh", "family": "Indo-European", "group": "Celtic", "dead": false}
+29;Vedic, Vedic Sanskrit;{"name": "Vedic", "family": "Indo-European", "group": "Indo-Aryan", "dead": true}
+30;Hungarian;{"name": "Hungarian", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+31;Veps, Vepsian;{"name": "Veps", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+32;Votic, Votian;{"name": "Votic", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+33;Vietnamese;{"name": "Vietnamese", "family": "Austroasiatic", "group": "Mon-Khmer", "dead": false}
+34;Galician;{"name": "Galician", "family": "Indo-European", "group": "Romance", "dead": false}
+35;Gaulish;{"name": "Gaulish", "family": "Indo-European", "group": "Celtic", "dead": true}
+36;Gascon;{"name": "Gascon", "family": "Indo-European", "group": "Romance", "dead": false}
+37;Hill Mari, Western Mari;{"name": "Hill Mari", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+38;Gothic;{"name": "Gothic", "family": "Indo-European", "group": "Germanic", "dead": true}
+39;Greenlandic;{"name": "Greenlandic", "family": "Paleosiberian", "group": "Eskimo-Aleut", "dead": false}
+40;Greek;{"name": "Greek", "family": "Indo-European", "group": "Greek", "dead": false}
+41;Georgian;{"name": "Georgian", "family": "Caucasian", "group": "Kartvelian", "dead": false}
+42;Dalmatian, Dalmatic;{"name": "Dalmatian", "family": "Indo-European", "group": "Romance", "dead": false}
+43;Dari, Dari Persian;{"name": "Dari", "family": "Indo-European", "group": "Iranian", "dead": false}
+44;Danish;{"name": "Danish", "family": "Indo-European", "group": "Germanic", "dead": false}
+45;Ancient Greek;{"name": "Ancient Greek", "family": "Indo-European", "group": "Greek", "dead": true}
+46;Hebrew;{"name": "Hebrew", "family": "Afroasiatic", "group": "Semitic", "dead": false}
+47;Yiddish;{"name": "Yiddish", "family": "Indo-European", "group": "Germanic", "dead": false}
+48;Ingrian, Izhorian;{"name": "Ingrian", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+49;Ingush;{"name": "Ingush", "family": "Caucasian", "group": "Northeast Caucasian", "dead": false}
+50;Indonesian;{"name": "Indonesian", "family": "Austronesian", "group": "Malayo-Polynesian", "dead": false}
+51;Irish;{"name": "Irish", "family": "Indo-European", "group": "Celtic", "dead": false}
+52;Icelandic;{"name": "Icelandic", "family": "Indo-European", "group": "Germanic", "dead": false}
+53;Spanish, Castilian;{"name": "Spanish", "family": "Indo-European", "group": "Romance", "dead": false}
+54;Italian;{"name": "Italian", "family": "Indo-European", "group": "Romance", "dead": false}
+55;Kabardian, Kabardino-Cherkess, East Circassian;{"name": "Kabardian", "family": "Caucasian", "group": "Northwest Caucasian", "dead": false}
+56;Kazakh, Kazak;{"name": "Kazakh", "family": "Altaic", "group": "Turkic", "dead": false}
+57;Kalmyk, Kalmyk Oirat;{"name": "Kalmyk", "family": "Altaic", "group": "Mongolic", "dead": false}
+58;Karakalpak;{"name": "Karakalpak", "family": "Altaic", "group": "Turkic", "dead": false}
+59;Karelian;{"name": "Karelian", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+60;Catalan;{"name": "Catalan", "family": "Indo-European", "group": "Romance", "dead": false}
+61;Kashmiri, Koshur;{"name": "Kashmiri", "family": "Indo-European", "group": "Dardic", "dead": false}
+62;Kashubian, Cassubian;{"name": "Kashubian", "family": "Indo-European", "group": "Slavic", "dead": false}
+63;Celtiberian, Northeastern Hispano-Celtic;{"name": "Celtiberian", "family": "Indo-European", "group": "Celtic", "dead": true}
+64;Kyrgyz;{"name": "Kyrgyz", "family": "Altaic", "group": "Turkic", "dead": false}
+65;Chinese, Mandarin, Putonghua;{"name": "Chinese", "family": "Sino-Tibetan", "group": "Sinitic", "dead": false}
+66;Komi-Zyrian, Komi-Zyryan, Komi, Zyrian, Zyryan;{"name": "Komi-Zyrian", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+67;Komi-Permyak, Komi Permyak;{"name": "Komi-Permyak", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+68;Coptic, Coptic Egyptian;{"name": "Coptic", "family": "Afroasiatic", "group": "Egyptian", "dead": true}
+69;Korean;{"name": "Korean", "family": "Altaic", "group": "Japonic", "dead": false}
+70;Cornish;{"name": "Cornish", "family": "Indo-European", "group": "Celtic", "dead": true}
+71;Corsican;{"name": "Corsican", "family": "Indo-European", "group": "Romance", "dead": false}
+72;Koryak;{"name": "Koryak", "family": "Paleosiberian", "group": "Chukotko-Kamchatkan", "dead": false}
+73;Khmer;{"name": "Khmer", "family": "Austroasiatic", "group": "Mon-Khmer", "dead": false}
+74;Lao, Laotian;{"name": "Lao", "family": "Sino-Tibetan", "group": "Thai", "dead": false}
+75;Latin;{"name": "Latin", "family": "Indo-European", "group": "Italic", "dead": true}
+76;Latvian;{"name": "Latvian", "family": "Indo-European", "group": "Baltic", "dead": false}
+77;Lezgian, Lezgi, Lezgin;{"name": "Lezgian", "family": "Caucasian", "group": "Northeast Caucasian", "dead": false}
+78;Lithuanian;{"name": "Lithuanian", "family": "Indo-European", "group": "Baltic", "dead": false}
+79;Sorbian, Wendish, Lusatian;{"name": "Sorbian", "family": "Indo-European", "group": "Slavic", "dead": false}
+80;Luxembourgish, Luxemburgish, Letzeburgesch, Luxembourgian;{"name": "Luxembourgish", "family": "Indo-European", "group": "Germanic", "dead": false}
+81;Macedonian;{"name": "Macedonian", "family": "Indo-European", "group": "Slavic", "dead": false}
+82;Mansi, Maansi, Vogul;{"name": "Mansi", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+83;Manchu, Manchurian;{"name": "Manchu", "family": "Altaic", "group": "Tungusic", "dead": true}
+84;Mari;{"name": "Mari", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+85;Mingrelian, Megrelian;{"name": "Mingrelian", "family": "Caucasian", "group": "Kartvelian", "dead": false}
+86;Moldovan, Moldavian;{"name": "Moldovan", "family": "Indo-European", "group": "Romance", "dead": false}
+87;Mongolian;{"name": "Mongolian", "family": "Altaic", "group": "Mongolic", "dead": false}
+88;Manx, Manks, Manx Gaelic, Manks Gaelic;{"name": "Manx", "family": "Indo-European", "group": "Celtic", "dead": true}
+89;Nganasan;{"name": "Nganasan", "family": "Uralic", "group": "Samoyedic", "dead": false}
+90;German;{"name": "German", "family": "Indo-European", "group": "Germanic", "dead": false}
+91;Nenets, Yurak;{"name": "Nenets", "family": "Uralic", "group": "Samoyedic", "dead": false}
+92;Nepali, Gorkhali, Parbatiya;{"name": "Nepali", "family": "Indo-European", "group": "Indo-Aryan", "dead": false}
+93;Dutch, Flemish;{"name": "Dutch", "family": "Indo-European", "group": "Germanic", "dead": false}
+94;Norwegian;{"name": "Norwegian", "family": "Indo-European", "group": "Germanic", "dead": false}
+95;Ossetian, Ossete, Ossetic;{"name": "Ossetian", "family": "Indo-European", "group": "Iranian", "dead": false}
+96;Punjabi;{"name": "Punjabi", "family": "Indo-European", "group": "Indo-Aryan", "dead": false}
+97;Persian, Farsi;{"name": "Persian", "family": "Indo-European", "group": "Iranian", "dead": false}
+98;Polabian;{"name": "Polabian", "family": "Indo-European", "group": "Slavic", "dead": true}
+99;Polish;{"name": "Polish", "family": "Indo-European", "group": "Slavic", "dead": false}
+100;Portuguese;{"name": "Portuguese", "family": "Indo-European", "group": "Romance", "dead": false}
+101;Franco-Provençal, Francoprovençal, Arpitan, Romand;{"name": "Franco-Provençal", "family": "Indo-European", "group": "Romance", "dead": false}
+102;Old Prussian;{"name": "Old Prussian", "family": "Indo-European", "group": "Baltic", "dead": true}
+103;Pashto, Pukhto, Afghani;{"name": "Pashto", "family": "Indo-European", "group": "Iranian", "dead": false}
+104;Rhaeto-Romance, Rhaetian;{"name": "Rhaeto-Romance", "family": "Indo-European", "group": "Romance", "dead": false}
+105;Romanian;{"name": "Romanian", "family": "Indo-European", "group": "Romance", "dead": false}
+106;Russian;{"name": "Russian", "family": "Indo-European", "group": "Slavic", "dead": false}
+107;Sami, Saami, Saame, Samic, Saamic, Lappish, Lappic, Lapp;{"name": "Sami", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+108;Saka, Sakan, Khotanese, Tumshuqese;{"name": "Saka", "family": "Indo-European", "group": "Iranian", "dead": true}
+109;Sanskrit;{"name": "Sanskrit", "family": "Indo-European", "group": "Indo-Aryan", "dead": true}
+110;Sardinian, Sard;{"name": "Sardinian", "family": "Indo-European", "group": "Romance", "dead": false}
+111;Serbian;{"name": "Serbian", "family": "Indo-European", "group": "Slavic", "dead": false}
+112;Serbo-Croatian, Serbo-Croat;{"name": "Serbo-Croatian", "family": "Indo-European", "group": "Slavic", "dead": false}
+113;Scythian;{"name": "Scythian", "family": "Indo-European", "group": "Iranian", "dead": true}
+114;Slovak, Slovakian;{"name": "Slovak", "family": "Indo-European", "group": "Slavic", "dead": false}
+115;Slovene, Slovenian;{"name": "Slovene", "family": "Indo-European", "group": "Slavic", "dead": false}
+116;Old Church Slavonic, Old Slavonic, Old Church Slavic, Old Slavic;{"name": "Old Church Slavonic", "family": "Indo-European", "group": "Slavic", "dead": true}
+117;Tabasaran, Tabassaran;{"name": "Tabasaran", "family": "Caucasian", "group": "Northeast Caucasian", "dead": false}
+118;Tajik, Tajiki;{"name": "Tajik", "family": "Indo-European", "group": "Iranian", "dead": false}
+119;Thai, Siamese;{"name": "Thai", "family": "Sino-Tibetan", "group": "Thai", "dead": false}
+120;Tatar;{"name": "Tatar", "family": "Altaic", "group": "Turkic", "dead": false}
+121;Tibetan;{"name": "Tibetan", "family": "Sino-Tibetan", "group": "Tibeto-Burman", "dead": false}
+122;Tuvan, Tuvinian, Tyvan, Tuvin;{"name": "Tuvan", "family": "Altaic", "group": "Turkic", "dead": false}
+123;Turkish;{"name": "Turkish", "family": "Altaic", "group": "Turkic", "dead": false}
+124;Turkmen;{"name": "Turkmen", "family": "Altaic", "group": "Turkic", "dead": false}
+125;Udmurt;{"name": "Udmurt", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+126;Uzbek;{"name": "Uzbek", "family": "Altaic", "group": "Turkic", "dead": false}
+127;Uyghur, Uighur;{"name": "Uyghur", "family": "Altaic", "group": "Turkic", "dead": false}
+128;Ukrainian;{"name": "Ukrainian", "family": "Indo-European", "group": "Slavic", "dead": false}
+129;Urdu, Lashkari;{"name": "Urdu", "family": "Indo-European", "group": "Indo-Aryan", "dead": false}
+130;Faroese;{"name": "Faroese", "family": "Indo-European", "group": "Germanic", "dead": false}
+131;Filipino;{"name": "Filipino", "family": "Austronesian", "group": "Polynesian", "dead": false}
+132;Finnish, Suomi;{"name": "Finnish", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+133;French;{"name": "French", "family": "Indo-European", "group": "Romance", "dead": false}
+134;Frisian;{"name": "Frisian", "family": "Indo-European", "group": "Germanic", "dead": false}
+135;Khakas;{"name": "Khakas", "family": "Altaic", "group": "Turkic", "dead": false}
+136;Khanty, Hanti, Ostyak;{"name": "Khanty", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+137;Hittite, Nesite, Neshite;{"name": "Hittite", "family": "Indo-European", "group": "Anatolian", "dead": true}
+138;Hindi;{"name": "Hindi", "family": "Indo-European", "group": "Indo-Aryan", "dead": false}
+139;Croatian;{"name": "Croatian", "family": "Indo-European", "group": "Slavic", "dead": false}
+140;Church Slavonic, Church Slavic;{"name": "Church Slavonic", "family": "Indo-European", "group": "Slavic", "dead": true}
+141;Romani, Romany;{"name": "Romani", "family": "Indo-European", "group": "Indo-Aryan", "dead": false}
+142;Montenegrin;{"name": "Montenegrin", "family": "Indo-European", "group": "Slavic", "dead": false}
+143;Chechen;{"name": "Chechen", "family": "Caucasian", "group": "Northeast Caucasian", "dead": false}
+144;Czech, Bohemian;{"name": "Czech", "family": "Indo-European", "group": "Slavic", "dead": false}
+145;Chuvash;{"name": "Chuvash", "family": "Altaic", "group": "Turkic", "dead": false}
+146;Chukchi, Chukot, Chuuk;{"name": "Chukchi", "family": "Paleosiberian", "group": "Chukotko-Kamchatkan", "dead": false}
+147;Swedish;{"name": "Swedish", "family": "Indo-European", "group": "Germanic", "dead": false}
+148;Scottish, Scottish Gaelic, Scots Gaelic, Gaelic;{"name": "Scottish", "family": "Indo-European", "group": "Celtic", "dead": false}
+149;Sumerian;{"name": "Sumerian", "family": null, "group": null, "dead": true}
+150;Evenki, Ewenki, Tungus, Solon;{"name": "Evenki", "family": "Altaic", "group": "Tungusic", "dead": false}
+151;Even, Ewen, Eben, Lamut, Orich, Ilqan;{"name": "Even", "family": "Altaic", "group": "Tungusic", "dead": false}
+152;Inuit;{"name": "Inuit", "family": "Paleosiberian", "group": "Eskimo-Aleut", "dead": false}
+153;Esperanto;{"name": "Esperanto", "family": null, "group": null, "dead": false}
+154;Estonian;{"name": "Estonian", "family": "Uralic", "group": "Finno-Ugric", "dead": false}
+155;Javanese;{"name": "Javanese", "family": "Austronesian", "group": "Malayo-Polynesian", "dead": false}
+156;Yakut, Sakha, Saqa, Saxa;{"name": "Yakut", "family": "Altaic", "group": "Turkic", "dead": false}
+157;Japanese;{"name": "Japanese", "family": "Altaic", "group": "Japonic", "dead": false}

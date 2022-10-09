@@ -1,0 +1,245 @@
+<test>
+    <mockData integration = "true">+
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>USD</base>
+            <symbols>RUB</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"USD","date":"2017-06-23","rates":{"RUB":59.669}}</response>
+    </mockData>
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>JPY</base>
+            <symbols>NOK</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"JPY","date":"2017-06-27","rates":{"NOK":0.07546}}</response>
+    </mockData>
+
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>JPY</base>
+            <symbols>MXN</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"JPY","date":"2017-06-27","rates":{"MXN":0.15955}}</response>
+    </mockData>
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>USD</base>
+            <symbols>EUR</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"USD","date":"2017-06-27","rates":{"EUR":0.88668}}</response>
+    </mockData>
+
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>USD</base>
+            <symbols>EUR</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"USD","date":"2017-06-27","rates":{"EUR":0.88668}}</response>
+    </mockData>
+
+
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>USD</base>
+            <symbols>CNY</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"USD","date":"2017-06-23","rates":{"CNY":6.16}}</response>
+    </mockData>
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>RUB</base>
+            <symbols>USD,EUR,GBP</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"RUB","date":"2017-06-30","rates":{"GBP":0.013018,"USD":0.016895,"EUR":0.014805}}</response>
+    </mockData>
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>CDF</base>
+            <symbols></symbols>
+        </parameters>
+        <response type="json" status="200">{"error":"Invalid base"}</response>
+    </mockData>
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>EUR</base>
+            <symbols>GBP,USD</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"EUR","date":"2017-06-30","rates":{"GBP":0.87933,"USD":1.1412}}</response>
+    </mockData>
+
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>JPY</base>
+            <symbols>USD,EUR,GBP</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"JPY","date":"2017-07-03","rates":{"GBP":0.0068274,"USD":0.0088502,"EUR":0.0077845}}</response>
+    </mockData>
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>USD</base>
+            <symbols>MXN</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"USD","date":"2017-07-07","rates":{"MXN":18.379}}</response>
+    </mockData>
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>EUR</base>
+            <symbols>USD,EUR,GBP</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"EUR","date":"2018-02-08","rates":{"GBP":0.87513,"USD":1.2252}}</response>
+    </mockData>
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>RUB</base>
+            <symbols>USD</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"RUB","date":"2018-02-08","rates":{"USD":0.017284}}</response>
+    </mockData>
+
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>EUR</base>
+            <symbols>RUB</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"EUR","date":"2018-02-08","rates":{"RUB":70.886}}</response>
+    </mockData>
+    
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>RUB</base>
+            <symbols>MXN</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"RUB","date":"2018-03-21","rates":{"MXN":0.32268}}</response>
+    </mockData>
+    <mockData integration = "true">
+        <query method="get">http://api.fixer.io/latest?base=${base}&amp;symbols=${symbols}</query>
+        <parameters>
+            <base>MXN</base>
+            <symbols>NOK</symbols>
+        </parameters>
+        <response type="json" status="200">{"base":"MXN","date":"2018-03-21","rates":{"NOK":0.41701}}</response>
+    </mockData>
+    <test-case>
+        <q>exchange rate between dollar and rub</q>
+        <a>1 US Dollar is 59.67 Russian rubles.</a>
+    </test-case>
+
+    <test-case>
+        <q>convert 5 yens and norway krone</q>
+        <a>5 Japan yen is 0.38 Norway krone.</a>
+        <q>and what about peso</q>
+        <a>5 Japan yen is 0.80 Mexico peso.</a>
+    </test-case>
+    <test-case>
+        <q>convert 500 yens and norway krone</q>
+        <a>500 Japan yen is 37.73 Norway kroner.</a>
+        <q>and what about peso</q>
+        <a>500 Japan yen is 79.78 Mexico pesos.</a>
+        <q>What's the exchange rate between US dollars and Chinese currency?</q>
+        <a>1 US Dollar is 6.16 China yuan.</a>
+        <q>How much is 10 $ worth in Russia?</q>
+        <a>10 US Dollars is 596.69 Russian rubles.</a>
+    </test-case>
+
+    <test-case>
+        <q>How much is 10$  worth in France?</q>
+        <a>10 US Dollars is 8.87 Euros.</a>
+    </test-case>
+
+    <test-case>
+        <q>exchange rate between dollar and rub</q>
+        <a>1 US Dollar is 59.67 Russian rubles.</a>
+        <q>and what about euro</q>
+        <a>1 US Dollar is 0.89 Euro.</a>
+        <q>and yen to nok</q>
+        <a>1 Japan yen is 0.08 Norway krone.</a>
+    </test-case>
+
+    <test-case>
+        <q>What's the exchange rate between US dollars and Chinese currency?</q>
+        <a>1 US Dollar is 6.16 China yuan.</a>
+    </test-case>
+
+    <test-case>
+        <q>which currency is used in russia</q>
+        <a>Russian ruble - is the official currency of Russia.</a>
+        <q>and in ukraine</q>
+        <a>Ukrainian hryvnia - is the official currency of Ukraine.</a>
+    </test-case>
+
+    <test-case>
+        <q>x rate</q>
+        <a>What is your home currency?</a>
+        <q>rub</q>
+        <a>Exchange rate for Russian ruble: Dollar: 59.19. Euro: 67.54. Pound sterling: 76.82.</a>
+    </test-case>
+
+    <test-case>
+        <q>x rate</q>
+        <a>What is your home currency?</a>
+        <q>rub</q>
+        <a>Exchange rate for Russian ruble: Dollar: 59.19. Euro: 67.54. Pound sterling: 76.82.</a>
+    </test-case>
+
+    <test-case>
+        <q>x rate</q>
+        <a>What is your home currency?</a>
+        <q>eur</q>
+        <a>Exchange rate for Euro: Dollar: 0.82. Pound sterling: 1.14.</a>
+    </test-case> 
+
+    <test-case>
+        <q>x rate for france</q>
+        <a>Exchange rate for Euro: Dollar: 0.82. Pound sterling: 1.14.</a>
+        <q>and for yen</q>
+        <a>Exchange rate for Japan yen: Dollar: 112.99. Euro: 128.46. Pound sterling: 146.47.</a>
+    </test-case> 
+
+    <test-case>
+        <q>convert 5 bucks to peso</q>
+        <a>5 US Dollars is 91.90 Mexico pesos.</a>
+        <q>and to roubles</q>
+        <a>5 US Dollars is 298.34 Russian rubles.</a>
+    </test-case> 
+
+
+    <test-case>
+        <q>name the currency of the US</q>
+        <a>US Dollar - is the official currency of United States of America.</a>
+        <q>and of Austria</q>
+        <a>Euro - is the official currency of Austria.</a>
+    </test-case> 
+
+
+    <test-case>
+        <q>what currencies are available to exchange</q>
+        <a>Available Currencies: US Dollar, Euro, Australian Dollar, Bulgarian lev, Brazilian real, Canadian dollar, Swiss franc, Chinese yuan, Czech koruna, Danish krone, Pound sterling, Hong Kong dollar, Croatian kuna, Hungarian forint, Indonesian rupiah, Israeli new shekel, Indian rupee, Japanese yen, South Korean won, Mexican peso, Malaysian ringgit, Norwegian krone, New Zealand dollar, Philippine peso, Polish zloty, Romanian leu, Russian ruble, Swedish krona, Singapore dollar, Thai baht, Turkish lira, South African rand.</a>
+    </test-case>
+</test>

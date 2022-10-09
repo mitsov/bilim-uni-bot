@@ -1,0 +1,30 @@
+descriptor:
+  id: poets
+  title: Poets and poems
+  theme: Poets
+  summary: The best poems by famous poets
+  description: Tells poems and some facts about poets lives.
+  labels: ["poet", "poem", "poeme","poetry"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/poems.png
+  background: eb7354
+  price: 0.40
+
+  samples:
+    - Расскажи мне стих маяковского
+    - Слушай стихотворение 'Эта книжечка моя про моря и про маяк'. Его автор Владимир Владимирович Маяковский.
+    - Когда он родился?
+    - Владимир Владимирович Маяковский родился 19-го июля 1893 года.
+
+entryPoint: ru/poets/Poets.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

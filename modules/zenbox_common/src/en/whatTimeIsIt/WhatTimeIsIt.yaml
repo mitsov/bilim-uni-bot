@@ -1,0 +1,31 @@
+descriptor:
+
+  id: WhatTimeIsIt?
+  title: What time is it?
+  theme: Education
+  summary: Teaches the kid to understand what time it is now (screen support)
+  description: The device will teach your kid to tell current time with digital and analogue clock.
+  labels: ["time", "education"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/WhatTimeIsIt.png
+  background: 008066
+  price: 0.30
+
+  samples:
+    - "Let's look at the clock and say what time is it?"
+    - "I don't know"
+    - "It's 12 a.m., time for lunch. Repeat after me - It's twelve a.m."
+    - "Twelve a.m"
+
+#entryPoint: en/whatTimeIsIt/WhatTimeIsIt.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

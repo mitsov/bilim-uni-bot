@@ -1,0 +1,46 @@
+descriptor:
+  id: oddWordGame
+  title: Odd one out game
+  theme: Odd word game
+  summary: Teaches logic
+  description: Wolf, bear, cat and fox - who is the odd one here? An educational game with questions based on logic.
+  labels: ["odd one out", "odd word", "game", "kids"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/oddWordGame.png
+  background: 2ca05a
+  price: 0.35
+
+  samples:
+    - Let's play odd game!
+    - I will read some words and your task is to name the odd one. Shall we start?
+    - Sure.
+    - "Great! Just say 'stop' when you want to stop. I'll read to you some words. Guess which of them is the odd one and say it: Wolf – bear – fox – cat."
+    - Cat.
+    - "Right! Listen further: Gooseberry – strawberry – crowberry – pumpkin."
+    - Pumpkin!
+    - "You really know a lot! Listen further: Cucumber – cabbage – tomato – zucchini – pomegranate."
+    - What is zucchini?
+    - Zucchini - is a vegetable.
+    - Repeat the words.
+    - Cucumber – cabbage – tomato – zucchini – pomegranate.
+    - Give me a tip.
+    - "Most of the list belongs to class: vegetables. Which one doesn't belong?"
+    - One more tip.
+    - Don't know how else to hint to you. Try guessing!
+    - Cabbage?
+    - "It seems we are wrong. The right answer is - pomegranate. The other are vegetables. Listen further: Turkey – cow – giraffe – cat – hamster."
+    - Stop the game.
+    - Ok, let's finish the game! We've given correct answers to 1 questions out of 2.
+
+entryPoint: en/oddWordGame/OddWordGame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

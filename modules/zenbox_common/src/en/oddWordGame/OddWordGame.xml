@@ -1,0 +1,148 @@
+<test>
+	<test-case id="win">
+		<q>let us play odd one out</q>
+		<a>I will read some words and your task is to name the odd one. Shall we start?</a>
+		<q>yes</q>
+		<a>Great! Just say "stop" when you want to stop.</a>
+		<a>I'll read to you some words. Guess which of them is the odd one and say it:</a>
+		<a>Wolf – bear – fox – cat.</a>
+		<q>cat</q>
+		<a>Right!</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – squirrel – cat.</a>
+		<q>cat.</q>
+		<a>Right!</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – magpie.</a>
+		<q>magpie</q>
+		<a>Right!</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – squirrel – magpie.</a>
+		<q>magpie</q>
+		<a>Right!</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – tulip.</a>
+		<q>tulip</q>
+		<a>Right!</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – squirrel – tulip.</a>
+		<q>tulip</q>
+		<a>Right!</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – chair.</a>
+		<q>chair</q>
+		<a>Right!</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – squirrel – chair.</a>
+		<q>chair</q>
+		<a>Hooray! We've answered all the questions correctly. Shall we play again?</a>
+	</test-case>
+
+	<test-case id="start with games">
+		<q>let's play odd game</q>
+		<a>I will read some words and your task is to name the odd one. Shall we start?</a>
+		<q>and how do you play odd word</q>
+		<a>I will read some words and your task is to name the odd one. Shall we start?</a>
+		<q>ok</q>
+		<a>Great! Just say "stop" when you want to stop.</a>
+		<a>I'll read to you some words. Guess which of them is the odd one and say it:</a>
+		<a>Wolf – bear – fox – cat.</a>
+		<q>cat.</q>
+		<a>Right!</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – squirrel – cat.</a>
+	</test-case>
+	
+    <test-case id="refuse">
+		<q>i want to play an odd one game</q>
+		<a>I will read some words and your task is to name the odd one. Shall we start?</a>
+		<q>no way</q>
+		<a>So sorry.</a>
+	</test-case>
+	
+    <test-case id="ask what is it">
+		<q>i want to play odd word game</q>
+		<a>I will read some words and your task is to name the odd one. Shall we start?</a>
+		<q>yes</q>
+		<a>Great! Just say "stop" when you want to stop.</a>
+		<a>I'll read to you some words. Guess which of them is the odd one and say it:</a>
+		<a>Wolf – bear – fox – cat.</a>
+		<q>what is squirrel</q>
+		<a>squirrel - is a wild animal</a>
+		<q>what is bear and fox</q>
+		<a>bear - is a wild animal</a>
+		<q>than it's cat</q>
+		<a>Right!</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – squirrel – cat.</a>
+	</test-case>
+	
+    <test-case id="list">
+		<q>let's play odd word</q>
+		<a>I will read some words and your task is to name the odd one. Shall we start?</a>
+		<q>ok</q>
+		<a>Great! Just say "stop" when you want to stop.</a>
+		<a>I'll read to you some words. Guess which of them is the odd one and say it:</a>
+		<a>Wolf – bear – fox – cat.</a>
+		<q>come again</q>
+		<a>Wolf – bear – fox – cat.</a>
+		<q>marmor</q>
+		<a>Try saying that again, I didn't quite get it.</a>
+		<q>repeat the list</q>
+		<a>Wolf – bear – fox – cat.</a>
+		<q>cat or fox</q>
+		<a>No way! You have to choose one word.</a>
+		<q>cat</q>
+		<a>Right!</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – squirrel – cat.</a>
+	</test-case>
+	
+    <test-case id="repeat">
+		<q>let's play odd word</q>
+		<a>I will read some words and your task is to name the odd one. Shall we start?</a>
+		<q>sure</q>
+		<a>Great! Just say "stop" when you want to stop.</a>
+		<a>I'll read to you some words. Guess which of them is the odd one and say it:</a>
+		<a>Wolf – bear – fox – cat.</a>
+		<q>cat.</q>
+		<a>Right!</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – squirrel – cat.</a>
+		<q>cat.</q>
+		<a>Right!</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – magpie.</a>
+		<q>bear.</q>
+		<a>Not really!</a>
+		<a>The right answer is - magpie. Because magpie – is a bird, and the other are mammals.</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – squirrel – cat.</a>
+		<q>stop</q>
+		<a>Ok, let's finish the game! We've given correct answers to 2 questions out of 3.</a>
+		<q>let's play again</q>
+		<a>Great! Just say "stop" when you want to stop.</a>
+		<a>I'll read to you some words. Guess which of them is the odd one and say it:</a>
+		<a>Wolf – bear – fox – cat.</a>
+	</test-case>
+	
+    <test-case id="dont know">
+		<q>let's play odd word</q>
+		<a>I will read some words and your task is to name the odd one. Shall we start?</a>
+		<q>of course</q>
+		<a>Great! Just say "stop" when you want to stop.</a>
+		<a>I'll read to you some words. Guess which of them is the odd one and say it:</a>
+		<a>Wolf – bear – fox – cat.</a>
+		<q>no idea</q>
+		<a>Ok, you don't have to answer.</a>
+		<a>The right answer is - cat. Because cat – is a domestic animal, and the other are wild animals.</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – cat.</a>
+		<q>what's the answer</q>
+		<a>Ok, you don't have to answer.</a>
+		<a>The right answer is - cat. Because cat – is a domestic animal, and the other are wild animals.</a>
+		<a>Listen further:</a>
+		<a>Wolf – bear – fox – cat.</a>
+	</test-case>
+
+</test>    

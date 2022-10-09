@@ -1,0 +1,1011 @@
+<test>
+
+    <!--state: Current time-->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какое сейчас время суток</q>
+        <a>день</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 10:23:55</dateTime>
+        <requestData>{ offset: 180 }</requestData>
+        <q>который час</q>
+        <responseData field="action">time</responseData>
+        <a>13:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>который час</q>
+        <responseData field="action">time</responseData>
+        <a>13:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Что на часах ?</q>
+        <responseData field="action">time</responseData>
+        <a>13:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько сейчас на часах?</q>
+        <responseData field="action">time</responseData>
+        <a>13:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени сейчас</q>
+        <responseData field="action">time</responseData>
+        <a>13:23</a>
+    </test-case>  
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени</q>
+        <responseData field="action">time</responseData>
+        <a>13:23</a>
+    </test-case>
+
+     <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько сейчас времени</q>
+        <responseData field="action">time</responseData>
+        <a>13:23</a>
+        <q>а через час</q>
+        <a>14:23</a>
+        <q>а через два часа</q>
+        <a>15:23</a>
+        <q>а 20 минут назад</q>
+        <a>13:03</a>
+    </test-case>
+
+
+    <!--AI-197-->
+    <!--timestamp дб в локальном времени, не в utc -->
+    <test-case>
+        <dateTime>2016-08-19 13:00:00</dateTime>
+        <q>который час сейчас в Токио</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471644000}</httpDataProvider>       
+        <responseData field="action">time</responseData>
+        <a>Сейчас в городе Токио 22:00</a>
+        <q>А в чикаго?</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"US","zoneName":"America\/Chicago","abbreviation":"CDT","gmtOffset":"-21600","dst":"1","timestamp":1471590000}</httpDataProvider>
+        <responseData field="action">time</responseData>
+        <a>Сейчас в городе Чикаго 07:00</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>который час сейчас в городе лаааапееерааанта</q> 
+        <a>Лаааапееерааанта? Хм. Тут я тебе не помощник, зато у нас 13:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-24 13:00:00</dateTime>
+        <q>подскажи время в Гродно</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"BY","zoneName":"Europe\/Minsk","abbreviation":"MSK","gmtOffset":"10800","dst":"0","timestamp":1471622400}</httpDataProvider>
+        <responseData field="action">time</responseData>
+        <a>Сейчас в городе Гродно 16:00</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:00:00</dateTime>
+        <q>время в Сантодоминго</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"DO","zoneName":"America\/Santo_Domingo","abbreviation":"AST","gmtOffset":"-14400","dst":"0","timestamp":1471597200}</httpDataProvider>
+        <responseData field="action">time</responseData>
+        <a>Сейчас в городе Санто-Доминго 09:00</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:00:00</dateTime>
+        <q>время суток в Сантодоминго</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"DO","zoneName":"America\/Santo_Domingo","abbreviation":"AST","gmtOffset":"-14400","dst":"0","timestamp":1471597200}</httpDataProvider>
+        <a>Сейчас в городе Санто-Доминго утро</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какое сегодня число</q>
+        <a>Сегодня 19 августа 2016 г., пятница</a>
+        <q>а время?</q>
+        <responseData field="action">time</responseData>
+        <a>13:23</a>
+    </test-case>
+
+
+    <!--state: Current date-->
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какое сейчас число</q>
+        <a>Сегодня 19 августа 2016 г., пятница</a>
+        <q>а время года</q>
+        <a>лето</a>
+    </test-case>       
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какое сегодня число</q>
+        <a>Сегодня 19 августа 2016 г., пятница</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Что по календарю ?</q>
+        <a>Сегодня 19 августа 2016 г., пятница</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:00:00</dateTime>
+        <q>какой сегодня число и день недели</q>
+        <a>Сегодня 19 августа 2016 г., пятница</a>
+        
+        <q>а в Токио?</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471644000}</httpDataProvider>  
+        <a>Сегодня в городе Токио пятница, 19 августа 2016 г.</a>  
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>назови сегодняшнюю дату</q>
+        <a>Сегодня 19 августа 2016 г., пятница</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>а какое у нас сегодня число</q>
+        <a>Сегодня 19 августа 2016 г., пятница</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>число какое сегодня</q>
+        <a>Сегодня 19 августа 2016 г., пятница</a>
+    </test-case>
+
+    <test-case>    
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>число какое сейчас в Париже</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"FR","zoneName":"Europe\/Paris","abbreviation":"CEST","gmtOffset":"7200","dst":"1","timestamp":1472040940}</httpDataProvider>          
+        <a>Сегодня в городе Париж среда, 24 августа 2016 г.</a>
+    </test-case>
+
+     <test-case>    
+        <dateTime>2016-08-24 13:00:00</dateTime>
+        <q>Токио назови дату</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471644000}</httpDataProvider>          
+        <a>Сегодня в городе Токио пятница, 19 августа 2016 г.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какая дата сейчас в Токио и Сан Франсиско</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471892791}</httpDataProvider>          
+        <a>Сегодня в городе Токио понедельник, 22 августа 2016 г.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какая дата сейчас в городе лаааапееерааанта</q> 
+        <a>Лаааапееерааанта? Хм. Тут я тебе не помощник, зато у нас 19 августа 2016 г., пятница</a>
+    </test-case>
+
+
+   <!--state: Time check -->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Сейчас 6 часов вечера</q>
+        <a>Точное время 13:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Сейчас 13:23</q>
+        <a>Точное время 13:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Сейчас в Токио утро</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471645435}</httpDataProvider>        
+        <a>Сейчас в городе Токио 22:23</a>
+        <q>а в Анкерке?</q>
+        <a>Анкерке? Хм. Тут я тебе не помощник, зато у нас 13:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>В Рим сейчас 13:23</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"IT","zoneName":"Europe\/Rome","abbreviation":"CEST","gmtOffset":"7200","dst":"1","timestamp":1471620235}</httpDataProvider>
+        <a>Сейчас в городе Рим 15:23</a>
+        <q>а в Париже</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"FR","zoneName":"Europe/Paris","abbreviation":"CEST","gmtOffset":"3600","dst":"1","timestamp":1471616635}</httpDataProvider>
+        <a>Сейчас в городе Париж 14:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>В Риме утро?</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"IT","zoneName":"Europe\/Rome","abbreviation":"CEST","gmtOffset":"7200","dst":"1","timestamp":1471620235}</httpDataProvider>
+        <a>Сейчас в городе Рим 15:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сейчас поздно</q>
+        <a>Точное время 13:23</a>
+    </test-case>
+
+
+    <!--Date check today-->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сегодня 10-е число</q>
+        <a>Нет, сегодня 19 августа 2016 г., пятница</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сегодня пятница</q>
+        <a>Да, сегодня пятница</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Сейчас 3 марта</q>
+        <a>Нет, сегодня 19 августа 2016 г., пятница</a>
+    </test-case>
+    
+    <!-- 19 Неполное инфо не матчится в дату -->
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Сегодня 3 число </q> 
+        <a>Нет, сегодня 19 августа 2016 г., пятница</a>
+    </test-case>
+    
+     <!-- 20 Неполное инфо не матчится в дату -->
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Сейчас март</q>
+        <a>Нет, сейчас август</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Сейчас август</q>
+        <a>Да, сейчас август</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сегодня девятнадцатое</q>
+        <a>Да, сегодня 19 августа 2016 г., пятница</a>
+    </test-case>
+
+    <!--<test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сегодня двадцать второе</q>
+        <a>Нет, сегодня 19 августа 2016 г., пятница</a>
+    </test-case>-->
+
+    <test-case>
+        <dateTime>2016-08-22 13:23:55</dateTime>
+        <q>Сейчас в Токио 3 марта</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471892791}</httpDataProvider> 
+        <a>Нет, сегодня в городе Токио 22 августа 2016 г., понедельник</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-22 13:23:55</dateTime>
+        <q>Сейчас в Токио 22 августа</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471892791}</httpDataProvider> 
+        <a>Да, сегодня в городе Токио 22 августа 2016 г., понедельник</a>
+        <q>а в Париже</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"FR","zoneName":"Europe/Paris","abbreviation":"CET","gmtOffset":"3600","dst":"0","timestamp":1471863991}</httpDataProvider>
+        <a>Сегодня в городе Париж понедельник, 22 августа 2016 г.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-22 13:23:55</dateTime>
+        <q>Сейчас в Токио вторник</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471892791}</httpDataProvider> 
+        <a>Нет, сегодня в городе Токио понедельник</a>
+        <q>а в Париже</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"FR","zoneName":"Europe/Paris","abbreviation":"CET","gmtOffset":"3600","dst":"0","timestamp":1471863991}</httpDataProvider>
+        <a>Сегодня в городе Париж понедельник, 22 августа 2016 г.</a>
+    </test-case>
+
+
+
+    <!--state: Date check other DateAbsolute-->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сейчас лето</q>
+        <a>Да, сейчас лето</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>через неделю будет среда</q>
+        <a>Нет, 26 августа 2016 г. - это пятница</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>через неделю будет 16 число</q>
+        <a>Нет, 26 августа 2016 г., пятница</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>Завтра 19 августа</q>
+        <a>Да, 19 августа 2016 г., пятница</a>
+    </test-case>
+
+    <!--<test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Через три дня будет среда</q>
+        <a>Нет, 22 августа 2016 г. - это понедельник</a>
+    </test-case>-->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Позавчера было 3 число</q>
+        <a>Нет, 17 августа 2016 г., среда</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Завтра 10 ноября</q>
+        <a>Нет, 20 августа 2016 г., суббота</a>
+    </test-case>
+
+
+    <!--не помнит контекст разговора, если говорим "было", то когда спрашивают про четверг, стоит тоже думать про прошлое-->
+    <test-case>        
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>В пятницу было 10 число</q>
+        <a>Нет, пятница - это 19 августа 2016 г.</a>
+        <q>а завтра</q>
+        <a>20 августа 2016 г., суббота</a>
+        <q>а в четверг</q>
+        <a>25 августа 2016 г., четверг</a>
+    </test-case>
+
+    <!--<test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>завтра пятница</q>
+        <a>Нет, 20 августа 2016 г. - это суббота</a>
+    </test-case>-->
+
+    <!--<test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>вчера была пятница</q>
+        <a>Нет, 18 августа 2016 г. - это четверг</a>
+    </test-case>-->
+
+    <!--<test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>четверг это 18 августа</q>
+        <a>Да, четверг - это 18 августа 2016 г.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>четверг будет послезавтра</q>
+        <a>Нет, четверг - это 25 августа 2016 г.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>четверг был позавчера</q>
+        <a>Нет, четверг - это 18 августа 2016 г.</a>
+        <q>а пятница</q>
+        <a>19 августа 2016 г., пятница</a>
+    </test-case>-->
+
+
+    <!--state: Date check other DateWeekday-->
+
+    <!--<test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>19 августа это пятница</q>
+        <a>Да, 19 августа 2016 г. - это пятница</a>
+    </test-case>-->
+
+    <!--<test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>20 августа будет пятница</q>
+        <a>Нет, 20 августа 2016 г. - это суббота</a>
+    </test-case>-->
+
+
+    <!--<test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>10 сентября пятница</q>
+        <a>Нет, 10 сентября 2016 г. - это суббота</a>
+    </test-case>-->
+
+
+    <!--Day of the week  -->
+
+    <test-case>
+    <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Какой сегодня день недели</q>
+        <a>Сегодня пятница</a>
+        <q>а завтра</q>
+        <a>Суббота</a>
+    </test-case>
+    
+    <test-case>
+    <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Какой день недели 19 августа</q>
+        <a>Пятница</a>
+        <q>а 18 августа</q>
+        <a>Четверг</a>
+    </test-case>
+
+    <test-case>
+    <dateTime>2017-01-17 13:23:55</dateTime>
+        <q>скажи мне, 10 марта это какой день?</q>
+        <a>Пятница</a>
+    </test-case>
+
+    <test-case>
+    <dateTime>2017-01-17 13:23:55</dateTime>
+        <q>30 января - это какой день недели?</q>
+        <a>Понедельник</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>Какой день недели был первого января тысяча девятисотого ?</q>
+        <a>Понедельник</a>
+    </test-case>
+
+    
+    <!--Time plus 24 -->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько будет через 4 часа</q>
+        <a>17:23</a>
+        <q>а через 12 часов</q>
+        <a>01:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>через 4 часа будет сколько времени</q>
+        <a>17:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>который час</q>
+        <responseData field="action">time</responseData>
+        <a>13:23</a>
+        <q>через 4 часа</q>
+        <a>17:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени было час назад</q>
+        <a>12:23</a>
+        <q>а через 5 часов</q>
+        <a>18:23</a>
+    </test-case>
+
+
+    <!-- Date plus -->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какое число будет в воскресенье</q>
+        <a>21 августа 2016 г., воскресенье</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-10-12 13:23:55</dateTime>
+        <q>какое число будет в следующий понедельник?</q>
+        <a>17 октября 2016 г., понедельник</a>
+    </test-case>       
+
+    <test-case>
+    <dateTime>2016-10-12 13:23:55</dateTime>
+        <q>какое число было во вторник?</q>
+        <a>11 октября 2016 г., вторник</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какой день недели будет 9 сентября</q>
+        <a>Пятница</a>
+    </test-case>
+
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какое число будет через 4 года 3 месяца 1 неделю и 8 дней</q>
+        <a>4 декабря 2020 г., пятница</a>
+    </test-case>    
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какое число будет через две недели</q>
+        <a>2 сентября 2016 г., пятница</a>
+        <q>а через 1 неделю и 2 дня</q>
+        <a>28 августа 2016 г., воскресенье</a>
+    </test-case>  
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какой день был вчера</q>
+        <a>18 августа 2016 г., четверг</a>
+        <q>а что будет через две недели</q>
+        <a>2 сентября 2016 г., пятница</a>
+    </test-case>  
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какой сегодня день</q>
+        <a>Сегодня 19 августа 2016 г., пятница</a>
+        <q>а завтра?</q>
+        <a>20 августа 2016 г., суббота</a>
+        <q>а вчера?</q>
+        <a>18 августа 2016 г., четверг</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>через 72 часа это когда?</q>
+        <a>22 августа 2016 г., понедельник</a>
+        <q>через неделю - это когда?</q>
+        <a>26 августа 2016 г., пятница</a>
+        <q>через неделю - это какого числа?</q>
+        <a>26 августа 2016 г., пятница</a>
+    </test-case>
+
+
+    <!--state: Year and Month plus-->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какой год будет через 5 лет</q>
+        <a>2021</a>
+        <q>а через десять лет</q>
+        <a>2026</a>
+    </test-case> 
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какой месяц будет через 3 недели</q>
+        <a>сентябрь</a>
+        <q>а через год</q>
+        <a>август</a>
+    </test-case> 
+
+
+    <!--state: Time minus -->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени было два часа назад</q>
+        <a>11:23</a>
+    </test-case>
+
+    
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени было 3 дня назад</q>
+        <a>13:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени было сутки назад</q>
+        <a>13:23</a>
+        <q>а три часа назад</q>
+        <a>10:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени было пять часов назад</q>
+        <a>08:23</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени было пять часов и 10 минут назад</q>
+        <a>08:13</a>
+    </test-case>
+
+
+    <!--state: Date minus-->
+
+    <test-case>
+    <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>3 дня назад какое число было</q>
+        <a>15 августа 2016 г., понедельник</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>3 дня назад какое число было</q>
+        <a>15 августа 2016 г., понедельник</a>
+        <q>а 4 дня назад</q>
+        <a>14 августа 2016 г., воскресенье</a>
+    </test-case>
+
+
+    <!--Time till -->
+    
+    <test-case>
+    <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени осталось до 8 вечера</q>
+        <a>Примерно 7 часов</a>
+    </test-case> 
+
+    <test-case>
+    <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени осталось до 20-00</q>
+        <a>Примерно 7 часов</a>
+    </test-case>     
+     
+    <test-case>
+    <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>когда будет 8 вечера</q> 
+        <a>Примерно через 7 часов</a>
+    </test-case>
+
+    <test-case>
+    <dateTime>2016-08-18 00:40:55</dateTime>
+        <q>когда будет полдень?</q> 
+        <a>Примерно через 11 часов</a>
+        <q>через сколько наступит полдень?</q> 
+        <a>Примерно через 11 часов</a>
+    </test-case>
+
+    <test-case><!--33 неполная информация-->
+    <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>когда будет 7 число</q> 
+        <a>Примерно через 20 дней</a>
+    </test-case>
+
+    <test-case>
+    <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>через сколько будет 7 марта</q> 
+        <a>Примерно через 7 месяцев</a>
+    </test-case>   
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>через сколько будет 10 часов вечера</q>
+        <a>Примерно через 9 часов</a>
+    </test-case>
+
+    s<test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени осталось до нового года</q>
+        <a>Примерно 4 месяца</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько дней осталось до нового года</q>
+        <a>Примерно 4 месяца</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>через сколько дней новый год?</q>
+        <a>Примерно через 4 месяца</a>
+    </test-case>
+    
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какая дата будет через полгода</q>
+        <a>19 февраля 2017 г., воскресенье</a>
+    </test-case>
+
+    
+
+
+    <!--Time after -->
+    <!--35-->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени прошло с полудня</q>
+        <a>Примерно час</a>
+    </test-case>
+    
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько времени прошло с 3 часов ночи </q>
+        <a>Примерно 10 часов</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>как давно было 10 марта</q>
+        <a>Примерно 5 месяцев назад</a>
+    </test-case>
+
+    <!--Time zone -->
+    <test-case>
+        <q>в каком мы часовом поясе живем?</q>
+        <a>Конечно, я много чего умею, но подсказать часовой пояс я тебе не смогу. Зато я могу сосчитать разницу во времени между городами. Спроси, например, сколько времени в Токио, когда в Чикаго 7 вечера.</a>
+    </test-case>
+
+    <!--Timezone comparison -->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какая разница во времени между Токио и Чикаго</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471892791}</httpDataProvider>   
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"US","zoneName":"America\/Chicago","abbreviation":"CDT","gmtOffset":"-18000","dst":"1","timestamp":1472015953}</httpDataProvider>              
+        <a>В городе Токио + 14 часов относительно города Чикаго.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какая разница между Токио и Чикаго</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471892791}</httpDataProvider>        
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"US","zoneName":"America\/Chicago","abbreviation":"CDT","gmtOffset":"-18000","dst":"1","timestamp":1472015953}</httpDataProvider>         
+        <a>В городе Токио + 14 часов относительно города Чикаго.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>сколько по времени разница между Чикаго и Токио</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"US","zoneName":"America\/Chicago","abbreviation":"CDT","gmtOffset":"-18000","dst":"1","timestamp":1472015953}</httpDataProvider>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471892791}</httpDataProvider>         
+        <a>В городе Чикаго -14 часов относительно города Токио.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>сколько по времени разница у нас с Ригой</q>
+        <a>А в каком мы сейчас городе? </a>
+        <q>В городе на Неве</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"RU","zoneName":"Europe\/Moscow","abbreviation":"MSK","gmtOffset":10800,"dst":"0","timestamp":1492205511}</httpDataProvider>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"LV","zoneName":"Europe\/Riga","abbreviation":"EEST","gmtOffset":10800,"dst":"1","timestamp":1492205440}</httpDataProvider>         
+        <a>В городе Санкт-Петербург нет разницы во времени относительно города Рига.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>какая разница у Праги с нами по времени?</q>
+        <a>А в каком мы сейчас городе? </a>
+        <q>В городе на Неве</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"RU","zoneName":"Europe\/Moscow","abbreviation":"MSK","gmtOffset":10800,"dst":"0","timestamp":1492205511}</httpDataProvider>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"CZ","zoneName":"Europe\/Prague","abbreviation":"CEST","gmtOffset":7200,"dst":"1","timestamp":1492202224}</httpDataProvider>         
+        <a>В городе Санкт-Петербург + 1 час относительно города Прага.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>какая разница по времени между нами и Прагой?</q>
+        <a>А в каком мы сейчас городе? </a>
+        <q>В городе на Неве</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"RU","zoneName":"Europe\/Moscow","abbreviation":"MSK","gmtOffset":10800,"dst":"0","timestamp":1492205511}</httpDataProvider>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"CZ","zoneName":"Europe\/Prague","abbreviation":"CEST","gmtOffset":7200,"dst":"1","timestamp":1492202224}</httpDataProvider>         
+        <a>В городе Санкт-Петербург + 1 час относительно города Прага.</a>
+    </test-case>
+    
+
+     <!--Timezone calculator -->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>сколько в Чикаго когда в Токио 3 часа ночи</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471892791}</httpDataProvider>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"US","zoneName":"America\/Chicago","abbreviation":"CDT","gmtOffset":"-18000","dst":"1","timestamp":1472015953}</httpDataProvider>                 
+        <a>Когда в городе Токио 03:00, в городе Чикаго 13:00.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>если в Токио 17:30 то сколько времени в Чикаго </q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471892791}</httpDataProvider> 
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"US","zoneName":"America\/Chicago","abbreviation":"CDT","gmtOffset":"-18000","dst":"1","timestamp":1472015953}</httpDataProvider>                
+        <a>Когда в городе Токио 17:30, в городе Чикаго 03:30.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q> сколько будет времени в Берлине, когда у нас 6 утра?</q>
+        <a>А в каком мы сейчас городе? </a>
+        <q>В городе на Неве</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"RU","zoneName":"Europe\/Moscow","abbreviation":"MSK","gmtOffset":10800,"dst":"0","timestamp":1492205511}</httpDataProvider>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"DE","zoneName":"Europe\/Berlin","abbreviation":"CEST","gmtOffset":7200,"dst":"1","timestamp":1492203529}</httpDataProvider>
+        <a>Когда в городе Санкт-Петербург 06:00, в городе Берлин 05:00.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q> сколько будет времени в наших краях, когда в Берлине 5 утра?</q>
+        <a>А в каком мы сейчас городе? </a>
+        <q>В городе на Неве</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"DE","zoneName":"Europe\/Berlin","abbreviation":"CEST","gmtOffset":7200,"dst":"1","timestamp":1492203529}</httpDataProvider>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"RU","zoneName":"Europe\/Moscow","abbreviation":"MSK","gmtOffset":10800,"dst":"0","timestamp":1492205511}</httpDataProvider>
+        <a>Когда в городе Берлин 05:00, в городе Санкт-Петербург 06:00.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-18 13:23:55</dateTime>
+        <q>сколько у нас времени, когда в Токио полдень?</q>
+        <a>А в каком мы сейчас городе? </a>
+        <q>В городе на Неве</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1471892791}</httpDataProvider> 
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"RU","zoneName":"Europe\/Moscow","abbreviation":"MSK","gmtOffset":10800,"dst":"0","timestamp":1492205511}</httpDataProvider>
+        <a>Когда в городе Токио 12:00, в городе Санкт-Петербург 06:00.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какая у нас разница по времени с Берлином?</q>
+        <a>А в каком мы сейчас городе? </a>
+        <q>В городе на Неве</q>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"RU","zoneName":"Europe\/Moscow","abbreviation":"MSK","gmtOffset":10800,"dst":"0","timestamp":1492205511}</httpDataProvider>
+        <httpDataProvider>{"status":"OK","message":"","countryCode":"DE","zoneName":"Europe\/Berlin","abbreviation":"CEST","gmtOffset":7200,"dst":"1","timestamp":1492203529}</httpDataProvider>
+        <a>В городе Санкт-Петербург + 1 час относительно города Берлин.</a>
+    </test-case>
+
+
+    <!--state: Current year and month ans season-->
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какой сейчас год</q>
+        <a>2016</a>
+        <q>а месяц</q>
+        <a>август</a>
+    </test-case>  
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какой сейчас месяц</q>
+        <a>август</a>
+        <q>а год</q>
+        <a>2016</a>
+    </test-case>       
+     
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>назови текущее время года</q>
+        <a>лето</a>
+        <q>а год</q>
+        <a>2016</a>
+    </test-case> 
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какая дата сегодня</q>
+        <a>Сегодня 19 августа 2016 г., пятница</a>
+        <q>а время года</q>
+        <a>лето</a>
+    </test-case> 
+
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какое сейчас время года</q>
+        <a>лето</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-19 13:23:55</dateTime>
+        <q>какой сейчас сезон</q>
+        <a>лето</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2017-01-27 13:23:55</dateTime>        
+        <q>32 декабря - это понедельник</q>
+        <a>Нет, понедельник - это 30 января 2017 г.</a>
+        <q>какой день недели будет 41 июля</q>
+        <a>Такой даты не существует</a>
+        <q>сколько времени осталось до 30 февраля</q>
+        <a>Такой даты не существует</a>
+        <q>сколько времени прошло с 31 апреля</q>
+        <a>Такой даты не существует</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2017-03-22 13:23:55</dateTime>        
+        <q>какой вчера был день</q>
+        <a>21 марта 2017 г., вторник</a>
+        <q>а позавчера</q>
+        <a>Понедельник</a>
+        <q>а позапозавчера</q>
+        <a>Воскресенье</a>
+        <q>а число какое?</q>
+        <a>19 марта 2017 г., воскресенье</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2017-03-22 13:23:55</dateTime>
+        <q>сколько дней осталось до лета?</q>
+        <a>Лето начнётся примерно через 2 месяца.</a>
+        <q>а до июня?</q>
+        <a>До июня осталось примерно 2 месяца.</a>
+        <q>а до 1 июня?</q>
+        <a>Примерно 2 месяца</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2017-03-22 13:23:55</dateTime>
+        <q>сколько дней осталось до весны?</q>
+        <a>Весна уже на дворе.</a>
+        <q>а когда она закончится?</q>
+        <a>Повтори, пожалуйста, время года или месяц.</a>
+        <q>весна</q>
+        <a>Весна закончится примерно через 2 месяца.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2017-03-22 13:23:55</dateTime>
+        <q>как скоро настанет зима?</q>
+        <a>Зима начнётся примерно через 8 месяцев.</a>
+        <q>а осень?</q>
+        <a>Осень начнётся примерно через 5 месяцев.</a>
+        <q>а когда зима закончится?</q>
+        <a>Зима закончится примерно через год.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-10-22 13:23:55</dateTime>
+        <q>как скоро наступит весна?</q>
+        <a>Весна начнётся примерно через 4 месяца.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-04-22 13:23:55</dateTime>
+        <q>когда закончится весна?</q>
+        <a>Весна закончится примерно через месяц.</a>
+        <q>когда закончится апрель?</q>
+        <a>До конца апреля осталось примерно 9 дней.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2017-03-22 13:23:55</dateTime>
+        <q>сколько времени осталось до марта?</q>
+        <a>Март уж наступил.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2017-03-22 13:23:55</dateTime>
+        <q>сколько осталось до декабря?</q>
+        <a>До декабря осталось примерно 8 месяцев.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2017-03-22 00:40:55</dateTime>
+        <q>во сколько сегодня рассвет?</q>
+        <a>Пока я не научился отвечать на такие вопросы. Рассвет и закат - понятия относительные.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2017-03-22 00:40:55</dateTime>
+        <q>через сколько дней будут выходные?</q>
+        <a>До выходных осталось 3 дня.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2017-03-26 00:40:55</dateTime>
+        <q>через сколько дней будут выходные?</q>
+        <a>Выходные уже наступили. Сегодня воскресенье.</a>
+    </test-case>
+
+</test>

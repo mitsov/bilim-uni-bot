@@ -1,0 +1,592 @@
+<test>
+
+    <!--  state: Set a reminder -->
+    
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>remind me to feed the cat at 3 o'clock</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472094000,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 AM, 25 August</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>set a reminder to feed the cat at 3 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472050800,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 PM</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>create a reminder about feeding the cat at 4 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472054400,
+            text: "feeding the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feeding the cat" at 4:00 PM</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>reminder feed the cat 3 o'clock</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472094000,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 AM, 25 August</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-11-17 12:23:55</dateTime>
+        <q>remind me to attend the meeting at 13th November at 6:30 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1510597800,
+            text: "attend the meeting"
+        }</responseData>
+        <a>Ok, I'll remind you: "attend the meeting" at 6:30 PM, 13 November</a>
+        <q>remind me to attend the meeting at 17th November 2017 at 8:30 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 1,
+            timer: 1510950600,
+            text: "attend the meeting"
+        }</responseData>
+        <a>Ok, I'll remind you: "attend the meeting" at 8:30 PM</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-11-17 12:23:55</dateTime>
+        <q>remind me to attend the meeting at 13th at 6:30 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer:  1481653800,
+            text: "attend the meeting"
+        }</responseData>
+        <a>Ok, I'll remind you: "attend the meeting" at 6:30 PM, 13 December</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-11-17 12:23:55</dateTime>
+        <q>remind me to attend the meeting at 13th at 6:30 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer:  1481653800,
+            text: "attend the meeting"
+        }</responseData>
+        <a>Ok, I'll remind you: "attend the meeting" at 6:30 PM, 13 December</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-11-17 12:23:55</dateTime>
+        <q>remind me to attend the meeting at 11:30 am</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer:  1479468600,
+            text: "attend the meeting"
+        }</responseData>
+        <a>Ok, I'll remind you: "attend the meeting" at 11:30 AM,  18 November</a>
+    </test-case>
+
+    <!--thank you-->
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>tomorrow remind me to feed the cat</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472131435,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 1:23 PM, 25 August</a>
+        <q>thank you</q>
+        <a>You are welcome!</a>
+    </test-case>
+
+
+    <!--cancel the reminder-->
+    
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>create a reminder to feed the cat for tomorrow at 3 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472137200,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 PM, 25 August</a>
+        <q>cancel</q>
+        <a state="/Reminder/Set a reminder/Cancel the reminder">The reminder has been cancelled.</a>
+    </test-case>
+
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>create a reminder to feed the cat for tomorrow at 3 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472137200,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 PM, 25 August</a>
+        <q>cancel the reminder</q>
+        <a state="/Reminder/Delete a reminder no time no summary">The reminder "feed the cat" has been cancelled.</a>
+    </test-case>
+
+
+
+    <!--context states: Set a reminder - edit the reminder -->
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>create a reminder for tomorrow to feed the cat</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472131435,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 1:23 PM, 25 August</a>
+        <q>no it's 4 pm</q>
+        <a state="/Reminder/Edit the reminder">You can edit the reminder in the app.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>create a reminder to feed the cat for tomorrow at 3 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472137200,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 PM, 25 August</a>
+        <q>no it's the day after tomorrow</q>
+        <a state="/Reminder/Edit the reminder">You can edit the reminder in the app.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>make a reminder for me to feed the cat for tomorrow at 3 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472137200,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 PM, 25 August</a>
+        <q>oh no let's edit the time</q>
+        <a state="/Reminder/Edit the reminder">You can edit the reminder in the app.</a>
+    </test-case>
+
+
+
+    <!--set a reminder no time no todo-->
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>make a reminder</q>
+        <a>I can remind you about anything. What should I remind you about?</a>
+        <q>feed the cat</q>
+        <a>When should I remind you about "feed the cat"?</a>
+        <q>tomorrow at 3pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472137200,  
+            text: "feed the cat"
+        }</responseData>
+        <a class="/Reminder/Set a reminder no time/Set reminder time">Ok, I'll remind you: "feed the cat" at 3:00 PM, 25 August</a>
+    </test-case>    
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>make a reminder</q>
+        <a>I can remind you about anything. What should I remind you about?</a>
+        <q>feed the cat tomorrow at 3pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472137200,  
+            text: "feed the cat"
+        }</responseData>
+        <a class="/Reminder/Set a reminder no todo/Set reminder todo/Set reminder todo set">Ok, I'll remind you: "feed the cat" at 3:00 PM, 25 August</a>
+    </test-case>    
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>remind</q>
+        <a>I can remind you about anything. What should I remind you about?</a>
+        <q>nothing</q>
+        <a>Ok. The reminder is cancelled.</a>
+    </test-case>  
+
+
+    
+    <!--context states: Set a reminder no time -->
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>make a reminder to feed the cat</q>
+        <a state="/Reminder/Set a reminder no time">When should I remind you about "feed the cat"?</a>
+        <q>tomorrow at 3 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472137200,  
+            text: "feed the cat"
+        }</responseData>
+        <a class="/Reminder/Set a reminder no time/Set reminder time">Ok, I'll remind you: "feed the cat" at 3:00 PM, 25 August</a>
+    </test-case>
+
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>remind me to feed the cat</q>
+        <a state="/Reminder/Set a reminder no time">When should I remind you about "feed the cat"?</a>
+        <q>ghj</q>
+        <a>Sorry, that doesn't sound like a moment in time.</a>
+    </test-case>
+
+
+    <!--context states: Set a reminder no todo -->
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>create a reminder for 3 pm</q>
+        <a state="/Reminder/Set a reminder no todo">What should I remind you about at 3:00 pm?</a>
+        <q>kiss the cat</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472050800,
+            text: "kiss the cat"
+        }</responseData>
+        <a class="/Reminder/Set a reminder no todo/Set reminder todo/Set reminder todo set">Ok, I'll remind you: "kiss the cat" at 3:00 PM</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>create a reminder for tomorrow</q>
+        <a state="/Reminder/Set a reminder no todo">What should I remind you about at 1:23 pm?</a>
+        <q>nothing</q>
+        <a state="/Reminder/Set a reminder no todo/Set reminder todo/Set reminder todo cancel">Ok. The reminder is cancelled.</a>
+    </test-case>
+
+    
+    <!--Delete a reminder -->
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>create a reminder to feed the cat for tomorrow at 3 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472137200,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 PM, 25 August</a>
+        <q>cancel</q>
+        <a state="/Reminder/Set a reminder/Cancel the reminder">The reminder has been cancelled.</a>
+        <q>cancel the reminder</q>
+        <a>We do not have any reminders.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>remind me to feed the cat at 3 o'clock</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472094000,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 AM, 25 August</a>
+        <q>make a reminder</q>
+        <a>I can remind you about anything. What should I remind you about?</a>
+        <q>nothing</q>
+        <a>Ok. The reminder is cancelled.</a>
+        <q>Cancel my reminder</q>
+        <responseData>{ 
+            action: "deleteReminder",
+            id: 0
+        }</responseData>
+        <a>The reminder "feed the cat" has been cancelled.</a>
+    </test-case>
+
+     <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>remind me to feed the cat at 3 o'clock</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472094000,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 AM, 25 August</a>
+        <q>remind me to feed the dog at 8 o'clock</q>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the dog" at 8:00 AM, 25 August</a>
+        <q>make a reminder</q>
+        <a>I can remind you about anything. What should I remind you about?</a>
+        <q>nothing</q>
+        <a>Ok. The reminder is cancelled.</a>
+        <q>Cancel my reminder</q>
+        <a>Which reminder do you want to delete?</a>
+        <q>at 3 am</q>
+        <responseData>{ 
+            action: "deleteReminder",
+            id: 0
+        }</responseData>
+        <a>The reminder "feed the cat" has been cancelled.</a>
+    </test-case>
+
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>remind me to feed the cat at 3 o'clock</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472094000,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 AM, 25 August</a>
+        <q>Cancel my reminder about feed the dog</q>
+        <a state="/Reminder/Delete a reminder by summary">I could not find this reminder.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>remind me to feed the cat at 3 o'clock</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472094000,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 AM, 25 August</a>
+        <q>Cancel my reminder for 3 a.m.</q>
+        <responseData>{ 
+            action: "deleteReminder",
+            id: 0
+        }</responseData>
+        <a state="/Reminder/Delete a reminder by time">The reminder "feed the cat" has been cancelled.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>    
+        <q>delete my reminders for today</q>
+        <a state="/Reminder/Delete a reminder by time">There is no reminder for this time.</a>
+    </test-case>
+    
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>remind me to feed the cat at 3 o'clock</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472094000,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 AM, 25 August</a>
+        <q>delete my reminder about feed the cat</q>
+        <responseData>{ 
+            action: "deleteReminder",
+            id: 0
+        }</responseData>
+        <a state="/Reminder/Delete a reminder by summary">The reminder "feed the cat" has been cancelled.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <q>remind me to feed the cat at 3 o'clock</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472094000,
+            text: "feed the cat"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the cat" at 3:00 AM, 25 August</a>
+        <q>remind me to feed the dog at 4 o'clock</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 1,
+            timer: 1472097600,
+            text: "feed the dog"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the dog" at 4:00 AM, 25 August</a>
+        <q>remind me to feed the hamster at 5 o'clock</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 2,
+            timer: 1472101200,
+            text: "feed the hamster"
+        }</responseData>
+        <a state="/Reminder/Set a reminder">Ok, I'll remind you: "feed the hamster" at 5:00 AM, 25 August</a>
+        <q>delete my reminder about feed the cat</q>
+        <responseData>{ 
+            action: "deleteReminder",
+            id: 0
+        }</responseData>
+        <a state="/Reminder/Delete a reminder by summary">The reminder "feed the cat" has been cancelled.</a>
+        <q>delete my reminder at 5 o'clock</q>
+        <responseData>{ 
+            action: "deleteReminder",
+            id: 2
+        }</responseData>
+        <a state="/Reminder/Delete a reminder by time">The reminder "feed the hamster" has been cancelled.</a>
+    </test-case>
+
+
+
+    <!--app services-->
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>    
+        <q>show my to do list</q>
+        <a>You can look at your reminders list in the app.</a>
+        <q>snooze a reminder for 5 minutes</q>
+        <a>You can snooze your reminder in the app.</a>
+    </test-case>
+
+
+
+    <!--offset-->
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <requestData>{ offset: 180 }</requestData>
+        <q>remind me to feed the cat at 5 o'clock tomorrow evening</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472133600,
+            text: "feed the cat"
+        }</responseData>
+        <a>Ok, I'll remind you: "feed the cat" at 5:00 PM, 25 August</a>
+    </test-case>    
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <requestData>{ offset: 360 }</requestData>
+        <q>remind me to feed the cat at 5 o'clock tomorrow evening</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472122800,
+            text: "feed the cat"
+        }</responseData>
+        <a>Ok, I'll remind you: "feed the cat" at 5:00 PM, 25 August</a>
+    </test-case> 
+
+    <test-case>
+        <dateTime>2016-08-24 13:23:55</dateTime>
+        <requestData>{ offset: -60 }</requestData>
+        <q>remind me to feed the cat at 5 o'clock tomorrow evening</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472148000,
+            text: "feed the cat"
+        }</responseData>
+        <a>Ok, I'll remind you: "feed the cat" at 5:00 PM, 25 August</a>
+    </test-case>    
+
+    <test-case>
+        <dateTime>2016-08-25 00:00:00</dateTime>
+        <requestData>{ offset: -90 }</requestData>
+        <q>remind me to feed the cat 2 hours later</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1472090400,
+            text: "feed the cat"
+        }</responseData>
+        <a>Ok, I'll remind you: "feed the cat" at 12:30 AM, 25 August</a>
+    </test-case>  
+
+    <test-case>
+        <dateTime>2016-11-17 12:23:55</dateTime>
+        <requestData>{ offset: 480} </requestData>
+        <q>remind me to attend the meeting at 8 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1479470400,
+            text: "attend the meeting"
+        }</responseData>
+        <a>Ok, I'll remind you: "attend the meeting" at 8:00 PM, 18 November</a>
+    </test-case>   
+
+    <test-case>
+        <dateTime>2016-11-17 12:23:55</dateTime>
+        <requestData>{ offset: 720} </requestData>
+        <q>remind me to attend the meeting tomorrow at 8 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1479542400,
+            text: "attend the meeting"
+        }</responseData>
+        <a>Ok, I'll remind you: "attend the meeting" at 8:00 PM, 19 November</a>
+    </test-case>  
+
+    <test-case>
+        <dateTime>2016-11-17 12:00:00</dateTime>
+        <requestData>{ offset: -720} </requestData>
+        <q>remind me to attend the meeting tomorrow at 12 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1479513600,
+            text: "attend the meeting"
+        }</responseData>
+        <a>Ok, I'll remind you: "attend the meeting" at 12:00 PM, 18 November</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2016-11-17 11:00:00</dateTime>
+        <requestData>{ offset: -720} </requestData>
+        <q>remind me to attend the meeting tomorrow at 12 pm</q>
+        <responseData>{ 
+            action: "addReminder",
+            id: 0,
+            timer: 1479427200,
+            text: "attend the meeting"
+        }</responseData>
+        <a>Ok, I'll remind you: "attend the meeting" at 12:00 PM, 17 November</a>
+    </test-case>
+
+    <!--dialog samples-->
+    <test-case>
+        <dateTime>2016-11-17 11:00:00</dateTime>
+        <q>pudding, i want you to remind me to attend the meeting at 10 pm</q>
+        <a>Ok, I'll remind you: "attend the meeting" at 10:00 PM</a>
+        <q>oh, wait. i want to change the time</q>
+        <a>You can edit the reminder in the app.</a>
+        <q>Okay, then delete it</q>
+        <a>The reminder "attend the meeting" has been cancelled.</a>
+        <q>Thank you</q>
+        <a>You are welcome!</a>
+    </test-case>
+
+</test>

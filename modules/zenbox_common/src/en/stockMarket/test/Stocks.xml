@@ -1,0 +1,256 @@
+<test>
+    <mockData  integration="true">
+        <query method="get">https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&amp;symbol=AAPL&amp;apikey=76LKYJUU4P2YKXCV</query>
+        <parameters>
+            <symbol>AAPL</symbol>
+            <apikey>76LKYJUU4P2YKXCV</apikey>
+        </parameters>
+        <response type="json" status="200">{
+    "Meta Data": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "AAPL",
+        "3. Last Refreshed": "2018-03-23",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+    },
+    "Time Series (Daily)": {
+        "2018-03-23": {
+            "1. open": "168.3900",
+            "2. high": "169.9200",
+            "3. low": "164.9400",
+            "4. close": "164.9400",
+            "5. volume": "40248954"
+        },
+        "2018-03-22": {
+            "1. open": "170.0000",
+            "2. high": "172.6800",
+            "3. low": "168.6000",
+            "4. close": "168.8500",
+            "5. volume": "41051076"
+        },
+        "2018-03-21": {
+            "1. open": "175.0400",
+            "2. high": "175.0900",
+            "3. low": "171.2600",
+            "4. close": "171.2700",
+            "5. volume": "35247358"
+        },
+        "2018-03-20": {
+            "1. open": "175.2400",
+            "2. high": "176.8000",
+            "3. low": "174.9400",
+            "4. close": "175.2400",
+            "5. volume": "19314039"
+        },
+        "2018-03-19": {
+            "1. open": "177.3200",
+            "2. high": "177.4700",
+            "3. low": "173.6600",
+            "4. close": "175.3000",
+            "5. volume": "32804695"
+        },
+        "2018-03-16": {
+            "1. open": "178.6500",
+            "2. high": "179.1200",
+            "3. low": "177.6200",
+            "4. close": "178.0200",
+            "5. volume": "36836456"
+        },
+        "2018-03-15": {
+            "1. open": "178.5000",
+            "2. high": "180.2400",
+            "3. low": "178.0701",
+            "4. close": "178.6500",
+            "5. volume": "22584565"
+        },
+        "2018-03-14": {
+            "1. open": "180.3200",
+            "2. high": "180.5200",
+            "3. low": "177.8100",
+            "4. close": "178.4400",
+            "5. volume": "29075469"
+        },
+        "2018-03-13": {
+            "1. open": "182.5900",
+            "2. high": "183.5000",
+            "3. low": "179.2400",
+            "4. close": "179.9700",
+            "5. volume": "31168404"
+        }
+    }
+}</response>
+    </mockData>
+    <mockData  integration="true">
+        <query method="get">https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&amp;symbol=FB&amp;apikey=76LKYJUU4P2YKXCV</query>
+        <parameters>
+            <symbol>FB</symbol>
+            <apikey>76LKYJUU4P2YKXCV</apikey>
+        </parameters>
+        <response type="json" status="200">{
+    "Meta Data": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "FB",
+        "3. Last Refreshed": "2018-03-23",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+    },
+    "Time Series (Daily)": {
+        "2018-03-23": {
+            "1. open": "165.4400",
+            "2. high": "167.1000",
+            "3. low": "159.0200",
+            "4. close": "159.3900",
+            "5. volume": "52306891"
+        },
+        "2018-03-22": {
+            "1. open": "166.1300",
+            "2. high": "170.2700",
+            "3. low": "163.7200",
+            "4. close": "164.8900",
+            "5. volume": "73389988"
+        },
+        "2018-03-21": {
+            "1. open": "164.8000",
+            "2. high": "173.4000",
+            "3. low": "163.3000",
+            "4. close": "169.3900",
+            "5. volume": "105350867"
+        },
+        "2018-03-20": {
+            "1. open": "167.4700",
+            "2. high": "170.2000",
+            "3. low": "161.9500",
+            "4. close": "168.1500",
+            "5. volume": "128925534"
+        },
+        "2018-03-19": {
+            "1. open": "177.0100",
+            "2. high": "177.1700",
+            "3. low": "170.0600",
+            "4. close": "172.5600",
+            "5. volume": "86897749"
+        }
+    }
+}</response>
+    </mockData>
+    <mockData  integration="true">
+        <query method="get">https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&amp;symbol=TSLA&amp;apikey=76LKYJUU4P2YKXCV</query>
+        <parameters>
+            <symbol>TSLA</symbol>
+            <apikey>76LKYJUU4P2YKXCV</apikey>
+        </parameters>
+        <response type="json" status="200">{
+    "Meta Data": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "TSLA",
+        "3. Last Refreshed": "2018-03-26 09:55:43",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+    },
+    "Time Series (Daily)": {
+        "2018-03-20": {
+            "1. open": "314.8700",
+            "2. high": "316.2500",
+            "3. low": "308.7600",
+            "4. close": "310.5500",
+            "5. volume": "4726182"
+        },
+        "2018-03-19": {
+            "1. open": "316.5000",
+            "2. high": "320.7500",
+            "3. low": "309.6700",
+            "4. close": "313.5600",
+            "5. volume": "7440766"
+        }
+    }
+}</response>
+    </mockData>
+    <test-case>
+        <dateTime>2018-03-21 13:23:55</dateTime>
+        <q>AAPL price</q>
+        <a>The closing price is 164.94 USD for Apple Inc.</a>
+        <q>Show me the highest price of Apple on Monday.</q>
+        <a>The highest price on 19th March is 177.47 USD for Apple Inc.</a>  
+        <q>and on Tuesday.</q>
+        <a>The highest price on 20th March is 176.8 USD for Apple Inc.</a>
+    </test-case>
+    <test-case>
+        <q>Apple's stock symbol and trading volume.</q>
+        <a>The stock symbol is AAPL for Apple Inc.</a>
+        <a>Trading volume is 40248954.</a>
+        <q>Show me its market cap.</q>
+        <a>The market cap is $749.39B for Apple Inc.</a>
+        <q>What about Facebook?</q>
+        <a>The market cap is $436.41B for Facebook, Inc.</a>
+        <q>what about Apple and Facebook</q>
+        <a>The market cap is $749.39B for Apple Inc. and $436.41B for Facebook, Inc.</a>
+    </test-case>
+
+    <test-case>
+        <dateTime>2018-03-20 13:23:55</dateTime>
+        <q>Compare the price of Apple Incorporated to Facebook.</q>
+        <a>The closing price is 164.94 USD for Apple Inc. and 159.39 USD for Facebook, Inc.</a>
+        <q>and what about lowest prices on monday</q>         
+        <a>The lowest price on 19th March is 173.66 USD for Apple Inc. and 170.06 USD for Facebook, Inc.</a>       
+    </test-case>
+
+    <test-case>
+        <dateTime>2018-03-20 13:23:55</dateTime>
+        <q>what is the price of apple shares</q>
+        <a>The closing price is 164.94 USD for Apple Inc.</a>
+        <q>and for tomorrow</q>
+        <a>I don't know the information for the future.</a>
+        <q>and on Monday</q>
+        <a>The closing price on 19th March is 175.3 USD for Apple Inc.</a>
+        <q>and what about Tesla shares</q>
+        <a>The closing price on 19th March is 313.56 USD for Tesla, Inc.</a>
+    </test-case>
+    <mockData  integration="true">
+        <query method="get">https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&amp;symbol=MSFT&amp;apikey=76LKYJUU4P2YKXCV</query>
+        <parameters>
+            <symbol>MSFT</symbol>
+            <apikey>76LKYJUU4P2YKXCV</apikey>
+        </parameters>
+        <response type="json" status="200">{
+    "Meta Data": {
+        "1. Information": "Daily Prices (open, high, low, close) and Volumes",
+        "2. Symbol": "MSFT",
+        "3. Last Refreshed": "2018-03-20",
+        "4. Output Size": "Compact",
+        "5. Time Zone": "US/Eastern"
+    },
+    "Time Series (Daily)": {
+        "2018-03-20": {
+            "1. open": "93.0500",
+            "2. high": "93.7700",
+            "3. low": "93.0000",
+            "4. close": "93.1300",
+            "5. volume": "21787780"
+        },
+        "2018-03-19": {
+            "1. open": "93.7400",
+            "2. high": "93.9000",
+            "3. low": "92.1100",
+            "4. close": "92.8900",
+            "5. volume": "31752589"
+        },
+        "2018-03-15": {
+            "1. open": "93.7400",
+            "2. high": "93.8999",
+            "3. low": "92.1100",
+            "4. close": "92.8900",
+            "5. volume": "31752589"
+        }
+    }
+}</response>
+    </mockData>
+    <test-case>
+        <dateTime>2018-03-20 13:23:55</dateTime>
+        <q>price microsoft</q>        
+        <a>The closing price is 93.13 USD for Microsoft Corporation.</a>
+        <q>show me maximum price of microsoft on monday.</q>
+        <a>The highest price on 19th March is 93.9 USD for Microsoft Corporation.</a>  
+        <q>What about Thursday</q>
+        <a>The highest price on 15th March is 93.9 USD for Microsoft Corporation.</a>                        
+    </test-case>
+</test>

@@ -1,0 +1,75 @@
+Goroda game user start:
+  - Sure!
+Goroda game no:
+  disagree:
+    - A no is a no.
+  noandtext:
+    - Let's think about it tomorrow.
+    - Let's talk about it tomorrow.
+    - I don't really willing it...
+Goroda game user starts with CityCountry:
+  isACountry:
+    - "{{my_capitalize($parseTree.Country[0].text}} is a country, we need cities. Will you try again?"
+Goroda game intro:
+  intro:
+    - "We'll call out the names of cities one after another - each starting with the last letter of the previous city. When you want to stop just say Stop or Enough. And the first city is — {{$temp.nextCity}}."
+  forgotAll:
+    - Oh! I've forgot all the cities!
+Goroda game intro iterate:
+  - "The first city is — {{$temp.nextCity}}."
+Goroda game question:
+  AgreeWithRules:
+    - "You need to name a city starting with {{getCityLetter()}}"
+  Remind user a letter:
+    - "The last city was {{$temp.lastCity}}. You have to name a city starting with {{getCityLetter()}}."
+  Goroda game answer:
+    severalCities:
+      - No way, you have to choose one city.
+    getCityFromText:
+      - "So the next city is {{ my_capitalize($parseTree.City[0].text) }}, isn't it?"
+      - "{{ my_capitalize($parseTree.City[0].text) }} — interesting choice."
+      - "So, you answer is {{ my_capitalize($parseTree.City[0].text) }}."
+    wrongNameVariant: 
+      - "{{ $temp.variantCityName }} — is an informal name. Official name is {{ $temp.officialCityName }}, it starts with different letter. Try something else. "
+    correctNameVariant:
+      - "{{ $temp.variantCityName }} — is an informal name. Official name is {{ $temp.officialCityName }}. We will score it!"
+    oldCity:
+      - "We already mentioned {{$temp.userCity}}. Will you try another city?"
+    oldCityText:
+      - "{{$temp.userText}} or {{$temp.userCity}} is cannot be used more then once in a game. Will you try again?"
+    notACity:
+      - "{{$temp.userCity}} starts with {{$temp.firstLetter}}, while {{$temp.lastCity}} ends with {{$temp.lastLetter}}. You have to name a city starting with {{$temp.lastLetter}}. Will you try again?"
+    forgotCity:
+      - Somehow I've forgotten the previous city name. Let's start again!
+    country:
+      - "{{my_capitalize($parseTree.Country[0].text)}} is a country, we need cities. Will you try again?"
+    agree:
+      - I'm listening!
+Goroda game answer undefined:
+  - "I don't know any city named {{my_capitalize($parseTree.AnyWord[0].text)}}. Will you try again?"
+Goroda game user does not know the city:
+  - You know now! Are we going to continue playing?
+Goroda game thank you for repeat:
+  - You are welcome!
+Goroda game giving up:
+  notByRules:
+    - Sorry, but it's against the rules.
+  giveUp:
+    - Do you give up?
+Goroda game giving up no:
+    - I like your spirit!
+    - Way to go! 
+Goroda game end:
+  - Let's finish!
+  - So the game is over!!
+  - Then let's finish.
+Goroda game new iteration:
+  - Sure. Let's play again.
+  - Let's begin!
+Goroda game User asks game progress:
+  - Are we going to continue playing?
+Goroda WantMore:
+  - Sure!
+  - With pleasure!
+getResultString:
+  - "Our word chain is {{$session.chain}} {{$session.ru__words}} long."

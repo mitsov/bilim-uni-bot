@@ -1,0 +1,29 @@
+descriptor:
+
+  id: Stories
+  title: Stories
+  theme: Reading
+  summary: Short conversations with a child based on the best stories of classic writers.
+  description: The child learns moral concepts without boredom and pressure from adults. Expressive voice announcers turn acquaintance with classical literature in an exciting adventure. 
+  labels: ["stories", "literature"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/Stories.png
+  background: 008066
+  price: 0.20
+
+  samples:
+    - "Let's talk and then listen to a good story. If you want to stop and play something else, just say 'enough'."
+    - "Let me tell you an interesting story. Listen to it and remember that we are always responsible for our loved ones and for what we have tamed."
+
+#entryPoint: en/stories/Stories.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

@@ -1,0 +1,29 @@
+descriptor:
+
+  id: Fables
+  title: Fables
+  theme: Reading
+  summary: A collection of short conversations with a child based on the most famous fables and stories.
+  description: Each conversation is a chat with a child about good and bad human qualities, which is concluded in a friendly manner. Thus, the child learns moral concepts without the edifying pressure of adults, talking with the device as with a friend.
+  labels: ["fables", "literature"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/Fables.png
+  background: 008066
+  price: 0.20
+
+  samples:
+    - "Let's listen to a short, instructive story about people and animals. If you want to stop and play something else, just say 'enough'"
+    - "It seems to me that agreement among friends is the most important thing! I have an interesting story on this subject. Let's listen and make sure."
+
+#entryPoint: en/fables/Fables.sc 
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

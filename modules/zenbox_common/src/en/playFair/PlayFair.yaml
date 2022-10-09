@@ -1,0 +1,32 @@
+descriptor:
+
+  id: PlayFair
+  title: Play fair!
+  theme: activities
+  summary: Simple and clear explanations of the rules of the most popular games and activities
+  description: Ask your device to explain the rules and play nice, smart and safe.
+  labels: ["game", "rule", "activity"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/PlayFair.png
+  background: 008066
+  price: 0.20
+
+  samples:
+    - How should we play table tennis?  
+    - "A match is played best 3 of 5 games (or 4/7 or 5/9). For each game, the first player to reach 11 points wins that game, however a game must be won by at least a two point margin. A point is scored after each ball is put into play. The edges of the table are part of the legal table surface, but not the sides. Should I continue?"
+
+    - How to use a pawn in chess? 
+    - "A pawn moves straight forward. It captures by talking one square diagonally forward. Pawns can never move backwards."
+
+#entryPoint: en/playFair/PlayFair.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

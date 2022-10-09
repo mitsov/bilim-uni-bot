@@ -1,0 +1,73 @@
+<test>
+<!-- 
+    <test-case integration="true">
+        <q>recommend me some music</q>
+        <a>Now playing Ed Sheeran, 'Shape of You'.</a>
+        <q>change it</q>
+        <a>Now playing Imagine Dragons, 'Thunder'.</a>
+        <requestData>{"trackId":3}</requestData>
+        <q>next</q>        
+        <a>Now playing Kygo, 'It Ain't Me'.</a>
+    </test-case>    
+
+
+    <test-case integration="true">
+        <q>music for kids</q>
+        <a>Now playing Countdown Kids, 'The Muffin Man'.</a>
+        <q>what is playing now</q> 
+        <a>It's Countdown Kids, 'The Muffin Man'</a>
+        <q>What band id playing now </q>
+        <a>It is Countdown Kids</a>
+        <q>next</q>
+        <a>Now playing Countdown Kids, 'Hickory Dickory Dock'.</a>
+    </test-case>
+
+    <test-case integration="true">
+        <q>play some Elvis Presley music</q>
+        <a>Now playing Elvis Presley, 'Jailhouse Rock'.</a>
+        <q>next</q>
+        <a>Now playing Elvis Presley, 'All Shook Up'.</a>
+        <requestData>{"musicState":"musicOn"}</requestData>
+        <q>pause</q>
+        <requestData>{"musicState":"musicPause"}</requestData>
+        <q>resume</q>
+    </test-case>
+
+    <test-case integration="true">
+        <q>play some popular music</q>
+        <a>Now playing Ed Sheeran, 'Shape of You'.</a>
+
+    </test-case>   -->
+    <test-case integration="true">
+        <q>turn on madonna</q>
+        <a>I can't find any music to suit your request.</a>
+        <q>next</q>
+        <a>I can search the music for you. For example you can ask me to find popular music.</a>
+    </test-case>
+
+    <test-case integration="true">
+        <q>play romantic music</q>
+        <a>Now playing James Bay, 'Wild Love'.</a>
+    </test-case> 
+    <test-case integration="true">
+        <q>recommend me some music</q>
+        <a>Now playing Егор Крид, 'Цвет настроения чёрный'.</a>
+        <q>next</q>
+        <a>Now playing Dynoro, 'In My Mind'.</a>
+        <q>next</q>
+        <a>Now playing Imagine Dragons, 'Natural'.</a>
+        <q>next</q>
+        <a>Now playing CYGO, 'Panda E'.</a>
+        <q>prev</q>
+        <a>Now playing Imagine Dragons, 'Natural'.</a>
+
+    </test-case>
+    <test-case integration="true">
+        <q>play punk rock</q>
+        <a>Now playing Alkaline Trio, 'Throw Me To The Lions'.</a>
+        <q>next</q>
+        <a>Now playing Pennywise, 'Won't Give Up The Fight'.</a>
+        <q>play previous</q>
+        <a>Now playing Alkaline Trio, 'Throw Me To The Lions'.</a>
+    </test-case>
+</test>

@@ -1,0 +1,45 @@
+descriptor:
+  id: dateTime
+  title: Date & Time
+  theme: Date and Time
+  summary: Tells the time. Every time. Everywhere.
+  description: I know the time in any city in the world - I can check the day of the week for you and count how long it is till a certain date.
+  labels: ["dateTime"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/dateTime.png
+  background: 803300
+  price: 0.25
+
+  samples:
+    - Который сейчас час в Токио?
+    - Сейчас в городе Токио 22:00
+    - А в Чикаго? 
+    - Сейчас в городе Чикаго 07:00
+    
+    - Какое число будет в следующий понедельник?
+    - 17 октября 2016 г., понедельник
+
+    - Текущее время
+    - Сейчас 13:23
+
+    - Завтра 19 августа? 
+    - Да, 19 августа 2016 г., пятница
+
+    - Какое число будет через две недели?
+    - 2 сентября 2016 г., пятница
+
+    - Какая разница во времени между Токио и Чикаго?
+    - В городе Токио + 14 часов относительно города Чикаго.
+
+entryPoint: ru/dateTime/DateTime.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

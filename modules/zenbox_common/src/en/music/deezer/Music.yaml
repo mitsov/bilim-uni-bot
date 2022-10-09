@@ -1,0 +1,44 @@
+descriptor:
+  id: deezer
+  title: Deezer music
+  theme: Music
+  summary: Your favorite music
+  description: I'll find the music you want to listen to in my collection of million songs and put it on for you.
+  labels: ["music"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/deezer.png
+  background: 000000
+  price: 0.40
+
+  samples:
+    - Play Madonna
+    - Now playing Madonna, 'Lucky Stars'
+    - Next track
+    - Now playing Madonna, 'Like a Prayer'
+
+    - Play rock music
+    - Now playing The Rolling Stones, 'Start Me Up'
+
+    - Play popular music
+    - Now playing Ed Sheeran, 'Shape of You'
+    - Is it Ed Sheeran?
+    - Yes, it's Ed Sheeran, 'Shape of You'
+
+    - Play relaxing music
+    - Now playing Acoustic Hits, 'Chilled Jazz'
+    - What is playing?
+    - It's Acoustic Hits, 'Chilled Jazz'    
+
+
+entryPoint: en/music/deezer/Music.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

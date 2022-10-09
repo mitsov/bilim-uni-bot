@@ -1,0 +1,76 @@
+Odd word game start:
+    - Давай! Я буду называть слова, а ты говори, какое среди них лишнее. Начнём?
+YesOrNo:
+    No Odd Word game:
+        - Очень жаль.
+        - Ладно, в другой раз.
+        - Нет так нет.
+    Yes Odd Word game:
+        if:
+            - Отлично! Продолжаем!
+        else:
+            - Отлично! Скажи "хватит", когда захочешь остановиться.
+            - Отлично! Скажи "хватит", чтобы закончить игру.
+Odd Word game get answer:
+    answerOutOfRange: Там было всего 4 варианта ответа.
+    if:
+        - Так не пойдёт! Назови одно слово.
+    else:
+        - "Этого слова нет в списке, попробуй ещё раз. {{capitalize($session.oddWordGame.currentListText)}}"
+        - "Пожалуйста, назови слово из списка: {{$session.oddWordGame.currentListText}}"
+Odd Word game get answer dontknow:
+    - Ладно, можешь не отвечать.
+    - Хорошо, пропустим этот вопрос
+    - Давай тогда узнаем правильный ответ у компьютера
+Odd Word game get answer other:
+    - Попробуй, пожалуйста, сказать еще раз, я не очень понял.
+    - Прости, но я тебя не расслышал.
+    - Кажется, я тебя не понимаю.
+Odd Word game what it is:
+    - "{{$parseTree._oddWordGameElement.name}} - это {{$parseTree._oddWordGameElement.class}}"
+Get hint:
+    if:
+    - Не знаю, как ещё подсказать. Попытайся предположить ответ.
+    else:
+    - "Большинство в списке относится к классу {{$session.classForHint}}. Что к нему не относится?"
+Complexity level:
+    if:
+        if:
+            - "Сложнее некуда. Ответишь на вопросы этого уровня – и ты выиграл! Итак, какое слово лишнее: {{$session.oddWordGame.currentListText}}"
+        else:
+            - Если ты так в себе уверен, попробуем посложнее.
+            - Ладно, предложу тебе вопрос посложнее.
+            - Хорошо, давай попробуем кое-что посложнее.
+    else:
+        if:
+           - "Не могу придумать ничего проще! Попробуй предположить, какое слово здесь лишнее: {{$session.oddWordGame.currentListText}}"
+        else:
+            - Хорошо, попробую задать вопрос полегче.
+            - Ладно, предложу вопрос полегче.
+            - У меня есть и более простые вопросы.
+RightAnswer:
+    if:
+        - Ура! Мы ответили на все вопросы! Сыграем ещё?
+    else:
+        - Верно!
+        - Конечно!
+        - Абсолютно точно!
+        - Это правильно.
+WrongAnswer:
+    if:
+        - Не совсем так!
+        - Кажется, мы ошиблись.
+        - Компьютер говорит, что мы не правы.
+Odd word game stop:
+    - "Хорошо, заканчиваем игру! Мы ответили правильно на {{$session.oddWordGame.rightAnswersCounter}} {{$session.oddWordGame.answers}} из {{$session.oddWordGame.answersCounter}}."
+getWordChain:
+    if:
+        - "Угадай, какое слово лишнее: "
+    else:
+        - "Слушай дальше: "
+    rightAnswerText:
+        - "Правильный ответ – {{$session.oddWordGame.rightAnswer}}. "
+    rightAnswerText2:
+        - "Потому что {{$session.oddWordGame.rightAnswer}} – это {{$temp.wrongClass}}, a остальное – это {{$temp.rightClass}}."
+        - "Остальное – это {{$temp.rightClass}}."
+        - "{{capitalize($session.oddWordGame.rightAnswer)}} – это {{$temp.wrongClass}}, остальное – это {{$temp.rightClass}}."

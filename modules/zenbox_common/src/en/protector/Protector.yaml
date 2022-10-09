@@ -1,0 +1,32 @@
+descriptor:
+
+  id: Protector
+  title: Protector
+  theme: Kids
+  summary: The device will be able to recognize obscene words and react to them
+  description: With this skill, parents can be confident their children are safe from inappropriate content. 
+  labels: ["badwords", "inappropriate"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/Protector.png
+  background: 008066
+  price: 0.20
+
+  samples:
+    - "%&^%'"
+    - "It seems someone said a bad word! These words turn the one who speaks them into green frogs. Try not to use them anymore"
+    
+    - "%&^%'"
+    - "I heard an unpleasant word. Such words upset those who hear them"
+
+#entryPoint: en/protector/Protector.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

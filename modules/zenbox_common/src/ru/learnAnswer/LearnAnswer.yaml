@@ -1,0 +1,44 @@
+descriptor:
+  id: LearnAnswer
+  title: Learn answer
+  theme: LearnAnswer
+  summary: Simple learning feature
+  description: I can learn any answer you want!
+  labels: ["learning"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/study.png
+  background: 917c6f
+  price: 0.40
+
+  samples:       
+    - Когда тебе скажут корова ответь му
+    - "Хорошо! Если мне скажут 'корова', я отвечу 'му'."
+    - Когда тебе скажут кошка ответь мяу
+    - "Хорошо! Если мне скажут 'кошка', я отвечу 'мяу'."        
+    - Корова
+    - Му
+    - Кошка
+    - Мяу
+    - Когда тебе скажут кошка ответь мяу мяу
+    - "Хорошо! Если мне скажут 'кошка', я отвечу 'мяу мяу'." 
+    - Кошка
+    - Мяу мяу        
+    - Как сделать чтобы ты забыл свои ответы
+    - Я могу стереть из памяти слова, которым ты меня учишь. Хочешь, чтобы я их забыл? 
+    - Да
+    - Я забыл все ответы.
+    - Корова
+    - Прости, я тебя не услышал.          
+
+entryPoint: ru/learnAnswer/LearnAnswer.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

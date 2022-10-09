@@ -1,0 +1,149 @@
+<test integration="true">
+    <mockData>
+        <query method="get">https://api.deezer.com/artist/4476254/top?limit=50</query>
+        <response type="json" code="200">{ "data": [ { "title": "Бессмертный полк", "preview": "https://cdns-preview-e.dzcdn.net/stream/c-e3a552f2c523cc29394d37bbd0bf76b5-2.mp3", "artist": { "name": "Олег Газманов" } }, { "title": "Офицеры", "preview": "https://cdns-preview-1.dzcdn.net/stream/c-152f04208dbcaf6dd5d9868afd229f2f-3.mp3", "artist": { "name": "Олег Газманов" } } ]
+}</response>
+    </mockData>
+    <test-case>
+        <q>включи газманова</q>
+        <a>Играет Олег Газманов, 'Бессмертный полк'.</a>
+        <q>поставь следующую</q>
+        <a>Играет Олег Газманов, 'Офицеры'.</a>
+    </test-case>
+    <mockData>
+        <query method="get">https://api.deezer.com/search?q=Монеточку</query>
+        <response type="json" code="200">{"data":[{"title":"Каждый раз","preview":"https://cdns-preview-6.dzcdn.net/stream/c-6194419455a982badb5987c7be5d9711-3.mp3","artist":{"name":"Монеточка"}},{"title":"Нимфоманка","preview":"https://cdns-preview-0.dzcdn.net/stream/c-0b688a9bfe43181da6f03d9cc82d6c68-3.mp3","artist":{"name":"Монеточка"}},{"title":"Нет монет","preview":"https://cdns-preview-2.dzcdn.net/stream/c-292522356ad809e9576a9eb5b517e609-3.mp3","artist":{"name":"Монеточка"}}]}</response>
+    </mockData>
+<test-case>
+        <q>включи Монеточку</q>
+        <a>Играет Монеточка, 'Каждый раз'.</a>
+        <q>поставь следующую</q>
+        <a>Играет Монеточка, 'Нимфоманка'.</a>
+        <q>поставь следующую</q>
+        <a>Играет Монеточка, 'Нет монет'.</a>
+        <q>предыдущую</q>
+        <a>Играет Монеточка, 'Нимфоманка'.</a>
+    </test-case>
+
+    <mockData>
+        <query method="get">https://api.deezer.com/playlist/1306931615</query>
+        <response type="json" code="200">{ "tracks": { "data": [ { "title": "Highway to Hell", "preview": "https://cdns-preview-4.dzcdn.net/stream/c-492ba159a54aeba305ca7f3d72566ed2-3.mp3", "artist": { "name": "AC/DC" } }, { "title": "Seven Nation Army", "preview": "https://cdns-preview-e.dzcdn.net/stream/c-e83550a6e1028d3f8142f918148275eb-4.mp3", "artist": { "name": "The White Stripes" } }, { "title": "Dream On", "preview": "https://cdns-preview-4.dzcdn.net/stream/c-450b7d5fcd0fa6daf9880616c011e54d-4.mp3", "artist": { "name": "Aerosmith" } }, { "title": "Under The Bridge", "preview": "https://cdns-preview-e.dzcdn.net/stream/c-e1a605ebcd5b21ed6de6424ac89f77e4-5.mp3", "artist": { "name": "Red Hot Chili Peppers" } }, { "title": "Numb", "preview": "https://cdns-preview-1.dzcdn.net/stream/c-1cdfe90120447061efa70135a552152c-10.mp3", "artist": { "name": "Linkin Park" } }, { "title": "Welcome To The Jungle", "preview": "https://cdns-preview-3.dzcdn.net/stream/c-3e477a6671b162c3d05dac2cfffbe2e7-4.mp3", "artist": { "name": "Guns N' Roses" } }, { "title": "Hotel California (Remastered)", "preview": "https://cdns-preview-8.dzcdn.net/stream/c-8af9cfb9a0454481e21989618e7c5779-2.mp3", "artist": { "name": "Eagles" } } ], "checksum": "332c8fb1134c885f0a2edd7da7ebcc87" }
+}</response>
+    </mockData>
+    <test-case>
+        <q>включи рок</q>
+        <a>Играет AC/DC, 'Highway to Hell'.</a>
+        <q>поставь следующую</q>
+        <a>Играет The White Stripes, 'Seven Nation Army'.</a>
+        <q>поставь следующую</q>
+        <a>Играет Aerosmith, 'Dream On'.</a>
+        <q>поставь следующую</q>
+        <a>Играет Red Hot Chili Peppers, 'Under The Bridge'.</a>
+        <q>поставь следующую</q>
+        <a>Играет Linkin Park, 'Numb'.</a>
+        <q>поставь следующую</q>
+        <a>Играет Guns N' Roses, 'Welcome To The Jungle'.</a>
+        <q>поставь следующую</q>
+        <a>Играет Eagles, 'Hotel California (Remastered)'.</a>
+    </test-case> 
+    <mockData>
+        <query method="get">https://api.deezer.com/artist/4505880/top?limit=50</query>
+        <response type="json" code="200">{"data": [{"title": "Кукушка","preview": "https://cdns-preview-9.dzcdn.net/stream/c-9b84a653580a73af11d2f9ddf4fccd99-5.mp3","artist": {"name": "Кино"}}]
+}</response>
+    </mockData>
+    <test-case>
+        <q>включи кино звезда по имени солнце</q>
+        <a>Играет Кино, 'Звезда по имени Солнце'.</a>
+    </test-case>
+    <test-case integration="true">
+        <q>включи рок</q>
+        <a>Играет AC/DC, 'Highway to Hell'.</a>
+        <q>поставь следующую</q>
+        <a>Играет The White Stripes, 'Seven Nation Army'.</a>
+    </test-case>
+    <test-case integration="true">
+        <q>включи панк рок</q>
+        <a>Играет Millencolin, 'SOS'.</a>
+        <q>поставь следующую</q>
+        <a>Играет Bad Religion, 'The Profane Rights Of Man'.</a>
+        <q>поставь классику</q>
+        <a>Играет Leif Ove Andsnes, '13 Pieces for Piano, Op. 76: Elegiaco, No. 10'.</a>
+    </test-case>
+    <mockData>
+        <query method="get">https://api.deezer.com/chart?limit=50</query>
+        <response type="json" code="200">{"tracks": {"data": [{ "title": "Panda E","preview": "http://cdn-preview-0.deezer.com/stream/c-0b688a9bfe43181da6f03d9cc82d6c68-3.mp3","artist": {"name": "CYGO"} },{ "title": "Solo (feat. Demi Lovato)","preview": "http://cdn-preview-0.deezer.com/stream/c-0f467d7d96e76631edd1058c38464364-3.mp3","artist": {"name": "Clean Bandit"} } ],"total": 50}
+        }</response>
+    </mockData>
+    <test-case>
+        <q>включи музыку</q>
+        <a>Играет CYGO, 'Panda E'.</a>
+        <q>поставь следующую</q>
+        <a>Играет Clean Bandit, 'Solo (feat. Demi Lovato)'.</a>
+    </test-case>
+    <test-case>
+        <q>включи музон</q>
+        <a>Играет CYGO, 'Panda E'.</a>
+        <request>{query:"кто сейчас играет", data:{musicState:"musicOn"}}</request>
+        <a>Играет CYGO, 'Panda E'.</a>
+        <request>{query:"какая песня сейчас играет", data:{musicState:"musicOn"}}</request>
+        <a>Играет CYGO, 'Panda E'.</a>
+        <request>{query:"как называется трек", data:{musicState:"musicOn"}}</request>
+        <a>Играет CYGO, 'Panda E'.</a>
+        <request>{query:"кто поет", data:{musicState:"musicOn"}}</request>
+        <a>Играет CYGO, 'Panda E'.</a>
+        <request>{query:"кто исполнитель", data:{musicState:"musicOn"}}</request>
+        <a>Играет CYGO, 'Panda E'.</a>
+        <request>{query:"че за песня играет", data:{musicState:"musicOn"}}</request>
+        <a>Играет CYGO, 'Panda E'.</a>
+        <request>{query:"скажи название песни", data:{musicState:"musicOn"}}</request>
+        <a>Играет CYGO, 'Panda E'.</a>
+        <request>{query:"как зовут исполнителя", data:{musicState:"musicOn"}}</request>
+        <a>Играет CYGO, 'Panda E'.</a>
+    </test-case>
+
+
+    <test-case>
+        <q>Включи что-нибудь из популярного</q>
+        <a>Играет CYGO, 'Panda E'.</a>
+        <request>{query:"Что это за трек", data:{musicState:"musicOn"}}</request>
+        <a>Играет CYGO, 'Panda E'.</a>
+    </test-case>
+    <test-case integration="true">
+        <q>Включи что-нибудь печальное</q>
+        <a>Играет Kesha, 'Praying'.</a>
+        <request>{query:"скажи еще раз, как это называется?", data:{musicState:"musicOn"}}</request>
+        <a>Играет Kesha, 'Praying'.</a>
+        <request>{query:"запаузи", data:{musicState:"musicOn"}}</request>
+    </test-case>
+    <mockData>
+        <query method="get">https://api.deezer.com/artist/290/top?limit=50</query>
+        <response type="json" code="200">{"data": [{"id": 678372,"readable": true,"title": "La Isla Bonita","preview": "https://cdns-preview-e.dzcdn.net/stream/c-e6b5f2295c3af5280cc00b3bf842ff57-7.mp3","artist": {"id": 290,"name": "Madonna","tracklist": "https://api.deezer.com/artist/290/top?limit=50","type": "artist"}},{"id": 679217,"readable": true,"title": "Hung Up","preview": "https://cdns-preview-d.dzcdn.net/stream/c-dc72b1c3b569b903db2c75969db478d1-5.mp3","artist": {"id": 290,"name": "Madonna","tracklist": "https://api.deezer.com/artist/290/top?limit=50","type": "artist"}}],"total": 100
+}</response>
+    </mockData>
+    <test-case>
+        <q>Включи мадонну</q>
+        <a>Играет Madonna, 'La Isla Bonita'.</a>
+        <q>Дальше</q>
+        <a>Играет Madonna, 'Hung Up'.</a>
+    </test-case>
+
+    <mockData>
+        <query method="get">https://api.deezer.com/search?q=30+seconds+to+mars&amp;limit=1</query>
+        <response> { "data": [ { "artist": { "name": "Thirty Seconds to Mars" } } ]}</response>
+    </mockData>
+
+    <test-case integration="true">
+        <q>включи музон</q>
+        <a>Играет CYGO, 'Panda E'.</a>
+        <request>{query:"это тимати?", data:{musicState:"musicOn"}}</request>
+        <a>Нет, это CYGO</a>
+        <q>Включи мадонну</q>
+        <a>Играет Madonna, 'La Isla Bonita'.</a>
+        <request>{query:"это 30 seconds to mars", data:{musicState:"musicOn"}}</request>
+        <a>Нет, это Madonna</a>
+        <q>поставь тогда 30 seconds to mars</q>
+        <a>Играет Thirty Seconds to Mars, 'Dangerous Night'.</a>
+        <request>{query:"это 30 seconds to mars", data:{musicState:"musicOn"}}</request>
+        <a>Да, это Thirty Seconds to Mars</a>
+    </test-case>
+</test>

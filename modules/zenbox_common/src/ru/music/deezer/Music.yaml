@@ -1,0 +1,44 @@
+descriptor:
+  id: deezer
+  title: Deezer music
+  theme: Music
+  summary: Your favorite music
+  description: I'll find the music you want to listen to in my collection of million songs and put it on for you.
+  labels: ["music"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/deezer.png
+  background: 000000
+  price: 0.40
+
+  samples:
+    - Включи мадонну
+    - Играет Madonna, 'La Isla Bonita'.
+    - Дальше
+    - Играет Madonna, 'Hung Up'.
+
+    - Включи что-нибудь грустное
+    - Играет Alex & Sierra, 'Little Do You Know'.
+    - Выключи
+    - Музыка выключена
+
+    - Вруби рок
+    - Играет The Rolling Stones, 'Start Me Up'.
+
+    - Включи что-нибудь из популярного
+    - Играет Ed Sheeran, 'Shape of You'.
+    - Как зовут исполнителя?
+    - Играет Ed Sheeran, 'Shape of You'.   
+
+
+entryPoint: ru/music/deezer/Music.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

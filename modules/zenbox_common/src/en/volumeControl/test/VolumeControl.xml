@@ -1,0 +1,86 @@
+<test>
+    <test-case>
+        <q>turn down</q>
+        <responseData>{ 
+            currentVolume: 0
+        }</responseData>
+        <a>Volume is muted.</a>
+        <q>Turn the sound on</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 40
+        }</responseData>
+        <a>Volume is unmuted.</a>
+        <q>louder</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 60
+        }</responseData>
+        <a>Volume is increased.</a>
+        <q>more</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 80
+        }</responseData>
+        <a>Volume is increased.</a>
+        <q>more</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 100
+        }</responseData>
+        <a>Volume is on the maximum level.</a>
+        <q>Turn volume to minimum</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 20
+        }</responseData>
+        <a>Volume is on the minimum level.</a>
+        <q>quiter</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 0
+        }</responseData>
+        <a>Volume is muted.</a>
+        <q>Turn sound to maximum</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 100
+        }</responseData>
+        <a>Volume is on the maximum level.</a>
+        <q>upper</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 100
+        }</responseData>
+        <a>Volume is on the maximum level.</a>
+        <q>to minimum</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 20
+        }</responseData>
+        <a>Volume is on the minimum level.</a>
+        <q>min volume</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 20
+        }</responseData>
+        <a>Volume is on the minimum level.</a>
+    </test-case>
+
+    <test-case>
+        <requestData>{currentVolume: 0}</requestData>        
+        <q>turn on the sound</q>
+        <responseData>{ 
+            action: "changeVolume",
+            currentVolume: 40
+        }</responseData>
+        <a>Volume is unmuted.</a>
+    </test-case>
+
+    <test-case>
+        <requestData>{currentVolume: 60}</requestData>        
+        <q>turn on the sound</q>
+        <responseData>{action: "changeVolume", currentVolume: 60}</responseData>
+        <a>Volume is unmuted.</a>
+    </test-case>
+</test>

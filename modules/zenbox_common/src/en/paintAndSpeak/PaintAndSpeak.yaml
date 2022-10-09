@@ -1,0 +1,31 @@
+descriptor:
+
+  id: PaintAndSpeak
+  title: Paint and learn colors
+  theme: Education
+  summary: Helps toddlers to relax and learn colors (screen support)
+  description: Turn your device into a magic coloring book. 
+  labels: ["colors", "education", "painting"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/PaintAndSpeak.png
+  background: 008066
+  price: 0.40
+
+  samples:
+    - "Let's paint the flower stalk in a beautiful color. This color is called green. Say it loud please 'green'"
+    - Green
+    - "Well done! You just opened the first color."
+    - Wow!
+
+#entryPoint: en/paintAndSpeak/PaintAndSpeak.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

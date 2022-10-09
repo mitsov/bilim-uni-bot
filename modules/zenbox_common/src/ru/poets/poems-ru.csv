@@ -1,0 +1,70 @@
+1;Осень;{"title":"Осень","author":"Бальмонт","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/51_Balmont_Osen.mp3"}
+2;Ветхая избушка;{"title":"Ветхая избушка","author":"Блок","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/31_Blok_Vethaya_izbushka.mp3"}
+3;Ворона;{"title":"Ворона","author":"Блок","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/32_Blok-Vorona.mp3"}
+4;На лугу;{"title":"На лугу","author":"Блок","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/33_Blok-Na_lugu.mp3"}
+5;Сны;{"title":"Сны","author":"Блок","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/34_Blok-Sny.mp3"}
+6;Детская;{"title":"Детская","author":"Брюсов","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/35_Bryusov-Detskaya.mp3"}
+7;Опять сон;{"title":"Опять сон","author":"Брюсов","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/36_Bryusov_Opyat_son.mp3"}
+8;Сухие листья;{"title":"Сухие листья","author":"Брюсов","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/37_Bryusov_Suhie_listya.mp3"}
+9;Матери;{"title":"Матери","author":"Бунин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/52_Bunin_Materi.mp3"}
+10;Первый снег;{"title":"Первый снег","author":"Бунин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/53_Bunin_Pervyj_sneg.mp3"}
+11;Перед бурей;{"title":"Перед бурей","author":"Бунин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/54_Bunin_Pered_burej.mp3"}
+12;Помню долгий зимний вечер;{"title":"Помню долгий зимний вечер","author":"Бунин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/55_Bunin_Pomnyu_dolgij_zimnij_vecher.mp3"}
+13;Родине;{"title":"Родине","author":"Дрожжин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/45_Drozhzhin_Rodine.mp3"}
+14;Берёза;{"title":"Берёза","author":"Есенин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/38_Esenin_Bereza.mp3"}
+15;Заметает пурга;{"title":"Заметает пурга","author":"Есенин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/chrestomathy/compressed/65.mp3"}
+16;Лебёдушка;{"title":"Лебёдушка","author":"Есенин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/39_Esenin_Lebyodushka.mp3"}
+17;Листва золотая;{"title":"Листва золотая","author":"Есенин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/40_Esenin_Listva_zolotaya.mp3"}
+18;Ночь;{"title":"Ночь","author":"Есенин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/chrestomathy/compressed/64.mp3"}
+19;Поёт зима аукает;{"title":"Поёт зима - аукает","author":"Есенин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/41_Esenin_Poyot_zima.mp3"}
+20;Сказки;{"title":"Сказки","author":"Есенин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/42_Esenin_Skazki.mp3"}
+21;Черёмуха;{"title":"Черёмуха","author":"Есенин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/43_Esenin_Cheryomuha.mp3"}
+22;Я покинул дом;{"title":"Я покинул дом","author":"Есенин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/44_Esenin_Ya_pokinul_dom.mp3"}
+23;Родного неба милый свет;{"title":"Родного неба милый свет","author":"Жуковский","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/chrestomathy/compressed/29.mp3"}
+24;Кот и повар;{"title":"Кот и повар","author":"Крылов","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/read_together/compressed/08.mp3"}
+25;Лебедь щука и рак;{"title":"Лебедь, щука и рак","author":"Крылов","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/chrestomathy/compressed/30.mp3"}
+26;Стрекоза и муравей;{"title":"Стрекоза и муравей","author":"Крылов","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/chrestomathy/compressed/31.mp3"}
+27;Чиж и голубь;{"title":"Чиж и голубь","author":"Крылов","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/chrestomathy/compressed/32.mp3"}
+28;Жаворонок;{"title":"Жаворонок","author":"Кукольник","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/chrestomathy/compressed/33.mp3"}
+29;Бородино;{"title":"Бородино","author":"Лермонтов","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/read_together/compressed/03.mp3"}
+30;Осень;{"title":"Осень","author":"Лермонтов","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/06_Lermontov_Osen.mp3"}
+31;Утёс;{"title":"Утёс","author":"Лермонтов","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/07_Lermontov_Utes.mp3"}
+32;Весна;{"title":"Весна","author":"Майков","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/29_Maykov_Vesna.mp3"}
+33;Ласточки;{"title":"Ласточки","author":"Майков","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/30_Maykov_Lastochki.mp3"}
+34;Багаж;{"title":"Багаж","author":"Маршак","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/diabook/83-Bagaj_mix.mp3"}
+35;Кем быть;{"title":"Кем быть","author":"Маяковский","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/46_Mayakovskyj_Kem_byt.mp3"}
+36;Конь огонь,про коня;{"title":"Конь-огонь","author":"Маяковский","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/47_Mayakovskyj_Kon-ogon.mp3"}
+37;Что такое хорошо и что такое плохо;{"title":"Что такое хорошо и что такое плохо","author":"Маяковский","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/48_Mayakovskyj_Chto_takoe_horosho.mp3"}
+38;Эта книжечка моя про моря и про маяк;{"title":"Эта книжечка моя про моря и про маяк","author":"Маяковский","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/read_together/compressed/07.mp3"}
+39;Крестьянские дети;{"title":"Крестьянские дети","author":"Некрасов","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/17_Nekrasov_Krestyanskie_deti.mp3"}
+40;На Волге;{"title":"На Волге","author":"Некрасов","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/18_Nekrasov_Na_Volge.mp3"}
+41;Встреча зимы;{"title":"Встреча зимы","author":"Никитин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/08_Nikitin_Vstrecha_zimy.mp3"}
+42;Русь;{"title":"Русь","author":"Никитин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/09_Nikitin_Rus.mp3"}
+43;Степь;{"title":"Степь","author":"Никитин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/10_Nikitin_Step.mp3"}
+44;Утро;{"title":"Утро","author":"Никитин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/11_Nikitin_Utro.mp3"}
+45;Весна;{"title":"Весна","author":"Плещеев","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/27_Plesheev_Vesna.mp3"}
+46;Мой садик;{"title":"Мой садик","author":"Плещеев","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/chrestomathy/compressed/35.mp3"}
+47;Сельская песенка;{"title":"Сельская песенка","author":"Плещеев","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/28_Plesheev_Selskaya_pesenka.mp3"}
+48;Вот север тучи нагоняя;{"title":"Вот север, тучи нагоняя","author":"Пушкин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/chrestomathy/compressed/83.mp3"}
+49;Зима;{"title":"Зима","author":"Пушкин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/02_Pushkin_Zima.mp3"}
+50;Какая ночь Мороз трескучий;{"title":"Какая ночь! Мороз трескучий","author":"Пушкин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/chrestomathy/compressed/36.mp3"}
+51;Няне;{"title":"Няне","author":"Пушкин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/04_Pushkin_Nyane.mp3"}
+52;У Лукоморья;{"title":"У Лукоморья","author":"Пушкин","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/read_together/compressed/14.mp3"}
+53;Детство;{"title":"Детство","author":"Суриков","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/19_Surikov_Detstvo.mp3"}
+54;Зима;{"title":"Зима","author":"Суриков","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/20_Surikov_Zima.mp3"}
+55;Весенние воды;{"title":"Весенние воды","author":"Тютчев","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/12_Tutchev_Vesennie_vody.mp3"}
+56;Есть у осени;{"title":"Есть у осени","author":"Тютчев","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/13_Tutchev_Est_v_oseni.mp3"}
+57;Зима недаром злится;{"title":"Зима недаром злится","author":"Тютчев","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/14_Tutchev_Zima.mp3"}
+58;Как неожиданно и ярко;{"title":"Как неожиданно и ярко","author":"Тютчев","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/chrestomathy/compressed/57.mp3"}
+59;Листья;{"title":"Листья","author":"Тютчев","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/15_Tutchev_Listya.mp3"}
+60;Чародейкою Зимою;{"title":"Чародейкою Зимою","author":"Тютчев","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/16_Tutchev_Charodejkoyu_zimoyu.mp3"}
+61;Весенний дождь;{"title":"Весенний дождь","author":"Фет","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/21_Fet_Vesenniy_dozhd.mp3"}
+62;Задрожали листы;{"title":"Задрожали листы","author":"Фет","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/22_Fet_Zadrozhali_listy.mp3"}
+63;Зреет рожь;{"title":"Зреет рожь","author":"Фет","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/23_Fet_Zreet_rozh.mp3"}
+64;Ласточки пропали;{"title":"Ласточки пропали","author":"Фет","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/24_Fet_Lastochki.mp3"}
+65;Мама;{"title":"Мама","author":"Фет","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/25_Fet_Mama.mp3"}
+66;Чудная картина;{"title":"Чудная картина","author":"Фет","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/26_Fet_Chudnaya_kartina.mp3"}
+67;Плих и Плюх;{"title":"Плих и Плюх","author":"Хармс","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/diabook/Plih_i_pluh.mp3"}
+68;Бежит тропинка;{"title":"Бежит тропинка","author":"Цветаева","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/49_Cvetaeva_Bezhit_tropinka.mp3"}
+69;Наше царство;{"title":"Наше царство","author":"Цветаева","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/poetry/compressed/50_Cvetaeva_Nashe_tsarstvo.mp3"}
+70;Поезд;{"title":"Поезд","author":"Чёрный","stream":"http://roobo-prod-spb.lab.just-ai.com/static/audio/1c/read_together/compressed/13.mp3"}

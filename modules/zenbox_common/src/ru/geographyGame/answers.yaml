@@ -1,0 +1,145 @@
+Geography game user start:
+  - Давай! Я буду задавать тебе разные вопросы про города, страны и континенты. Начнём?
+  - Давай! Я как раз хотел повторить страны и их столицы. Начнём?
+Geography game suggest quiz:
+  - Я хочу повторить географию. Можешь мне помочь?
+  - На Земле около 200 стран, и у каждой из них есть своя столица. Давай посмотрим сколько из них ты знаешь?
+  - Хочешь проверить свои знания географии?
+Geography game pudding start:
+  Geography game no:
+    - Очень жаль. Ладно, тогда я составлю больше интересных вопросов на случай, если ты передумаешь.
+  Geography game yes:
+    - Отлично! Тут много вопросов - просто скажи "хватит", когда захочешь остановиться.
+  Geography game undefined start:
+    noquestion:
+      - Прости, я не понял.
+      - Прости, но я тебя не расслышал.
+      - Кажется, я тебя не понимаю.
+    question:
+      - Ты хочешь поиграть в географию?
+      - Поиграем?
+      - Будем играть?
+Geography quiz get question:
+  if:
+    default:
+      - Найду-ка я тебе что-нибудь посложнее.
+      - Давай попробуем вопрос посложнее.
+      - Спрошу-ка я тебя что-нибудь посложнее.
+    if:
+      - Ты отлично справляешься!
+      - Ты отлично играешь!
+  else:
+    - А вот тебе вопрос попроще.
+    - Давай попробуем вопросы попроще
+  Geography quiz get question answer dontknow:
+    - Ладно, можешь не отвечать.
+    - Хорошо, пропустим этот вопрос.
+    - Давай тогда узнаем правильный ответ у компьютера.
+  Geography quiz get question answer badGeographyKnowledge:
+    default:
+      - Я тоже. Давай вместе учить земную географию!
+    rand:
+      - Может быть, все-таки попробуешь ответить?
+      - Попробуй дать ответ.
+      - Попробуй ответить.
+  Geography quiz get question answer repeatPlease:
+    - Конечно.
+    - Без проблем. 
+    - Пожалуйста.
+  Geography quiz get question answer other:
+    - Попробуй, пожалуйста, сказать ещё раз, я не очень понял.
+    - Прости, но я тебя не расслышал.
+    - Кажется, я тебя не понимаю.
+RightAnswer:
+  - Верно!
+  - Конечно!
+  - Абсолютно точно! 
+  - Это правильно.
+  - Ты отлично знаешь географию!
+WrongAnswer:
+  - Не совсем так!
+  - Кажется, мы ошиблись.
+  - Компьютер говорит, что мы не правы.
+Geography quiz stop:
+  default:
+    - Хорошо, заканчиваем игру!
+  if:
+    if:
+      - Был всего один вопрос, и мы ответили на него неправильно!
+    else:
+      - "Мы не ответили ни на один вопрос из {{$temp.all_questions}}..."
+    else2:
+      - Что ж, будем вместе изучать земную географию!
+      - Будем изучать географию вместе!
+  else:
+    if:
+      if:
+        - Был всего 1 вопрос, и мы ответили на него правильно!
+      else:
+        - "Мы ответили правильно на все {{$temp.all_questions}} {{$temp.ru_questions}}!"
+      else2:
+        - Прекрасный результат!
+        - Очень неплохо!
+        - Гениально!
+    else:
+      - "Мы ответили правильно на {{$temp.right}} {{$temp.ru__answers}} из {{$temp.all_questions}}!"
+    else2:
+      - Прекрасный результат!
+      - Очень неплохо!
+      - Гениально!
+    Thanks:
+      - Всегда пожалуйста!
+getQuestion:
+  -  " А теперь следующий вопрос." 
+getQuestionType1:
+  question:
+    - "В какой стране находится город {{$session.capital}}?"
+  rightAnswerText:
+    - "{{$session.capital}} - это столица {{$session.genCountry}}. {{$session.fact}}  "
+getQuestionType2:
+  question:
+    - "Какой город является столицей {{$session.genCountry}}?"
+  rightAnswerText:
+    - "Столицей {{$session.genCountry}} является {{$session.capital}}. {{$session.fact}} "
+getQuestionType3:
+  question:
+    - "Какой из городов является столицей {{$session.genCountry}}: {{$session.firstCapital}} или {{$session.secondCapital}}?"
+  rightAnswerText:
+    - "Столицей {{$session.genCountry}} является {{$session.capital}}. {{$session.fact}} "
+getQuestionType4:
+  question:
+    - "В какой стране находится город {{$session.capital}}: {{$session.firstCountry}} или {{$session.secondCountry}}?"
+  rightAnswerText:
+    - "{{$session.capital}} - это столица {{$session.genCountry}}. {{$session.fact}} "
+getQuestionType5:
+  question:
+    - "На каком континенте находится страна {{$session.country}}?"
+  rightAnswerText:
+    - "Страна {{$session.country}} находится на континенте {{$session.continent}}. "
+  inEurope: 
+    - "Но в Европе."
+  inAsia:  
+    - "Но в Азии."  
+getAnswerCapital:
+  notOneCity:
+    - Так не пойдет, назови один город
+  notCountry:
+    - "Кажется мы что-то напутали. {{$parseTree.Capital[0].value.name}} - это город, а не страна.  Попробуй ещё раз! "
+  notContinent:
+    - "Кажется мы что-то напутали. {{$parseTree.Capital[0].value.name}} - это город, а не континент.  Попробуй ещё раз! "
+getAnswerCountry:
+  notOneCountry:
+    - Так не пойдет, назови одну страну
+  notCity:
+    - "Кажется мы что-то напутали. {{$parseTree.Country[0].value.name}} - это страна, а не город. Попробуй ещё раз! "
+  notContinent:
+    - "Кажется мы что-то напутали. {{$parseTree.Country[0].value.name}} - это страна, а не континент. Попробуй ещё раз! "
+getAnswerContinent:
+  notOneContinent:
+    - Так не пойдет, назови один континент
+  notCountry:
+    - "Кажется мы что-то напутали. {{$parseTree.Continent[0].value}} - это континент, а не страна. Попробуй ещё раз! "
+  notCity:
+    - "Кажется мы что-то напутали. {{$parseTree.Continent[0].value}} - это континент, а не город. Попробуй ещё раз! "
+NorthSouth:
+  - В Северной или в Южной?

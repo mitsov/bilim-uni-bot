@@ -1,0 +1,906 @@
+1;Acid green;{"name":"Acid green","hex":"#B0BF1A","red":176,"green":191,"blue":26}
+2;Aero blue;{"name":"Aero blue","hex":"#C9FFE5","red":201,"green":255,"blue":229}
+3;Air Force Blue,RAF blue;{"name":"Air Force Blue","hex":"#5D8AA8","red":93,"green":138,"blue":168}
+4;Air superiority blue;{"name":"Air superiority blue","hex":"#72A0C1","red":114,"green":160,"blue":193}
+5;Alice blue;{"name":"Alice blue","hex":"#F0F8FF","red":240,"green":248,"blue":255}
+6;Alloy orange;{"name":"Alloy orange","hex":"#C46210","red":196,"green":98,"blue":16}
+7;Amaranth deep purple;{"name":"Amaranth deep purple","hex":"#9F2B68","red":159,"green":43,"blue":104}
+8;Amaranth pink;{"name":"Amaranth pink","hex":"#F19CBB","red":241,"green":156,"blue":187}
+9;Amaranth purple;{"name":"Amaranth purple","hex":"#AB274F","red":171,"green":39,"blue":79}
+10;Amaranth red;{"name":"Amaranth red","hex":"#D3212D","red":211,"green":33,"blue":45}
+11;Android green;{"name":"Android green","hex":"#A4C639","red":164,"green":198,"blue":57}
+12;Antique brass;{"name":"Antique brass","hex":"#CD9575","red":205,"green":149,"blue":117}
+13;Antique bronze;{"name":"Antique bronze","hex":"#665D1E","red":102,"green":93,"blue":30}
+14;Antique fuchsia;{"name":"Antique fuchsia","hex":"#915C83","red":145,"green":92,"blue":131}
+15;Antique ruby;{"name":"Antique ruby","hex":"#841B2D","red":132,"green":27,"blue":45}
+16;Antique white;{"name":"Antique white","hex":"#FAEBD7","red":250,"green":235,"blue":215}
+17;Apple green;{"name":"Apple green","hex":"#8DB600","red":141,"green":182,"blue":0}
+18;Arctic lime;{"name":"Arctic lime","hex":"#D0FF14","red":208,"green":255,"blue":20}
+19;Argentinian blue;{"name":"Argentinian blue","hex":"#6CB4EE","red":108,"green":180,"blue":238}
+20;Army green;{"name":"Army green","hex":"#4B5320","red":75,"green":83,"blue":32}
+21;Arylide yellow;{"name":"Arylide yellow","hex":"#E9D66B","red":233,"green":214,"blue":107}
+22;Ash grey;{"name":"Ash grey","hex":"#B2BEB5","red":178,"green":190,"blue":181}
+23;Aureolin;{"name":"Aureolin","hex":"#FDEE00","red":253,"green":238,"blue":0}
+24;B'dazzled blue;{"name":"B'dazzled blue","hex":"#2E5894","red":46,"green":88,"blue":149}
+25;Baby blue;{"name":"Baby blue","hex":"#89CFF0","red":137,"green":207,"blue":240}
+26;Baby blue eyes;{"name":"Baby blue eyes","hex":"#A1CAF1","red":161,"green":202,"blue":241}
+27;Baby pink;{"name":"Baby pink","hex":"#F4C2C2","red":244,"green":194,"blue":194}
+28;Baker-Miller pink,Baker Miller pink;{"name":"Baker-Miller pink","hex":"#FF91AF","red":255,"green":145,"blue":175}
+29;Banana yellow;{"name":"Banana yellow","hex":"#FFE135","red":255,"green":225,"blue":53}
+30;Barbie pink;{"name":"Barbie pink","hex":"#E0218A","red":224,"green":33,"blue":138}
+31;Barn red;{"name":"Barn red","hex":"#7C0A02","red":124,"green":10,"blue":2}
+32;Battleship grey;{"name":"Battleship grey","hex":"#848482","red":132,"green":132,"blue":130}
+33;Beau blue;{"name":"Beau blue","hex":"#BCD4E6","red":188,"green":212,"blue":230}
+34;Beige;{"name":"Beige","hex":"#F5F5DC","red":245,"green":245,"blue":220}
+35;Big dip o’ruby;{"name":"Big dip o’ruby","hex":"#9C2542","red":156,"green":37,"blue":66}
+36;Bistre;{"name":"Bistre","hex":"#3D2B1F","red":61,"green":43,"blue":31}
+37;Bistre brown;{"name":"Bistre brown","hex":"#967117","red":150,"green":113,"blue":23}
+38;Black;{"name":"Black","hex":"#000000","red":0,"green":0,"blue":0}
+39;Blast-off bronze,Blast off bronze;{"name":"Blast-off bronze","hex":"#A57164","red":165,"green":113,"blue":100}
+40;Blizzard blue;{"name":"Blizzard blue","hex":"#ACE5EE","red":172,"green":229,"blue":238}
+41;Blue;{"name":"Blue","hex":"#0000FF","red":0,"green":0,"blue":255}
+42;Blue-gray,Blue gray;{"name":"Blue-gray","hex":"#6699CC","red":102,"green":153,"blue":204}
+43;Blue-green,Blue green;{"name":"Blue-green","hex":"#0D98BA","red":13,"green":152,"blue":186}
+44;Blue-violet,Blue violet;{"name":"Blue-violet","hex":"#8A2BE2","red":138,"green":43,"blue":226}
+45;Booger Buster;{"name":"Booger Buster","hex":"#DDE26A","red":221,"green":226,"blue":106}
+46;Bottle green;{"name":"Bottle green","hex":"#006A4E","red":0,"green":106,"blue":78}
+47;Brick red;{"name":"Brick red","hex":"#CB4154","red":203,"green":65,"blue":84}
+48;Bright green;{"name":"Bright green","hex":"#66FF00","red":102,"green":255,"blue":0}
+49;Bright lilac;{"name":"Bright lilac","hex":"#D891EF","red":216,"green":145,"blue":239}
+50;Bright maroon;{"name":"Bright maroon","hex":"#C32148","red":195,"green":33,"blue":72}
+51;Bright navy blue;{"name":"Bright navy blue","hex":"#1974D2","red":25,"green":116,"blue":210}
+52;Bright pink;{"name":"Bright pink","hex":"#FF007F","red":255,"green":0,"blue":127}
+53;Bright turquoise;{"name":"Bright turquoise","hex":"#08E8DE","red":8,"green":232,"blue":222}
+54;Bright yellow;{"name":"Bright yellow","hex":"#FFAA1D","red":255,"green":170,"blue":29}
+55;Brink pink;{"name":"Brink pink","hex":"#FB607F","red":251,"green":96,"blue":127}
+56;British racing green;{"name":"British racing green","hex":"#004225","red":0,"green":66,"blue":37}
+57;Bronze;{"name":"Bronze","hex":"#CD7F32","red":205,"green":127,"blue":50}
+58;Brown;{"name":"Brown","hex":"#964B00","red":150,"green":75,"blue":0}
+59;Brunswick green;{"name":"Brunswick green","hex":"#1B4D3E","red":27,"green":77,"blue":62}
+60;Bud green;{"name":"Bud green","hex":"#7BB661","red":123,"green":182,"blue":97}
+61;Burlywood;{"name":"Burlywood","hex":"#DEB887","red":222,"green":184,"blue":135}
+62;Burnished brown;{"name":"Burnished brown","hex":"#A17A74","red":161,"green":122,"blue":116}
+63;Burnt orange;{"name":"Burnt orange","hex":"#CC5500","red":204,"green":85,"blue":0}
+64;Burnt sienna;{"name":"Burnt sienna","hex":"#E97451","red":233,"green":116,"blue":81}
+65;Burnt umber;{"name":"Burnt umber","hex":"#8A3324","red":138,"green":51,"blue":36}
+66;Cadet blue;{"name":"Cadet blue","hex":"#5F9EA0","red":95,"green":158,"blue":160}
+67;Cadet grey;{"name":"Cadet grey","hex":"#91A3B0","red":145,"green":163,"blue":176}
+68;Cadmium green;{"name":"Cadmium green","hex":"#006B3C","red":0,"green":107,"blue":60}
+69;Cadmium orange;{"name":"Cadmium orange","hex":"#ED872D","red":237,"green":135,"blue":45}
+70;Cadmium red;{"name":"Cadmium red","hex":"#E30022","red":227,"green":0,"blue":34}
+71;Cadmium yellow;{"name":"Cadmium yellow","hex":"#FFF600","red":255,"green":246,"blue":0}
+72;Cambridge blue;{"name":"Cambridge blue","hex":"#A3C1AD","red":163,"green":193,"blue":173}
+73;Cameo pink;{"name":"Cameo pink","hex":"#EFBBCC","red":239,"green":187,"blue":204}
+74;Canary yellow;{"name":"Canary yellow","hex":"#FFFF99","red":255,"green":255,"blue":153}
+75;Candy apple red;{"name":"Candy apple red","hex":"#FF0800","red":255,"green":8,"blue":0}
+76;Candy pink;{"name":"Candy pink","hex":"#E4717A","red":228,"green":113,"blue":122}
+77;Caput mortuum;{"name":"Caput mortuum","hex":"#592720","red":89,"green":39,"blue":32}
+78;Caribbean green;{"name":"Caribbean green","hex":"#00CC99","red":0,"green":204,"blue":153}
+79;Carmine;{"name":"Carmine","hex":"#960018","red":150,"green":0,"blue":24}
+80;Carnation pink;{"name":"Carnation pink","hex":"#FFA6C9","red":255,"green":166,"blue":201}
+81;Carolina blue;{"name":"Carolina blue","hex":"#56A0D3","red":86,"green":160,"blue":211}
+82;Carrot orange;{"name":"Carrot orange","hex":"#ED9121","red":237,"green":145,"blue":33}
+83;Castleton green;{"name":"Castleton green","hex":"#00563F","red":0,"green":86,"blue":63}
+84;Celadon green;{"name":"Celadon green","hex":"#2F847C","red":47,"green":132,"blue":124}
+85;Cerise;{"name":"Cerise","hex":"#DE3163","red":222,"green":49,"blue":99}
+86;Cerulean;{"name":"Cerulean","hex":"#007BA7","red":0,"green":123,"blue":167}
+87;Cerulean blue;{"name":"Cerulean blue","hex":"#2A52BE","red":42,"green":82,"blue":190}
+88;Cerulean frost;{"name":"Cerulean frost","hex":"#6D9BC3","red":109,"green":155,"blue":195}
+89;Champagne pink;{"name":"Champagne pink","hex":"#F1DDCF","red":241,"green":221,"blue":207}
+90;Charleston green;{"name":"Charleston green","hex":"#232B2B","red":35,"green":43,"blue":43}
+91;Charm pink;{"name":"Charm pink","hex":"#E68FAC","red":230,"green":143,"blue":172}
+92;Cherry blossom pink;{"name":"Cherry blossom pink","hex":"#FFB7C5","red":255,"green":183,"blue":197}
+93;China pink;{"name":"China pink","hex":"#DE6FA1","red":222,"green":111,"blue":161}
+94;Chinese red;{"name":"Chinese red","hex":"#AA381E","red":170,"green":56,"blue":30}
+95;Chinese violet;{"name":"Chinese violet","hex":"#856088","red":133,"green":96,"blue":136}
+96;Cinereous;{"name":"Cinereous","hex":"#98817B","red":152,"green":129,"blue":123}
+97;Cinnamon Satin;{"name":"Cinnamon Satin","hex":"#CD607E","red":205,"green":96,"blue":126}
+98;Cobalt blue;{"name":"Cobalt blue","hex":"#0047AB","red":0,"green":71,"blue":171}
+99;Cocoa brown;{"name":"Cocoa brown","hex":"#D2691E","red":210,"green":105,"blue":30}
+100;Columbia Blue;{"name":"Columbia Blue","hex":"#C4D8E2","red":196,"green":216,"blue":226}
+101;Congo pink;{"name":"Congo pink","hex":"#F88379","red":248,"green":131,"blue":121}
+102;Cool grey;{"name":"Cool grey","hex":"#8C92AC","red":140,"green":146,"blue":172}
+103;Copper red;{"name":"Copper red","hex":"#CB6D51","red":203,"green":109,"blue":81}
+104;Copper rose;{"name":"Copper rose","hex":"#996666","red":153,"green":102,"blue":102}
+105;Coral pink;{"name":"Coral pink","hex":"#F88379","red":248,"green":131,"blue":121}
+106;Coral red;{"name":"Coral red","hex":"#FF4040","red":255,"green":64,"blue":64}
+107;Cornell red;{"name":"Cornell red","hex":"#B31B1B","red":179,"green":27,"blue":27}
+108;Cornflower blue;{"name":"Cornflower blue","hex":"#6495ED","red":100,"green":149,"blue":237}
+109;Cosmic cobalt;{"name":"Cosmic cobalt","hex":"#2E2D88","red":46,"green":45,"blue":136}
+110;Cosmic latte;{"name":"Cosmic latte","hex":"#FFF8E7","red":255,"green":248,"blue":231}
+111;Coyote brown;{"name":"Coyote brown","hex":"#81613C","red":129,"green":97,"blue":60}
+112;Crimson;{"name":"Crimson","hex":"#DC143C","red":220,"green":20,"blue":60}
+113;Cyan;{"name":"Cyan","hex":"#00FFFF","red":0,"green":255,"blue":255}
+114;Cyber grape;{"name":"Cyber grape","hex":"#58427C","red":88,"green":66,"blue":124}
+115;Cyber yellow;{"name":"Cyber yellow","hex":"#FFD300","red":255,"green":211,"blue":0}
+116;Dark blue;{"name":"Dark blue","hex":"#00008B","red":0,"green":0,"blue":139}
+117;Dark blue-gray,Dark blue gray;{"name":"Dark blue-gray","hex":"#666699","red":102,"green":102,"blue":153}
+118;Dark brown;{"name":"Dark brown","hex":"#654321","red":101,"green":67,"blue":33}
+119;Dark byzantium;{"name":"Dark byzantium","hex":"#5D3954","red":93,"green":57,"blue":84}
+120;Dark cyan;{"name":"Dark cyan","hex":"#008B8B","red":0,"green":139,"blue":139}
+121;Dark electric blue;{"name":"Dark electric blue","hex":"#536878","red":83,"green":104,"blue":120}
+122;Dark goldenrod;{"name":"Dark goldenrod","hex":"#B8860B","red":184,"green":134,"blue":11}
+123;Dark gray;{"name":"Dark gray","hex":"#A9A9A9","red":169,"green":169,"blue":169}
+124;Dark green;{"name":"Dark green","hex":"#013220","red":1,"green":50,"blue":32}
+125;Dark jungle green;{"name":"Dark jungle green","hex":"#1A2421","red":26,"green":36,"blue":33}
+126;Dark khaki;{"name":"Dark khaki","hex":"#BDB76B","red":189,"green":183,"blue":107}
+127;Dark lava;{"name":"Dark lava","hex":"#483C32","red":72,"green":60,"blue":50}
+128;Dark liver;{"name":"Dark liver","hex":"#534B4F","red":83,"green":75,"blue":79}
+129;Dark magenta;{"name":"Dark magenta","hex":"#8B008B","red":139,"green":0,"blue":139}
+130;Dark midnight blue;{"name":"Dark midnight blue","hex":"#003366","red":0,"green":51,"blue":102}
+131;Dark moss green;{"name":"Dark moss green","hex":"#4A5D23","red":74,"green":93,"blue":35}
+132;Dark olive green;{"name":"Dark olive green","hex":"#556B2F","red":85,"green":107,"blue":47}
+133;Dark orange;{"name":"Dark orange","hex":"#FF8C00","red":255,"green":140,"blue":0}
+134;Dark orchid;{"name":"Dark orchid","hex":"#9932CC","red":153,"green":50,"blue":204}
+135;Dark pastel green;{"name":"Dark pastel green","hex":"#03C03C","red":3,"green":192,"blue":60}
+136;Dark purple;{"name":"Dark purple","hex":"#301934","red":48,"green":25,"blue":52}
+137;Dark raspberry;{"name":"Dark raspberry","hex":"#872657","red":135,"green":38,"blue":87}
+138;Dark red;{"name":"Dark red","hex":"#8B0000","red":139,"green":0,"blue":0}
+139;Dark salmon;{"name":"Dark salmon","hex":"#E9967A","red":233,"green":150,"blue":122}
+140;Dark sea green;{"name":"Dark sea green","hex":"#8FBC8F","red":143,"green":188,"blue":143}
+141;Dark sienna;{"name":"Dark sienna","hex":"#3C1414","red":60,"green":20,"blue":20}
+142;Dark sky blue;{"name":"Dark sky blue","hex":"#8CBED6","red":140,"green":190,"blue":214}
+143;Dark slate blue;{"name":"Dark slate blue","hex":"#483D8B","red":72,"green":61,"blue":139}
+144;Dark slate gray;{"name":"Dark slate gray","hex":"#2F4F4F","red":47,"green":79,"blue":79}
+145;Dark spring green;{"name":"Dark spring green","hex":"#177245","red":23,"green":114,"blue":69}
+146;Dark tan;{"name":"Dark tan","hex":"#918151","red":145,"green":129,"blue":81}
+147;Dark turquoise;{"name":"Dark turquoise","hex":"#00CED1","red":0,"green":206,"blue":209}
+148;Dark vanilla;{"name":"Dark vanilla","hex":"#D1BEA8","red":209,"green":190,"blue":168}
+149;Dark violet;{"name":"Dark violet","hex":"#9400D3","red":148,"green":0,"blue":211}
+150;Dartmouth green;{"name":"Dartmouth green","hex":"#00703C","red":0,"green":112,"blue":60}
+151;Davy's grey;{"name":"Davy's grey","hex":"#555555","red":85,"green":85,"blue":85}
+152;Deep cerise;{"name":"Deep cerise","hex":"#DA3287","red":218,"green":50,"blue":135}
+153;Deep champagne;{"name":"Deep champagne","hex":"#FAD6A5","red":250,"green":214,"blue":165}
+154;Deep chestnut;{"name":"Deep chestnut","hex":"#B94E48","red":185,"green":78,"blue":72}
+155;Deep fuchsia;{"name":"Deep fuchsia","hex":"#C154C1","red":193,"green":84,"blue":193}
+156;Deep jungle green;{"name":"Deep jungle green","hex":"#004B49","red":0,"green":75,"blue":73}
+157;Deep lemon;{"name":"Deep lemon","hex":"#F5C71A","red":245,"green":199,"blue":26}
+158;Deep mauve;{"name":"Deep mauve","hex":"#D473D4","red":212,"green":115,"blue":212}
+159;Deep pink;{"name":"Deep pink","hex":"#FF1493","red":255,"green":20,"blue":147}
+160;Deep sky blue;{"name":"Deep sky blue","hex":"#00BFFF","red":0,"green":191,"blue":255}
+161;Deep Space Sparkle;{"name":"Deep Space Sparkle","hex":"#4A646C","red":74,"green":100,"blue":108}
+162;Deep Taupe;{"name":"Deep Taupe","hex":"#7E5E60","red":126,"green":94,"blue":96}
+163;Denim Blue;{"name":"Denim Blue","hex":"#2243B6","red":34,"green":67,"blue":182}
+164;Dim gray;{"name":"Dim gray","hex":"#696969","red":105,"green":105,"blue":105}
+165;Dodger blue;{"name":"Dodger blue","hex":"#1E90FF","red":30,"green":144,"blue":255}
+166;Duke blue;{"name":"Duke blue","hex":"#00009C","red":0,"green":0,"blue":156}
+167;Dutch white;{"name":"Dutch white","hex":"#EFDFBB","red":239,"green":223,"blue":187}
+168;Earth yellow;{"name":"Earth yellow","hex":"#E1A95F","red":225,"green":169,"blue":95}
+169;Ecru;{"name":"Ecru","hex":"#C2B280","red":194,"green":178,"blue":128}
+170;Eerie black;{"name":"Eerie black","hex":"#1B1B1B","red":27,"green":27,"blue":27}
+171;Egyptian blue;{"name":"Egyptian blue","hex":"#1034A6","red":16,"green":52,"blue":166}
+172;Electric blue;{"name":"Electric blue","hex":"#7DF9FF","red":125,"green":249,"blue":255}
+173;Electric indigo;{"name":"Electric indigo","hex":"#6F00FF","red":111,"green":0,"blue":255}
+174;Electric lime;{"name":"Electric lime","hex":"#CCFF00","red":204,"green":255,"blue":0}
+175;Electric purple;{"name":"Electric purple","hex":"#BF00FF","red":191,"green":0,"blue":255}
+176;Electric violet;{"name":"Electric violet","hex":"#8F00FF","red":143,"green":0,"blue":255}
+177;Emerald;{"name":"Emerald","hex":"#50C878","red":80,"green":200,"blue":120}
+178;English red;{"name":"English red","hex":"#AB4B52","red":171,"green":75,"blue":82}
+179;English vermillion;{"name":"English vermillion","hex":"#CC474B","red":204,"green":71,"blue":75}
+180;English violet;{"name":"English violet","hex":"#563C5C","red":86,"green":60,"blue":92}
+181;Eton blue;{"name":"Eton blue","hex":"#96C8A2","red":150,"green":200,"blue":162}
+182;Facebook Blue;{"name":"Facebook Blue","hex":"#39569C","red":57,"green":86,"blue":156}
+183;Falu red;{"name":"Falu red","hex":"#801818","red":128,"green":24,"blue":24}
+184;Fandango pink;{"name":"Fandango pink","hex":"#DE5285","red":222,"green":82,"blue":133}
+185;Fashion fuchsia;{"name":"Fashion fuchsia","hex":"#F400A1","red":244,"green":0,"blue":161}
+186;Feldgrau;{"name":"Feldgrau","hex":"#4D5D53","red":77,"green":93,"blue":83}
+187;Fern green;{"name":"Fern green","hex":"#4F7942","red":79,"green":121,"blue":66}
+188;Ferrari red;{"name":"Ferrari red","hex":"#FF2800","red":255,"green":40,"blue":0}
+189;Field drab;{"name":"Field drab","hex":"#6C541E","red":108,"green":84,"blue":30}
+190;Fiery rose;{"name":"Fiery rose","hex":"#FF5470","red":255,"green":84,"blue":112}
+191;Fire engine red;{"name":"Fire engine red","hex":"#CE2029","red":206,"green":32,"blue":41}
+192;Flamingo pink;{"name":"Flamingo pink","hex":"#FC8EAC","red":252,"green":142,"blue":172}
+193;Flavescent;{"name":"Flavescent","hex":"#F7E98E","red":247,"green":233,"blue":142}
+194;Floral white;{"name":"Floral white","hex":"#FFFAF0","red":255,"green":250,"blue":240}
+195;Fluorescent blue;{"name":"Fluorescent blue","hex":"#15F4EE","red":21,"green":244,"blue":238}
+196;Fluorescent orange;{"name":"Fluorescent orange","hex":"#FFBF00","red":255,"green":191,"blue":0}
+197;Fluorescent pink;{"name":"Fluorescent pink","hex":"#FF1493","red":255,"green":20,"blue":147}
+198;Fluorescent yellow;{"name":"Fluorescent yellow","hex":"#CCFF00","red":204,"green":255,"blue":0}
+199;Forest green;{"name":"Forest green","hex":"#5FA777","red":95,"green":167,"blue":119}
+200;French beige;{"name":"French beige","hex":"#A67B5B","red":166,"green":123,"blue":91}
+201;French bistre;{"name":"French bistre","hex":"#856D4D","red":133,"green":109,"blue":77}
+202;French blue;{"name":"French blue","hex":"#0072BB","red":0,"green":114,"blue":187}
+203;French fuchsia;{"name":"French fuchsia","hex":"#FD3F92","red":253,"green":63,"blue":146}
+204;French lilac;{"name":"French lilac","hex":"#86608E","red":134,"green":96,"blue":142}
+205;French lime;{"name":"French lime","hex":"#9EFD38","red":158,"green":253,"blue":56}
+206;French mauve;{"name":"French mauve","hex":"#D473D4","red":212,"green":115,"blue":212}
+207;French Middle Red Purple;{"name":"French Middle Red Purple","hex":"#1C0218","red":28,"green":2,"blue":24}
+208;French pink;{"name":"French pink","hex":"#FD6C9E","red":253,"green":108,"blue":158}
+209;French plum;{"name":"French plum","hex":"#811453","red":129,"green":20,"blue":83}
+210;French puce;{"name":"French puce","hex":"#4E1609","red":78,"green":22,"blue":9}
+211;French raspberry;{"name":"French raspberry","hex":"#C72C48","red":199,"green":44,"blue":72}
+212;French rose;{"name":"French rose","hex":"#F64A8A","red":246,"green":74,"blue":138}
+213;French sky blue;{"name":"French sky blue","hex":"#77B5FE","red":119,"green":181,"blue":254}
+214;French violet;{"name":"French violet","hex":"#8806CE","red":136,"green":6,"blue":206}
+215;Fuchsia;{"name":"Fuchsia","hex":"#FF00FF","red":255,"green":0,"blue":255}
+216;Fuchsia pink;{"name":"Fuchsia pink","hex":"#FF77FF","red":255,"green":119,"blue":255}
+217;Fuchsia purple;{"name":"Fuchsia purple","hex":"#CC397B","red":204,"green":57,"blue":123}
+218;Fuchsia rose;{"name":"Fuchsia rose","hex":"#C74375","red":199,"green":67,"blue":117}
+219;Fulvous;{"name":"Fulvous","hex":"#E48400","red":228,"green":132,"blue":0}
+220;Fuzzy Wuzzy;{"name":"Fuzzy Wuzzy","hex":"#87421F","red":135,"green":66,"blue":31}
+221;Gargoyle Gas;{"name":"Gargoyle Gas","hex":"#FFDF46","red":255,"green":223,"blue":70}
+222;Generic viridian;{"name":"Generic viridian","hex":"#007F66","red":0,"green":127,"blue":102}
+223;Ghost white;{"name":"Ghost white","hex":"#F8F8FF","red":248,"green":248,"blue":255}
+224;Giants orange;{"name":"Giants orange","hex":"#FE5A1D","red":254,"green":90,"blue":29}
+225;Glaucous;{"name":"Glaucous","hex":"#6082B6","red":96,"green":130,"blue":182}
+226;Glossy grape;{"name":"Glossy grape","hex":"#AB92B3","red":171,"green":146,"blue":179}
+227;Golden brown;{"name":"Golden brown","hex":"#996515","red":153,"green":101,"blue":21}
+228;Golden poppy;{"name":"Golden poppy","hex":"#FCC200","red":252,"green":194,"blue":0}
+229;Golden yellow;{"name":"Golden yellow","hex":"#FFDF00","red":255,"green":223,"blue":0}
+230;Granite gray;{"name":"Granite gray","hex":"#676767","red":103,"green":103,"blue":103}
+231;Gray;{"name":"Gray","hex":"#808080","red":128,"green":128,"blue":128}
+232;Gray-asparagus,Gray asparagus;{"name":"Gray-asparagus","hex":"#465945","red":70,"green":89,"blue":69}
+233;Gray-blue,Gray blue;{"name":"Gray-blue","hex":"#8C92AC","red":140,"green":146,"blue":172}
+234;Green;{"name":"Green","hex":"#008001","red":0,"green":128,"blue":1}
+235;Green-blue,Green blue;{"name":"Green-blue","hex":"#1164B4","red":17,"green":100,"blue":180}
+236;Green-cyan,Green cyan;{"name":"Green-cyan","hex":"#009966","red":0,"green":153,"blue":102}
+237;Green-yellow,Green yellow;{"name":"Green-yellow","hex":"#ADFF2F","red":173,"green":255,"blue":47}
+238;Grullo;{"name":"Grullo","hex":"#A99A86","red":169,"green":154,"blue":134}
+239;Guppie green;{"name":"Guppie green","hex":"#00FF7F","red":0,"green":255,"blue":127}
+240;Halloween orange;{"name":"Halloween orange","hex":"#EB6123","red":235,"green":97,"blue":35}
+241;Han blue;{"name":"Han blue","hex":"#446CCF","red":68,"green":108,"blue":207}
+242;Han purple;{"name":"Han purple","hex":"#5218FA","red":82,"green":24,"blue":250}
+243;Hansa yellow;{"name":"Hansa yellow","hex":"#E9D66B","red":233,"green":214,"blue":107}
+244;Harlequin green;{"name":"Harlequin green","hex":"#46CB18","red":70,"green":203,"blue":24}
+245;Harmonious rose;{"name":"Harmonious rose","hex":"#F29CB7","red":242,"green":156,"blue":183}
+246;Harvard crimson;{"name":"Harvard crimson","hex":"#C90016","red":201,"green":0,"blue":22}
+247;Harvest gold;{"name":"Harvest gold","hex":"#DA9100","red":218,"green":145,"blue":0}
+248;Heart gold;{"name":"Heart gold","hex":"#808000","red":128,"green":128,"blue":0}
+249;Heat Wave;{"name":"Heat Wave","hex":"#FF7A00","red":255,"green":122,"blue":0}
+250;Heidelberg red;{"name":"Heidelberg red","hex":"#960018","red":150,"green":0,"blue":24}
+251;Heliotrope gray;{"name":"Heliotrope gray","hex":"#AA98A9","red":170,"green":152,"blue":168}
+252;Heliotrope magenta;{"name":"Heliotrope magenta","hex":"#AA00BB","red":170,"green":0,"blue":187}
+253;Hollywood cerise;{"name":"Hollywood cerise","hex":"#F400A1","red":244,"green":0,"blue":161}
+254;Honolulu blue;{"name":"Honolulu blue","hex":"#006DB0","red":0,"green":109,"blue":176}
+255;Hooker's green;{"name":"Hooker's green","hex":"#49796B","red":73,"green":121,"blue":107}
+256;Hot magenta;{"name":"Hot magenta","hex":"#FF1DCE","red":255,"green":29,"blue":206}
+257;Hot pink;{"name":"Hot pink","hex":"#FF69B4","red":255,"green":105,"blue":180}
+258;Hunter green;{"name":"Hunter green","hex":"#355E3B","red":53,"green":94,"blue":59}
+259;Icterine;{"name":"Icterine","hex":"#FCF75E","red":252,"green":247,"blue":94}
+260;Iguana green;{"name":"Iguana green","hex":"#71BC78","red":113,"green":188,"blue":120}
+261;Illuminating emerald;{"name":"Illuminating emerald","hex":"#319177","red":49,"green":145,"blue":119}
+262;Imperial blue;{"name":"Imperial blue","hex":"#002395","red":0,"green":35,"blue":149}
+263;Imperial purple;{"name":"Imperial purple","hex":"#66023C","red":102,"green":2,"blue":60}
+264;Imperial red;{"name":"Imperial red","hex":"#ED2939","red":237,"green":41,"blue":57}
+265;India green;{"name":"India green","hex":"#138808","red":19,"green":136,"blue":8}
+266;Indian red;{"name":"Indian red","hex":"#CD5C5C","red":205,"green":92,"blue":92}
+267;Indian yellow;{"name":"Indian yellow","hex":"#E3A857","red":227,"green":168,"blue":87}
+268;Interdimensional blue;{"name":"Interdimensional blue","hex":"#360CCC","red":54,"green":12,"blue":204}
+269;International Klein Blue;{"name":"International Klein Blue","hex":"#002FA7","red":0,"green":47,"blue":167}
+270;International orange;{"name":"International orange","hex":"#FF4F00","red":255,"green":79,"blue":0}
+271;Isabelline;{"name":"Isabelline","hex":"#F4F0EC","red":244,"green":240,"blue":236}
+272;Italian sky blue;{"name":"Italian sky blue","hex":"#B2FFFF","red":178,"green":255,"blue":255}
+273;Ivory;{"name":"Ivory","hex":"#FFFFF0","red":255,"green":255,"blue":240}
+274;Jacko bean;{"name":"Jacko bean","hex":"#413628","red":65,"green":54,"blue":40}
+275;Japanese carmine;{"name":"Japanese carmine","hex":"#9D2933","red":157,"green":41,"blue":51}
+276;Japanese indigo;{"name":"Japanese indigo","hex":"#264348","red":38,"green":67,"blue":72}
+277;Japanese laurel;{"name":"Japanese laurel","hex":"#2F7532","red":47,"green":117,"blue":50}
+278;Japanese violet;{"name":"Japanese violet","hex":"#5B3256","red":91,"green":50,"blue":86}
+279;Jasper orange;{"name":"Jasper orange","hex":"#DE8F4E","red":223,"green":145,"blue":79}
+280;Jazzberry jam;{"name":"Jazzberry jam","hex":"#A50B5E","red":165,"green":11,"blue":94}
+281;Jelly bean blue;{"name":"Jelly bean blue","hex":"#44798E","red":68,"green":121,"blue":142}
+282;Jonquil;{"name":"Jonquil","hex":"#F4CA16","red":244,"green":202,"blue":22}
+283;Jordy blue;{"name":"Jordy blue","hex":"#8AB9F1","red":138,"green":185,"blue":241}
+284;June bud;{"name":"June bud","hex":"#BDDA57","red":189,"green":218,"blue":87}
+285;Jungle green;{"name":"Jungle green","hex":"#29AB87","red":41,"green":171,"blue":135}
+286;Kelly green;{"name":"Kelly green","hex":"#4CBB17","red":76,"green":187,"blue":23}
+287;Kenyan copper;{"name":"Kenyan copper","hex":"#7C1C05","red":124,"green":28,"blue":5}
+288;Khaki;{"name":"Khaki","hex":"#C3B091","red":195,"green":176,"blue":145}
+289;Kobicha;{"name":"Kobicha","hex":"#6B4423","red":107,"green":68,"blue":35}
+290;Kombu green;{"name":"Kombu green","hex":"#354230","red":53,"green":66,"blue":48}
+291;KSU Purple;{"name":"KSU Purple","hex":"#512888","red":79,"green":38,"blue":131}
+292;KU Crimson;{"name":"KU Crimson","hex":"#E8000D","red":232,"green":0,"blue":13}
+293;La Salle green;{"name":"La Salle green","hex":"#087830","red":8,"green":120,"blue":48}
+294;Languid lavender;{"name":"Languid lavender","hex":"#D6CADD","red":214,"green":202,"blue":221}
+295;Lapis lazuli;{"name":"Lapis lazuli","hex":"#26619C","red":38,"green":97,"blue":156}
+296;Laser Lemon;{"name":"Laser Lemon","hex":"#FFFF66","red":255,"green":255,"blue":102}
+297;Laurel green;{"name":"Laurel green","hex":"#A9BA9D","red":169,"green":186,"blue":157}
+298;Lavender blue;{"name":"Lavender blue","hex":"#CCCCFF","red":204,"green":204,"blue":255}
+299;Lavender blush;{"name":"Lavender blush","hex":"#FFF0F5","red":255,"green":240,"blue":245}
+300;Lavender gray;{"name":"Lavender gray","hex":"#C4C3D0","red":196,"green":195,"blue":208}
+301;Lavender indigo;{"name":"Lavender indigo","hex":"#9457EB","red":148,"green":87,"blue":235}
+302;Lavender magenta;{"name":"Lavender magenta","hex":"#EE82EE","red":238,"green":130,"blue":238}
+303;Lavender mist;{"name":"Lavender mist","hex":"#E6E6FA","red":230,"green":230,"blue":250}
+304;Lavender pink;{"name":"Lavender pink","hex":"#FBAED2","red":251,"green":174,"blue":210}
+305;Lavender purple;{"name":"Lavender purple","hex":"#967BB6","red":150,"green":123,"blue":182}
+306;Lavender rose;{"name":"Lavender rose","hex":"#FBA0E3","red":251,"green":160,"blue":227}
+307;Lawn green;{"name":"Lawn green","hex":"#7CFC00","red":124,"green":252,"blue":0}
+308;Lemon chiffon;{"name":"Lemon chiffon","hex":"#FFFACD","red":255,"green":250,"blue":205}
+309;Lemon curry;{"name":"Lemon curry","hex":"#CCA01D","red":204,"green":160,"blue":29}
+310;Lemon glacier;{"name":"Lemon glacier","hex":"#FDFF00","red":253,"green":255,"blue":0}
+311;Lemon iced tea;{"name":"Lemon iced tea","hex":"#BD3000","red":189,"green":48,"blue":0}
+312;Lemon lime;{"name":"Lemon lime","hex":"#E3FF00","red":227,"green":255,"blue":0}
+313;Lemon lime;{"name":"Lemon lime","hex":"#5CFF67","red":92,"green":255,"blue":103}
+314;Lemon meringue;{"name":"Lemon meringue","hex":"#F6EABE","red":246,"green":234,"blue":190}
+315;Lemon yellow;{"name":"Lemon yellow","hex":"#FFF44F","red":255,"green":244,"blue":79}
+316;Lenurple;{"name":"Lenurple","hex":"#BA93D8","red":186,"green":147,"blue":216}
+317;Light apricot;{"name":"Light apricot","hex":"#FDD5B1","red":253,"green":213,"blue":177}
+318;Light blue;{"name":"Light blue","hex":"#ADD8E6","red":173,"green":216,"blue":230}
+319;Light brown;{"name":"Light brown","hex":"#B5651D","red":181,"green":101,"blue":29}
+320;Light carmine pink;{"name":"Light carmine pink","hex":"#E66771","red":230,"green":103,"blue":113}
+321;Light chocolate cosmos;{"name":"Light chocolate cosmos","hex":"#551F2F","red":85,"green":31,"blue":47}
+322;Light cobalt blue;{"name":"Light cobalt blue","hex":"#88ACE0","red":136,"green":172,"blue":224}
+323;Light coral;{"name":"Light coral","hex":"#F08080","red":240,"green":128,"blue":128}
+324;Light cornflower blue;{"name":"Light cornflower blue","hex":"#93CCEA","red":147,"green":204,"blue":234}
+325;Light crimson;{"name":"Light crimson","hex":"#F56991","red":245,"green":105,"blue":145}
+326;Light cyan;{"name":"Light cyan","hex":"#E0FFFF","red":224,"green":255,"blue":255}
+327;Light deep pink;{"name":"Light deep pink","hex":"#FF5CCD","red":255,"green":92,"blue":205}
+328;Light French beige;{"name":"Light French beige","hex":"#C8AD7F","red":200,"green":173,"blue":127}
+329;Light fuchsia pink;{"name":"Light fuchsia pink","hex":"#F984EF","red":249,"green":132,"blue":239}
+330;Light gold;{"name":"Light gold","hex":"#B29700","red":178,"green":151,"blue":0}
+331;Light goldenrod;{"name":"Light goldenrod","hex":"#FFEC8B","red":255,"green":236,"blue":139}
+332;Light goldenrod yellow;{"name":"Light goldenrod yellow","hex":"#FAFAD2","red":250,"green":250,"blue":210}
+333;Light gray;{"name":"Light gray","hex":"#D3D3D3","red":211,"green":211,"blue":211}
+334;Light grayish magenta;{"name":"Light grayish magenta","hex":"#CC99CC","red":204,"green":153,"blue":204}
+335;Light green;{"name":"Light green","hex":"#90EE90","red":144,"green":238,"blue":144}
+336;Light hot pink;{"name":"Light hot pink","hex":"#FFB3DE","red":255,"green":179,"blue":222}
+337;Light khaki;{"name":"Light khaki","hex":"#F0E68C","red":240,"green":230,"blue":140}
+338;Light medium orchid;{"name":"Light medium orchid","hex":"#D39BCB","red":211,"green":155,"blue":203}
+339;Light moss green;{"name":"Light moss green","hex":"#ADDFAD","red":173,"green":223,"blue":173}
+340;Light mustard;{"name":"Light mustard","hex":"#FF3333","red":238,"green":221,"blue":98}
+341;Light orange;{"name":"Light orange","hex":"#FED8B1","red":254,"green":216,"blue":177}
+342;Light orchid;{"name":"Light orchid","hex":"#E6A8D7","red":230,"green":168,"blue":215}
+343;Light pastel purple;{"name":"Light pastel purple","hex":"#B19CD9","red":177,"green":156,"blue":217}
+344;Light periwinkle;{"name":"Light periwinkle","hex":"#C5CBE1","red":197,"green":203,"blue":225}
+345;Light pink;{"name":"Light pink","hex":"#FFB6C1","red":255,"green":182,"blue":193}
+346;Light red;{"name":"Light red","hex":"#FF3333","red":255,"green":51,"blue":51}
+347;Light red ochre;{"name":"Light red ochre","hex":"#E97451","red":233,"green":116,"blue":81}
+348;Light salmon;{"name":"Light salmon","hex":"#FFA07A","red":255,"green":160,"blue":122}
+349;Light salmon pink;{"name":"Light salmon pink","hex":"#FF9999","red":255,"green":153,"blue":153}
+350;Light sea green;{"name":"Light sea green","hex":"#20B2AA","red":32,"green":178,"blue":170}
+351;Light silver;{"name":"Light silver","hex":"#D8D8D8","red":216,"green":216,"blue":216}
+352;Light sky blue;{"name":"Light sky blue","hex":"#87CEFA","red":135,"green":206,"blue":250}
+353;Light slate gray;{"name":"Light slate gray","hex":"#778899","red":119,"green":136,"blue":153}
+354;Light steel blue;{"name":"Light steel blue","hex":"#B0C4DE","red":176,"green":196,"blue":222}
+355;Light taupe;{"name":"Light taupe","hex":"#B38B6D","red":179,"green":139,"blue":109}
+356;Light Thulian pink;{"name":"Light Thulian pink","hex":"#E68FAC","red":230,"green":143,"blue":172}
+357;Light turquoise;{"name":"Light turquoise","hex":"#AFE4DE","red":175,"green":228,"blue":222}
+358;Light violet;{"name":"Light violet","hex":"#7A5299","red":122,"green":82,"blue":153}
+359;Light yellow;{"name":"Light yellow","hex":"#FFFFE0","red":255,"green":255,"blue":224}
+360;Lilac Luster;{"name":"Lilac Luster","hex":"#AE98AA","red":174,"green":152,"blue":170}
+361;Lime green;{"name":"Lime green","hex":"#32CD32","red":50,"green":205,"blue":50}
+362;Lincoln green;{"name":"Lincoln green","hex":"#195905","red":25,"green":89,"blue":5}
+363;Liseran purple;{"name":"Liseran purple","hex":"#DE6FA1","red":222,"green":111,"blue":161}
+364;Little boy blue;{"name":"Little boy blue","hex":"#6CA0DC","red":108,"green":160,"blue":220}
+365;Little girl pink;{"name":"Little girl pink","hex":"#F8B9D4","red":248,"green":185,"blue":212}
+366;Liver chestnut;{"name":"Liver chestnut","hex":"#987456","red":152,"green":116,"blue":86}
+367;Livid;{"name":"Livid","hex":"#6699CC","red":102,"green":153,"blue":204}
+368;Lotion blue;{"name":"Lotion blue","hex":"#15F2FD","red":123,"green":154,"blue":200}
+369;Lotion pink;{"name":"Lotion pink","hex":"#ECCFCF","red":236,"green":207,"blue":207}
+370;Maastricht Blue;{"name":"Maastricht Blue","hex":"#001C3D","red":0,"green":28,"blue":61}
+371;Madder Lake;{"name":"Madder Lake","hex":"#CC3336","red":204,"green":51,"blue":54}
+372;Magenta;{"name":"Magenta","hex":"#FF00FF","red":255,"green":0,"blue":255}
+373;Majorelle Blue;{"name":"Majorelle Blue","hex":"#6050DC","red":96,"green":80,"blue":220}
+374;Mango green;{"name":"Mango green","hex":"#96FF00","red":150,"green":255,"blue":0}
+375;Mango Tango;{"name":"Mango Tango","hex":"#FF8243","red":255,"green":130,"blue":67}
+376;Mardi Gras;{"name":"Mardi Gras","hex":"#880085","red":136,"green":0,"blue":133}
+377;Maroon;{"name":"Maroon","hex":"#800000","red":128,"green":0,"blue":0}
+378;Mauve;{"name":"Mauve","hex":"#E0B0FF","red":224,"green":176,"blue":255}
+379;Mauve taupe;{"name":"Mauve taupe","hex":"#915F6D","red":145,"green":95,"blue":109}
+380;Mauvelous;{"name":"Mauvelous","hex":"#EF98AA","red":239,"green":152,"blue":170}
+381;Maximum Blue;{"name":"Maximum Blue","hex":"#47ABCC","red":71,"green":171,"blue":204}
+382;Maximum Blue Green;{"name":"Maximum Blue Green","hex":"#30BFBF","red":48,"green":191,"blue":191}
+383;Maximum Blue Purple;{"name":"Maximum Blue Purple","hex":"#ACACE6","red":172,"green":172,"blue":230}
+384;Maximum Green;{"name":"Maximum Green","hex":"#5E8C31","red":94,"green":140,"blue":49}
+385;Maximum Green Yellow;{"name":"Maximum Green Yellow","hex":"#D9E650","red":217,"green":230,"blue":80}
+386;Maximum orange;{"name":"Maximum orange","hex":"#FF5B00","red":255,"green":91,"blue":0}
+387;Maximum Purple;{"name":"Maximum Purple","hex":"#733380","red":115,"green":51,"blue":128}
+388;Maximum pink;{"name":"Maximum pink","hex":"#F6A5F2","red":246,"green":165,"blue":242}
+389;Maximum red;{"name":"Maximum red","hex":"#D92121","red":217,"green":33,"blue":33}
+390;Maximum Red Purple;{"name":"Maximum Red Purple","hex":"#A63A79","red":166,"green":58,"blue":121}
+391;Maximum violet;{"name":"Maximum violet","hex":"#892F77","red":137,"green":47,"blue":119}
+392;Maximum yellow;{"name":"Maximum yellow","hex":"#FAFA37","red":250,"green":250,"blue":55}
+393;Maximum yellow red;{"name":"Maximum yellow red","hex":"#F2BA49","red":242,"green":186,"blue":73}
+394;May green;{"name":"May green","hex":"#4C9141","red":76,"green":145,"blue":65}
+395;Maya blue;{"name":"Maya blue","hex":"#73C2FB","red":115,"green":194,"blue":251}
+396;Meat brown;{"name":"Meat brown","hex":"#E5B73B","red":229,"green":183,"blue":59}
+397;Medium aquamarine;{"name":"Medium aquamarine","hex":"#66DDAA","red":102,"green":221,"blue":170}
+398;Medium blue;{"name":"Medium blue","hex":"#0000CD","red":0,"green":0,"blue":205}
+399;Medium candy apple red;{"name":"Medium candy apple red","hex":"#E2062C","red":226,"green":6,"blue":44}
+400;Medium carmine;{"name":"Medium carmine","hex":"#AF4035","red":175,"green":64,"blue":53}
+401;Medium champagne;{"name":"Medium champagne","hex":"#F3E5AB","red":243,"green":229,"blue":171}
+402;Medium electric blue;{"name":"Medium electric blue","hex":"#035096","red":3,"green":80,"blue":150}
+403;Medium green;{"name":"Medium green","hex":"#037949","red":3,"green":121,"blue":73}
+404;Medium jungle green;{"name":"Medium jungle green","hex":"#1C352D","red":28,"green":53,"blue":45}
+405;Medium lavender magenta;{"name":"Medium lavender magenta","hex":"#DDA0DD","red":221,"green":160,"blue":221}
+406;Medium orange;{"name":"Medium orange","hex":"#FF7802","red":255,"green":120,"blue":2}
+407;Medium orchid;{"name":"Medium orchid","hex":"#BA55D3","red":186,"green":85,"blue":211}
+408;Medium Persian blue;{"name":"Medium Persian blue","hex":"#0067A5","red":0,"green":103,"blue":165}
+409;Medium pink;{"name":"Medium pink","hex":"#FE6E9F","red":254,"green":110,"blue":159}
+410;Medium purple;{"name":"Medium purple","hex":"#9370DB","red":147,"green":112,"blue":219}
+411;Medium red;{"name":"Medium red","hex":"#B10304","red":177,"green":3,"blue":4}
+412;Medium red-violet,Medium red violet;{"name":"Medium red-violet","hex":"#BB3385","red":187,"green":51,"blue":133}
+413;Medium ruby;{"name":"Medium ruby","hex":"#AA4069","red":170,"green":64,"blue":105}
+414;Medium sea green;{"name":"Medium sea green","hex":"#3CB371","red":60,"green":179,"blue":113}
+415;Medium sky blue;{"name":"Medium sky blue","hex":"#80DAEB","red":128,"green":218,"blue":235}
+416;Medium slate blue;{"name":"Medium slate blue","hex":"#7B68EE","red":123,"green":104,"blue":238}
+417;Medium spring bud;{"name":"Medium spring bud","hex":"#C9DC87","red":201,"green":220,"blue":135}
+418;Medium spring green;{"name":"Medium spring green","hex":"#00FA9A","red":0,"green":250,"blue":154}
+419;Medium taupe;{"name":"Medium taupe","hex":"#674C47","red":103,"green":76,"blue":71}
+420;Medium turquoise;{"name":"Medium turquoise","hex":"#48D1CC","red":72,"green":209,"blue":204}
+421;Medium Tuscan red;{"name":"Medium Tuscan red","hex":"#79443B","red":121,"green":68,"blue":59}
+422;Medium vermilion;{"name":"Medium vermilion","hex":"#D9603B","red":217,"green":96,"blue":59}
+423;Medium violet;{"name":"Medium violet","hex":"#65315F","red":101,"green":49,"blue":95}
+424;Medium violet-red,Medium violet red;{"name":"Medium violet-red","hex":"#C71585","red":199,"green":21,"blue":133}
+425;Medium yellow;{"name":"Medium yellow","hex":"#FFE302","red":255,"green":227,"blue":2}
+426;Mellow apricot;{"name":"Mellow apricot","hex":"#F8B878","red":248,"green":184,"blue":120}
+427;Mellow yellow;{"name":"Mellow yellow","hex":"#F8DE7E","red":248,"green":222,"blue":126}
+428;Metallic blue;{"name":"Metallic blue","hex":"#32527B","red":50,"green":82,"blue":123}
+429;Metallic bronze;{"name":"Metallic bronze","hex":"#A97142","red":169,"green":113,"blue":66}
+430;Metallic brown;{"name":"Metallic brown","hex":"#AC4313","red":172,"green":67,"blue":19}
+431;Metallic gold;{"name":"Metallic gold","hex":"#D3AF37","red":211,"green":175,"blue":55}
+432;Metallic green;{"name":"Metallic green","hex":"#296E01","red":41,"green":110,"blue":1}
+433;Metallic orange;{"name":"Metallic orange","hex":"#DA680F","red":218,"green":104,"blue":15}
+434;Metallic pink;{"name":"Metallic pink","hex":"#EDA6C4","red":237,"green":166,"blue":196}
+435;Metallic red;{"name":"Metallic red","hex":"#A62C2B","red":166,"green":44,"blue":43}
+436;Metallic Seaweed;{"name":"Metallic Seaweed","hex":"#0A7E8C","red":10,"green":126,"blue":140}
+437;Metallic silver;{"name":"Metallic silver","hex":"#A8A9AD","red":168,"green":169,"blue":173}
+438;Metallic Sunburst;{"name":"Metallic Sunburst","hex":"#9C7C38","red":156,"green":124,"blue":56}
+439;Metallic violet;{"name":"Metallic violet","hex":"#5B0A91","red":90,"green":10,"blue":145}
+440;Metallic yellow;{"name":"Metallic yellow","hex":"#FDCC0D","red":253,"green":204,"blue":13}
+441;Mexican pink;{"name":"Mexican pink","hex":"#E4007C","red":228,"green":0,"blue":124}
+442;Middle blue;{"name":"Middle blue","hex":"#7ED4E6","red":126,"green":212,"blue":230}
+443;Middle blue green;{"name":"Middle blue green","hex":"#8DD9CC","red":141,"green":217,"blue":204}
+444;Middle blue purple;{"name":"Middle blue purple","hex":"#8B72BE","red":139,"green":114,"blue":190}
+445;Middle grey;{"name":"Middle grey","hex":"#8B8680","red":139,"green":134,"blue":128}
+446;Middle green;{"name":"Middle green","hex":"#4D8C57","red":77,"green":140,"blue":87}
+447;Middle green yellow;{"name":"Middle green yellow","hex":"#ACBF60","red":172,"green":191,"blue":96}
+448;Middle purple;{"name":"Middle purple","hex":"#D982B5","red":217,"green":130,"blue":181}
+449;Middle red;{"name":"Middle red","hex":"#E58E73","red":229,"green":144,"blue":115}
+450;Middle red purple;{"name":"Middle red purple","hex":"#A55353","red":165,"green":83,"blue":83}
+451;Middle yellow;{"name":"Middle yellow","hex":"#FFEB00","red":255,"green":235,"blue":0}
+452;Middle yellow red;{"name":"Middle yellow red","hex":"#ECB176","red":236,"green":177,"blue":118}
+453;Midnight blue;{"name":"Midnight blue","hex":"#191970","red":25,"green":25,"blue":112}
+454;Midnight blue;{"name":"Midnight blue","hex":"#00468C","red":0,"green":70,"blue":140}
+455;Midnight green,Eagle green;{"name":"Midnight green","hex":"#004953","red":0,"green":73,"blue":83}
+456;Mikado yellow;{"name":"Mikado yellow","hex":"#FFC40C","red":255,"green":196,"blue":12}
+457;Mimi Pink;{"name":"Mimi Pink","hex":"#FFDAE9","red":255,"green":218,"blue":233}
+458;Mindaro;{"name":"Mindaro","hex":"#E3F988","red":227,"green":249,"blue":136}
+459;Minion yellow;{"name":"Minion yellow","hex":"#F5E050","red":245,"green":220,"blue":80}
+460;Mint green;{"name":"Mint green","hex":"#98FF98","red":152,"green":255,"blue":152}
+461;Mode beige;{"name":"Mode beige","hex":"#967117","red":150,"green":113,"blue":23}
+462;Moonstone blue;{"name":"Moonstone blue","hex":"#73A9C2","red":115,"green":169,"blue":194}
+463;Mordant red 19;{"name":"Mordant red 19","hex":"#AE0C00","red":174,"green":12,"blue":0}
+464;Morning blue;{"name":"Morning blue","hex":"#8DA399","red":141,"green":163,"blue":153}
+465;Moss green;{"name":"Moss green","hex":"#8A9A5B","red":138,"green":154,"blue":91}
+466;Mountbatten pink;{"name":"Mountbatten pink","hex":"#997A8D","red":153,"green":122,"blue":141}
+467;MSU green;{"name":"MSU green","hex":"#18453B","red":24,"green":69,"blue":59}
+468;Mughal green;{"name":"Mughal green","hex":"#306030","red":48,"green":96,"blue":48}
+469;Mustard brown;{"name":"Mustard brown","hex":"#CD7A00","red":205,"green":122,"blue":0}
+470;Mustard green;{"name":"Mustard green","hex":"#6E6E30","red":110,"green":110,"blue":48}
+471;Mustard yellow;{"name":"Mustard yellow","hex":"#E1AD01","red":255,"green":173,"blue":1}
+472;Myrtle green;{"name":"Myrtle green","hex":"#317873","red":49,"green":120,"blue":115}
+473;Mystic maroon;{"name":"Mystic maroon","hex":"#AD4379","red":173,"green":67,"blue":121}
+474;Mystic red;{"name":"Mystic red","hex":"#FF5500","red":255,"green":34,"blue":0}
+475;Nadeshiko pink;{"name":"Nadeshiko pink","hex":"#F6ADC6","red":246,"green":173,"blue":198}
+476;Napier green;{"name":"Napier green","hex":"#2A8000","red":42,"green":128,"blue":0}
+477;Naples yellow;{"name":"Naples yellow","hex":"#FADA5E","red":250,"green":218,"blue":94}
+478;Navajo white;{"name":"Navajo white","hex":"#FFDEAD","red":255,"green":222,"blue":173}
+479;Navy blue;{"name":"Navy blue","hex":"#000080","red":0,"green":0,"blue":128}
+480;Navy purple;{"name":"Navy purple","hex":"#9457EB","red":148,"green":87,"blue":235}
+481;Neon blue;{"name":"Neon blue","hex":"#1B03A3","red":27,"green":3,"blue":163}
+482;Neon brown;{"name":"Neon brown","hex":"#C3732A","red":195,"green":115,"blue":42}
+483;Neon Carrot;{"name":"Neon Carrot","hex":"#FFA343","red":255,"green":163,"blue":67}
+484;Neon cyan;{"name":"Neon cyan","hex":"#00FEFC","red":0,"green":254,"blue":252}
+485;Neon fuchsia;{"name":"Neon fuchsia","hex":"#FE4164","red":254,"green":65,"blue":100}
+486;Neon gold;{"name":"Neon gold","hex":"#CFAA01","red":207,"green":170,"blue":1}
+487;Neon gray;{"name":"Neon gray","hex":"#808080","red":128,"green":128,"blue":128}
+488;Neon dark green;{"name":"Neon dark green","hex":"#008443","red":0,"green":132,"blue":67}
+489;Neon green;{"name":"Neon green","hex":"#139B42","red":19,"green":155,"blue":66}
+490;Neon green;{"name":"Neon green","hex":"#39FF14","red":57,"green":255,"blue":20}
+491;Neon pink;{"name":"Neon pink","hex":"#FE347E","red":254,"green":52,"blue":126}
+492;Neon purple;{"name":"Neon purple","hex":"#9457EB","red":148,"green":87,"blue":235}
+493;Neon red;{"name":"Neon red","hex":"#FF1818","red":255,"green":24,"blue":24}
+494;Neon scarlet;{"name":"Neon scarlet","hex":"#FF2603","red":255,"green":38,"blue":3}
+495;Neon silver;{"name":"Neon silver","hex":"#CCCCCC","red":204,"green":204,"blue":204}
+496;Neon tangerine;{"name":"Neon tangerine","hex":"#F6890A","red":246,"green":137,"blue":10}
+497;Neon yellow;{"name":"Neon yellow","hex":"#FFF700","red":255,"green":247,"blue":0}
+498;New York pink;{"name":"New York pink","hex":"#D7837F","red":215,"green":131,"blue":127}
+499;Nintendo red;{"name":"Nintendo red","hex":"#E4000F","red":228,"green":0,"blue":15}
+500;Non-photo blue,Non photo blue;{"name":"Non-photo blue","hex":"#A4DDED","red":164,"green":221,"blue":237}
+501;Ocean blue;{"name":"Ocean blue","hex":"#4F42B5","red":79,"green":66,"blue":181}
+502;Ocean boat blue;{"name":"Ocean boat blue","hex":"#0077BE","red":0,"green":119,"blue":190}
+503;Ocean green;{"name":"Ocean green","hex":"#48BF91","red":72,"green":191,"blue":145}
+504;Ochre;{"name":"Ochre","hex":"#CC7722","red":204,"green":119,"blue":34}
+505;Office green;{"name":"Office green","hex":"#008000","red":0,"green":128,"blue":0}
+506;Ogre Odor;{"name":"Ogre Odor","hex":"#FD5240","red":253,"green":82,"blue":64}
+507;Old mauve;{"name":"Old mauve","hex":"#673147","red":103,"green":49,"blue":71}
+508;Old moss green;{"name":"Old moss green","hex":"#867E36","red":134,"green":126,"blue":54}
+509;Old rose;{"name":"Old rose","hex":"#C08081","red":192,"green":128,"blue":129}
+510;Old silver;{"name":"Old silver","hex":"#848482","red":132,"green":132,"blue":130}
+511;Olive green;{"name":"Olive green","hex":"#B5B35C","red":181,"green":179,"blue":92}
+512;Opera mauve;{"name":"Opera mauve","hex":"#B784A7","red":183,"green":132,"blue":167}
+513;Orange;{"name":"Orange","hex":"#FF6600","red":255,"green":102,"blue":0}
+514;Orange peel;{"name":"Orange peel","hex":"#FF9F00","red":255,"green":159,"blue":0}
+515;Orange-red,Orange red;{"name":"Orange-red","hex":"#FF681F","red":255,"green":104,"blue":31}
+516;Orange soda;{"name":"Orange soda","hex":"#E74E14","red":231,"green":78,"blue":20}
+517;Orange-yellow,Orange yellow;{"name":"Orange-yellow","hex":"#F5BD1F","red":245,"green":189,"blue":31}
+518;Orchid pink;{"name":"Orchid pink","hex":"#F2BDCD","red":242,"green":189,"blue":205}
+519;Orioles orange;{"name":"Orioles orange","hex":"#FB4F14","red":251,"green":79,"blue":20}
+520;Otter brown;{"name":"Otter brown","hex":"#654321","red":101,"green":67,"blue":33}
+521;Outrageous Orange;{"name":"Outrageous Orange","hex":"#FF6E4A","red":255,"green":110,"blue":74}
+522;Oxblood;{"name":"Oxblood","hex":"#800020","red":128,"green":0,"blue":32}
+523;Oxford blue;{"name":"Oxford blue","hex":"#002147","red":0,"green":33,"blue":71}
+524;OU Crimson red;{"name":"OU Crimson red","hex":"#990000","red":153,"green":0,"blue":0}
+525;Pacific Blue;{"name":"Pacific Blue","hex":"#1CA9C9","red":28,"green":169,"blue":201}
+526;Pakistan green;{"name":"Pakistan green","hex":"#006600","red":0,"green":102,"blue":0}
+527;Palatinate blue;{"name":"Palatinate blue","hex":"#273BE2","red":39,"green":59,"blue":226}
+528;Palatinate purple;{"name":"Palatinate purple","hex":"#682860","red":104,"green":40,"blue":96}
+529;Pale aqua;{"name":"Pale aqua","hex":"#BCD4E6","red":188,"green":212,"blue":230}
+530;Pale blue;{"name":"Pale blue","hex":"#AFEEEE","red":175,"green":238,"blue":238}
+531;Pale brown;{"name":"Pale brown","hex":"#987654","red":152,"green":118,"blue":84}
+532;Pale carmine;{"name":"Pale carmine","hex":"#AF4035","red":175,"green":64,"blue":53}
+533;Pale cerulean;{"name":"Pale cerulean","hex":"#9BC4E2","red":155,"green":196,"blue":226}
+534;Pale chestnut;{"name":"Pale chestnut","hex":"#DDADAF","red":221,"green":173,"blue":175}
+535;Pale copper;{"name":"Pale copper","hex":"#DA8A67","red":218,"green":138,"blue":103}
+536;Pale cornflower blue;{"name":"Pale cornflower blue","hex":"#ABCDEF","red":171,"green":205,"blue":239}
+537;Pale cyan;{"name":"Pale cyan","hex":"#87D3F8","red":135,"green":211,"blue":248}
+538;Pale gold;{"name":"Pale gold","hex":"#E6BE8A","red":230,"green":190,"blue":138}
+539;Pale goldenrod;{"name":"Pale goldenrod","hex":"#EEE8AA","red":238,"green":232,"blue":170}
+540;Pale green;{"name":"Pale green","hex":"#98FB98","red":152,"green":251,"blue":152}
+541;Pale lavender;{"name":"Pale lavender","hex":"#DCD0FF","red":220,"green":208,"blue":255}
+542;Pale magenta;{"name":"Pale magenta","hex":"#F984E5","red":249,"green":132,"blue":229}
+543;Pale magenta-pink,Pale magenta pink;{"name":"Pale magenta-pink","hex":"#FF99CC","red":255,"green":153,"blue":204}
+544;Pale pink;{"name":"Pale pink","hex":"#FADADD","red":250,"green":218,"blue":221}
+545;Pale plum;{"name":"Pale plum","hex":"#DDA0DD","red":221,"green":160,"blue":221}
+546;Pale red-violet,Pale red violet;{"name":"Pale red-violet","hex":"#DB7093","red":219,"green":112,"blue":147}
+547;Pale robin egg blue;{"name":"Pale robin egg blue","hex":"#96DED1","red":150,"green":222,"blue":209}
+548;Pale silver;{"name":"Pale silver","hex":"#C9C0BB","red":201,"green":192,"blue":187}
+549;Pale spring bud;{"name":"Pale spring bud","hex":"#ECEBBD","red":236,"green":235,"blue":189}
+550;Pale taupe;{"name":"Pale taupe","hex":"#BC987E","red":188,"green":152,"blue":126}
+551;Pale turquoise;{"name":"Pale turquoise","hex":"#AFEEEE","red":175,"green":238,"blue":238}
+552;Pale violet;{"name":"Pale violet","hex":"#CC99FF","red":204,"green":153,"blue":255}
+553;Pale violet-red,Pale violet red;{"name":"Pale violet-red","hex":"#DB7093","red":219,"green":112,"blue":147}
+554;Palm Leaf;{"name":"Palm Leaf","hex":"#6F9940","red":111,"green":153,"blue":64}
+555;Pansy purple;{"name":"Pansy purple","hex":"#78184A","red":120,"green":24,"blue":74}
+556;Paolo Veronese green;{"name":"Paolo Veronese green","hex":"#009B7D","red":0,"green":155,"blue":125}
+557;Papaya whip;{"name":"Papaya whip","hex":"#FFEFD5","red":255,"green":239,"blue":213}
+558;Paradise pink;{"name":"Paradise pink","hex":"#E63E62","red":230,"green":62,"blue":98}
+559;Paris Green;{"name":"Paris Green","hex":"#50C878","red":80,"green":200,"blue":120}
+560;Parrot Pink;{"name":"Parrot Pink","hex":"#D998A0","red":217,"green":152,"blue":160}
+561;Pastel blue;{"name":"Pastel blue","hex":"#AEC6CF","red":174,"green":198,"blue":207}
+562;Pastel brown;{"name":"Pastel brown","hex":"#836953","red":130,"green":105,"blue":83}
+563;Pastel gray;{"name":"Pastel gray","hex":"#CFCFC4","red":207,"green":207,"blue":196}
+564;Pastel green;{"name":"Pastel green","hex":"#77DD77","red":119,"green":221,"blue":119}
+565;Pastel magenta;{"name":"Pastel magenta","hex":"#F49AC2","red":244,"green":154,"blue":194}
+566;Pastel orange;{"name":"Pastel orange","hex":"#FFB347","red":255,"green":179,"blue":71}
+567;Pastel pink;{"name":"Pastel pink","hex":"#DEA5A4","red":222,"green":165,"blue":164}
+568;Pastel purple;{"name":"Pastel purple","hex":"#B39EB5","red":179,"green":158,"blue":181}
+569;Pastel red;{"name":"Pastel red","hex":"#FF6961","red":255,"green":105,"blue":97}
+570;Pastel violet;{"name":"Pastel violet","hex":"#CB99C9","red":203,"green":153,"blue":201}
+571;Pastel yellow;{"name":"Pastel yellow","hex":"#FDFD96","red":253,"green":253,"blue":150}
+572;Payne's grey;{"name":"Payne's grey","hex":"#536878","red":83,"green":104,"blue":120}
+573;Peach;{"name":"Peach","hex":"#FFE5B4","red":255,"green":229,"blue":180}
+574;Peach-orange,Peach orange;{"name":"Peach-orange","hex":"#FFCC99","red":255,"green":204,"blue":153}
+575;Peach puff;{"name":"Peach puff","hex":"#FFDAB9","red":255,"green":218,"blue":185}
+576;Peach-yellow,Peach yellow;{"name":"Peach-yellow","hex":"#FADFAD","red":250,"green":223,"blue":173}
+577;Pearl Aqua;{"name":"Pearl Aqua","hex":"#88D8C0","red":136,"green":216,"blue":192}
+578;Pearly purple;{"name":"Pearly purple","hex":"#B768A2","red":183,"green":104,"blue":162}
+579;Periwinkle;{"name":"Periwinkle","hex":"#CCCCFF","red":204,"green":204,"blue":255}
+580;Permanent Geranium Lake;{"name":"Permanent Geranium Lake","hex":"#E12C2C","red":225,"green":44,"blue":44}
+581;Persian blue;{"name":"Persian blue","hex":"#1C39BB","red":28,"green":57,"blue":187}
+582;Persian green;{"name":"Persian green","hex":"#00A693","red":0,"green":166,"blue":147}
+583;Persian indigo;{"name":"Persian indigo","hex":"#32127A","red":50,"green":18,"blue":122}
+584;Persian orange;{"name":"Persian orange","hex":"#D99058","red":217,"green":144,"blue":88}
+585;Persian pink;{"name":"Persian pink","hex":"#F77FBE","red":247,"green":127,"blue":190}
+586;Persian plum;{"name":"Persian plum","hex":"#701C1C","red":112,"green":28,"blue":28}
+587;Persian red;{"name":"Persian red","hex":"#CC3333","red":204,"green":51,"blue":51}
+588;Persian rose;{"name":"Persian rose","hex":"#FE28A2","red":254,"green":40,"blue":162}
+589;Pewter Blue;{"name":"Pewter Blue","hex":"#8BA8B7","red":139,"green":168,"blue":183}
+590;Philippine blue;{"name":"Philippine blue","hex":"#0038A7","red":0,"green":56,"blue":167}
+591;Philippine bronze;{"name":"Philippine bronze","hex":"#6E3A07","red":110,"green":58,"blue":7}
+592;Philippine brown;{"name":"Philippine brown","hex":"#5D1916","red":93,"green":25,"blue":22}
+593;Philippine gold;{"name":"Philippine gold","hex":"#B17304","red":177,"green":115,"blue":4}
+594;Philippine golden yellow;{"name":"Philippine golden yellow","hex":"#FFDF00","red":253,"green":223,"blue":22}
+595;Philippine gray;{"name":"Philippine gray","hex":"#8C8C8C","red":140,"green":140,"blue":140}
+596;Philippine green;{"name":"Philippine green","hex":"#008543","red":0,"green":133,"blue":67}
+597;Philippine indigo;{"name":"Philippine indigo","hex":"#00416A","red":0,"green":65,"blue":106}
+598;Philippine orange;{"name":"Philippine orange","hex":"#FF7300","red":255,"green":115,"blue":0}
+599;Philippine pink;{"name":"Philippine pink","hex":"#FA1A8E","red":255,"green":26,"blue":142}
+600;Philippine red;{"name":"Philippine red","hex":"#CE1127","red":206,"green":17,"blue":39}
+601;Philippine silver;{"name":"Philippine silver","hex":"#B3B3B3","red":179,"green":179,"blue":179}
+602;Philippine sky blue;{"name":"Philippine sky blue","hex":"#0066FF","red":0,"green":102,"blue":255}
+603;Philippine violet;{"name":"Philippine violet","hex":"#81007F","red":129,"green":0,"blue":127}
+604;Philippine yellow;{"name":"Philippine yellow","hex":"#FECB00","red":254,"green":203,"blue":0}
+605;Phthalo blue;{"name":"Phthalo blue","hex":"#000F89","red":0,"green":15,"blue":137}
+606;Phthalo green;{"name":"Phthalo green","hex":"#123524","red":18,"green":53,"blue":36}
+607;Picton blue;{"name":"Picton blue","hex":"#45B1E8","red":69,"green":177,"blue":232}
+608;Pictorial carmine;{"name":"Pictorial carmine","hex":"#C30B4E","red":195,"green":11,"blue":78}
+609;Piggy pink;{"name":"Piggy pink","hex":"#FDDDE6","red":253,"green":221,"blue":230}
+610;Pine green;{"name":"Pine green","hex":"#01796F","red":1,"green":121,"blue":111}
+611;Pink;{"name":"Pink","hex":"#FFC0CB","red":255,"green":192,"blue":203}
+612;Pink flamingo;{"name":"Pink flamingo","hex":"#FC74FD","red":252,"green":116,"blue":253}
+613;Pink lace;{"name":"Pink lace","hex":"#FFDDF4","red":255,"green":221,"blue":244}
+614;Pink lavender;{"name":"Pink lavender","hex":"#D8B2D1","red":216,"green":178,"blue":209}
+615;Pink-orange,Pink orange;{"name":"Pink-orange","hex":"#FF9966","red":255,"green":153,"blue":102}
+616;Pink pearl;{"name":"Pink pearl","hex":"#E7ACCF","red":231,"green":172,"blue":207}
+617;Pink raspberry;{"name":"Pink raspberry","hex":"#980036","red":152,"green":0,"blue":54}
+618;Pink Sherbet;{"name":"Pink Sherbet","hex":"#F78FA7","red":247,"green":143,"blue":167}
+619;Pixie Powder;{"name":"Pixie Powder","hex":"#391285","red":57,"green":18,"blue":133}
+620;Platinum;{"name":"Platinum","hex":"#E5E4E2","red":229,"green":228,"blue":226}
+621;Plump Purple;{"name":"Plump Purple","hex":"#5946B2","red":89,"green":70,"blue":178}
+622;Police blue;{"name":"Police blue","hex":"#374F6B","red":55,"green":79,"blue":107}
+623;Polished Pine;{"name":"Polished Pine","hex":"#5DA493","red":93,"green":164,"blue":147}
+624;Pomp and Power;{"name":"Pomp and Power","hex":"#86608E","red":134,"green":96,"blue":142}
+625;Portland Orange;{"name":"Portland Orange","hex":"#FF5A36","red":255,"green":90,"blue":54}
+626;Powder blue;{"name":"Powder blue","hex":"#B0E0E6","red":176,"green":224,"blue":230}
+627;Prilly blue;{"name":"Prilly blue","hex":"#329CC3","red":50,"green":156,"blue":195}
+628;Prilly pink;{"name":"Prilly pink","hex":"#FF40A0","red":255,"green":64,"blue":160}
+629;Prilly red;{"name":"Prilly red","hex":"#FF0040","red":255,"green":0,"blue":64}
+630;Princess Perfume;{"name":"Princess Perfume","hex":"#FF85CF","red":255,"green":133,"blue":207}
+631;Princeton orange;{"name":"Princeton orange","hex":"#F58025","red":245,"green":128,"blue":37}
+632;Prussian blue;{"name":"Prussian blue","hex":"#003153","red":0,"green":49,"blue":83}
+633;Psychedelic purple;{"name":"Psychedelic purple","hex":"#DF00FF","red":223,"green":0,"blue":255}
+634;Puce;{"name":"Puce","hex":"#CC8899","red":204,"green":136,"blue":153}
+635;Puce red;{"name":"Puce red","hex":"#722F37","red":114,"green":47,"blue":55}
+636;Pullman Brown,UPS Brown;{"name":"Pullman Brown","hex":"#644117","red":100,"green":65,"blue":23}
+637;Pullman Green;{"name":"Pullman Green","hex":"#3B331C","red":59,"green":51,"blue":28}
+638;Purple;{"name":"Purple","hex":"#800080","red":128,"green":0,"blue":128}
+639;Purple Heart;{"name":"Purple Heart","hex":"#69359C","red":105,"green":53,"blue":156}
+640;Purple mountain majesty;{"name":"Purple mountain majesty","hex":"#9678B6","red":150,"green":120,"blue":182}
+641;Purple navy;{"name":"Purple navy","hex":"#4E5180","red":78,"green":81,"blue":128}
+642;Purple pizzazz;{"name":"Purple pizzazz","hex":"#FE4EDA","red":254,"green":78,"blue":218}
+643;Purple Plum;{"name":"Purple Plum","hex":"#9C51B6","red":156,"green":81,"blue":182}
+644;Purple taupe;{"name":"Purple taupe","hex":"#50404D","red":80,"green":64,"blue":77}
+645;Purpureus;{"name":"Purpureus","hex":"#9A4EAE","red":154,"green":78,"blue":174}
+646;Queen blue;{"name":"Queen blue","hex":"#436B95","red":67,"green":107,"blue":149}
+647;Queen pink;{"name":"Queen pink","hex":"#E8CCD7","red":232,"green":204,"blue":215}
+648;Quick Silver;{"name":"Quick Silver","hex":"#A6A6A6","red":166,"green":166,"blue":166}
+649;Quinacridone magenta;{"name":"Quinacridone magenta","hex":"#8E3A59","red":142,"green":58,"blue":89}
+650;Radical Red;{"name":"Radical Red","hex":"#FF355E","red":255,"green":53,"blue":94}
+651;Raisin black;{"name":"Raisin black","hex":"#242124","red":36,"green":33,"blue":36}
+652;Raspberry glace;{"name":"Raspberry glace","hex":"#915F6D","red":145,"green":95,"blue":109}
+653;Raspberry pink;{"name":"Raspberry pink","hex":"#E25098","red":226,"green":80,"blue":152}
+654;Raspberry rose;{"name":"Raspberry rose","hex":"#B3446C","red":179,"green":68,"blue":108}
+655;Raw Sienna;{"name":"Raw Sienna","hex":"#D68A59","red":214,"green":138,"blue":89}
+656;Raw umber;{"name":"Raw umber","hex":"#826644","red":130,"green":102,"blue":68}
+657;Razzle dazzle rose;{"name":"Razzle dazzle rose","hex":"#FF33CC","red":255,"green":51,"blue":204}
+658;Razzmic Berry;{"name":"Razzmic Berry","hex":"#8D4E85","red":141,"green":78,"blue":133}
+659;Rebecca Purple;{"name":"Rebecca Purple","hex":"#663399","red":102,"green":52,"blue":153}
+660;Red;{"name":"Red","hex":"#FF0000","red":255,"green":0,"blue":0}
+661;Red-brown,Red brown;{"name":"Red-brown","hex":"#A52A2A","red":165,"green":42,"blue":42}
+662;Red cola;{"name":"Red cola","hex":"#DF0118","red":223,"green":1,"blue":24}
+663;Red devil;{"name":"Red devil","hex":"#860111","red":134,"green":1,"blue":17}
+664;Red-orange,Red orange;{"name":"Red-orange","hex":"#FF5349","red":255,"green":83,"blue":73}
+665;Red-purple,Red purple;{"name":"Red-purple","hex":"#E40078","red":228,"green":0,"blue":120}
+666;Red rum;{"name":"Red rum","hex":"#973A4A","red":151,"green":58,"blue":74}
+667;Red Salsa;{"name":"Red Salsa","hex":"#FD3A4A","red":253,"green":58,"blue":74}
+668;Red strawberry;{"name":"Red strawberry","hex":"#EC0304","red":236,"green":3,"blue":1}
+669;Red-violet,Red violet;{"name":"Red-violet","hex":"#C71585","red":199,"green":21,"blue":133}
+670;Registration black;{"name":"Registration black","hex":"#000000","red":0,"green":0,"blue":0}
+671;Resolution blue;{"name":"Resolution blue","hex":"#002387","red":0,"green":35,"blue":135}
+672;Rich brilliant lavender;{"name":"Rich brilliant lavender","hex":"#F1A7FE","red":241,"green":167,"blue":254}
+673;Rich carmine;{"name":"Rich carmine","hex":"#D70040","red":215,"green":0,"blue":64}
+674;Rich electric blue;{"name":"Rich electric blue","hex":"#0892D0","red":8,"green":146,"blue":208}
+675;Rich lavender;{"name":"Rich lavender","hex":"#A76BCF","red":167,"green":107,"blue":207}
+676;Rich lilac;{"name":"Rich lilac","hex":"#B666D2","red":182,"green":102,"blue":210}
+677;Rich maroon;{"name":"Rich maroon","hex":"#B03060","red":176,"green":48,"blue":96}
+678;Rifle green;{"name":"Rifle green","hex":"#444C38","red":68,"green":76,"blue":56}
+679;Ripe mango;{"name":"Ripe mango","hex":"#FFC324","red":255,"green":195,"blue":36}
+680;Robin egg blue;{"name":"Robin egg blue","hex":"#00CCCC","red":0,"green":204,"blue":204}
+681;Rocket metallic;{"name":"Rocket metallic","hex":"#8A7F80","red":138,"green":127,"blue":128}
+682;Roman silver;{"name":"Roman silver","hex":"#838996","red":131,"green":137,"blue":150}
+683;Root beer;{"name":"Root beer","hex":"#290E05","red":41,"green":14,"blue":5}
+684;Rose bonbon;{"name":"Rose bonbon","hex":"#F9429E","red":249,"green":66,"blue":158}
+685;Rose Dust;{"name":"Rose Dust","hex":"#9E5E6F","red":158,"green":94,"blue":111}
+686;Rose ebony;{"name":"Rose ebony","hex":"#674846","red":103,"green":72,"blue":70}
+687;Rose garnet;{"name":"Rose garnet","hex":"#960145","red":150,"green":1,"blue":69}
+688;Rose gold;{"name":"Rose gold","hex":"#B76E79","red":183,"green":110,"blue":121}
+689;Rose madder;{"name":"Rose madder","hex":"#E32636","red":227,"green":38,"blue":54}
+690;Rose pink;{"name":"Rose pink","hex":"#FF66CC","red":255,"green":102,"blue":204}
+691;Rose quartz;{"name":"Rose quartz","hex":"#AA98A9","red":170,"green":152,"blue":169}
+692;Rose quartz pink;{"name":"Rose quartz pink","hex":"#BD559C","red":189,"green":85,"blue":156}
+693;Rose red;{"name":"Rose red","hex":"#C21E56","red":194,"green":30,"blue":86}
+694;Rose taupe;{"name":"Rose taupe","hex":"#905D5D","red":144,"green":93,"blue":93}
+695;Rose vale;{"name":"Rose vale","hex":"#AB4E52","red":171,"green":78,"blue":82}
+696;Rosy brown;{"name":"Rosy brown","hex":"#BC8F8F","red":188,"green":143,"blue":143}
+697;Royal azure;{"name":"Royal azure","hex":"#0038A8","red":0,"green":56,"blue":168}
+698;Royal blue;{"name":"Royal blue","hex":"#002366","red":0,"green":35,"blue":102}
+699;Royal blue;{"name":"Royal blue","hex":"#4169E1","red":65,"green":105,"blue":225}
+700;Royal brown;{"name":"Royal brown","hex":"#523B35","red":82,"green":59,"blue":53}
+701;Royal fuchsia;{"name":"Royal fuchsia","hex":"#CA2C92","red":202,"green":44,"blue":146}
+702;Royal green;{"name":"Royal green","hex":"#136207","red":19,"green":98,"blue":7}
+703;Royal orange;{"name":"Royal orange","hex":"#F99245","red":249,"green":146,"blue":69}
+704;Royal pink;{"name":"Royal pink","hex":"#E73895","red":231,"green":56,"blue":149}
+705;Royal red;{"name":"Royal red","hex":"#9B1C31","red":155,"green":28,"blue":49}
+706;Royal red;{"name":"Royal red","hex":"#D00060","red":208,"green":0,"blue":96}
+707;Royal purple;{"name":"Royal purple","hex":"#7851A9","red":120,"green":81,"blue":169}
+708;Royal yellow;{"name":"Royal yellow","hex":"#FADA5E","red":250,"green":218,"blue":94}
+709;Rubine red;{"name":"Rubine red","hex":"#D10056","red":209,"green":0,"blue":86}
+710;Ruby red;{"name":"Ruby red","hex":"#9B111E","red":155,"green":17,"blue":30}
+711;Rufous;{"name":"Rufous","hex":"#A81C07","red":168,"green":28,"blue":7}
+712;Russet;{"name":"Russet","hex":"#80461B","red":128,"green":70,"blue":27}
+713;Russian green;{"name":"Russian green","hex":"#679267","red":103,"green":146,"blue":103}
+714;Russian violet;{"name":"Russian violet","hex":"#32174D","red":50,"green":23,"blue":77}
+715;Rusty red;{"name":"Rusty red","hex":"#DA2C43","red":218,"green":44,"blue":67}
+716;Sacramento State green;{"name":"Sacramento State green","hex":"#043927","red":4,"green":57,"blue":39}
+717;Saddle brown;{"name":"Saddle brown","hex":"#8B4513","red":139,"green":69,"blue":19}
+718;Safety orange;{"name":"Safety orange","hex":"#FF7800","red":255,"green":120,"blue":0}
+719;Safety yellow;{"name":"Safety yellow","hex":"#EED202","red":238,"green":210,"blue":2}
+720;St. Patrick's blue;{"name":"St. Patrick's blue","hex":"#23297A","red":35,"green":41,"blue":122}
+721;Salmon Rose;{"name":"Salmon Rose","hex":"#E7968B","red":231,"green":150,"blue":139}
+722;Salmon pink;{"name":"Salmon pink","hex":"#FF91A4","red":255,"green":145,"blue":164}
+723;Samsung blue;{"name":"Samsung blue","hex":"#12279E","red":18,"green":39,"blue":158}
+724;Sandy brown;{"name":"Sandy brown","hex":"#F4A460","red":244,"green":164,"blue":96}
+725;Sandy Tan;{"name":"Sandy Tan","hex":"#FDD9B5","red":253,"green":217,"blue":181}
+726;Sandy taupe;{"name":"Sandy taupe","hex":"#967117","red":150,"green":113,"blue":23}
+727;Sap green;{"name":"Sap green","hex":"#507D2A","red":80,"green":125,"blue":42}
+728;Sapphire blue;{"name":"Sapphire blue","hex":"#0067A5","red":0,"green":103,"blue":165}
+729;Sasquatch Socks;{"name":"Sasquatch Socks","hex":"#FF4681","red":255,"green":70,"blue":129}
+730;Satin sheen gold;{"name":"Satin sheen gold","hex":"#CBA135","red":203,"green":161,"blue":53}
+731;Scarlet;{"name":"Scarlet","hex":"#FF2400","red":255,"green":36,"blue":0}
+732;Schauss pink;{"name":"Schauss pink","hex":"#FF91AF","red":255,"green":145,"blue":175}
+733;School bus yellow;{"name":"School bus yellow","hex":"#FFD800","red":255,"green":216,"blue":0}
+734;Screamin' Green;{"name":"Screamin' Green","hex":"#66FF66","red":102,"green":255,"blue":102}
+735;Sea blue;{"name":"Sea blue","hex":"#006994","red":0,"green":105,"blue":148}
+736;Sea Foam Green;{"name":"Sea Foam Green","hex":"#9FE2BF","red":195,"green":226,"blue":191}
+737;Sea green;{"name":"Sea green","hex":"#2E8B57","red":46,"green":139,"blue":87}
+738;Sea Serpent;{"name":"Sea Serpent","hex":"#4BC7CF","red":75,"green":199,"blue":207}
+739;Seal brown;{"name":"Seal brown","hex":"#59260B","red":50,"green":20,"blue":20}
+740;Selective yellow;{"name":"Selective yellow","hex":"#FFBA00","red":255,"green":186,"blue":0}
+741;Sepia;{"name":"Sepia","hex":"#704214","red":112,"green":66,"blue":20}
+742;Shadow blue;{"name":"Shadow blue","hex":"#778BA5","red":119,"green":139,"blue":165}
+743;Shamrock green;{"name":"Shamrock green","hex":"#009E60","red":0,"green":158,"blue":96}
+744;Sheen green;{"name":"Sheen green","hex":"#8FD400","red":143,"green":212,"blue":0}
+745;Shimmering Blush;{"name":"Shimmering Blush","hex":"#D98695","red":217,"green":134,"blue":149}
+746;Shiny Shamrock;{"name":"Shiny Shamrock","hex":"#5FA778","red":95,"green":167,"blue":120}
+747;Shocking pink;{"name":"Shocking pink","hex":"#FC0FC0","red":252,"green":15,"blue":192}
+748;Sienna;{"name":"Sienna","hex":"#882D17","red":136,"green":45,"blue":23}
+749;Silver;{"name":"Silver","hex":"#C0C0C0","red":192,"green":192,"blue":192}
+750;Silver chalice;{"name":"Silver chalice","hex":"#ACACAC","red":172,"green":172,"blue":172}
+751;Silver foil;{"name":"Silver foil","hex":"#AFB1AE","red":175,"green":177,"blue":174}
+752;Silver Lake blue;{"name":"Silver Lake blue","hex":"#5D89BA","red":93,"green":137,"blue":186}
+753;Silver pink;{"name":"Silver pink","hex":"#C4AEAD","red":196,"green":174,"blue":173}
+754;Silver sand;{"name":"Silver sand","hex":"#BFC1C2","red":191,"green":193,"blue":194}
+755;Sizzling Red;{"name":"Sizzling Red","hex":"#FF3855","red":255,"green":56,"blue":85}
+756;Sizzling Sunrise;{"name":"Sizzling Sunrise","hex":"#FFDB00","red":255,"green":219,"blue":0}
+757;Skobeloff green;{"name":"Skobeloff green","hex":"#007474","red":0,"green":116,"blue":116}
+758;Sky magenta;{"name":"Sky magenta","hex":"#CF71AF","red":207,"green":113,"blue":175}
+759;Slate blue;{"name":"Slate blue","hex":"#6A5ACD","red":106,"green":90,"blue":205}
+760;Slate gray;{"name":"Slate gray","hex":"#708090","red":112,"green":128,"blue":144}
+761;Slimy green;{"name":"Slimy green","hex":"#299617","red":41,"green":150,"blue":23}
+762;Dark powder blue;{"name":"Dark powder blue","hex":"#003399","red":0,"green":51,"blue":153}
+763;Smokey Topaz;{"name":"Smokey Topaz","hex":"#832A0D","red":131,"green":42,"blue":34}
+764;Smoky black;{"name":"Smoky black","hex":"#100C08","red":16,"green":12,"blue":8}
+765;Solid pink;{"name":"Solid pink","hex":"#893843","red":137,"green":56,"blue":67}
+766;Sonic silver;{"name":"Sonic silver","hex":"#757575","red":117,"green":117,"blue":117}
+767;Spartan Crimson;{"name":"Spartan Crimson","hex":"#9E1316","red":158,"green":19,"blue":22}
+768;Space cadet;{"name":"Space cadet","hex":"#1D2951","red":29,"green":41,"blue":81}
+769;Spanish bistre;{"name":"Spanish bistre","hex":"#807532","red":128,"green":117,"blue":50}
+770;Spanish blue;{"name":"Spanish blue","hex":"#0070B8","red":0,"green":112,"blue":184}
+771;Spanish carmine;{"name":"Spanish carmine","hex":"#D10047","red":209,"green":0,"blue":71}
+772;Spanish crimson;{"name":"Spanish crimson","hex":"#E51A4C","red":229,"green":26,"blue":76}
+773;Spanish gray;{"name":"Spanish gray","hex":"#989898","red":152,"green":152,"blue":152}
+774;Spanish green;{"name":"Spanish green","hex":"#009150","red":0,"green":145,"blue":80}
+775;Spanish orange;{"name":"Spanish orange","hex":"#E86100","red":232,"green":97,"blue":0}
+776;Spanish pink;{"name":"Spanish pink","hex":"#F7BFBE","red":247,"green":191,"blue":190}
+777;Spanish purple;{"name":"Spanish purple","hex":"#66033C","red":102,"green":3,"blue":60}
+778;Spanish red;{"name":"Spanish red","hex":"#E60026","red":230,"green":0,"blue":38}
+779;Spanish sky blue;{"name":"Spanish sky blue","hex":"#00FFFF","red":0,"green":255,"blue":255}
+780;Spanish violet;{"name":"Spanish violet","hex":"#4C2882","red":76,"green":40,"blue":130}
+781;Spanish viridian;{"name":"Spanish viridian","hex":"#007F5C","red":0,"green":127,"blue":92}
+782;Spanish yellow;{"name":"Spanish yellow","hex":"#F6B511","red":246,"green":181,"blue":17}
+783;Spicy mix;{"name":"Spicy mix","hex":"#8B5f4D","red":139,"green":95,"blue":77}
+784;Spiro Disco Ball;{"name":"Spiro Disco Ball","hex":"#0FC0FC","red":15,"green":192,"blue":252}
+785;Spring bud;{"name":"Spring bud","hex":"#A7FC00","red":167,"green":252,"blue":0}
+786;Spring Frost;{"name":"Spring Frost","hex":"#87FF2A","red":135,"green":255,"blue":42}
+787;Spring green;{"name":"Spring green","hex":"#00FF7F","red":0,"green":255,"blue":127}
+788;Spring green (Crayola);{"name":"Spring green (Crayola)","hex":"#ECEBBD","red":236,"green":235,"blue":189}
+789;Star command blue;{"name":"Star command blue","hex":"#007BB8","red":0,"green":123,"blue":184}
+790;Steel blue;{"name":"Steel blue","hex":"#4682B4","red":70,"green":130,"blue":180}
+791;Steel pink;{"name":"Steel pink","hex":"#CC33CC","red":204,"green":51,"blue":204}
+792;Steel Teal;{"name":"Steel Teal","hex":"#5F8A8B","red":95,"green":138,"blue":139}
+793;Stil de grain yellow;{"name":"Stil de grain yellow","hex":"#FADA5E","red":250,"green":218,"blue":94}
+794;Stop red;{"name":"Stop red","hex":"#CF142B","red":207,"green":20,"blue":43}
+795;Strawberry red;{"name":"Strawberry red","hex":"#C83F49","red":200,"green":63,"blue":73}
+796;Sunburnt Cyclops;{"name":"Sunburnt Cyclops","hex":"#FF404C","red":255,"green":64,"blue":76}
+797;Sunset orange;{"name":"Sunset orange","hex":"#FD5E53","red":253,"green":94,"blue":83}
+798;Super pink;{"name":"Super pink","hex":"#CF6BA9","red":207,"green":107,"blue":169}
+799;Sweet Brown;{"name":"Sweet Brown","hex":"#A83731","red":168,"green":55,"blue":49}
+800;Tangerine yellow;{"name":"Tangerine yellow","hex":"#FFCC00","red":255,"green":204,"blue":0}
+801;Tango pink;{"name":"Tango pink","hex":"#E4717A","red":228,"green":113,"blue":122}
+802;Tart Orange;{"name":"Tart Orange","hex":"#FB4D46","red":251,"green":77,"blue":70}
+803;Taupe;{"name":"Taupe","hex":"#483C32","red":72,"green":60,"blue":50}
+804;Taupe gray;{"name":"Taupe gray","hex":"#8B8589","red":139,"green":133,"blue":137}
+805;Tea green;{"name":"Tea green","hex":"#D0F0C0","red":208,"green":240,"blue":192}
+806;Teal;{"name":"Teal","hex":"#008080","red":0,"green":128,"blue":128}
+807;Teal blue;{"name":"Teal blue","hex":"#367588","red":54,"green":117,"blue":136}
+808;Teal deer;{"name":"Teal deer","hex":"#99E6B3","red":153,"green":230,"blue":179}
+809;Teal green;{"name":"Teal green","hex":"#00827F","red":0,"green":130,"blue":127}
+810;Telemagenta;{"name":"Telemagenta","hex":"#CF3476","red":207,"green":52,"blue":118}
+811;Terra cotta;{"name":"Terra cotta","hex":"#E2725B","red":226,"green":114,"blue":91}
+812;Thulian pink;{"name":"Thulian pink","hex":"#DE6FA1","red":222,"green":111,"blue":161}
+813;Tickle Me Pink;{"name":"Tickle Me Pink","hex":"#FC89AC","red":252,"green":137,"blue":172}
+814;Tiffany Blue;{"name":"Tiffany Blue","hex":"#0ABAB5","red":10,"green":186,"blue":181}
+815;Tiger's eye;{"name":"Tiger's eye","hex":"#E08D3C","red":224,"green":141,"blue":60}
+816;Titanium yellow;{"name":"Titanium yellow","hex":"#EEE600","red":238,"green":230,"blue":0}
+817;Tractor red;{"name":"Tractor red","hex":"#FD0E35","red":253,"green":14,"blue":53}
+818;Trolley grey;{"name":"Trolley grey","hex":"#808080","red":128,"green":128,"blue":128}
+819;Tropical rain forest;{"name":"Tropical rain forest","hex":"#00755E","red":0,"green":117,"blue":94}
+820;Tropical violet;{"name":"Tropical violet","hex":"#CDA4DE","red":205,"green":164,"blue":222}
+821;True blue;{"name":"True blue","hex":"#0073CF","red":0,"green":115,"blue":207}
+822;Tufts blue;{"name":"Tufts blue","hex":"#3E8EDE","red":62,"green":142,"blue":222}
+823;Turkish rose;{"name":"Turkish rose","hex":"#B57281","red":181,"green":114,"blue":129}
+824;Turquoise;{"name":"Turquoise","hex":"#40E0D0","red":64,"green":224,"blue":208}
+825;Turquoise blue;{"name":"Turquoise blue","hex":"#00FFEF","red":0,"green":255,"blue":239}
+826;Turquoise green;{"name":"Turquoise green","hex":"#A0D6B4","red":160,"green":214,"blue":180}
+827;Turquoise Surf;{"name":"Turquoise Surf","hex":"#00C5CD","red":0,"green":197,"blue":205}
+828;Turtle green;{"name":"Turtle green","hex":"#8A9A5B","red":138,"green":154,"blue":91}
+829;Tuscan brown;{"name":"Tuscan brown","hex":"#6F4E37","red":111,"green":78,"blue":55}
+830;Tuscan red;{"name":"Tuscan red","hex":"#7C4848","red":124,"green":72,"blue":72}
+831;Tuscan tan;{"name":"Tuscan tan","hex":"#A67B5B","red":166,"green":123,"blue":91}
+832;Twilight lavender;{"name":"Twilight lavender","hex":"#8A496B","red":138,"green":73,"blue":107}
+833;Twitter blue;{"name":"Twitter blue","hex":"#26A7DE","red":38,"green":167,"blue":222}
+834;Tyrian purple;{"name":"Tyrian purple","hex":"#66023C","red":102,"green":2,"blue":60}
+835;Ultramarine;{"name":"Ultramarine","hex":"#3F00FF","red":18,"green":10,"blue":143}
+836;Ultramarine blue;{"name":"Ultramarine blue","hex":"#4166F5","red":65,"green":102,"blue":245}
+837;Ultra pink;{"name":"Ultra pink","hex":"#FF6FFF","red":255,"green":111,"blue":255}
+838;Ultra red;{"name":"Ultra red","hex":"#FC6C85","red":252,"green":108,"blue":133}
+839;Umber;{"name":"Umber","hex":"#635147","red":99,"green":81,"blue":71}
+840;Unbleached silk;{"name":"Unbleached silk","hex":"#FFDDCA","red":255,"green":221,"blue":202}
+841;United Nations blue;{"name":"United Nations blue","hex":"#5B92E5","red":91,"green":146,"blue":229}
+842;Unmellow yellow;{"name":"Unmellow yellow","hex":"#FFFF66","red":255,"green":255,"blue":102}
+843;UP maroon;{"name":"UP maroon","hex":"#7B1113","red":123,"green":17,"blue":19}
+844;Upsdell red;{"name":"Upsdell red","hex":"#AE2029","red":174,"green":32,"blue":41}
+845;Urobilin;{"name":"Urobilin","hex":"#E1AD21","red":225,"green":173,"blue":33}
+846;Vampire black;{"name":"Vampire black","hex":"#080808","red":8,"green":8,"blue":8}
+847;Van Dyke brown;{"name":"Van Dyke brown","hex":"#664228","red":102,"green":66,"blue":40}
+848;Vegas gold;{"name":"Vegas gold","hex":"#C5B358","red":197,"green":179,"blue":88}
+849;Venetian red;{"name":"Venetian red","hex":"#C80815","red":200,"green":8,"blue":21}
+850;Verdigris;{"name":"Verdigris","hex":"#43B3AE","red":67,"green":179,"blue":174}
+851;Verse green;{"name":"Verse green","hex":"#18880d","red":24,"green":136,"blue":13}
+852;Very light azure;{"name":"Very light azure","hex":"#74BBFB","red":116,"green":187,"blue":251}
+853;Very light blue;{"name":"Very light blue","hex":"#6666FF","red":102,"green":102,"blue":255}
+854;Very light malachite green;{"name":"Very light malachite green","hex":"#64E986","red":100,"green":233,"blue":134}
+855;Very light tangelo;{"name":"Very light tangelo","hex":"#FFB077","red":255,"green":176,"blue":119}
+856;Very pale orange;{"name":"Very pale orange","hex":"#FFDFBF","red":255,"green":223,"blue":191}
+857;Very pale yellow;{"name":"Very pale yellow","hex":"#FFFFBF","red":255,"green":255,"blue":191}
+858;Vine Green;{"name":"Vine Green","hex":"#38A32A","red":22,"green":64,"blue":16}
+859;Violet;{"name":"Violet","hex":"#8F00FF","red":143,"green":0,"blue":255}
+860;Violet-blue,Violet blue;{"name":"Violet-blue","hex":"#324AB2","red":50,"green":74,"blue":178}
+861;Violet-red,Violet red;{"name":"Violet-red","hex":"#F75394","red":247,"green":83,"blue":148}
+862;Violin Brown;{"name":"Violin Brown","hex":"#674403","red":103,"green":68,"blue":3}
+863;Viridian;{"name":"Viridian","hex":"#40826D","red":64,"green":130,"blue":109}
+864;Viridian green;{"name":"Viridian green","hex":"#009698","red":0,"green":150,"blue":152}
+865;Vista blue;{"name":"Vista blue","hex":"#7C9ED9","red":124,"green":158,"blue":217}
+866;Vivid amber;{"name":"Vivid amber","hex":"#cc9900","red":204,"green":153,"blue":0}
+867;Vivid auburn;{"name":"Vivid auburn","hex":"#922724","red":146,"green":39,"blue":36}
+868;Vivid burgundy;{"name":"Vivid burgundy","hex":"#9F1D35","red":159,"green":29,"blue":53}
+869;Vivid cerise;{"name":"Vivid cerise","hex":"#DA1D81","red":218,"green":29,"blue":129}
+870;Vivid cerulean;{"name":"Vivid cerulean","hex":"#00AAEE","red":0,"green":170,"blue":238}
+871;Vivid crimson;{"name":"Vivid crimson","hex":"#CC0033","red":204,"green":0,"blue":51}
+872;Vivid gamboge;{"name":"Vivid gamboge","hex":"#FF9900","red":255,"green":153,"blue":0}
+873;Vivid lime green;{"name":"Vivid lime green","hex":"#a6d608","red":166,"green":214,"blue":8}
+874;Vivid malachite;{"name":"Vivid malachite","hex":"#00cc33","red":0,"green":204,"blue":51}
+875;Vivid mulberry;{"name":"Vivid mulberry","hex":"#B80CE3","red":184,"green":12,"blue":227}
+876;Vivid orange;{"name":"Vivid orange","hex":"#FF5F00","red":255,"green":95,"blue":0}
+877;Vivid orange peel;{"name":"Vivid orange peel","hex":"#FFA000","red":255,"green":160,"blue":0}
+878;Vivid orchid;{"name":"Vivid orchid","hex":"#CC00FF","red":204,"green":0,"blue":255}
+879;Vivid raspberry;{"name":"Vivid raspberry","hex":"#FF006C","red":255,"green":0,"blue":108}
+880;Vivid red;{"name":"Vivid red","hex":"#F70D1A","red":247,"green":13,"blue":26}
+881;Vivid red-tangelo,Vivid red tangelo;{"name":"Vivid red-tangelo","hex":"#DF6124","red":223,"green":97,"blue":36}
+882;Vivid sky blue;{"name":"Vivid sky blue","hex":"#00CCFF","red":0,"green":204,"blue":255}
+883;Vivid tangelo;{"name":"Vivid tangelo","hex":"#F07427","red":240,"green":116,"blue":39}
+884;Vivid tangerine;{"name":"Vivid tangerine","hex":"#FFA089","red":255,"green":160,"blue":137}
+885;Vivid vermilion;{"name":"Vivid vermilion","hex":"#e56024","red":229,"green":96,"blue":36}
+886;Vivid violet;{"name":"Vivid violet","hex":"#9F00FF","red":159,"green":0,"blue":255}
+887;Vivid yellow;{"name":"Vivid yellow","hex":"#FFE302","red":255,"green":227,"blue":2}
+888;Watermelon red;{"name":"Watermelon red","hex":"#BF4147","red":190,"green":65,"blue":71}
+889;Watermelon Yellow;{"name":"Watermelon Yellow","hex":"#EEFF1B","red":238,"green":255,"blue":27}
+890;Weldon Blue;{"name":"Weldon Blue","hex":"#7C98AB","red":124,"green":152,"blue":171}
+891;White;{"name":"White","hex":"#FFFFFF","red":255,"green":255,"blue":255}
+892;Willpower orange;{"name":"Willpower orange","hex":"#FD5800","red":253,"green":88,"blue":0}
+893;Windsor tan;{"name":"Windsor tan","hex":"#A75502","red":167,"green":85,"blue":2}
+894;Wine dregs;{"name":"Wine dregs","hex":"#673147","red":103,"green":49,"blue":71}
+895;Wine red;{"name":"Wine red","hex":"#B11226","red":177,"green":18,"blue":38}
+896;Winter Wizard;{"name":"Winter Wizard","hex":"#A0E6FF","red":160,"green":230,"blue":255}
+897;Wintergreen Dream;{"name":"Wintergreen Dream","hex":"#56887D","red":86,"green":136,"blue":125}
+898;Wood brown;{"name":"Wood brown","hex":"#C19A6B","red":193,"green":154,"blue":107}
+899;Yellow;{"name":"Yellow","hex":"#FFFF00","red":255,"green":255,"blue":0}
+900;Yellow-green,Yellow green;{"name":"Yellow-green","hex":"#9ACD32","red":154,"green":205,"blue":50}
+901;Yellow Orange;{"name":"Yellow Orange","hex":"#FFAE42","red":255,"green":174,"blue":66}
+902;Yellow rose;{"name":"Yellow rose","hex":"#FFF000","red":255,"green":240,"blue":0}
+903;Yellow Sunshine;{"name":"Yellow Sunshine","hex":"#FFF700","red":255,"green":247,"blue":0}
+904;YInMn Blue;{"name":"YInMn Blue","hex":"#2E5090","red":46,"green":80,"blue":144}
+905;Zaffre;{"name":"Zaffre","hex":"#0014A8","red":0,"green":20,"blue":168}
+906;Zebra White;{"name":"Zebra White","hex":"#F5F5F5","red":245,"green":245,"blue":24}

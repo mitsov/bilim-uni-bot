@@ -1,0 +1,37 @@
+descriptor:
+  id: jokes
+  title: Kids Jokes
+  theme: Jokes
+  summary: Fun for kids and adults
+  description: My jokes are fun and child-safe.
+  labels: ["jokes"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/jokes.png
+  background: 3e3748
+  price: 0.40
+
+  samples:
+    - Tell me a joke.
+    - Can a kangaroo jump higher than a house? Of course, a house doesn’t jump at all.
+    - Cool!
+    - One more?
+    - Yes, please.
+    - Why is it impossible to trust atoms? - They make up everything!
+
+    - Tell me something funny.
+    - What did one ocean say to the other? Nothing. It just waved.
+    - Boring.
+    - Not that easy to learn humor, but I will keep trying.
+
+entryPoint: en/jokes/Jokes.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

@@ -1,0 +1,36 @@
+descriptor:
+
+  id: WaterReminder
+  title: Water Reminder
+  theme: Alarm and Timer
+  summary: Reminds you to drink water every day
+  description: I will remind you to drink water and I will track your progress during the day.
+  labels: ["water", "watertracker", "remind me of"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/WaterReminder.png
+  background: 008066
+  price: 0.20
+
+  samples:
+    - How many glasses of water do I need to drink per day?
+    - "Tell me your age and I will calculate" 
+    - "I'm 25 years old, how much water do I need to drink?"
+    - "You should drink 1.5-2 liters or 8 glasses per day. Should I remind you during the day?"
+    
+    - I drank a glass of water.
+    - "Ok, you have 3 glasses left"
+    - "Remind me to drink a glass of water at three o'clock!"
+    - "Reminder is set"
+
+#entryPoint: en/waterReminder/WaterReminder.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

@@ -1,0 +1,35 @@
+descriptor:
+  id: jokes
+  title: Kids Jokes
+  theme: Jokes
+  summary: Fun for kids and adults
+  description: My jokes are fun and child-safe.
+  labels: ["jokes"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/jokes.png
+  background: 3e3748
+  price: 0.40
+
+  samples:
+    - Расскажи анекдот.
+    - Почему кошки научились видеть в темноте? Потому что не достают до выключателя.
+    - Ещё!
+    - Бе-бе-бе! - последний и самый весомый аргумент в любом споре..
+
+    - Повесели меня.
+    - В середине любого яблока есть огрызок.
+    - Скучно.
+    - Юмору не так просто научиться, но я буду стараться..
+
+entryPoint: ru/jokes/Jokes.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

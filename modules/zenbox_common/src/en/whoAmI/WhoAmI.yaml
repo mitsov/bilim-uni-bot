@@ -1,0 +1,31 @@
+descriptor:
+
+  id: WhoAmI
+  title: Who am I?
+  theme: Games
+  summary: Famous guessing game
+  description: Try to guess the character that the device will tell you about.
+  labels: ["guessing", "characters", "pretend"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/WhoAmI.png
+  background: 008066
+  price: 0.30
+
+  samples:
+    - "I have big ears, red shorts and a funny yellow dog, who am I?"
+    - I dont know
+    - "My girlfriend is a mouse and she loves polka-dot dresses"
+    - You are Mickey!
+
+#entryPoint: en/whoAmI/WhoAmI.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

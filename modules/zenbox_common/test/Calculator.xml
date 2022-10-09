@@ -1,0 +1,476 @@
+<test>
+
+
+
+    <test-case>
+        <q>корень четвертой степени из 1024</q>
+        <a>5,66</a>
+        <q>корень степени 3 от 343 будет 7?</q>
+        <a>Да, это будет 7</a>
+    </test-case>
+
+    <test-case>
+        <q>20 разделить на 100 умножить на квадратный корень из 122</q>
+        <a>2,21</a>
+    </test-case> 
+
+    <test-case>
+        <q>корень из корня от 16</q>
+        <a>2</a>
+    </test-case>   
+
+    <test-case>
+        <q>корень из корня из корня от 256</q>
+        <a>2</a>
+    </test-case>
+
+
+    <test-case>
+        <q>6 делить на 0</q>
+        <a>Эта операция недопустима.</a>
+    </test-case>
+
+    <test-case>
+        <q>сколько будет 3 в кубе?</q>
+        <a>27</a>
+    </test-case>
+
+    <test-case>
+        <q>три в степени три</q>
+        <a>27</a>
+    </test-case>
+
+    <test-case>
+        <q>чему равно 4 плюс 1</q>
+        <a>5</a>
+    </test-case>
+
+    <test-case>
+        <q>Раздели тысячу на два</q>
+        <a>500</a>
+        <q>Подели тысячу на три</q>
+        <a>333,33</a>
+        <q>Разделить 100 на 3</q>
+        <a>33,33</a>
+        <q>Умножить 200 на два</q>
+        <a>400</a>
+        <q>Сложить 4 и 432</q>
+        <a>436</a>
+        <q>Вычесть 55 из 1000</q>
+        <a>945</a>
+    </test-case>
+
+    <test-case>
+        <q>разделить 20 на 4</q>
+        <a>5</a>
+        <q>раздели 20 на 4</q>
+        <a>5</a>
+    </test-case>
+
+    <test-case>
+        <q>прибавить 5 к 7</q>
+        <a>12</a>
+    </test-case>
+
+    <test-case>
+        <q>синус 30 градусов </q>
+        <a>0,5</a>
+    </test-case>
+
+    <test-case>
+        <q>тангенс для угла 30 градусов </q>
+        <a>0,58</a>
+    </test-case>
+
+    <test-case>
+        <q>10 в квадрате</q>
+        <a>100</a>
+        <q>умножь на 2</q>
+        <a>200</a>        
+    </test-case>  
+
+
+    <test-case>
+        <q>дважды два</q>
+        <a>4</a>
+        <q>10 в квадрате</q>
+        <a>100</a>        
+    </test-case>  
+
+    <test-case>
+        <q>кубический корень из 27</q>
+        <a>3</a>   
+    </test-case>   
+
+    <test-case>
+        <q>2.5 умножить на 10 минус 25</q>
+        <a>0</a>   
+    </test-case> 
+
+    <test-case>
+        <q>5 умножить на 3.6</q>
+        <a>18</a>   
+    </test-case> 
+
+    <test-case>
+        <q>7.20 прибавить 3.60</q>
+        <a>10,8</a>   
+    </test-case> 
+
+    <test-case>
+        <q>Cколько будет тридцать процентов от 45</q>
+        <a>13,5</a>   
+    </test-case>     
+
+    <test-case>
+        <q>Скажи пожалуйста 5 + 5 = 8?</q>
+        <a>Нет, это будет 10</a>   
+    </test-case>     
+
+    <test-case>
+        <q>дважды два равно четыре</q>
+        <a>Да, это будет 4</a>   
+    </test-case>
+
+    <test-case>
+        <q>Будет ли 30, если сложить 15 и 12?</q>
+        <a>Нет, это будет 27</a>   
+    </test-case>
+
+    <test-case>
+        <q>косинус угла 90 градусов</q>
+        <a>0</a>   
+    </test-case>
+
+    <test-case>
+        <q>косинус прямого угла</q>
+        <a>0</a>   
+    </test-case>
+
+    <test-case>
+        <q>синус прямого угла</q>
+        <a>1</a>   
+    </test-case>
+
+    <test-case>
+        <q>синус пи пополам</q>
+        <a>1</a>   
+    </test-case>      
+
+    <test-case>
+        <q>синус пи</q>
+        <a>0</a>
+    </test-case>
+
+    <test-case>
+        <q>синус 3 пи</q>
+        <a>0</a>
+    </test-case>
+
+    <test-case>
+        <q>6/3</q>
+        <a>2</a>
+    </test-case>
+
+    <test-case>
+        <q>Сколько будет 6÷3</q>
+        <a>2</a>   
+    </test-case>      
+
+    <test-case>
+        <q>6÷3</q>
+        <a>2</a>   
+    </test-case> 
+
+    <test-case>
+        <q>1+1</q>
+        <a>2</a>   
+    </test-case> 
+
+    <test-case>
+        <q>1-1</q>
+        <a>0</a>   
+    </test-case> 
+
+    <test-case>
+        <q>Сколько будет 2-2</q>
+        <a>0</a>   
+    </test-case> 
+
+    <test-case>
+        <q>сколько будет один -1</q>
+        <a>0</a>   
+    </test-case> 
+
+    <test-case>
+        <q>1-1+3</q>
+        <a>3</a>   
+    </test-case> 
+
+    <test-case>
+        <q>один+1</q>
+        <a>2</a>
+    </test-case>
+
+    <test-case>
+        <q>ноль-3</q>
+        <a>-3</a>
+    </test-case>
+
+    <test-case>
+        <q>четыре*2</q>
+        <a>8</a>
+    </test-case>
+
+    <test-case>
+        <q>четыре/2</q>
+        <a>2</a>
+    </test-case>
+
+    <test-case>
+        <q>четыре÷2</q>
+        <a>2</a>
+    </test-case>
+
+    <test-case>
+        <q>четыре÷2</q>
+        <a>2</a>
+    </test-case>
+
+    <test-case>
+        <q>разница между семью и шестью</q>
+        <a>1</a>
+    </test-case>   
+
+    <test-case>
+        <q>сумма шесть и восемь</q>
+        <a>14</a>
+    </test-case>  
+
+    <test-case>
+        <q>произведение между одиннадцатью и шестью</q>
+        <a>66</a>
+    </test-case>  
+
+    <test-case>
+        <q>частное между семью и семью</q>
+        <a>1</a>
+    </test-case>   
+
+    <test-case>
+        <q>минус три плюс 5</q>
+        <a>2</a>
+        <q>-1 + 7</q>
+        <a>6</a>
+    </test-case>   
+
+    <test-case>
+        <q>корень из двух сотен</q>
+        <a>14,14</a>
+    </test-case> 
+
+    <test-case>
+        <q>синус три пи на пополам</q>
+        <a>-1</a>
+    </test-case> 
+
+    <test-case>
+        <q>синус половины прямого угла</q>
+        <a>0,71</a>
+    </test-case> 
+
+    <test-case>
+        <q>сложи 4 и 5 </q>
+        <a>9</a>
+        <q>прибавь 5 и 7</q>
+        <a>14,7</a>
+    </test-case>
+  
+    <test-case>
+        <q>сложи 4 с 5</q>
+        <a>9</a>
+    </test-case> 
+
+    <test-case>
+        <q>одна десятая разделить на 6</q>
+        <a>0,02</a>
+    </test-case> 
+
+    <test-case>
+        <q>сколько будет половина процента от 1000</q>
+        <a>5</a>
+    </test-case>
+
+    <test-case>
+        <q>сколько будет половина от 1000</q>
+        <a>500</a>
+    </test-case>
+
+    <test-case>
+        <q>сколько будет треть от 900</q>
+        <a>300</a>
+    </test-case>
+
+    <test-case>
+        <q>пять на четыре</q>
+        <a>20</a>
+    </test-case>
+
+    <test-case>
+        <q>синус пи на два</q>
+        <a>1</a>
+    </test-case> 
+
+    <test-case>
+        <q>синус минус пи</q>
+        <a>0</a>
+    </test-case> 
+
+    <test-case>
+        <q>косинус минус пи</q>
+        <a>-1</a>
+    </test-case> 
+
+    <test-case>
+        <q>синус пи на два разделить на два</q>
+        <a>0,5</a>
+    </test-case>
+
+    <test-case>
+        <q>синус пи разделить на два</q>
+        <a>0</a>
+    </test-case> 
+
+    <test-case>
+        <q>косинус пи на четыре</q>
+        <a>0,71</a>
+    </test-case> 
+
+    <test-case>
+        <q>косинус пи на 6</q>
+        <a>0,87</a>
+    </test-case> 
+    
+    <test-case>
+        <q>синус два</q>
+        <a>0,03</a>
+    </test-case> 
+  
+    <test-case>
+        <q>котангенс два</q>
+        <a>28,64</a>
+    </test-case> 
+
+    <test-case>
+        <q>котангенс пи на четыре</q>
+        <a>1</a>
+    </test-case> 
+
+    <test-case>
+        <q>котангенс пи на шесть</q>
+        <a>1,73</a>
+    </test-case> 
+
+     <test-case>
+        <q>тангенс пи на четыре</q>
+        <a>0,01</a>
+    </test-case> 
+
+    <test-case>
+        <q>тангенс пи на шесть</q>
+        <a>0,01</a>
+    </test-case> 
+
+    <test-case id="infinity problem">
+        <q>пять делить на синус пи</q>
+        <a>Эта операция недопустима.</a>
+    </test-case>
+
+     <test-case>
+        <q>пять делить на 0</q>
+        <a>Эта операция недопустима.</a>
+    </test-case>
+    
+    <test-case>
+        <q>пять процентов от трёхста</q>
+        <a>15</a>
+    </test-case>
+
+    <test-case id="why changed answer">
+        <q>корень из -1</q>
+        <a>Эта операция недопустима.</a>
+    </test-case>
+
+    <test-case>
+        <q>Сколько будет 27 × 45</q>
+        <a>1215</a>
+    </test-case>
+
+    <test-case>
+        <q>минус пять на пять</q>
+        <a>-25</a>
+    </test-case>
+      
+     <test-case>
+        <q>пять умножить на минус пять</q>
+        <a>-25</a>
+    </test-case> 
+
+    <test-case>
+        <q>пять на минус пять</q>
+        <a>-25</a>
+    </test-case> 
+    
+    <test-case>
+        <q>минус пять на минус пять</q>
+        <a>25</a>
+    </test-case> 
+
+    <test-case>
+        <q>пять разделить на минус пять</q>
+        <a>-1</a>
+    </test-case> 
+
+    <test-case>
+        <q>минус пять разделить на  пять</q>
+        <a>-1</a>
+    </test-case> 
+
+    <test-case>
+        <q>минус пять разделить на минус пять</q>
+        <a>1</a>
+    </test-case> 
+
+    <test-case>
+        <q>минус пять плюс минус пять</q>
+        <a>-10</a>
+    </test-case> 
+
+    <test-case>
+        <q>Семь целых 5/10 умножить на 2 целых 5/10</q>
+        <a>18,75</a>
+        <q>врёшь</q>
+        <a>Я мог и просчитаться.</a>
+    </test-case> 
+
+    <test-case>
+        <q>Сколько будет 1.000.000 делить на 3</q>
+        <a>333333,33</a>
+    </test-case> 
+
+    <test-case>
+        <q>Сколько будет 329 минус 327</q>
+        <a>2</a>
+    </test-case> 
+
+    <test-case>
+        <q>cлово - слово</q>
+        <a>В смысле?</a>
+    </test-case>
+
+    <test-case>
+        <q>2 в степени 100</q>
+        <a>1,2676506002282294e+30</a>
+    </test-case>
+
+</test>

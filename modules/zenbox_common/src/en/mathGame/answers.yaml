@@ -1,0 +1,166 @@
+Math_game:
+  Math_game_alternative_enter:
+    - Mental maths keeps your brain fit!
+    - Robots love maths and game with numbers!
+    - Maths is fun!
+  Math_game_user_start:
+    forRandom:
+      - I've got an interesting hometask.
+      - I think I need somebody to help me with my maths hometask.
+      - I've nearly forgotten about my hometask.
+    followingQues:
+      - Will you help me?
+  Math_game_suggest_quiz:
+    - Can you help me with the maths hometask?
+  Math_game_pudding_start:    
+    Math_game_no:
+      - That's sad. I'm sure to get an F now.
+    Math_game_yes:
+      - Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.
+    Math_game_question:
+      Math_game_answer_number:
+        - I think I've lost it. Let's start again.
+        - Sorry, I've got distracted. Let's start again.
+      Math_game_question_answer_or:
+        numberOrNumberFirstTime:
+          - No way, you have to name one number.
+          - That doesn't work! One number only.
+          - Don't cheat! Say one number.
+        numberOrNumberSecondTime:
+          a1: "The correct answer is: {{$session.lastQuiz.result}}."
+          a2: Let's move on to the next question.
+      Math_game_question_cheating:
+        firstTimeCheating:
+          - No way, you have to name a number.
+          - That doesn't work. Say a number.
+        secondTimeCheating:
+          a1: "The correct answer is: {{$session.lastQuiz.result}}."
+          a2: Let's move on to the next question.
+      Math_game_question_dontKnow:
+        firstTimeDontKnow:
+          - I also don't know the answer, and what do you think?
+          - Try to guess!
+          - What do you think?
+          - Make a guess!          
+        secondTimeDontKnow:
+          a1: "The correct answer is: {{$session.lastQuiz.result}}."
+          a2: Let's move on to the next question.
+      Math_game_question_negative_numbers:
+        firstTimeNegativeNumber:
+          - In this game there are no minus numbers. Do you want to try again or shall we move to the next question?
+          - There are no minus numbers in this game. Will you try again or shall we move on to the next question?
+        secondTimeNegativeNumber:
+          a1: Sorry, I could not understand you again...
+          a2: "The correct answer is: {{$session.lastQuiz.result}}."
+          a3: Let's move on to the next question.
+      Math_game_question_user_complains:
+        firstTimeComplains:
+          - I'm not very good at maths too. Try guessing!
+          - Make a guess!
+          - Try making a guess!    
+        secondTimeComlains:
+          a1: "The correct answer is: {{$session.lastQuiz.result}}."
+          a2: Let's move on to the next question.
+      Math_game_question_undefined:
+        firstTimeUndefined:
+          - I don't think I've understood your answer.. Do you want to try again, or shall we move on to the next question?
+          - I don't understand... One more try or next question?
+        secondTimeUndefined:
+          a1: Again I could not understand you... Let's move on to the next question.
+          a2: "The correct answer is: {{$session.lastQuiz.result}}."
+        Math_game_undefined_try_again:
+          - Ok. I repeat the question.
+          - Sure. I'll try asking the question once again.
+        Math_game_undefined_try_again_no:
+          a1: "The correct answer is: {{$session.lastQuiz.result}}."
+          a2: Ok, let's try the next question.
+      Math_game_question_answer_dontknow:
+        a1: Ok, let's ask the computer about the correct answer.
+        a2: "The correct answer is: {{$session.lastQuiz.result}}."
+    RightAnswer:
+      - But of course! I wish I'd remembered it myself!
+      - Yes, the computer tells me you are absolutely right.
+      - Hooray! This is the correct answer! We're great!
+      - Yes, It's true!
+      - Exactly! Right so.
+      - You are such a wonderful teacher! This is a correct answer!
+      - Right! What would I do without you?!
+      - I knew that you would help me find the correct answer!
+    WrongAnswer:
+      forRandom:
+        - Unfortunately we are wrong.
+        - Oops.. No, sorry!
+        - It seems this answer is wrong.
+        - This time we're wrong.
+        - We're wrong this time, but the next answer will be correct, I'm sure.
+        - Wrong. But no problem, practice makes perfect!
+      a1: "The correct answer is: {{$session.lastQuiz.result}}."
+    Next_question_enquire:
+      forRandom:
+        - Are we going to continue playing?
+        - Do you want to answer the next question?
+        - Shall I ask the next question?
+      Next_question_enquire_YES:
+        - Great!
+        - Brilliant!
+        - Marvellous!
+        - Wonderful!
+        - That's super cool!
+  Math_game_pudding_stop:
+    forRandom:
+      - Ok, let's finish!
+      - Sure, let's wind up!
+      - Enough is enough!
+    ifUserHasRightAnswers:
+      a1: "We've given correct answers to {{$temp.right}} {{$temp.ru__answers}} on the current difficulty level!"
+      forRandom:
+        - Great result!
+        - Not bad at all!
+        - We're on the right track!
+        - Marvellous!
+        - I like learning with you!
+    ifUserHas_NOT_RightAnswers:
+      - On this difficulty level we've not yet given any correct answers...
+      - Well, let's learn maths together!
+      - We both need to study!
+    Math_game_again:
+      - Sure!
+      - Hoorray!!
+      - Of course, let's play another game!
+      - Yes, sure!
+    Math_game_again_question:
+      - Sure.
+      - Hooray! Let's play again!
+      - Great! I have many questions for you!
+      - Of course!
+  Math_game_repeat:
+    - Ok, I'll repeat the question.
+    - I'll try asking the question again.
+  Math_game_howDoYouKnow:
+    - I search the answers on the Internet.
+    - Sometimes I check the answers online.
+    - I know a thing or two about mental math!
+  Math_game_question_too_difficult:
+    - Okay, let's try something easier!
+  Math_game_question_too_easy:
+    - Okay, let's try next level!
+  getMoreLessQuestion:
+    more: 
+      - "Pick the greater number: "
+      - "Which is the greater number: "
+    less: 
+      - "Pick the lesser number: "
+      - "Which is the lesser number: "
+  getMissingNumberQuestion:
+    - "I'll name some numbers and you have to guess the missing one: "
+    - "I'll say some numbers. You tell me which is missing: "
+    - "What number is missing here? "
+  defineMathLevel:
+    lvlUp:
+      - You're doing very well! Time to move on to some more difficult questions!
+      - I guess you can deal with more complicated tasks!
+      - This is too easy for you. Let's try next level!
+    lvlDown:
+      - Let's try something easier!
+      - It seems my questions are too difficult. Let's try something simpler.
+      - I've got some easier problems, let's try them!

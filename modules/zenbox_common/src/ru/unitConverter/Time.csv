@@ -1,0 +1,10 @@
+0;Секунда,сек;{"title":"Секунда","ratio":1,"idLess":"1","class":"time","conform":{"singNomn":"секунда","singGent":"секунды","singLoct":"секунде","plurNomn":"секунды","plurGent":"секунд","plurLoct":"секундах"}}
+1;Миллисекунда,мс;{"title":"Миллисекунда","ratio":0.001,"idLess":"2","class":"time","conform":{"singNomn":"миллисекунда","singGent":"миллисекунды","singLoct":"миллисекунде","plurNomn":"миллисекунды","plurGent":"миллисекунд","plurLoct":"миллисекундах"}}
+2;Микросекунда,мкс;{"title":"Микросекунда","ratio":0.000001,"class":"time","conform":{"singNomn":"микросекунда","singGent":"микросекунды","singLoct":"микросекунде","plurNomn":"микросекунды","plurGent":"микросекунд","plurLoct":"микросекундах"}}
+3;День;{"title":"День","ratio":86400,"idLess":"4","class":"time","conform":{"singNomn":"день","singGent":"дня","singLoct":"дне","plurNomn":"дни","plurGent":"дней","plurLoct":"днях"}}
+4;Час;{"title":"Час","ratio":3600,"idLess":"5","class":"time","conform":{"singNomn":"час","singGent":"часа","singLoct":"часе","plurNomn":"часы","plurGent":"часов","plurLoct":"часах"}}
+5;Минута,мин;{"title":"Минута","ratio":60,"idLess":"0","class":"time","conform":{"singNomn":"минута","singGent":"минуты","singLoct":"минуте","plurNomn":"минуты","plurGent":"минут","plurLoct":"минутах"}}
+6;Век;{"title":"Век","ratio":3153600000,"idLess":"7","class":"time","conform":{"singNomn":"век","singGent":"века","singLoct":"веке","plurNomn":"века","plurGent":"веков","plurLoct":"веках"}}
+7;Год;{"title":"Год","ratio":31536000,"idLess":"8","class":"time","conform":{"singNomn":"год","singGent":"года","singLoct":"годе","plurNomn":"года","plurGent":"лет","plurLoct":"годах"}}
+8;Месяц;{"title":"Месяц","ratio":2628000,"idLess":"9","class":"time","conform":{"singNomn":"месяц","singGent":"месяца","singLoct":"месяце","plurNomn":"месяцы","plurGent":"месяцев","plurLoct":"месяцах"}}
+9;Неделя;{"title":"Неделя","ratio":604800,"idLess":"3","class":"time","conform":{"singNomn":"неделя","singGent":"недели","singLoct":"неделе","plurNomn":"недели","plurGent":"недель","plurLoct":"неделях"}}

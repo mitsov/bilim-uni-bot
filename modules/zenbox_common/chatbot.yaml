@@ -1,0 +1,25 @@
+name: zb-zenbox-common
+
+language: ru
+
+entryPoint: main.sc
+
+matcherSettings:
+  contextHistoryDepth: 1 # количество фраз, за которые бот будет помнить "историю" диалога
+
+tests:
+  exclude:
+    - '**/testEn/*.xml'
+    - Radio.xml
+    - currencyConverter.xml
+       
+nlp:
+ timeLimit:
+   enabled: true
+   timeout: 30000
+
+dependencies:
+  - name: zb_common
+    type: git
+    url: https://bitbucket.org/just-ai/zb-common
+    version: heads/master

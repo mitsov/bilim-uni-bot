@@ -1,0 +1,36 @@
+descriptor:
+  id: foodGame
+  title: Food game
+  theme: Food quiz
+  summary: A fun game about food
+  description: An educational game that checks the player's knowledge of the different products and types of food.
+  labels: ["food", "game"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/foodGame.png
+  background: a40000
+  price: 0.40
+
+  samples:
+    - Давай поиграем в игру продукты
+    - Давай! Я всегда рад узнать побольше о земной еде! Яблоко - это фрукт или орех?
+    - Фрукт
+    - Точно! Как же я сам не вспомнил! Продолжаем ли мы играть дальше?
+    - Да        
+    - Прекрасно! Из чего готовят кефир - из молока или из мяса?
+    - Из того и из другого
+    - Нужно выбрать один вариант ответа. Из чего готовят кефир - из молока или из мяса?
+    - Хватит
+    - Давай закончим! 1 вопрос правильно из 2! Прекрасный результат!
+
+entryPoint: ru/foodGame/Foodgame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

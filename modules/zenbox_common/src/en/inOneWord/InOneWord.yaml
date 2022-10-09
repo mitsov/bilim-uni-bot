@@ -1,0 +1,35 @@
+descriptor:
+
+  id: InOneWord
+  title: In one word
+  theme: Words
+  summary: Educational game about concepts and words
+  description: The device will offer a child to call items in one word.
+  labels: ["words"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/InOneWord.png
+  background: 008066
+  price: 0.30 
+
+  samples:
+    - "Say it in one word: plates, cups, pans, pots?"
+    - Animals
+    - "Try again maybe. Say it in one word: plates, cups, pans, pots?"
+    - Next 
+    - "Ok. Airplane, train, car, tractor, ship. Say it in one word"
+    - Transport!
+    - "Great!"
+    - One more question!
+
+#entryPoint: en/inOneWord/InOneWord.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

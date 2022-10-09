@@ -1,0 +1,23 @@
+<test>
+    <test-case>
+        <q>Lets play Games</q>
+        <a state="/PlayGames/Games"></a>
+    </test-case>
+    <test-case>
+        <q>Let's play games</q>
+        <a state="/PlayGames/Games"></a>
+    </test-case>    
+    <test-case>
+        <q>Don't you want to play a game with me</q>
+        <a state="/PlayGames/Games"></a>
+    </test-case>    
+    <test-case>
+        <q>How do you feel about playing a good game</q>
+        <a state="/PlayGames/Games"></a>
+    </test-case>    
+    <test-case>
+        <q>Let's play together</q>
+        <a state="/PlayGames/Games"></a>
+    </test-case>
+
+</test>

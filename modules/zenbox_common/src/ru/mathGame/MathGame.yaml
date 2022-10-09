@@ -1,0 +1,38 @@
+descriptor:
+  id: mathGame
+  title: Math game
+  theme: Math game
+  summary: Entertainment and mental math
+  description: How much is seven plus eight? What number is missing in the sequence? An educational game with simple mental math tasks.
+  labels: ["maths", "verbal counting", "game", "kids"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/mathGame.png
+  background: 800000
+  price: 0.35
+
+  samples:
+    - Поиграй со мной в математику!
+    - Мне как раз задали домашнее задание по математике. Поможешь мне?
+    - Помогу!
+    - Отлично! Для тебя это игра, а для меня - домашняя работа! Тут много вопросов - просто скажи "хватит", когда захочешь остановиться. Я буду называть числа, а ты скажи, какое я пропустил - 0, 4, 6, 8
+    - Два!
+    - Точно! Ты молодчина! Продолжаем ли мы играть дальше?
+    - Давай!
+    - Прекрасно! Сколько будет 2 плюс 1?
+    - 4 или 3
+    - Так не пойдет, тебе нужно назвать одно число. Сколько будет 2 плюс 1?
+    - Будет 4
+    - К сожалению, это неправильный ответ. Правильный ответ - 3. Продолжаем ли мы играть дальше?
+
+entryPoint: ru/mathGame/MathGame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

@@ -1,0 +1,36 @@
+descriptor:
+  id: calendarGame
+  title: Calendar game
+  theme: Calendar quiz
+  summary: Explore the calendar
+  description: Game that helps you remember order of dates, months and seasons.
+  labels: ["calendar","game", "kids"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/calenderGame.png
+  background: 19b188
+  price: 0.40
+
+  samples:
+    - Давай поиграем в календарь.
+    - У меня как раз в робошколе домашнее задание по датам и дням недели, а я совсем запутался. Поможешь мне?
+    - Помогу
+    - Отлично! Для тебя это игра, а для меня - контрольная работа! Тут много вопросов - просто скажи "хватит", когда захочешь остановиться. Какой месяц следует за январём?
+    - Февраль
+    - Точно! Как же я сам не вспомнил! Продолжаем ли мы играть дальше?
+    - Да
+    - Прекрасно! Какой месяц идёт перед январём?
+    - Хватит
+    - Давай закончим! Мы ответили правильно на 1 вопрос из 2! Прекрасный результат!
+
+entryPoint: ru/calendarGame/CalendarGame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

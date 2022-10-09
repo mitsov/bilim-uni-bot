@@ -1,0 +1,145 @@
+Animal game alternative enter:
+    - I have just started to study animals of Earth.
+Animal game user start:
+    - Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?
+Animal game suggest quiz:
+    - And can you help me to answer the questions about animals?
+Animal game pudding start:
+    Animal game no:
+        - So sad. I'll get an F now.
+    Animal game from rules no:
+        disagree:
+            - A no is a no.
+        disagree with text:        
+            - Let's think about that tomorrow.
+            - I'll ask again next time.
+            - I am not sure I want to do it now...
+    Animal game yes:
+        - Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.
+    Unexpected reaction:
+        - So is it yes or no?
+    RightAnswer:
+        - But of course! I wish I'd remembered it myself!
+        - Yes, the computer tells me you are absolutely right.
+        - Hooray! This is the correct answer! We're great!
+        - Yes, It's true!
+        - Exactly! Right so.
+        - Right so! Soon I'll know everything about the animals of Earth!
+        - You are such a wonderful teacher! This is a correct answer!
+        - Right! What would I do without you?!
+        - I knew that you would help me find the correct answer!
+    WrongAnswer:
+        - Unfortunately we are wrong.
+        - Oops.. No, sorry!
+        - It seems this answer is wrong.
+        - This time we're wrong.
+        - We're wrong this time, but the next answer will be correct, I'm sure.
+        - Wrong. But no problem, practice makes perfect!
+    tell right answer:    
+        - "The correct answer is {{$temp.rightAnswer}}."
+    tell right answer and go next:
+        - "The correct answer is {{$temp.correct}} Let's move on to the next question."        
+    Animal game question answer or:
+        - No way, choose one option.
+        - Nope, this won't do. You have to select one option only.
+        - This is unfair. You have to select something.
+    Animal game question Negative:
+        - Select the right answer!
+        - And which answer is correct?
+        - What answer is correct then?
+        - So which answer is the correct one?
+    Animal game question FloatNumber:
+        - The amount must be an integer!
+        - The answer could not be a non-integer.
+        - We need an integer.
+    Animal game question More than one answer:
+        - I prefer a precise answer.
+        - So, i need the final answer.
+        - To evaluate your result I need a clear answer.
+    User answered not stated variant:
+        - Choose from among the two suggested variants.
+        - The correct answer is one of the two variants.
+    Animal game question dontKnow:
+        - Maybe you'll try to guess?
+        - Try making a guess!
+        - What do you think?
+        - Just choose one!
+    Animal game question many extremities:
+        - The answer should be a number.
+        - Try guessing the number!
+        - If you do not know the exact number, try to guess!
+    Animal game question undefined:
+        barrier:
+            - Again I could not understand you... Let's move on to the next question.
+        no barrier:
+            - I could not understand your answer... Will you try again or shall we move to the next question?
+            - I don't understand... Will you try again or shall we move to the next question?
+            - I could not understand your question. Shall we try again or move on to the next question?
+        Animal game undefined try again:
+            - Ok. I'll repeat the question.
+            - I'll try to ask you this question once again.
+        Animal game undefined try again no:
+            - Ok, let's move on to the next question.
+            - Sure, let's skip this one.
+        Animal game undefined try again yes:
+            - I don't understand. One more try or next question?
+            - I don't understand - do you need one more try or shall we move on to the next question?
+    Animal game do you know:
+        - No, I don't know the answer. Try answering yourself!
+    Animal game repeat the question:
+        - Ok, I'll repeat the question.
+        - I'll try asking the question again.
+    Animal game repeat the question how much try:
+        - Just one. Let me repeat the question.
+        - You have one try. It's okay if you answer wrong. Listen to the question again.
+    Next question enquire:
+        Next question enquire yes:
+            - Great!
+            - Brilliant!
+            - Marvellous!
+            - Wonderful!
+            - That's super cool!
+        Next question enquire undefined:
+            barrier:
+                - Somehow I could not understand you again.. But I'll try asking the question.
+                - Sorry. I did not get your answer. But I'll ask my question.
+            no barrier:
+                - I could not understand that... Are you ready for the next question?
+                - I do not understand... Shall I ask the next question?
+        questions:
+            - Are we going to continue playing?
+            - Do you want to answer the next question?
+            - Shall I ask the next question?
+Animal game pudding stop:
+    stop phrases:
+        - Let's finish!
+        - OK, let's stop!
+        - Ok, let us finish the game.
+    one wrong answer:
+        - There was only one question and we've given a wrong answer!
+    one right answer:
+        - There was only one question and we've given a correct answer!
+    all wrong answers:
+        - All our answers were incorrect and there were {{$session.lastQuiz.numQuestions}}...
+    bad result:    
+        - Ok, we'll study together!
+        - We both have something to learn!
+    all right answers:
+        - We've answered correctly all {{$session.lastQuiz.numQuestions}} {{$temp.ru_questions}}!
+    some right answers:
+        - We've given correct answers to {{$session.lastQuiz.rightAnswers}} {{$temp.ru__answers}} out of {{$session.lastQuiz.numQuestions}}!    
+    good result: 
+        - Great result!
+        - Not bad at all!
+        - We're on the right track!
+        - Marvellous!
+        - I like learning with you!
+    Animal game again:
+        - Of course, let's play another game!
+        - Sure.
+        - Hooray! Let's play again!
+        - Great! I have many questions for you!
+        - Of course!
+Animal game howDoYouKnow:
+    - I search the answers on the Internet.
+    - Sometimes I check the answers online.

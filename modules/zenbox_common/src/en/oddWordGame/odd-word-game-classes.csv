@@ -1,0 +1,16 @@
+wild animal;wild animal;{"1":"wild animal", "2":"mammal", "3":"animal", "4":"animate"}
+domestic animal;domestic animal;{"1":"domestic animal", "2":"mammal", "3":"animal", "4":"animate"}
+bird;bird;{"2":"bird", "3":"animal", "4":"animate"}
+fish;fish;{"2":"fish", "3":"animal", "4":"animate"}
+insect;insect;{"2":"insect", "3":"animal", "4":"animate"}
+tree;tree;{"2":"tree", "3":"plant", "4":"animate"}
+flower;flower;{"2":"flower", "3":"plant", "4":"animate"}
+berry;berry;{"1":"berry","2":"fruitage", "3":"plant", "4":"animate"}
+fruit;fruit;{"1":"fruit","2":"fruitage", "3":"plant", "4":"animate"}
+vegetable;vegetable;{"1":"vegetable", "2":"fruitage", "3":"plant", "4":"animate"}
+piece of furniture;piece of furniture;{"2":"piece of furniture", "3":"object", "4":"inanimate"}
+musical instrument;musical instrument;{"2":"musical instrument", "3":"object", "4":"inanimate"}
+tool;tool;{"2":"tool", "3":"object", "4":"inanimate"}
+kitchen utensil;kitchen utensil;{"2":"kitchen utensil", "3":"object", "4":"inanimate"}
+hygiene product;hygiene product;{"2":"hygiene product", "3":"object", "4":"inanimate"}
+transport;transport;{"3":"transport", "4":"inanimate"}

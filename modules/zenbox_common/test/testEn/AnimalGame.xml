@@ -1,0 +1,332 @@
+<test>
+
+    <test-case>
+        <q>let's play zoo</q>    
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>yes</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>domestic</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>yes</q>
+        <a>Great!</a>
+        <a>Is dog a mammal or a bird?</a>
+        <q>maybe a bird</q>
+        <a>Unfortunately we are wrong.</a>
+        <a>Are we going to continue playing?</a>
+        <q>bored</q>
+        <a>Let's finish!</a>
+        <a>We've given correct answers to 1 question out of 2!</a>
+        <a>Great result!</a>
+        <q>no let's play again</q>
+        <a>Of course, let's play another game!</a>
+        <a>Is cat a domestic or a wild animal?</a>
+    </test-case> 
+
+    <test-case id="right answer to 'dontKnow or or'-answer">
+        <q>play zoo with me</q>
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>i will</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>my</q>
+        <a>I could not understand your answer... Will you try again or shall we move to the next question?</a>
+        <q>one more time</q>
+        <a>Ok. I'll repeat the question.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>don't know</q>
+        <a>Maybe you'll try to guess?</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>don't know</q>
+        <a>The correct answer is domestic. Let's move on to the next question.</a>
+        <a>Is dog a mammal or a bird?</a>
+    </test-case>
+
+    <test-case id="I am tired">
+        <q>play zoo with me</q>
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>i will</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>i'm tired</q>
+        <a>Let's finish!</a>
+        <a>There was only one question and we've given a wrong answer!</a>
+        <a>Ok, we'll study together!</a>
+    </test-case>   
+
+    <test-case>
+        <q>play zoo with me</q>
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>I'll help you</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+    </test-case>
+     
+     <test-case id="confusing answer">
+        <q>play zoo with me</q>
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>i will</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>domestic</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>Sure</q>
+        <a>Great!</a>
+        <a>Is dog a mammal or a bird?</a>
+        <q>Mostly mammal but sometimes is a bird</q>
+        <a>I prefer a precise answer.</a>
+        <a>Is dog a mammal or a bird?</a>
+    </test-case>
+    
+    <test-case id="one more time">
+        <q>play zoo with me</q>
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>i will</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>i'm tired</q>
+        <a>Let's finish!</a>
+        <a>There was only one question and we've given a wrong answer!</a>
+        <a>Ok, we'll study together!</a>
+        <q>Will we play zoo more? </q>
+        <a>Of course, let's play another game!</a>
+        <a>Is cat a domestic or a wild animal?</a>
+    </test-case>  
+    
+    <test-case id="* + try again">
+        <q>play zoo with me</q>
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>i will</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>is cat a mammal</q>
+        <a>I could not understand your answer... Will you try again or shall we move to the next question?</a>
+        <q>yes</q>
+        <a>I don't understand. One more try or next question?</a>
+        <q>question</q>
+        <a>Ok, let's move on to the next question.</a>
+        <a>Is dog a mammal or a bird?</a>
+        <q>not a bird</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+    </test-case>      
+
+    <test-case>
+        <q>play zoo with me</q>
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>i will</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>is cat an animal?</q>
+        <a>I could not understand your answer... Will you try again or shall we move to the next question?</a>
+        <q>give me another question</q>
+        <a>Ok, let's move on to the next question.</a>
+        <a>Is dog a mammal or a bird?</a>
+    </test-case> 
+
+    <test-case>
+        <q>I love to play with animals</q>
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>Let's try</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+    </test-case>
+     
+    <test-case id="missspelling to try again">
+        <q>play zoo with me</q>
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>i will</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>is cat a mammal</q>
+        <a>I could not understand your answer... Will you try again or shall we move to the next question?</a>
+        <q>let's tru</q>
+        <a>I don't understand. One more try or next question?</a>
+        <q>let's try one more time</q>
+        <a>Ok. I'll repeat the question.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+    </test-case> 
+
+    <test-case>
+        <q>play zoo</q>    
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>yes</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>my</q>
+        <a>I could not understand your answer... Will you try again or shall we move to the next question?</a>
+        <q>domestic</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+    </test-case>
+    
+    <test-case id="complex answer">
+        <q>let's play zoo</q>    
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>sure</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>domestic</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>yes</q>
+        <a>Great!</a>
+        <a>Is dog a mammal or a bird?</a>
+        <q>Dogs doesn't fly, so the answer is mammal</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+    </test-case> 
+
+    <test-case id="do you know 1">
+        <q>let's play zoo</q>    
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>yes</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>domestic</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>yes</q>
+        <a>Great!</a>
+        <a>Is dog a mammal or a bird?</a>
+        <q>Do you know?</q>
+        <a>No, I don't know the answer. Try answering yourself!</a>
+        <q>Dogs are mammals</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+    </test-case> 
+    
+    <test-case id="do you know 2">
+        <q>let's play zoo park</q>    
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>yes</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>domestic</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>yes</q>
+        <a>Great!</a>
+        <a>Is dog a mammal or a bird?</a>
+        <q>Do you know?</q>
+        <a>No, I don't know the answer. Try answering yourself!</a>
+        <q>A dog is a bird</q>
+        <a>Unfortunately we are wrong.</a>
+        <a>Are we going to continue playing?</a>
+    </test-case>
+
+    <test-case id="do you know 3">
+        <q>let's play zoo</q>    
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>yes</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>domestic</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>yes</q>
+        <a>Great!</a>
+        <a>Is dog a mammal or a bird?</a>
+        <q>do you know?</q>
+        <a>No, I don't know the answer. Try answering yourself!</a>
+        <q>mammal</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+    </test-case>
+
+    <test-case id="say the answer">
+        <q>let's play zoo park</q>    
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>yes</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>domestic</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>yes</q>
+        <a>Great!</a>
+        <a>Is dog a mammal or a bird?</a>
+        <q>You tell me</q>
+        <a>The correct answer is mammal. Let's move on to the next question.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+    </test-case> 
+
+    <test-case id="say the answer 1">
+        <q>let's play zoo</q>    
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>yes</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>domestic</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>yes</q>
+        <a>Great!</a>
+        <a>Is dog a mammal or a bird?</a>
+        <q>what is the correct answer</q>
+        <a>The correct answer is mammal. Let's move on to the next question.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+    </test-case> 
+
+    <test-case id="next question">
+        <q>play zoo with me</q>
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>I'll try my best</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>Next question</q>
+        <a>Ok, let's move on to the next question.</a>
+        <a>Is dog a mammal or a bird?</a>
+    </test-case>  
+
+    <test-case>
+        <q>let's play animal game</q>    
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>yes</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>Is cat a domestic or a wild animal?</a>
+        <q>domestic</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>sure</q>
+        <a>Great!</a>
+        <a>Is dog a mammal or a bird?</a>
+        <q>How many correct answers do i have?</q>
+        <a>We've given correct answers to 1 question out of 2!</a>
+    </test-case>  
+    <test-case>
+        <q>2 AnimalGame test</q>
+        <q>play zoo with me</q>
+        <a>Ok! I've got to do my hometask, it checks how well I know the animals. Will you help me?</a>
+        <q>i will</q>
+        <a>Great! A game for you and a test for me! There are so many questions - just say stop when you want to stop.</a>
+        <a>How many paws does cat have?</a>
+        <q>four and half</q>
+        <a>The amount must be an integer!</a>
+        <a>How many paws does cat have?</a>
+        <q>4</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>6 AnimalGame test</q>
+        <q>sure</q>
+        <a>Great!</a>
+        <a>Who has wings: hen or a cat?</a>
+        <q>a cat isn't a bird, therefore a hen has</q>
+        <a>I prefer a precise answer.</a>
+        <a>Who has wings: hen or a cat?</a>
+        <q>Not a cat, hence a hen</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>sure</q>
+        <a>Great!</a>
+        <a>Who has wings: turkey or a cat?</a>
+        <q>Definitely not a cat</q>
+        <a>But of course! I wish I'd remembered it myself!</a>
+        <a>Are we going to continue playing?</a>
+        <q>sure</q>
+        <a>Great!</a>
+        <a>Who has wings: hen or a cat?</a>
+    </test-case>  
+</test>

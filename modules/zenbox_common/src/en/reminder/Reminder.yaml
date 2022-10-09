@@ -1,0 +1,36 @@
+descriptor:
+  id: reminder
+  title: Reminder
+  theme: Reminder
+  summary: Never lets you forget anything important
+  description: I can keep your important information and remind you about it when you need it.
+  labels: ["reminder"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/reminder.png
+  background: 782121
+  price: 0.30
+
+  samples:
+    - Create a reminder to feed the cat for tomorrow at 3 pm.
+    - "Ok, I'll remind you: feed the cat at 3:00 PM, 25 August."
+
+    - Create a reminder for 3 pm.
+    - What should I remind you about at 3:00 pm?
+    - Attend the meeting.
+    - "Ok, I'll remind you: attend the meeting at 3:00 PM, 25 August."
+
+    - create new task, call kate in 2 hours.
+    - "Ok, I'll remind you: call kate at 4:20 PM."
+
+entryPoint: en/reminder/Reminder.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

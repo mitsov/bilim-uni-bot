@@ -1,0 +1,22 @@
+Music:
+    Play:
+        - Играет
+    Who is playing?:
+        dont know:
+            - Не знаю.
+    Is it the artist?:
+        yes, it is:
+            - "Да, это "
+        no, it is:
+            - "Нет, это "
+        dont know:
+            - Не знаю.
+        music is not playing:
+            - Музыка не включена.
+    Pause music:
+        music is already off:
+            - Музыка не включена.
+    Turn off music:
+        - Музыка выключена.
+    Error:
+        - Что-то я не могу найти подходящую музыку. Может включим что-нибудь другое?

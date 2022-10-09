@@ -1,0 +1,100 @@
+Current time:
+  gotCity:
+    hasDayPeriod:
+      - "Сейчас в городе {{$session.Where.name}} {{$temp.dayPeriod}}"
+    hasNotDayPeriod:
+      - "Сейчас в городе {{$session.Where.name}} {{$temp.time}}"
+    error:
+      - "{{$session.Where.name}}? Хм. Тут я тебе не помощник, зато у нас {{$temp.time}}"
+  noCity:
+    - "{{capitalize($parseTree._AnyWord)}}? Хм. Тут я тебе не помощник, зато у нас {{$temp.time}}"
+
+Current date:
+  gotCity:
+    succeed:
+      - "Сегодня в городе {{$session.Where.name}} {{$temp.date}}"
+    failed:
+      - "{{$session.Where.name}}? Хм. Тут я тебе не помощник, зато у нас {{$temp.date}}"
+  noCity:
+    haveAnyWord: 
+      - "{{capitalize($parseTree._AnyWord)}}? Хм. Тут я тебе не помощник, зато у нас {{$temp.date}}"
+    haveNothing:
+      - "Сегодня {{$temp.date}}"
+
+Time check:
+  gotCity:
+    succeed:
+      - "Сейчас в городе {{$session.Where.name}} {{$temp.time}}"
+    failed:
+      - "{{$session.Where.name}}? Хм. Тут я тебе не помощник, зато у нас {{$temp.time}}"
+  noCity:
+    haveAnyWord: 
+      - "{{capitalize($parseTree._AnyWord)}}? Хм. Тут я тебе не помощник, зато у нас {{$temp.time}}"
+    haveNothing:
+      - "Точное время {{$temp.time}}"
+
+Date check today:
+  gotCity:
+    failed:
+      - "{{$session.Where.name}}? Хм. Тут я тебе не помощник, зато у нас {{$temp.date}}"
+  noCity:
+    haveAnyWord: 
+      - "{{capitalize($parseTree._AnyWord)}}? Хм. Тут я тебе не помощник, зато у нас {{$temp.time}}"
+
+Date check other DateWeekday:
+  future:
+    succeed:
+      - "{{$temp.yn}} {{$temp.future.locale('ru').format('LL')}} - это {{$temp.weekDay}}"
+  past:
+    succeed:
+      - "{{$temp.yn}} {{$temp.past.locale('ru').format('LL')}} - это {{$temp.weekDay}}"
+  wholeDate:
+    - Это {{dts_dayweekName($parseTree.DateAbsolute[0].value)}}
+  failed:
+    - "Такой даты не существует"
+
+Day of the week:
+  failed:
+    - "Такой даты не существует"
+  succeed:
+    - "Сегодня {{$temp.weekDay}}"
+
+Time till end of month or season:
+  repeat plz:
+    - Повтори, пожалуйста, время года или месяц.
+
+Time zone:
+  a1:
+    - Конечно, я много чего умею, но подсказать часовой пояс я тебе не смогу.
+  a2:
+    - Зато я могу сосчитать разницу во времени между городами. Спроси, например,
+  random:
+    - сколько времени в Токио, когда в Чикаго 7 вечера.
+    - сколько будет у нас времени, если в Париже полдень.
+    - какая разница во времени между Москвой и Пекином.
+    - какая разница во времени между нами и Берлином.
+
+Timezone comparison:
+  succeed:
+    - "В городе {{$session.Where1.name}} {{$temp.comparison}} относительно города {{$session.Where2.name}}."
+  failed:
+    - "Это мне неизвестно."
+  dontKnowCities:
+    - Извини, я не распознал эти города.
+Timezone calculator:
+  succeed:
+    - "Когда в городе {{$session.Where1.name}} {{$temp.time1f}}, в городе {{$session.Where2.name}} {{$temp.time2f}}."
+  failed:
+    - "Это мне неизвестно."
+  dontKnowCities:
+    - Извини, я не распознал эти города.
+
+Sunset Daybreak:
+  - Пока я не научился отвечать на такие вопросы. Рассвет и закат - понятия относительные.
+  - Закат, рассвет. Вот вопрос, а где ответ?..
+Eclipse:
+  - Пока я не научился отвечать на такие вопросы. Полное солнечное затмение - довольно редкое явление.
+Ask current location for Timezone comparison:
+  - А в каком мы сейчас городе?
+Ask current location for Timezone calculator:
+  - А в каком мы сейчас городе?

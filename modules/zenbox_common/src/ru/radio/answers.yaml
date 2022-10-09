@@ -1,0 +1,70 @@
+unknown radio:
+  - Неизвестное мне радио.
+api error:
+  - "{{$temp.radioStationQuery}}? Не могу найти подходящего радио."
+
+TurnOffRadio:
+  - Радио выключено.
+
+TurnOnRadioWithoutStation:
+  unknown station:
+    - Извини, кажется, я не могу найти эту радиостанцию.
+    - Какие-то помехи, не могу включать это радио.
+  require station name:
+    - Скажи название радиостанции или музыкальный жанр - я поищу нужную волну.
+  TurnOnUnknownRadio:
+    - Похоже, я не могу найти нужную радиостанцию.
+    - Не получается включить это радио.
+
+TurnOnRadioByStation:
+  station is out of reach:
+    - "Станция {{$temp.radioStationQuery}} недоступна."
+  user requires previous station:
+    - "Включаю \"{{$session.currentRadio}}\"."
+  user requires new station:
+    - "По запросу \"{{$parseTree._RadioStation.title}}\" я нашёл \"{{$session.currentRadio}}\". Включаю."
+  scenario error:
+    - Не могу настроиться на нужную волну.
+
+TurnOnRadioByGenre:
+  succeed:
+    - "Включаю радио в стиле {{$parseTree._RadioGenre.title}}."
+  failed:
+    - "{{$parseTree._RadioGenre.title}}? Не могу найти подходящего радио."
+
+SwitchRadio:
+  play next:
+    - Включаю радио "{{$session.currentRadio}}".
+  no next:
+    - Следующей станции нет.
+  no prev:
+    - Предыдущей станции нет.
+  no radio list:
+    - Скажи название радиостанции или музыкальный жанр - я поищу нужную волну.
+
+RadioName:
+  know:
+    - Это радио "{{$session.currentRadio}}".
+  dont know:
+    - Не знаю.
+
+CheckRadio:
+  dont know:
+    - К сожалению, я не знаю.
+  the radio is:
+    - "Это радио \"{{$session.currentRadio}}\"."
+  user named station correct:
+    - "Да, это радио \"{{$session.currentRadio}}\"."
+  user named station wrong:
+    - "Нет, это радио \"{{$session.currentRadio}}\"."
+
+ListentoNews:
+  failed:
+    - Хотел включить новости по радио, но не смог найти подходящей станции.
+  succeed:
+    - "Включаю \"{{$session.currentRadio}}\"."
+ListentoAnyRadio:
+  failed:
+    - Хотел включить радио, но не смог найти подходящую волну.
+  succeed:
+    - "Включаю \"{{$session.currentRadio}}\"."

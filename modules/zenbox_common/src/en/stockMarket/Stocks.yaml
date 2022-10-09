@@ -1,0 +1,49 @@
+descriptor:
+  id: stocks
+  title: Stock Market
+  theme: StockMarket
+  summary: Information about the stock market
+  description: I'll know about the stock market, including recent information on prices, trading volumes, etc.
+  labels: ["stock", "market", "trading"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/stocks.png
+  background: 438d77
+  price: 0.30
+
+  samples:
+    - Apple's stock symbol and trading volume.
+    - The stock symbol is AAPL for Apple Inc. Trading volume is 24423643
+    - Show me its market cap.
+    - The market cap is $749.39B for Apple Inc.
+    - What about Facebook?
+    - The market cap is $436.41B for Facebook, Inc.
+    
+    - AAPL price
+    - The closing price is 143.74 USD for Apple Inc.
+    - Show me the highest price of Apple on Monday.
+    - The highest price on 26th June is 148.28 USD for Apple Inc.
+    - And on Tuesday.
+    - The highest price on 27th June is 146.16 USD for Apple Inc.
+
+    - Compare the price of Apple Incorporated to Facebook.
+    - The closing price is 145.83 USD for Apple Inc. and 153.24 USD for Facebook, Inc.
+
+  params:
+    apikey:
+      type: text
+      required: true
+      title: API key
+      summary: Your developer's API key from www.alphavantage.co
+
+entryPoint: en/stockMarket/Stocks.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

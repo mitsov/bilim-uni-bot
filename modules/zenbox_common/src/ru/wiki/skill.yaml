@@ -1,0 +1,6 @@
+name: Wikipedia
+description: Knows about famous people and facts
+category: Search
+color: 1a1a1a
+language: ru
+samples: Кто такой Пушкин?, Что такое шоколад?

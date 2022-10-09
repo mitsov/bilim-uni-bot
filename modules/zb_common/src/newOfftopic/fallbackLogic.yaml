@@ -1,0 +1,33 @@
+default:
+  doNothing: true
+  # addOfftopicFallback: true
+  # addHowCanIHelpYou: true
+  # changeContextPathTo: /state 
+  # transition:
+  #   state: /state
+  #   lastState: true 
+  #   lastAnswerState: true
+  #   deferred: true (из пост процесса не работает, похоже на баг t.t)
+HowAreYou:
+  addOfftopicFallback: true
+  addHowCanIHelpYou: true
+AreYouRobot:
+  addHowCanIHelpYou: true
+GetClientsFavColor:
+  addOfftopicFallback: true
+  addHowCanIHelpYou: true
+GetClientsFavDish:
+  addOfftopicFallback: true
+  addHowCanIHelpYou: true
+GetClientsFavDrink:
+  addOfftopicFallback: true
+  addHowCanIHelpYou: true
+GetClientsFavActivity:
+  addOfftopicFallback: true
+  addHowCanIHelpYou: true
+GetClientsFriendsOpinion:
+  addOfftopicFallback: true
+  addHowCanIHelpYou: true
+ShowWaiterResponse:
+  addOfftopicFallback: true
+  addHowCanIHelpYou: true

@@ -1,0 +1,42 @@
+descriptor:
+  id: guessNumberGame
+  title: Guess number game
+  theme: Guess Number Game 
+  summary: A fun number game
+  description: Guess a number or let me guess one. Let's see how many tries will it take to win.
+  labels: ["guess", "number", "game"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/numbers.png
+  background: cd9a78
+  price: 0.40
+
+  samples:
+  - Отгадай число
+  - Загадай число от одного до ста. А я его отгадаю. Говори мне - 'больше', если твоё число больше названного мной - или - 'меньше', если твоё число меньше моего. И не забудь сообщить, когда я угадаю! Итак, Я говорю - 1. Твоё число больше или меньше?
+  - Меньше
+  - Нет, этого не может быть! Ты что-то не так мне говоришь! Твоё число должно быть меньше, чем 101, но больше, чем 0. Давай попробуем ещё раз - я говорю 1. Твоё число больше или меньше?
+  - Больше
+  - Древние греки считали, что число два - это символ любви и непостоянства. Моё число - 2. Твоё число Больше или меньше?
+  - В яблочко!
+  - "Класс! Люблю выигрывать! Мой результат: 2 попытки. Хочешь загадать новое число или хочешь, чтобы я загадал число для тебя?"
+  - Загадай
+  - Я только что загадал число от одного до ста. Скажи мне любое число, а я скажу, больше ли или меньше моё число. Начинай!
+  - 101
+  - Меньше! Следующая попытка! Ещё не близко!
+  - 12
+  - Меньше! Герой древнегреческих мифов Геракл совершил 12 подвигов. Следующая попытка! Ещё не близко!
+  - Сдаюсь
+  - Я загадал число 1.
+
+entryPoint: ru/guessNumberGame/GuessNumberGame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

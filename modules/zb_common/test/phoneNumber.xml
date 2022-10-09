@@ -1,0 +1,225 @@
+<test>
+    <test-case>
+        <q>плюс семь девятьсот тридцать один девятьсот семьдесят шесть пятьдесят два семнадцать</q>
+        <a>phoneNumber: +79319765217</a>
+    </test-case>
+    <test-case>
+        <q>ВОСЕМЬ девятьсот тридцать один девятьсот семьдесят шесть пятьдесят два семнадцать</q>
+        <a>phoneNumber: +79319765217</a>
+    </test-case>
+    <test-case>
+        <q>плюс семь девятьсот тридцать один девятьсот семьдесят шесть пятьдесят два семнадцать</q>
+        <a>phoneNumber: +79319765217</a>
+    </test-case>
+    <test-case>
+        <q>плюс семь девятьсот тридцать один девятьсот семьдесят шесть пять тысяч сто сорок три</q>
+        <a>phoneNumber: +79319765143</a>
+    </test-case>
+    <test-case>
+        <q>плюс семь  девятьсот тридцать один девятьсот семьдесят шесть пять тысяч сто сорок три</q>
+        <a>phoneNumber: +79319765143</a>
+    </test-case>
+    <test-case>
+        <q>плюс семь девятьсот тридцать один двести пять тысяч сто сорок три</q>
+        <a>phoneNumber: +79312005143</a>
+    </test-case>
+    <test-case>
+        <q>плюс семь  девятьсот двести пять тысяч сто сорок три</q>
+        <a>phoneNumber: +79002005143</a>
+    </test-case>
+    <test-case>
+        <q>плюс семь  девятьсот сто тысяча</q>
+        <a>phoneNumber: +79001001000</a>
+    </test-case>
+    <test-case>
+        <q>восемь девятьсот тридцать один девятьсот одна тысяча сто сорок три</q>
+        <a>phoneNumber: +79319001143</a>
+    </test-case>
+    <test-case>
+        <q>восемь девятьсот тридцать один девятьсот пятьдесят семь пятнадцать</q>
+        <a>phoneNumber: +79319005715</a>
+    </test-case>
+    <test-case>
+        <q>восемь девять один два три четыре пять шесть семь восемь девять</q>
+        <a>phoneNumber: +79123456789</a>
+    </test-case>
+    <test-case>
+        <q>восемь девять один один один один один один один один один</q>
+        <a>phoneNumber: +79111111111</a>
+    </test-case>
+
+    <test-case>
+        <q>восемь девятьсот сорок восемь три семерки двадцать пять ноль два</q>
+        <a>phoneNumber: +79487772502</a>
+    </test-case>
+    <test-case>
+        <q>восемь девятьсот сорок восемь два нуля пять одиннадцать двадцать</q>
+        <a>phoneNumber: +79480051120</a>
+    </test-case>
+    <test-case>
+        <q>восемь девятьсот сорок восемь три девятки четыре семерки</q>
+        <a>phoneNumber: +79489997777</a>
+    </test-case>
+    <test-case>
+        <q>девятьсот тридцать один девятьсот одна тысяча сто сорок три</q>
+        <a>phoneNumber: +79319001143</a>
+    </test-case>
+    <test-case>
+        <q>девятьсот тридцать один девятьсот пятьдесят семь пятнадцать</q>
+        <a>phoneNumber: +79319005715</a>
+    </test-case>
+    <test-case>
+        <q>девять один два три четыре пять шесть семь восемь девять</q>
+        <a>phoneNumber: +79123456789</a>
+    </test-case>
+    <test-case>
+        <q>девять один один один один один один один один один</q>
+        <a>phoneNumber: +79111111111</a>
+    </test-case>
+
+    <test-case>
+        <q>девятьсот сорок восемь три семерки двадцать пять ноль два</q>
+        <a>phoneNumber: +79487772502</a>
+    </test-case>
+    <test-case>
+        <q>девятьсот сорок восемь два нуля пять одиннадцать двадцать</q>
+        <a>phoneNumber: +79480051120</a>
+    </test-case>
+    <test-case>
+        <q>девятьсот сорок восемь три девятки четыре семерки</q>
+        <a>phoneNumber: +79489997777</a>
+    </test-case>
+
+    <test-case>
+        <q>+79276054565</q>
+        <a>phoneNumber: +79276054565</a>
+    </test-case>
+    <test-case>
+        <q>8 927 605 45 65</q>
+        <a>phoneNumber: +79276054565</a>
+    </test-case>
+    <test-case>
+        <q>8-927-605-45-65</q>
+        <a>phoneNumber: +79276054565</a>
+    </test-case>
+    <test-case>
+        <q>8927 605 45 65</q>
+        <a>phoneNumber: +79276054565</a>
+    </test-case>
+    <test-case>
+        <q>+7950 013 53 53</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>+7(950)013-53-53</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>+7(950) 013 53 53</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+     <test-case>
+        <q>+7 (950) 013-53-53</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>+7 (950) 013-53 53</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>+7 950 013 53 53</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>+7 950 013 53 55</q>
+        <a>phoneNumber: +79500135355</a>
+    </test-case>
+    <test-case>
+        <q>+7(950) 013 53 55</q>
+        <a>phoneNumber: +79500135355</a>
+    </test-case>
+    <test-case>
+        <q>+7 9500135353</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case> 
+        <q>+7 950 013 5353</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case> 
+    <test-case>
+        <q>+7950 013 5355</q>
+        <a>phoneNumber: +79500135355</a>
+    </test-case> 
+    <test-case>
+        <q>+7-(950)-013-5353</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>950 013 53 53</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>(950)013-53-53</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>(950) 013 53 53</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+     <test-case>
+        <q>(950) 013-53-53</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>(950) 013-53 53</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>950 013 53 53</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>950 013 53 55</q>
+        <a>phoneNumber: +79500135355</a>
+    </test-case>
+    <test-case>
+        <q>(950) 013 53 55</q>
+        <a>phoneNumber: +79500135355</a>
+    </test-case>
+    <test-case> 
+        <q>950 013 5353</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case> 
+    <test-case>
+        <q>950 013 5355</q>
+        <a>phoneNumber: +79500135355</a>
+    </test-case> 
+    <test-case>
+        <q>(950)-013-5353</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>89276054565</q>
+        <a>phoneNumber: +79276054565</a>
+    </test-case>
+    <test-case>
+        <q>9500135353</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>+71500135353</q>
+        <a state="/CatchAll/Nonsense"/>
+    </test-case>
+    <test-case>
+        <q>+795001353</q>
+        <a state="/CatchAll/Nonsense"/>
+    </test-case>
+    <test-case>
+        <q>+7 (950) 013 5353</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+    <test-case>
+        <q>+7 (950) 013-5353</q>
+        <a>phoneNumber: +79500135353</a>
+    </test-case>
+</test>

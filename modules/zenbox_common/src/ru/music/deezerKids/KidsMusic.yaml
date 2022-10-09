@@ -1,0 +1,42 @@
+descriptor:
+  id: deezerKids
+  title: Deezer music for kids
+  theme: Kids Music
+  summary: Music for kids
+  description: I'll find songs and lullabies for children.
+  labels: ["music"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/deezerKids.png
+  background: 550022
+  price: 0.20
+
+  samples:
+    - Включи музыку
+    - Играет The Sing-a-long Superstars, 'Ring-a-Ring-A Roses'
+    - Дальше
+    - Играет The Sing-a-long Superstars, 'Teddy Bear's Picnic'
+
+    - Включи что-нибудь веселое
+    - Now playing The Pop Party Allstars, 'Baby One More Time'
+    - Хватит
+    - Музыка выключена.
+
+    - Включи музыку из мультиков
+    - Играет Rhymes 'n' Rhythm, 'I Give You To His Heart'
+
+    - Хочу послушать колыбельную
+    - Играет Einstein Baby Lullaby Academy, 'The Ballad of Davy Crockett' 
+
+
+entryPoint: ru/music/deezerKids/KidsMusic.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

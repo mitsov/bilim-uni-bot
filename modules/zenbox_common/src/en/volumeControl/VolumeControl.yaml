@@ -1,0 +1,55 @@
+descriptor:
+  id: volumeControl
+  title: Volume
+  theme: Volume
+  summary: Helps you to control the volume
+  description: I can help you to tune the volume on your device.
+  labels: ["volume"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/volumeControl.png
+  background: ff7f2a
+  price: 0.10
+
+  samples:
+    - Make the sound more quiet  
+    - Volume is decreased.
+    - Turn down
+    - Volume is muted.
+    - Turn the sound on
+    - Volume is unmuted.
+    - Louder
+    - Volume is increased.
+    - More
+    - Volume is increased.
+    - Louder
+    - Volume is on the maximum level.
+    - Turn volume to minimum
+    - Volume is on the minimum level.
+    - Quiter
+    - Volume is muted.
+
+  params:
+    levels:
+      type: number
+      required: true
+      title: Volume levels
+      summary: Number of volume levels in your system.
+
+    step: 
+      type: number
+      required: true
+      title: Volume step
+      summary: Difference of values between each two neighbor volume levels.
+
+entryPoint: en/volumeControl/VolumeControl.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

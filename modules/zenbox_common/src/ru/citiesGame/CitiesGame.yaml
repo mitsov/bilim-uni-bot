@@ -1,0 +1,38 @@
+descriptor:
+  id: citiesGame
+  title: Cities (word chain) game
+  theme: Gorodagame
+  summary: Makes word chains from the cities' names
+  description: An all-time-favorite - word-chain game that helps you remember the names of many world cities.
+  labels: ["cities", "word chain", "game", "kids"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/citiesGame.png
+  background: 225500
+  price: 0.30
+
+  samples:
+    - Сыграем в города!
+    - Давай сыграем! В игре Города нужно называть город на ту букву, на которую закончился предыдущий. Если город заканчивается на Ъ, Ь, Ы, нужно называть город на предпоследнюю букву. Когда надоест, просто скажи "стоп" или "хватит". Первый город - Амстердам.
+    - Мадрид
+    - Дублин
+    - Ашхабад
+    - Название города Ашхабад начинается на А, а Дублин кончается на Н. Нужно назвать город на Н. Попробуешь ещё раз?
+    - Да!
+    - Слушаю!
+    - Новосибирск
+    - Киев
+    - хватит
+    - Тогда закончим игру! У нас получилась цепочка длиной 5 слов.
+    
+entryPoint: ru/citiesGame/CitiesGame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

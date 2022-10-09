@@ -1,0 +1,40 @@
+descriptor:
+  id: opposites
+  title: Opposites game
+  theme: Opposites
+  summary: A fun word game
+  description: Find the opposite of my word or I can try to find the opposite of yours.
+  labels: ["opposites", "game"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/upsideDown.png
+  background: aca793
+  price: 0.40
+   
+  samples:
+    - Let's play the opposites
+    - "I will call the word, and you - its opposite. For example, I say 'hot', and you answer - 'cold'. I say 'tall' - and you - 'low'. Let's start?"
+    - Ok
+    - "I say - 'rich'."
+    - Rich
+    - "I said rich, and you need to say the opposite."
+    - Poor
+    - "Right! You're good at it! We continue! I say 'distant'."
+    - I want you to guess
+    - "Tell me a word. And I will try to guess its opposite."
+    - Hot-head
+    - "I don't know that yet. Tell me the answer!"
+    - Balanced
+    - "I will remember that!"
+
+#entryPoint: en/oppositesGame/OppositesGame.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

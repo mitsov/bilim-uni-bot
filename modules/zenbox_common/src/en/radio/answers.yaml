@@ -1,0 +1,68 @@
+unknown radio:
+  - Unknown radio for me.
+api error:
+  - "Sorry, it seems I can't find {{$temp.radioStationQuery}}."
+
+TurnOffRadio:
+  - Radio is off now.
+
+TurnOnRadioWithoutStation:
+  unknown station:
+    - Sorry, it seems I can't find this radio station.
+  require station name:
+    - Tell me the name of the station or music genre and I'll search for a radio station.
+  TurnOnUnknownRadio:
+    - Sorry, it seems I can't find this radio station.
+
+TurnOnRadioByStation:
+  station is out of reach:
+    - "{{$temp.radioStationQuery}} is not available."
+  user requires previous station:
+    - "Turning on \"{{$session.currentRadio}}\"."
+  user requires new station:
+    - "Searching for \"{{$parseTree._RadioStation.title}}\" I found \"{{$session.currentRadio}}\". Turning on."
+  scenario error:
+    - Sorry, it seems I can't find this radio station.
+
+TurnOnRadioByGenre:
+  succeed:
+    - "Turning on {{$parseTree._RadioGenre.title}}."
+  failed:
+    - "Sorry, I can't find any station playing {{$parseTree._RadioGenre.title}}."
+
+SwitchRadio:
+  play next:
+    - Turning on "{{$session.currentRadio}}".
+  no next:
+    - There's no next radio station.
+  no prev:
+    - There's no previous radio station.
+  no radio list:
+    - Tell me the name of the station or music genre and I'll search for a radio station.
+
+RadioName:
+  know:
+    - It's "{{$session.currentRadio}}".
+  dont know:
+    - I don't know.
+
+CheckRadio:
+  dont know:
+    - Unfortunately, I don't know.
+  the radio is:
+    - "It's \"{{$session.currentRadio}}\"."
+  user named station correct:
+    - "Yes, it's \"{{$session.currentRadio}}\"."
+  user named station wrong:
+    - "No, it's \"{{$session.currentRadio}}\"."
+
+ListentoNews:
+  failed:
+    - I tried to find some news radio station, but could not find one.
+  succeed:
+    - "Turning on \"{{$session.currentRadio}}\"."
+ListentoAnyRadio:
+  failed:
+    - I tried to turn on the radio station, but could not find one.
+  succeed:
+    - "Turning on \"{{$session.currentRadio}}\"."

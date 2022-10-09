@@ -1,0 +1,37 @@
+descriptor:
+
+  id: MakeYourGoal
+  title: Make your goal!
+  theme: Organizer
+  summary: Create a smart checklist and get motiovation from your device
+  description: With this skill it's easier to succeed and manage any progress (screen support)
+  labels: ["goal", "checklist"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/MakeYourGoal.png
+  background: 008066
+  price: 0.30
+
+  samples:
+    - 'create a goal "Wedding"'
+    - "What will be in your checklist?"
+    - invite guests
+    - "Ok, what else?"
+    - "order a wedding cake"
+    - "Ok, what else?"
+    - That's all
+    - i have invited guests
+    - "I am so proud of you!"
+    - Thank you
+
+#entryPoint: en/makeYourGoal/MakeYourGoal.sc 
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

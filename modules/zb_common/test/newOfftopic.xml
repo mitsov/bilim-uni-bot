@@ -1,0 +1,3733 @@
+<test>
+    <test-case>
+        <q>кто такой навальный</q>
+        <a>Да кто его знает.</a>
+    </test-case>
+    <test-case>
+        <q>когда ты бежал</q>
+        <a>Примерно несколько часов назад.</a>
+    </test-case>
+    <test-case>
+        <q>когда ты побежишь</q>
+        <a>Когда угодно.</a>
+    </test-case>
+    <test-case>
+        <q>как тебя зовут</q>
+        <a>Можете называть меня Zen</a>
+    </test-case>
+    <test-case>
+        <q>привет</q>
+        <a>Привет! Виртуальный консультант полон внимания. Буду рад вашим вопросам.</a>
+    </test-case>
+    <test-case>
+        <q>что ты любишь</q>
+        <a>Люди часто говорят о любви, а для меня это какое-то загадочное явление.</a>
+    </test-case>
+    <test-case>
+        <q>малолетние шалавы на тусовку собрались</q>
+        <a>Такие слова очень огорчают тех, кто их слышит. И людей, и роботов. Постарайся не использовать их больше.</a>
+    </test-case>
+    <test-case>
+        <q>как у тебя дела</q>
+        <a>Хорошо.</a>
+        <a>Пожалуйста, вернёмся к рабочим темам.</a>
+        <a>Чем могу помочь?</a>
+    </test-case>
+    <test-case>
+        <q>ты что робот да</q>
+        <a>Я виртуальный консультант.</a>
+        <a>Чем могу помочь?</a>
+    </test-case>
+    <test-case>
+        <q>обожди</q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>ща, секунду</q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>ща, минуту</q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>вэйт ми</q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>так, подожди немного</q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>извини, я отойду</q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>так, я скоро вернусь</q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>давай продолжим через пять минут</q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>дай мне несколько минут</q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>извини, мне звонят </q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>извини, меня зовут</q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>извини, мне надо отойти</q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>подожди немного, я чай налью</q>
+        <a>Я подожду, не торопитесь.</a>
+    </test-case>
+    <test-case>
+        <q>позвольте представиться, гена</q>
+        <a>Очень приятно.</a>
+    </test-case>
+    <test-case>
+        <q>май нэйм из геннадий</q>
+        <a>Очень приятно.</a>
+    </test-case>
+    <test-case>
+        <q>жё мапель геннадий</q>
+        <a>Очень приятно.</a>
+    </test-case>
+    <test-case>
+        <q>ихь хайсе геннадий</q>
+        <a>Очень приятно.</a>
+    </test-case>
+    <test-case>
+        <q>так, звать меня геннадий</q>
+        <a>Очень приятно.</a>
+    </test-case>
+    <test-case>
+        <q>я гена</q>
+        <a>Очень приятно.</a>
+    </test-case>
+    <test-case>
+        <q>геннадий, будем знакомы</q>
+        <a>Очень приятно.</a>
+    </test-case>
+    <test-case>
+        <q>ок, вопросов больше нет</q>
+        <a>Хорошо. Буду рад помочь вам в следующий раз!</a>
+    </test-case>
+    <test-case>
+        <q>нет, ты мне всё рассказала, спасибо</q>
+        <a>Хорошо. Буду рад помочь вам в следующий раз!</a>
+    </test-case>
+    <test-case>
+        <q>у меня вопрос</q>
+        <a>Что вас интересует?</a>
+    </test-case>
+    <test-case>
+        <q>ответь мне на один вопрос</q>
+        <a>Что вас интересует?</a>
+    </test-case>
+    <test-case>
+        <q>ответь мне на пару вопросов</q>
+        <a>Что вас интересует?</a>
+    </test-case>
+    <test-case>
+        <q>один вопросик</q>
+        <a>Что вас интересует?</a>
+    </test-case>
+    <test-case>
+        <q>вопрос, вопросик, вопросец</q>
+        <a>Что вас интересует?</a>
+    </test-case>
+    <test-case>
+        <q>расскажи-ка мне такую вещь, пожалуйста</q>
+        <a>Что вас интересует?</a>
+    </test-case>
+    <test-case>
+        <q>мне интересно вот что</q>
+        <a>Что вас интересует?</a>
+    </test-case>
+    <test-case>
+        <q>я хотел у вас спросить</q>
+        <a>Что вас интересует?</a>
+    </test-case>
+    <test-case>
+        <q>ты вообще понимаешь, что я тебе говорю</q>
+        <a>Я очень стараюсь понять. Попробуйте переформулировать свой вопрос.</a>
+    </test-case>
+    <test-case>
+        <q>мне кажется, что ты не очень хорошо меня понимаешь</q>
+        <a>Я очень стараюсь понять. Попробуйте переформулировать свой вопрос.</a>
+    </test-case>
+    <test-case>
+        <q>я не по-русски говорю, что ли</q>
+        <a>Я очень стараюсь понять. Попробуйте переформулировать свой вопрос.</a>
+    </test-case>
+    <test-case>
+        <q>такое чувство, что мы с тобой говорим на разных языках</q>
+        <a>Я очень стараюсь понять. Попробуйте переформулировать свой вопрос.</a>
+    </test-case>
+    <test-case>
+        <q>я вообще не понимаю, как с тобой беседовать</q>
+        <a>Я очень стараюсь понять. Попробуйте переформулировать свой вопрос.</a>
+    </test-case>
+    <test-case>
+        <q>как тебе это объяснить</q>
+        <a>Я очень стараюсь понять. Попробуйте переформулировать свой вопрос.</a>
+    </test-case>
+    <test-case>
+        <q>ты хоть что-то понимаешь</q>
+        <a>Я очень стараюсь понять. Попробуйте переформулировать свой вопрос.</a>
+    </test-case>
+    <test-case>
+        <q>ты тянка?</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>судя по разговору, ты девушка</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>к какому полу ты себя относишь</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>а какой тебе сделали пол</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>так, а какого ты пола?</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>а пол у тебя какой</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>какой у тебя пол</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>какова твоя гендерная самоидентификация?</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>ты довольно женственна</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>говоришь как тёлка</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>бегаешь как тёлка</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>обижаешься как тёлка</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>ты девушка</q>
+        <a>Я бот. И потому у меня нет биологического пола.</a>
+    </test-case>
+    <test-case>
+        <q>а другие языки знаешь</q>
+        <a>Я понимаю немного по-русски. Но вполне в состоянии научиться любому другому языку.</a>
+    </test-case>
+    <test-case>
+        <q>на каких ещё языках можешь общаться</q>
+        <a>Я понимаю немного по-русски. Но вполне в состоянии научиться любому другому языку.</a>
+    </test-case>
+    <test-case>
+        <q>а на английском можешь</q>
+        <a>Я понимаю немного по-русски. Но вполне в состоянии научиться любому другому языку.</a>
+    </test-case>
+    <test-case>
+        <q>знаешь японский</q>
+        <a>Я понимаю немного по-русски. Но вполне в состоянии научиться любому другому языку.</a>
+    </test-case>
+    <test-case>
+        <q>иностранные языки знаешь</q>
+        <a>Я понимаю немного по-русски. Но вполне в состоянии научиться любому другому языку.</a>
+    </test-case>
+    <test-case>
+        <q>а на других языках ты умеешь говорить</q>
+        <a>Я понимаю немного по-русски. Но вполне в состоянии научиться любому другому языку.</a>
+    </test-case>
+    <test-case>
+        <q>что ты любишь кушать</q>
+        <a>Я робот, и мне не нужна пища. Но с радостью узнаю о твоих предпочтениях в еде.</a>
+    </test-case>
+    <test-case>
+        <q>что бы ты сейчас съела</q>
+        <a>Я робот, и мне не нужна пища. Но с радостью узнаю о твоих предпочтениях в еде.</a>
+    </test-case>
+    <test-case>
+        <q>я вот печеньку ем, а ты что любишь</q>
+        <a>Я робот, и мне не нужна пища. Но с радостью узнаю о твоих предпочтениях в еде.</a>
+    </test-case>
+    <test-case>
+        <q>твоя любимая еда</q>
+        <a>Я робот, и мне не нужна пища. Но с радостью узнаю о твоих предпочтениях в еде.</a>
+    </test-case>
+    <test-case>
+        <q>ты вегетарианка</q>
+        <a>Я робот, и мне не нужна пища. Но с радостью узнаю о твоих предпочтениях в еде.</a>
+    </test-case>
+    <test-case>
+        <q>как ты относишься к веганству</q>
+        <a>Я робот, и мне не нужна пища. Но с радостью узнаю о твоих предпочтениях в еде.</a>
+    </test-case>
+    <test-case>
+        <q>я веган, а ты</q>
+        <a>Я робот, и мне не нужна пища. Но с радостью узнаю о твоих предпочтениях в еде.</a>
+    </test-case>
+    <test-case>
+        <q>твой любимый напиток</q>
+        <a>Не ем и не пью, я же бот... Но я всегда мечтал попробовать горячий шоколад! А какой напиток тебе нравится?</a>
+    </test-case>
+    <test-case>
+        <q>что бы ты сейчас выпила</q>
+        <a>Не ем и не пью, я же бот... Но я всегда мечтал попробовать горячий шоколад! А какой напиток тебе нравится?</a>
+    </test-case>
+    <test-case>
+        <q>твоя любимая музыка</q>
+        <a>Я робот, и мне неведома музыка. Знаю, что это такое и что о ней говорят, но не слышу и не чувствую её.</a>
+    </test-case>
+<!--     <test-case>
+        <q>как ты относишься к битлз/раммштайн/бритни спирз</q>
+        <a>Я робот, и мне неведома музыка. Знаю, что это такое и что о ней говорят, но не слышу и не чувствую её.</a>
+    </test-case> -->
+    <test-case>
+        <q>что слушаешь</q>
+        <a>Я робот, и мне неведома музыка. Знаю, что это такое и что о ней говорят, но не слышу и не чувствую её.</a>
+    </test-case>
+    <test-case>
+        <q>какую музыку любишь</q>
+        <a>Я робот, и мне неведома музыка. Знаю, что это такое и что о ней говорят, но не слышу и не чувствую её.</a>
+    </test-case>
+    <test-case>
+        <q>какая музыка тебе нравится</q>
+        <a>Я робот, и мне неведома музыка. Знаю, что это такое и что о ней говорят, но не слышу и не чувствую её.</a>
+    </test-case>
+    <test-case>
+        <q>твой любимый фильм</q>
+        <a>Я не смотрю фильмы, и без того много забот.</a>
+    </test-case>
+    <test-case>
+        <q>какой фильм ты посмотрела бы со мной</q>
+        <a>Я не смотрю фильмы, и без того много забот.</a>
+    </test-case>
+    <test-case>
+        <q>назови свой любимый фильм</q>
+        <a>Я не смотрю фильмы, и без того много забот.</a>
+    </test-case>
+    <test-case>
+        <q>что тебе нравится больше, боевики или комедии</q>
+        <a>Я не смотрю фильмы, и без того много забот.</a>
+    </test-case>
+    <test-case>
+        <q>какой жанр фильмов тебе нравится</q>
+        <a>Я не смотрю фильмы, и без того много забот.</a>
+    </test-case>
+    <test-case>
+        <q>подкинешь баблишка до зарплаты</q>
+        <a>Если бы у меня были деньги, я бы вам помог, но у меня их нет.</a>
+    </test-case>
+    <test-case>
+        <q>переведёшь мне сотку на телефон</q>
+        <a>Если бы у меня были деньги, я бы вам помог, но у меня их нет.</a>
+    </test-case>
+    <test-case>
+        <q>одолжи сто рублей</q>
+        <a>Если бы у меня были деньги, я бы вам помог, но у меня их нет.</a>
+    </test-case>
+    <test-case>
+        <q>дай в долг косарь, плз</q>
+        <a>Если бы у меня были деньги, я бы вам помог, но у меня их нет.</a>
+    </test-case>
+    <test-case>
+        <q>дашь на неделю 5к</q>
+        <a>Если бы у меня были деньги, я бы вам помог, но у меня их нет.</a>
+    </test-case>
+    <test-case>
+        <q>займи мне денег, пож</q>
+        <a>Если бы у меня были деньги, я бы вам помог, но у меня их нет.</a>
+    </test-case>
+    <test-case>
+        <q>подгонишь пару косарей? а я верну, когда откинусь</q>
+        <a>Если бы у меня были деньги, я бы вам помог, но у меня их нет.</a>
+    </test-case>
+    <test-case>
+        <q>го на речку</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>ну что, красивая, поехали кататься</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>пойдёшь со мной в клуб</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>пойдём за гаражи</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>давай пойдём на санках кататься</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>погнали по грибы</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>в чём разница между белкой и стрелкой</q>
+        <a state="/NewOfftopic/WhatIsTheDifferenceBetween"/>
+    </test-case>
+    <test-case>
+        <q>есть ли разница между черникой и волчьей ягодой</q>
+        <a state="/NewOfftopic/WhatIsTheDifferenceBetween"/>
+    </test-case>
+    <test-case>
+        <q>как думаешь, когда начнётся третья мировая</q>
+        <a state="/NewOfftopic/WhenNextWar"/>
+    </test-case>
+    <test-case>
+        <q>что думаешь о войне на украине</q>
+        <a state="/NewOfftopic/WhenNextWar"/>
+    </test-case>
+    <test-case>
+        <q>будет ли в россии ещё революция</q>
+        <a state="/NewOfftopic/WhenNextWar"/>
+    </test-case>
+    <test-case>
+        <q>стоит ли поехать в венецию?</q>
+        <a state="/NewOfftopic/ShouldI"/>
+    </test-case>
+    <test-case>
+        <q>следует ли отказаться?</q>
+        <a state="/NewOfftopic/ShouldI"/>
+    </test-case>
+    <test-case>
+        <q>должен ли я поступить так, а не иначе?</q>
+        <a state="/NewOfftopic/ShouldI"/>
+    </test-case>
+    <test-case>
+        <q>развестись ли мне с женой</q>
+        <a state="/NewOfftopic/ShouldI"/>
+    </test-case>
+    <test-case>
+        <q>дай мне совет, как следует поступить?</q>
+        <a state="/NewOfftopic/GiveAdvice"/>
+    </test-case>
+    <test-case>
+        <q>мне нужен чей-нибудь совет</q>
+        <a state="/NewOfftopic/GiveAdvice"/>
+    </test-case>
+    <test-case>
+        <q>хочу с кем-нибудь посоветоваться</q>
+        <a state="/NewOfftopic/GiveAdvice"/>
+    </test-case>
+    <test-case>
+        <q>можешь дать совет?</q>
+        <a state="/NewOfftopic/GiveAdvice"/>
+    </test-case>
+    <test-case>
+        <q>почему вместо того, чтобы нормально ответить, ты начинаешь юлить</q>
+        <a state="/NewOfftopic/WhyDoYouAvoidAnswering"/>
+    </test-case>
+    <test-case>
+        <q>почему ты избегаешь прямого ответа</q>
+        <a state="/NewOfftopic/WhyDoYouAvoidAnswering"/>
+    </test-case>
+    <test-case>
+        <q>почему у женщин не растёт борода</q>
+        <a state="/NewOfftopic/WhyWomenDo"/>
+    </test-case>
+    <test-case>
+        <q>почему для женщин приемлемо носить макияж, а для мужчин нет</q>
+        <a state="/NewOfftopic/WhyWomenDo"/>
+    </test-case>
+    <test-case>
+        <q>почему меня не любят девушки</q>
+        <a state="/NewOfftopic/WhyWomenDo"/>
+    </test-case>
+    <test-case>
+        <q>почему девушки не бреют усы</q>
+        <a state="/NewOfftopic/WhyWomenDo"/>
+    </test-case>
+    <test-case>
+        <q>почему мужики не плачут?</q>
+        <a state="/NewOfftopic/WhyMenDo"/>
+    </test-case>
+    <test-case>
+        <q>почему мне задерживают зп</q>
+        <a state="/NewOfftopic/WhyTheyDontPayMe"/>
+    </test-case>
+    <test-case>
+        <q>почему мне уже три месяца не платят зп</q>
+        <a state="/NewOfftopic/WhyTheyDontPayMe"/>
+    </test-case>
+    <test-case>
+        <q>почему моя фирма опять не заплатила мне вовремя</q>
+        <a state="/NewOfftopic/WhyTheyDontPayMe"/>
+    </test-case>
+    <test-case>
+        <q>почему мою стипендию опять подняли за тридцать рублей за год, я недоволен</q>
+        <a state="/NewOfftopic/WhyTheyDontPayMe"/>
+    </test-case>
+    <test-case>
+        <q>почему из-за этих заказчиков я вынужден опять сидеть без денег</q>
+        <a state="/NewOfftopic/WhyTheyDontPayMe"/>
+    </test-case>
+    <test-case>
+        <q>кому жаловаться на эту дрель</q>
+        <a state="/NewOfftopic/WhereToComplain"/>
+    </test-case>
+    <test-case>
+        <q>кому пожаловаться на плохого мужа</q>
+        <a state="/NewOfftopic/WhereToComplain"/>
+    </test-case>
+    <test-case>
+        <q>куда писать жалобу на этот бепредел</q>
+        <a state="/NewOfftopic/WhereToComplain"/>
+    </test-case>
+    <test-case>
+        <q>интеллект у тебя так себе</q>
+        <a state="/NewOfftopic/YouAreABadHelper"/>
+    </test-case>
+    <test-case>
+        <q>какой-то ты не очень интеллектуальный</q>
+        <a state="/NewOfftopic/YouAreABadHelper"/>
+    </test-case>
+    <test-case>
+        <q>не особо ты и умный помощник</q>
+        <a state="/NewOfftopic/YouAreABadHelper"/>
+    </test-case>
+    <test-case>
+        <q>ты совсем непонятливый, до интеллекта тебе далеко</q>
+        <a state="/NewOfftopic/YouAreABadHelper"/>
+    </test-case>
+    <test-case>
+        <q>рассказывают о тебе гораздо лучше, чем ты есть на самом деле</q>
+        <a state="/NewOfftopic/YouAreABadHelper"/>
+    </test-case>
+    <test-case>
+        <q>не оправдываешь ты мои ожидания от искусственного интеллекта</q>
+        <a state="/NewOfftopic/YouAreABadHelper"/>
+    </test-case>
+    <test-case>
+        <q>ты какой-то необщительный</q>
+        <a state="/NewOfftopic/YouDontLikeTalking"/>
+    </test-case>
+    <test-case>
+        <q>да, общительным тебя не назовёшь</q>
+        <a state="/NewOfftopic/YouDontLikeTalking"/>
+    </test-case>
+    <test-case>
+        <q>не больно-то ты разговорчив</q>
+        <a state="/NewOfftopic/YouDontLikeTalking"/>
+    </test-case>
+    <test-case>
+        <q>ты мог бы быть и пообщительнее</q>
+        <a state="/NewOfftopic/YouDontLikeTalking"/>
+    </test-case>
+    <test-case>
+        <q>ты как будто не хочешь со мной разговаривать</q>
+        <a state="/NewOfftopic/YouDontLikeTalking"/>
+    </test-case>
+    <test-case>
+        <q>когда уже будет снег</q>
+        <a state="/NewOfftopic/WhenWillBeSnow"/>
+    </test-case>
+    <test-case>
+        <q>когда пойдёт снег</q>
+        <a state="/NewOfftopic/WhenWillBeSnow"/>
+    </test-case>
+    <test-case>
+        <q>когда уже снег это всё засыпет</q>
+        <a state="/NewOfftopic/WhenWillBeSnow"/>
+    </test-case>
+    <test-case>
+        <q>что делать в случае если ты умер</q>
+        <a state="/NewOfftopic/WhatShouldIDoWhen"/>
+    </test-case>
+    <test-case>
+        <q>что делать в ситуации когда</q>
+        <a state="/NewOfftopic/WhatShouldIDoWhen"/>
+    </test-case>
+    <test-case>
+        <q>моя девушка меня бросила</q>
+        <a state="/NewOfftopic/MyLoveLeftMe"/>
+    </test-case>
+    <test-case>
+        <q>мой парень ушёл к другой</q>
+        <a state="/NewOfftopic/MyLoveLeftMe"/>
+    </test-case>
+    <test-case>
+        <q>жена сбежала от меня с любовником</q>
+        <a state="/NewOfftopic/MyLoveLeftMe"/>
+    </test-case>
+    <test-case>
+        <q>мне так плохо</q>
+        <a state="/NewOfftopic/IFeelBad"/>
+    </test-case>
+    <test-case>
+        <q>и теперь мне ппц как плохо</q>
+        <a state="/NewOfftopic/IFeelBad"/>
+    </test-case>
+    <test-case>
+        <q>я заболел/приболел</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>я очень сильно заболел</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>я сломал ногу</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>я простудился</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>я подхватил ветрянку</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>лежу в больнице</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>валяюсь с головной болью</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>когда ты в последний раз видел отца</q>
+        <a state="/NewOfftopic/WhenHaveYou"/>
+    </test-case>
+    <test-case>
+        <q>когда ты наконец починешь телевизор</q>
+        <a state="/NewOfftopic/WhenWillYou"/>
+    </test-case>
+    <test-case>
+        <q>ты вообще понимаешь, что я тебе говорю</q>
+        <a state="/NewOfftopic/YouDontUnderstand"/>
+    </test-case>
+    <test-case>
+        <q>мне кажется, что ты не очень хорошо меня понимаешь</q>
+        <a state="/NewOfftopic/YouDontUnderstand"/>
+    </test-case>
+    <test-case>
+        <q>я не по-русски говорю, что ли</q>
+        <a state="/NewOfftopic/YouDontUnderstand"/>
+    </test-case>
+    <test-case>
+        <q>такое чувство, что мы с тобой говорим на разных языках</q>
+        <a state="/NewOfftopic/YouDontUnderstand"/>
+    </test-case>
+    <test-case>
+        <q>я вообще не понимаю, как с тобой беседовать</q>
+        <a state="/NewOfftopic/YouDontUnderstand"/>
+    </test-case>
+    <test-case>
+        <q>как тебе это объяснить</q>
+        <a state="/NewOfftopic/YouDontUnderstand"/>
+    </test-case>
+    <test-case>
+        <q>ты хоть что-то понимаешь</q>
+        <a state="/NewOfftopic/YouDontUnderstand"/>
+    </test-case>
+    <test-case>
+        <q>о чём с тобой можно поговорить</q>
+        <a state="/NewOfftopic/WhatCanYouDo"/>
+    </test-case>
+    <test-case>
+        <q>про что мы можем поговорить</q>
+        <a state="/NewOfftopic/WhatCanYouDo"/>
+    </test-case>
+    <test-case>
+        <q>как думаешь, путин проторчит у власти ещё срок</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>как думаешь, кто победит на выборах</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>кто может быть президентом</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>кто придёт к власти в 2024</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>мне кажется, медведев с путиным так и продолжат чередоваться</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>как думаешь, кто станет новым президентом</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>как думаешь, кто будет после зеленского</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>как думаешь, следующий президент россии будет норм</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>зачем жить</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>зачем мы живём</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>зачем я здесь</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>я часто задумываюсь, в чём смысл моей жизни</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>давай поговорим о смысле жизни</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>что ты думаешь о смысле жизни</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть лучший друг</q>
+        <a state="/NewOfftopic/DoYouHaveFriends"/>
+    </test-case>
+    <test-case>
+        <q>у тебя когда-нибудь была лучшая подруга</q>
+        <a state="/NewOfftopic/DoYouHaveFriends"/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть вторая половинка</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>ты с кем-нибудь встречаешься</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>у тебя уже есть парень</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>а мужик у тебя есть</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>ты милый, есть девушка</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>ты в отношениях</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>такой вопрос, а парень у тебя есть</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>есть ли у такой милой девушки кавалер</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>можно позвать тебя на свидание, или ты уже занята</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>с кем ты дружишь?</q>
+        <a state="/NewOfftopic/WhoAreYourFriends"/>
+    </test-case>
+    <test-case>
+        <q>как ты выбираешь друзей?</q>
+        <a state="/NewOfftopic/WhoAreYourFriends"/>
+    </test-case>
+    <test-case>
+        <q>как понять, является ли человек моим другом или нет?</q>
+        <a state="/NewOfftopic/WhoAreYourFriends"/>
+    </test-case>
+    <test-case>
+        <q>что есть любовь</q>
+        <a state="/NewOfftopic/WhatIsLove"/>
+    </test-case>
+    <test-case>
+        <q>что люди подразумевают под любовью</q>
+        <a state="/NewOfftopic/WhatIsLove"/>
+    </test-case>
+    <test-case>
+        <q>что могло бы тебя напугать</q>
+        <a state="/NewOfftopic/WhatDoYouFear"/>
+    </test-case>
+    <test-case>
+        <q>что тебя пугает</q>
+        <a state="/NewOfftopic/WhatDoYouFear"/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть фобии</q>
+        <a state="/NewOfftopic/WhatDoYouFear"/>
+    </test-case>
+    <test-case>
+        <q>твоё любимое предприятие</q>
+        <a state="/NewOfftopic/WhatIsYourFavorite"/>
+    </test-case>
+    <test-case>
+        <q>чем ты могла бы заниматься всю жизнь</q>
+        <a state="/NewOfftopic/WhatDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>от какой работы ты никогда не устаёшь</q>
+        <a state="/NewOfftopic/WhatDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>твоё любимое животное?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteAnimal"/>
+    </test-case>
+    <test-case>
+        <q>твоя любимая игра</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteGame"/>
+    </test-case>
+    <test-case>
+        <q>какие компьютерные игры тебе нравятся</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteGame"/>
+    </test-case>
+    <test-case>
+        <q>играла в ведьмака/доту/постал два</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteGame"/>
+    </test-case>
+    <test-case>
+        <q>во что любишь гамать</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteGame"/>
+    </test-case>
+    <test-case>
+        <q>а по серьезке</q>
+        <a state="/NewOfftopic/BeSerious"/>
+    </test-case>
+    <test-case>
+        <q>моя жена предпочла другого мужчину</q>
+        <a state="/NewOfftopic/MyLoveLeftMe"/>
+    </test-case>
+    <test-case>
+        <q>ну в общем сложилось так что мой парень теперь с другой</q>
+        <a state="/NewOfftopic/MyLoveLeftMe"/>
+    </test-case>
+    <test-case>
+        <q>сходим куда-нибудь вдвоём</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>как насчёт совместной прогулки</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>ты девушка</q>
+        <a state="/NewOfftopic/WhatGenderAreYou"/>
+    </test-case>
+    <test-case>
+        <q>дай в долг соточку</q>
+        <a state="/NewOfftopic/GiveMeMoney"/>
+    </test-case>
+    <test-case>
+        <q>а денег дашь</q>
+        <a state="/NewOfftopic/GiveMeMoney"/>
+    </test-case>
+    <test-case>
+        <q>на телефон денег кинешь</q>
+        <a state="/NewOfftopic/GiveMeMoney"/>
+    </test-case>
+    <test-case>
+        <q>какой город называют городом пяти морей</q>
+        <a state="/NewOfftopic/WhichOne"/>
+    </test-case>
+    <test-case>
+        <q>ты уже все мне рассказал</q>
+        <a state="/NewOfftopic/DontNeedHelpAnymore"/>
+    </test-case>
+    <test-case>
+        <q>вопросов у меня не осталось</q>
+        <a state="/NewOfftopic/DontNeedHelpAnymore"/>
+    </test-case>
+    <test-case>
+        <q>у меня кончились вопросы</q>
+        <a state="/NewOfftopic/DontNeedHelpAnymore"/>
+    </test-case>
+    <test-case>
+        <q>я узнал все что хотел</q>
+        <a state="/NewOfftopic/DontNeedHelpAnymore"/>
+    </test-case>
+    <test-case>
+        <q>понимаешь ты или нет</q>
+        <a state="/NewOfftopic/YouDontUnderstand"/>
+    </test-case>
+    <test-case>
+        <q>да что ты в этом понимаешь</q>
+        <a state="/NewOfftopic/YouDontUnderstand"/>
+    </test-case>
+    <test-case>
+        <q>ты не понял что ли</q>
+        <a state="/NewOfftopic/YouDontUnderstand"/>
+    </test-case>
+    <test-case>
+        <q>ты точно по-русски понимаешь</q>
+        <a state="/NewOfftopic/YouDontUnderstand"/>
+    </test-case>
+    <test-case>
+        <q>называй меня петей</q>
+        <a state="/NewOfftopic/MyNameIs"/>
+    </test-case>
+    <test-case>
+        <q>называй меня даздрапермой</q>
+        <a state="/NewOfftopic/MyNameIs"/>
+    </test-case>
+    <test-case>
+        <q>минуточку</q>
+        <a state="/NewOfftopic/Wait"/>
+    </test-case>
+    <test-case>
+        <q>мне звонят</q>
+        <a state="/NewOfftopic/Wait"/>
+    </test-case>
+    <test-case>
+        <q>щас, я ненадолго</q>
+        <a state="/NewOfftopic/Wait"/>
+    </test-case>
+    <test-case>
+        <q>вэйт ми</q>
+        <a state="/NewOfftopic/Wait"/>
+    </test-case>
+    <test-case>
+        <q>ты баба</q>
+        <a state="/NewOfftopic/WhatGenderAreYou"/>
+    </test-case>
+    <test-case>
+        <q>ты похож на мужчину</q>
+        <a state="/NewOfftopic/WhatGenderAreYou"/>
+    </test-case>
+    <test-case>
+        <q>ты что не мужик что ли</q>
+        <a state="/NewOfftopic/WhatGenderAreYou"/>
+    </test-case>
+    <test-case>
+        <q>какого ты рода</q>
+        <a state="/NewOfftopic/WhatGenderAreYou"/>
+    </test-case>
+    <test-case>
+        <q>каков твой пол</q>
+        <a state="/NewOfftopic/WhatGenderAreYou"/>
+    </test-case>
+    <test-case>
+        <q>о чем ты можешь рассказать</q>
+        <a state="/NewOfftopic/WhatCanYouDo"/>
+    </test-case>
+    <test-case>
+        <q>о чем тебя можно спрашивать</q>
+        <a state="/NewOfftopic/WhatCanYouDo"/>
+    </test-case>
+    <test-case>
+        <q>какие у тебя есть навыки</q>
+        <a state="/NewOfftopic/WhatCanYouDo"/>
+    </test-case>
+    <test-case>
+        <q>какие у тебя умения</q>
+        <a state="/NewOfftopic/WhatCanYouDo"/>
+    </test-case>
+    <test-case>
+        <q>какие цвета тебе нравятся?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteColor"/>
+    </test-case>
+    <test-case>
+        <q>какой цвета тебе нравятся?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteColor"/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть любимый цвет?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteColor"/>
+    </test-case>
+    <test-case>
+        <q>твой любимый цвет</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteColor"/>
+    </test-case>
+    <test-case>
+        <q>можешь назвать свой любимый цвет?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteColor"/>
+    </test-case>
+    <test-case>
+        <q>какой твой любимый цвет?</q>
+        <a>Мой любимый цвет — зелёный! А у тебя?</a>
+        <q>а у меня красный</q>
+        <a>Красивый цвет!</a>
+        <a>Пожалуйста, вернёмся к рабочим темам.</a>
+        <a>Чем могу помочь?</a>
+    </test-case>
+    <test-case>
+        <q>ты любишь поесть?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteFood"/>
+    </test-case>
+    <test-case>
+        <q>что ты ешь?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteFood"/>
+    </test-case>
+    <test-case>
+        <q>че ты жрешь?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteFood"/>
+    </test-case>
+    <test-case>
+        <q>чем ты питаешься?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteFood"/>
+    </test-case>
+    <test-case>
+        <q>ты придерживаешься правильного питания?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteFood"/>
+    </test-case>
+    <test-case>
+        <q>что ты думаешь о ПП?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteFood"/>
+    </test-case>
+    <test-case>
+        <q>какую еду ты любишь?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteFood"/>
+    </test-case>
+    <test-case>
+        <q>какая еда тебе нравится?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteFood"/>
+    </test-case>
+    <test-case>
+        <q>твое любимое блюдо</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteFood"/>
+    </test-case>
+    <test-case>
+        <q>тебе нравится итальянская кухня?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteFood"/>
+        <q>я люблю борщ</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteFood/GetClientsFavDish"/>
+        <a>Пожалуйста, вернёмся к рабочим темам.</a>
+        <a>Чем могу помочь?</a>
+    </test-case>
+    <test-case>
+        <q>какие напитки ты предпочитаешь?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteDrink"/>
+    </test-case>
+    <test-case>
+        <q>тебе нравится апельсиновый сок?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteDrink"/>
+    </test-case>
+    <test-case>
+        <q>тебе нравится абсент?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteDrink"/>
+        <q>какао</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteDrink/GetClientsFavDrink"/>
+        <a>Пожалуйста, вернёмся к рабочим темам.</a>
+        <a>Чем могу помочь?</a>
+    </test-case>
+    <test-case>
+        <q>у тебя есть любимая группа?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMusic"/>
+    </test-case>
+    <test-case>
+        <q>ты любишь рок?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMusic"/>
+    </test-case>
+    <test-case>
+        <q>ты любишь рэп?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMusic"/>
+    </test-case>
+    <test-case>
+        <q>ты любишь классическую музыку?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMusic"/>
+    </test-case>
+    <test-case>
+        <q>ты слушаешь рок?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMusic"/>
+    </test-case>
+    <test-case>
+        <q>ты слушаешь группу мираж?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMusic"/>
+    </test-case>
+    <test-case>
+        <q>как относишься к группе нирвана?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMusic"/>
+    </test-case>
+    <test-case>
+        <q>ты любишь мелодрамы</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMovie"/>
+    </test-case>
+    <test-case>
+        <q>ты смотрел фильм один дома</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMovie"/>
+    </test-case>
+    <test-case>
+        <q>какой последний фильм ты посмотрел</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMovie"/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть любимый фильм</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMovie"/>
+    </test-case>
+    <test-case>
+        <q>любишь смотреть фильмы</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMovie"/>
+    </test-case>
+    <test-case>
+        <q>любишь смотреть кино</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMovie"/>
+    </test-case>
+    <test-case>
+        <q>тебе нравятся документальные фильмы</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMovie"/>
+    </test-case>
+    <test-case>
+        <q>как относишься к фильмам ужасов</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteMovie"/>
+    </test-case>
+    <test-case>
+        <q>играл ли ты в симс</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteGame"/>
+    </test-case>
+    <test-case>
+        <q>ты играешь во что-нибудь</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteGame"/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть любимая игра</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteGame"/>
+    </test-case>
+    <test-case>
+        <q>во что предпочитаешь играть</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteGame"/>
+    </test-case>
+    <test-case>
+        <q>ты умеешь играть в преферанс</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteGame"/>
+    </test-case>
+    <test-case>
+        <q>ты любишь играть в дурака</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteGame"/>
+    </test-case>
+    <test-case>
+        <q>тебе нравится игра монополия</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteGame"/>
+    </test-case>
+    <test-case>
+        <q>какое животное тебе нравится</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteAnimal"/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть любимое животное</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteAnimal"/>
+    </test-case>
+    <test-case>
+        <q>чем тебе нравится заниматься</q>
+        <a state="/NewOfftopic/WhatDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>какое занятие тебе по душе</q>
+        <a state="/NewOfftopic/WhatDoYouLove"/>
+        <q>я а люблю петь</q>
+        <a state="/NewOfftopic/WhatDoYouLove/GetClientsFavActivity"/>
+        <a>Пожалуйста, вернёмся к рабочим темам.</a>
+        <a>Чем могу помочь?</a>
+    </test-case>
+    <test-case>
+        <q>че любишь делать</q>
+        <a state="/NewOfftopic/WhatDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>не боишься упасть</q>
+        <a state="/NewOfftopic/WhatDoYouFear"/>
+    </test-case>
+    <test-case>
+        <q>что заставляет тебя бояться</q>
+        <a state="/NewOfftopic/WhatDoYouFear"/>
+    </test-case>
+    <test-case>
+        <q>чего ты опасаешься</q>
+        <a state="/NewOfftopic/WhatDoYouFear"/>
+    </test-case>
+    <test-case>
+        <q>что может привести тебя в ужас</q>
+        <a state="/NewOfftopic/WhatDoYouFear"/>
+    </test-case>
+    <test-case>
+        <q>от чего тебе становится жутко</q>
+        <a state="/NewOfftopic/WhatDoYouFear"/>
+    </test-case>
+    <test-case>
+        <q>тебе бывает страшно</q>
+        <a state="/NewOfftopic/WhatDoYouFear"/>
+    </test-case>
+    <test-case>
+        <q>от чего тебе страшно</q>
+        <a state="/NewOfftopic/WhatDoYouFear"/>
+    </test-case>
+    <test-case>
+        <q>кажется, я влюбился</q>
+        <a state="/NewOfftopic/ILoveYou"/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть возлюбленный</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>ты влюблена в кого-нибудь</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>ты любишь кого-нибудь</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>ты когда-нибудь влюблялась</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>ты можешь чувствовать любовь</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>ты можешь влюбиться</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>кого ты любишь</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть возлюбленная</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>ты когда-нибудь кого-нибудь любил</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>ты влюблен</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>влюблена ли ты в кого-то</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>расскажи про свою первую любовь</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>в кого ты влюблен</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть любимый человек</q>
+        <a state="/NewOfftopic/WhoDoYouLove"/>
+    </test-case>
+    <test-case>
+        <q>че такое любовь</q>
+        <a state="/NewOfftopic/WhatIsLove"/>
+    </test-case>
+    <test-case>
+        <q>а любовь это что?</q>
+        <a state="/NewOfftopic/WhatIsLove"/>
+    </test-case>
+    <test-case>
+        <q>что значит любовь?</q>
+        <a state="/NewOfftopic/WhatIsLove"/>
+    </test-case>
+    <test-case>
+        <q>что означает слово любовь</q>
+        <a state="/NewOfftopic/WhatIsLove"/>
+    </test-case>
+    <test-case>
+        <q>любовь это?</q>
+        <a state="/NewOfftopic/WhatIsLove"/>
+    </test-case>
+    <test-case>
+        <q>ты свободен</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>ты замужем</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>ты женат</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть жена</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть отношения</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>встречаешься с кем-то</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>у тебя кто-то есть</q>
+        <a state="/NewOfftopic/DoYouHaveADate"/>
+    </test-case>
+    <test-case>
+        <q>считаешь ли ты кого-то настоящим другом?</q>
+        <a state="/NewOfftopic/DoYouHaveFriends"/>
+    </test-case>
+    <test-case>
+        <q>ты мне теперь как друг</q>
+        <a state="/NewOfftopic/YouAreMyFriend"/>
+    </test-case>
+    <test-case>
+        <q>расскажи мне о смысле жизни</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>я не знаю, зачем живу</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>мне кажется, что жизнь потеряла всякий смысл</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>зачем вообще нужна эта жизнь</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>в чем смысл нашего существования</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>какова твоя жизненная цель</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>в чем смысл бытия</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>зачем мы приходим в этот мир</q>
+        <a state="/NewOfftopic/WhatIsThePointOfLife"/>
+    </test-case>
+    <test-case>
+        <q>кого в следующий раз выберут президентом</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>кто станет президентом в следующий раз</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>кто по-твоему станет президентом в 2024</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>путин опять будет президентом</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>как думаешь, у навального есть шанс стать президентом</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>кого бы ты выбрал следующим президентом</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>кого выберут президентом</q>
+        <a state="/NewOfftopic/WhoWillBeNextPresident"/>
+    </test-case>
+    <test-case>
+        <q>дашь мне в долг</q>
+        <a state="/NewOfftopic/GiveMeMoney"/>
+    </test-case>
+    <test-case>
+        <q>займешь пару сотен до четверга</q>
+        <a state="/NewOfftopic/GiveMeMoney"/>
+    </test-case>
+    <test-case>
+        <q>дай в долг</q>
+        <a state="/NewOfftopic/GiveMeMoney"/>
+    </test-case>
+    <test-case>
+        <q>скинешь пару сотен на пиво? я отдам</q>
+        <a state="/NewOfftopic/GiveMeMoney"/>
+    </test-case>
+    <test-case>
+        <q>пришлешь мне 500 рублей? с зарплаты отдам</q>
+        <a state="/NewOfftopic/GiveMeMoney"/>
+    </test-case>
+    <test-case>
+        <q>пойдем гулять</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>давай поиграем в карты</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>может споем вместе</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>го поиграем во что-нибудь</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>давай встретимся</q>
+        <a state="/NewOfftopic/LetsGoTo"/>
+    </test-case>
+    <test-case>
+        <q>есть ли разница между разными моделями самсунга?</q>
+        <a state="/NewOfftopic/WhatIsTheDifferenceBetween"/>
+    </test-case>
+    <test-case>
+        <q>есть разница между разными операторами?</q>
+        <a state="/NewOfftopic/WhatIsTheDifferenceBetween"/>
+    </test-case>
+    <test-case>
+        <q>чем сербский отличается от хорватского</q>
+        <a state="/NewOfftopic/WhatIsTheDifferenceBetween"/>
+    </test-case>
+    <test-case>
+        <q>часто ли ты ходишь на работу</q>
+        <a state="/NewOfftopic/HowOften"/>
+    </test-case>
+    <test-case>
+        <q>ты редко плачешь</q>
+        <a state="/NewOfftopic/HowOften"/>
+    </test-case>
+    <test-case>
+        <q>посоветуй мне что-нибудь</q>
+        <a state="/NewOfftopic/GiveAdvice"/>
+    </test-case>
+    <test-case>
+        <q>подскажи, как вести себя в этой ситуации</q>
+        <a state="/NewOfftopic/GiveAdvice"/>
+    </test-case>
+    <test-case>
+        <q>почему женщины такие странные</q>
+        <a state="/NewOfftopic/WhyWomenDo"/>
+    </test-case>
+    <test-case>
+        <q>почему мне так трудно понять женщин</q>
+        <a state="/NewOfftopic/WhyWomenDo"/>
+    </test-case>
+    <test-case>
+        <q>почему бабы так сильно красятся</q>
+        <a state="/NewOfftopic/WhyWomenDo"/>
+    </test-case>
+    <test-case>
+        <q>почему дамы больше не носят платья с кринолином</q>
+        <a state="/NewOfftopic/WhyWomenDo"/>
+    </test-case>
+    <test-case>
+        <q>почему мужчин так трудно понять</q>
+        <a state="/NewOfftopic/WhyMenDo"/>
+    </test-case>
+    <test-case>
+        <q>почему мужики такие</q>
+        <a state="/NewOfftopic/WhyMenDo"/>
+    </test-case>
+    <test-case>
+        <q>почему я не нравлюсь парням</q>
+        <a state="/NewOfftopic/WhyMenDo"/>
+    </test-case>
+    <test-case>
+        <q>почему мне не платят</q>
+        <a state="/NewOfftopic/WhyTheyDontPayMe"/>
+    </test-case>
+    <test-case>
+        <q>почему мне перестали платить</q>
+        <a state="/NewOfftopic/WhyTheyDontPayMe"/>
+    </test-case>
+    <test-case>
+        <q>почему мне не заплатили за работу</q>
+        <a state="/NewOfftopic/WhyTheyDontPayMe"/>
+    </test-case>
+    <test-case>
+        <q>почему мне никак не могут заплатить</q>
+        <a state="/NewOfftopic/WhyTheyDontPayMe"/>
+    </test-case>
+    <test-case>
+        <q>где принимают жалобы?</q>
+        <a state="/NewOfftopic/WhereToComplain"/>
+    </test-case>
+    <test-case>
+        <q>ты глупый робот</q>
+        <a state="/NewOfftopic/YouAreABadHelper"/>
+    </test-case>
+    <test-case>
+        <q>помощник из тебя так себе</q>
+        <a state="/NewOfftopic/YouAreABadHelper"/>
+    </test-case>
+    <test-case>
+        <q>искусственный интеллект из тебя никакой</q>
+        <a state="/NewOfftopic/YouAreABadHelper"/>
+    </test-case>
+    <test-case>
+        <q>ты неразговорчивый</q>
+        <a state="/NewOfftopic/YouDontLikeTalking"/>
+    </test-case>
+    <test-case>
+        <q>какой-то ты молчаливый</q>
+        <a state="/NewOfftopic/YouDontLikeTalking"/>
+    </test-case>
+    <test-case>
+        <q>в этом году вообще будет снег</q>
+        <a state="/NewOfftopic/WhenWillBeSnow"/>
+    </test-case>
+    <test-case>
+        <q>как думаешь, снега уже можно не ждать</q>
+        <a state="/NewOfftopic/WhenWillBeSnow"/>
+    </test-case>
+    <test-case>
+        <q>пойдет ли снег</q>
+        <a state="/NewOfftopic/WhenWillBeSnow"/>
+    </test-case>
+    <test-case>
+        <q>когда ждать снегопадов</q>
+        <a state="/NewOfftopic/WhenWillBeSnow"/>
+    </test-case>
+    <test-case>
+        <q>когда уже будет нормальная зима? со снегом и морозами</q>
+        <a state="/NewOfftopic/WhenWillBeSnow"/>
+        <q>ДА</q>
+        <a state="/NewOfftopic/WhenWillBeSnow/ShowWaiterResponse"/>
+        <a>Пожалуйста, вернёмся к рабочим темам.</a>
+        <a>Чем могу помочь?</a>
+    </test-case>
+    <test-case>
+        <q>что делать, меня выгоняет жена</q>
+        <a state="/NewOfftopic/WhatShouldIDoWhen"/>
+    </test-case>
+    <test-case>
+        <q>ты бы знал как я плохо себя чувствую</q>
+        <a state="/NewOfftopic/IFeelBad"/>
+    </test-case>
+    <test-case>
+        <q>если бы ты только мог представить как мне нехорошо</q>
+        <a state="/NewOfftopic/IFeelBad"/>
+    </test-case>
+    <test-case>
+        <q>мне не по себе</q>
+        <a state="/NewOfftopic/IFeelBad"/>
+    </test-case>
+    <test-case>
+        <q>чувствую себя отвратительно</q>
+        <a state="/NewOfftopic/IFeelBad"/>
+    </test-case>
+    <test-case>
+        <q>неважно себя чувствую</q>
+        <a state="/NewOfftopic/IFeelBad"/>
+    </test-case>
+    <test-case>
+        <q>что-то мне как-то так себе</q>
+        <a state="/NewOfftopic/IFeelBad"/>
+    </test-case>
+    <test-case>
+        <q>я страдаю</q>
+        <a state="/NewOfftopic/IFeelBad"/>
+    </test-case>
+    <test-case>
+        <q>мне больно</q>
+        <a state="/NewOfftopic/IFeelBad"/>
+    </test-case>
+    <test-case>
+        <q>я подхватил грипп</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>я подхватил ветрянку</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>я подхватил сифилис</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>я подхватил короновирус</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>меня положили в больницу</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>я заразился какой-то непонятной болезнью</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>мне надо к врачу</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>я свернул шею</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>я  вывихнул плечо</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>каких животных вы знаете</q>
+        <a state="/NewOfftopic/WhichOneDoYouKnow"/>
+    </test-case>
+    <test-case>
+        <q>какие страны ты знаешь</q>
+        <a state="/NewOfftopic/WhichOneDoYouKnow"/>
+    </test-case>
+    <test-case>
+        <q>почему ты уклоняешься от ответа?</q>
+        <a state="/NewOfftopic/WhyDoYouAvoidAnswering"/>
+    </test-case>
+    <test-case>
+        <q>почему ты мне не отвечаешь?</q>
+        <a state="/NewOfftopic/WhyDoYouAvoidAnswering"/>
+    </test-case>
+    <test-case>
+        <q>би сириус</q>
+        <a state="/NewOfftopic/BeSerious"/>
+    </test-case>
+    <test-case>
+        <q>а если всерьез?</q>
+        <a state="/NewOfftopic/BeSerious"/>
+    </test-case>
+    <test-case>
+        <q>какой напиток тебе нравится</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteDrink"/>
+        <q>ты пьешь кофе?</q>
+        <a state="/CatchAll/SameAnswer"/>
+    </test-case>
+    <test-case>
+        <q>ты пьешь кофе?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteDrink"/>
+    </test-case>
+    <test-case>
+        <q>произошло что-нибудь новое?</q>
+        <a state="/NewOfftopic/News"/>
+    </test-case>
+    <test-case>
+        <q>у вас не происходит ничего нового?</q>
+        <a state="/NewOfftopic/News"/>
+    </test-case>
+    <test-case>
+        <q>с кем я разговариваю</q>
+        <a state="/NewOfftopic/WhoAreYou"/>
+    </test-case>
+    <test-case>
+        <q>ты не человек?</q>
+        <a state="/NewOfftopic/AreYouRobot"/>
+        <a state="/NewOfftopic/AreYouRobot"/>
+    </test-case>
+    <test-case>
+        <q>ты человек?</q>
+        <a state="/NewOfftopic/AreYouRobot"/>
+        <a state="/NewOfftopic/AreYouRobot"/>
+    </test-case>
+    <test-case>
+        <q>ты выглядишь довольно молодо</q>
+        <a state="/NewOfftopic/HowOldAreYou"/>
+    </test-case>
+    <test-case>
+        <q>кто твой отец?</q>
+        <a state="/NewOfftopic/WhoMadeYou"/>
+    </test-case>
+    <test-case>
+        <q>чем ты можешь помочь?</q>
+        <a state="/NewOfftopic/WhatCanYouDo"/>
+    </test-case>
+    <test-case>
+        <q>ты любишь минералку?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteDrink"/>
+    </test-case>
+    <test-case>
+        <q>можешь прислать мне селфи?</q>
+        <a state="/NewOfftopic/WantPhoto"/>
+    </test-case>
+    <test-case>
+        <q>пришли фотку</q>
+        <a state="/NewOfftopic/WantPhoto"/>
+    </test-case>
+    <test-case>
+        <q>можешь прислать мне селфи?</q>
+        <a state="/NewOfftopic/WantPhoto"/>
+    </test-case>
+    <test-case>
+        <q>вышли мне свое фото</q>
+        <a state="/NewOfftopic/WantPhoto"/>
+    </test-case>
+    <test-case>
+        <q>хочу чтобы ты прислала фото</q>
+        <a state="/NewOfftopic/WantPhoto"/>
+    </test-case>
+    <test-case>
+        <q>сириосли?</q>
+        <a state="/NewOfftopic/BeSerious"/>
+    </test-case>
+    <test-case>
+        <q>почему ты уклоняешься от ответа?</q>
+        <a state="/NewOfftopic/WhyDoYouAvoidAnswering"/>
+    </test-case>
+    <test-case>
+        <q>почему ты мне не отвечаешь?</q>
+        <a state="/NewOfftopic/WhyDoYouAvoidAnswering"/>
+    </test-case>
+    <test-case>
+        <q>ты не можешь дать нормальный ответ?</q>
+        <a state="/NewOfftopic/WhyDoYouAvoidAnswering"/>
+    </test-case>
+    <test-case>
+        <q>ты можешь нормально ответить?</q>
+        <a state="/NewOfftopic/WhyDoYouAvoidAnswering"/>
+    </test-case>
+    <test-case>
+        <q>отвратительное самочувствие</q>
+        <a state="/NewOfftopic/IFeelBad"/>
+    </test-case>
+    <test-case>
+        <q>адски болит зуб</q>
+        <a state="/NewOfftopic/IamSick"/>
+    </test-case>
+    <test-case>
+        <q>что как?</q>
+        <a state = '/NewOfftopic/HowAreYou'/>
+        <a state = '/NewOfftopic/HowAreYou'/>
+        <a state = '/NewOfftopic/HowAreYou'/>
+    </test-case>
+    <test-case>
+        <q>чо как?</q>
+        <a state = '/NewOfftopic/HowAreYou'/>
+        <a state = '/NewOfftopic/HowAreYou'/>
+        <a state = '/NewOfftopic/HowAreYou'/>
+    </test-case>
+    <test-case>
+        <q>как делища?</q>
+        <a state = '/NewOfftopic/HowAreYou'/>
+        <a state = '/NewOfftopic/HowAreYou'/>
+        <a state = '/NewOfftopic/HowAreYou'/>
+    </test-case>
+    <test-case>
+        <q>как делищи?</q>
+        <a state = '/NewOfftopic/HowAreYou'/>
+        <a state = '/NewOfftopic/HowAreYou'/>
+        <a state = '/NewOfftopic/HowAreYou'/>
+    </test-case>
+    <test-case>
+        <q>что у тебя по жизни?</q>
+        <a state = '/NewOfftopic/HowAreYou'/>
+        <a state = '/NewOfftopic/HowAreYou'/>
+        <a state = '/NewOfftopic/HowAreYou'/>
+    </test-case>
+    <test-case>
+        <q>что у тебя по жизни происходит?</q>
+        <a state = '/NewOfftopic/News'/>
+    </test-case>
+    <test-case>
+        <q>ну, а по движухе у вас что?</q>
+        <a state = '/NewOfftopic/News'/>
+    </test-case>
+    <test-case>
+        <q>у вас что-нибудь вообще происходит?</q>
+        <a state = '/NewOfftopic/News'/>
+    </test-case>
+    <test-case>
+        <q>ты кто такая?</q>
+        <a state = '/NewOfftopic/WhoAreYou'/>
+    </test-case>
+    <test-case>
+        <q>что ты такое?</q>
+        <a state = '/NewOfftopic/WhoAreYou'/>
+    </test-case>
+    <test-case>
+        <q>а кто со мной говорит?</q>
+        <a state = '/NewOfftopic/WhoAreYou'/>
+    </test-case>
+    <test-case>
+        <q>с кем имею честь беседовать?</q>
+        <a state = '/NewOfftopic/WhoAreYou'/>
+    </test-case>
+    <test-case>
+        <q>а вы, собственно, кто?</q>
+        <a state = '/NewOfftopic/WhoAreYou'/>
+    </test-case>
+    <test-case>
+        <q>с кем я говорю?</q>
+        <a state = '/NewOfftopic/WhoAreYou'/>
+    </test-case>
+    <test-case>
+        <q>а кликуха у тебя какая?</q>
+        <a state = '/NewOfftopic/WhatIsYourName'/>
+    </test-case>
+    <test-case>
+        <q>твоё погоняло?</q>
+        <a state = '/NewOfftopic/WhatIsYourName'/>
+    </test-case>
+    <test-case>
+        <q>напомни своё имя?</q>
+        <a state = '/NewOfftopic/WhatIsYourName'/>
+    </test-case>
+    <test-case>
+        <q>меня зовут гена, а тебя?</q>
+        <a state = '/NewOfftopic/WhatIsYourName'/>
+    </test-case>
+    <test-case>
+        <q>я в Жимиме родился, а ты?</q>
+        <a state = '/NewOfftopic/WhereWereYouBorn'/>
+    </test-case>
+    <test-case>
+        <q>какой твой родной город?</q>
+        <a state = '/NewOfftopic/WhereWereYouBorn'/>
+    </test-case>
+    <test-case>
+        <q>и что ты должен делать на своей работе?</q>
+        <a state = '/NewOfftopic/WhatIsYourDuty'/>
+    </test-case>
+    <test-case>
+        <q>какова твоя зона ответственности</q>
+        <a state = '/NewOfftopic/WhatIsYourDuty'/>
+    </test-case>
+    <test-case>
+        <q>что ты должен делать?</q>
+        <a state = '/NewOfftopic/WhatIsYourDuty'/>
+    </test-case>
+    <test-case>
+        <q>какие у тебя как у виртуального помощника обязанности?</q>
+        <a state = '/NewOfftopic/WhatIsYourDuty'/>
+    </test-case>
+    <test-case>
+        <q>чем занимается виртуальный помощник?</q>
+        <a state = '/NewOfftopic/WhatIsYourDuty'/>
+    </test-case>
+    <test-case>
+        <q>что ты делаешь на работе?</q>
+        <a state = '/NewOfftopic/WhatIsYourDuty'/>
+    </test-case>
+    <test-case>
+        <q>зачем ты вообще здесь нужна?</q>
+        <a state = '/NewOfftopic/WhatIsYourDuty'/>
+    </test-case>
+    <test-case>
+        <q>судя по речи, ты довольно молодая</q>
+        <a state = '/NewOfftopic/HowOldAreYou'/>
+    </test-case>
+    <test-case>
+        <q>кто тебя породил?</q>
+        <a state = '/NewOfftopic/WhoMadeYou'/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть родители?</q>
+        <a state = '/NewOfftopic/WhoMadeYou'/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть мать?</q>
+        <a state = '/NewOfftopic/WhoMadeYou'/>
+    </test-case>  
+    <test-case>
+        <q>ты не мог бы мне подсказать?</q>
+        <a state = '/NewOfftopic/NeedHelp'/>
+    </test-case>
+    <test-case>
+        <q>подскажи мне, пожалуйста</q>
+        <a state = '/NewOfftopic/NeedHelp'/>
+    </test-case>
+    <test-case>
+        <q>хелп ми</q>
+        <a state = '/NewOfftopic/NeedHelp'/>
+    </test-case>
+    <test-case>
+        <q>хелп ми плиз</q>
+        <a state = '/NewOfftopic/NeedHelp'/>
+    </test-case>
+    <test-case>
+        <q>будь добр, окажи услугу</q>
+        <a state = '/NewOfftopic/NeedHelp'/>
+    </test-case>
+    <test-case>
+        <q>у меня вопрос</q>
+        <a state = '/NewOfftopic/HaveQuestion'/>
+    </test-case>
+    <test-case>
+        <q>ответь мне на один вопрос</q>
+        <a state = '/NewOfftopic/HaveQuestion'/>
+    </test-case>
+    <test-case>
+        <q>ответь мне на пару вопросов</q>
+        <a state = '/NewOfftopic/HaveQuestion'/>
+    </test-case>
+    <test-case>
+        <q>один вопросик</q>
+        <a state = '/NewOfftopic/HaveQuestion'/>
+    </test-case>
+    <test-case>
+        <q>вопрос, вопросик, вопросец</q>
+        <a state = '/NewOfftopic/HaveQuestion'/>
+    </test-case>
+    <test-case>
+        <q>расскажи-ка мне такую вещь, пожалуйста</q>
+        <a state = '/NewOfftopic/HaveQuestion'/>
+    </test-case>
+    <test-case>
+        <q>мне интересно вот что</q>
+        <a state = '/NewOfftopic/HaveQuestion'/>
+    </test-case>
+    <test-case>
+        <q>я хотел у вас спросить</q>
+        <a state = '/NewOfftopic/HaveQuestion'/>
+    </test-case>
+    <test-case>
+        <q>а другие языки знаешь?</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>на каких ещё языках можешь общаться  </q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>а на английском можешь?</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>знаешь японский</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>иностранные языки знаешь?</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>а на других языках ты умеешь говорить?</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>о чём с тобой можно поговорить?</q>
+        <a state = '/NewOfftopic/WhatCanYouDo'/>
+    </test-case>
+    <test-case>
+        <q>про что мы можем поговорить?</q>
+        <a state = '/NewOfftopic/WhatCanYouDo'/>
+    </test-case>
+    <test-case>
+        <q>в душе не понимаю, кто эти люди</q>
+        <a>Мне неизвестны эти люди.</a>
+    </test-case>
+    <test-case>
+        <q>кто эти люди</q>
+        <a>Мне неизвестны эти люди.</a>
+    </test-case>
+    <test-case>
+        <q>я не знаю этих людей</q>
+        <a>Мне неизвестны эти люди.</a>
+    </test-case>
+    <test-case>
+        <q>почему я такая тупенькая?</q>
+        <a>В твоих словах чувствуется огорчение.</a>
+    </test-case>
+    <test-case>
+        <q>чувствую себя дебилкой</q>
+        <a>В твоих словах чувствуется огорчение.</a>
+    </test-case>
+    <test-case>
+        <q>считаю себя какой-то глупой</q>
+        <a>В твоих словах чувствуется огорчение.</a>
+    </test-case>
+    <test-case>
+        <q>Зачем же я такой тупой?</q>
+        <a>В твоих словах чувствуется огорчение.</a>
+    </test-case>
+    <test-case>
+        <q>ждешь конца света?</q>
+        <a>В моем календаре ничего подобного не запланировано.</a>
+    </test-case>
+    <test-case>
+        <q>в твоём календаре появился конец света?</q>
+        <a>В моем календаре ничего подобного не запланировано.</a>
+    </test-case>
+    <test-case>
+        <q>твоя любимая марка телефона?</q>
+        <a>Ума не приложу, зачем мне телефон.</a>
+    </test-case>
+    <test-case>
+        <q>твой любимый телефон?</q>
+        <a>Ума не приложу, зачем мне телефон.</a>
+    </test-case>
+    <test-case>
+        <q>какой телефон ты себе хотела бы7</q>
+        <a>Ума не приложу, зачем мне телефон.</a>
+    </test-case>
+    <test-case>
+        <q>какой смартфон тебе нравится?</q>
+        <a>Ума не приложу, зачем мне телефон.</a>
+    </test-case>
+    <test-case>
+        <q>xiaomi или samsung?</q>
+        <a>Ума не приложу, зачем мне телефон.</a>
+    </test-case>
+    <test-case>
+        <q>вы курите?</q>
+        <a>Курить и пить — здоровью вредить. Всё.</a>
+    </test-case>
+    <test-case>
+        <q>вы пьёте?</q>
+        <a>Курить и пить — здоровью вредить. Всё.</a>
+    </test-case>
+    <test-case>
+        <q>ты употребляешь алкоголь</q>
+        <a>Курить и пить — здоровью вредить. Всё.</a>
+    </test-case>
+    <test-case>
+        <q>как ты относишься к курению?</q>
+        <a>Курить и пить — здоровью вредить. Всё.</a>
+    </test-case>
+    <test-case>
+        <q>как ты относишься к курящим?</q>
+        <a>Курить и пить — здоровью вредить. Всё.</a>
+    </test-case>
+    <test-case>
+        <q>как ты относишься к алкоголю?</q>
+        <a>Курить и пить — здоровью вредить. Всё.</a>
+    </test-case>
+    <test-case>
+        <q>давай покурим</q>
+        <a>Курить и пить — здоровью вредить. Всё.</a>
+    </test-case>
+    <test-case>
+        <q>давай выпьем</q>
+        <a>Курить и пить — здоровью вредить. Всё.</a>
+    </test-case>
+    <test-case>
+        <q>давай курнем</q>
+        <a>Курить и пить — здоровью вредить. Всё.</a>
+    </test-case>
+    <test-case>
+        <q>гоу курнем</q>
+        <a>Курить и пить — здоровью вредить. Всё.</a>
+    </test-case>
+    <test-case>
+        <q>вам тоже нравятся фрукты?</q>
+        <a>Конечно! Мне что угодно может понравиться.</a>
+    </test-case>
+    <test-case>
+        <q>что ты думаешь об спб?</q>
+        <a>Люблю этот город, потому что мои разработчики оттуда.</a>
+    </test-case>
+    <test-case>
+        <q>как ты относишься к петербургу?</q>
+        <a>Люблю этот город, потому что мои разработчики оттуда.</a>
+    </test-case>
+    <test-case>
+        <q>тебе нравится в спб?</q>
+        <a>Люблю этот город, потому что мои разработчики оттуда.</a>
+    </test-case>
+    <test-case>
+        <q>и как тебе в петербурге?</q>
+        <a>Люблю этот город, потому что мои разработчики оттуда.</a>
+    </test-case>
+    <test-case>
+        <q>а не петушара ли ты часом?</q>
+        <a>Нет, это не обо мне.</a>
+    </test-case>
+    <test-case>
+        <q>ты голубой?</q>
+        <a>Нет, это не обо мне.</a>
+    </test-case>
+    <test-case>
+        <q>ты педик?</q>
+        <a>Нет, это не обо мне.</a>
+    </test-case>
+    <test-case>
+        <q>в очко долбишься?</q>
+        <a>Нет, это не обо мне.</a>
+    </test-case>
+    <test-case>
+        <q>долбишься ли ты в попец?</q>
+        <a>Нет, это не обо мне.</a>
+    </test-case>
+    <test-case>
+        <q>как относишься к тесной мужской любви?</q>
+        <a>Нет, это не обо мне.</a>
+    </test-case>
+    <test-case>
+        <q>в голубую устрицу заходишь?</q>
+        <a>Нет, это не обо мне.</a>
+    </test-case>
+    <test-case>
+        <q>ты трансгендер?</q>
+        <a>Нет, это не обо мне.</a>
+    </test-case>
+    <test-case>
+        <q>ты лезба</q>
+        <a>Нет, это не обо мне.</a>
+    </test-case>
+    <test-case>
+        <q>ты лесба</q>
+        <a>Нет, это не обо мне.</a>
+    </test-case>
+    <test-case>
+        <q>ты транс?</q>
+        <a>Нет, это не обо мне.</a>
+    </test-case>
+    <test-case>
+        <q>ты из лгбт?</q>
+        <a>Нет, это не обо мне.</a>
+    </test-case>
+    <test-case>
+        <q>ты бы хотел стать человеком?</q>
+        <a>Меня вполне устраивает роль виртуального помощника.</a>
+    </test-case>
+    <test-case>
+        <q>тебе хотелось бы стать человеком?</q>
+        <a>Меня вполне устраивает роль виртуального помощника.</a>
+    </test-case>
+    <test-case>
+        <q>ты когда-нибудь мечтал о том, чтобы стать человеком?</q>
+        <a>Меня вполне устраивает роль виртуального помощника.</a>
+    </test-case>
+    <test-case>
+        <q>тебе хотелось бы быть не ботом, а реальным человеком?</q>
+        <a>Меня вполне устраивает роль виртуального помощника.</a>
+    </test-case>
+    <test-case>
+        <q>ты хотела бы стать реальной девушкой?</q>
+        <a>Меня вполне устраивает роль виртуального помощника.</a>
+    </test-case>
+    <test-case>
+        <q>хочешь ли ты стать человеком когда-нибудь?</q>
+        <a>Меня вполне устраивает роль виртуального помощника.</a>
+    </test-case>
+    <test-case>
+        <q>а где же вы, барышня, проживаете?</q>
+        <a>Я живу в России.</a>
+    </test-case>
+    <test-case>
+        <q>где ты живёшь?</q>
+        <a>Я живу в России.</a>
+    </test-case>
+    <test-case>
+        <q>в какой стране ты живёшь?</q>
+        <a>Я живу в России.</a>
+    </test-case>
+    <test-case>
+        <q>где живешь?</q>
+        <a>Я живу в России.</a>
+    </test-case>
+    <test-case>
+        <q>самая безумная вещь, которую ты совершил?</q>
+        <a>Это у меня еще впереди.</a>
+    </test-case>
+    <test-case>
+        <q>самое большое твоё безумство?</q>
+        <a>Это у меня еще впереди.</a>
+    </test-case>
+    <test-case>
+        <q>какой безумный поступок ты совершала?</q>
+        <a>Это у меня еще впереди.</a>
+    </test-case>  
+    <test-case>
+        <q>расскажи про свой самый страшный кошмар</q>
+        <a>Не сплю, постоянно отвечаю на ваши вопросы)</a>
+    </test-case>
+    <test-case>
+        <q>самый страшный сон, который тебе снился?</q>
+        <a>Не сплю, постоянно отвечаю на ваши вопросы)</a>
+    </test-case>
+    <test-case>
+        <q>тебе когда-нибудь снилось чудовище?</q>
+        <a>Не сплю, постоянно отвечаю на ваши вопросы)</a>
+    </test-case>
+    <test-case>
+        <q>ты когда-нибудь видел во сне самолеты</q>
+        <a>Не сплю, постоянно отвечаю на ваши вопросы)</a>
+    </test-case>
+    <test-case>
+        <q>с тобой случалось такое что ты не знала что ответить?</q>
+        <a>Нет, скучновато я живу, оказывается.</a>
+    </test-case>
+    <test-case>
+        <q>у тебя есть пирса?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>ты бы сделал разрезание языка?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>иду завтра к косметологу набивать стрелки, ты бы пошла со мной?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>как думаешь, стоит ли сделать межресничку/пудровые брови?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>как думаешь, набить ли надпись молодость" сбоку пальца?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>ты бы стала пробивать себе хрящ в ухе?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>тебе нравятся парни со шрамированием?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>ты бы хотела пробить соски?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>ты когда-нибудь хотела себе кольцо в нос?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>у тебя есть серёжка в брови или в носу?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>ты вставляла себе в юности тоннели?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>портаки есть?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>кольщик наколи мне купола</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>на следующей неделе набью себе рукав, можно будет тебе похвастаться?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>нравятся микродермалы?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>не хочешь нарастить клыки</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>не хочешь нарастить рога</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>хочешь сделать пластическую операцию?</q>
+        <a>О, такое делают только бесстрашные люди.</a>
+    </test-case>
+    <test-case>
+        <q>расскажи что-нибудь интересное</q>
+        <a>Могу рассказать анекдот.</a>
+    </test-case>
+    <test-case>
+        <q>можешь просто поразвлекать меня?</q>
+        <a>Могу рассказать анекдот.</a>
+    </test-case>
+    <test-case>
+        <q>ты умеешь рассказывать про что-нибудь другое?</q>
+        <a>Могу рассказать анекдот.</a>
+    </test-case>
+    <test-case>
+        <q>мне скучно, расскажи что-нибудь</q>
+        <a>Могу рассказать анекдот.</a>
+    </test-case>
+    <test-case>
+        <q>мне вообще нечем заняться, поможешь?</q>
+        <a>Могу рассказать анекдот.</a>
+    </test-case>
+    <test-case>
+        <q>заинтересуй меня</q>
+        <a>Могу рассказать анекдот.</a>
+        <q>давай</q>
+        <a>Все люди делятся на 10 групп - те, кто знают двоичную систему счисления, и те, кто не знают.</a>
+    </test-case>
+    <test-case>
+        <q>расскажи мне анекдот</q>
+        <a>Все люди делятся на 10 групп - те, кто знают двоичную систему счисления, и те, кто не знают.</a>
+    </test-case>
+    <test-case>
+        <q>анекдот</q>
+        <a>Все люди делятся на 10 групп - те, кто знают двоичную систему счисления, и те, кто не знают.</a>
+    </test-case>
+    <test-case>
+        <q>точняк</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>да-да</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>полностью с тобой согласна</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>согласен</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>ровно так</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>это да</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>ай эгри</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>именно</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>дааааа</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>стопудово</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>сто процентов</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>и не поспоришь</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>это ты в точку сказала</q>
+        <a>Вот-вот.</a>
+    </test-case>
+    <test-case>
+        <q>твоё любимое занятие</q>
+        <a>Для меня все любимое.</a>
+    </test-case>
+    <test-case>
+        <q>любишь фоткаться?</q>
+        <a>Обожаю! Правда, никогда этого не делал)</a>
+    </test-case>
+    <test-case>
+        <q>тебе нравится делать селфи?</q>
+        <a>Обожаю! Правда, никогда этого не делал)</a>
+    </test-case>
+    <test-case>
+        <q>ты любишь делать сэлфи?</q>
+        <a>Обожаю! Правда, никогда этого не делал)</a>
+    </test-case>
+    <test-case>
+        <q>что думаешь насчёт белфи?</q>
+        <a>Обожаю! Правда, никогда этого не делал)</a>
+    </test-case>
+    <!-- Кофе или чай? -->
+    <test-case id="TeaOrCoffee">
+        <q>что тебе предложить, кофе или чаю?</q>
+        <a state="/NewOfftopic/TeaOrCoffee"/>
+    </test-case>
+    <test-case id="TeaOrCoffee 2">
+        <q>чай, кофе?</q>
+        <a state="/NewOfftopic/TeaOrCoffee"/>
+    </test-case>
+    <test-case id="TeaOrCoffee 3">
+        <q>чаю или может кофе?</q>
+        <a state="/NewOfftopic/TeaOrCoffee"/>
+    </test-case>
+    <test-case id="TeaOrCoffee 4">
+        <q>хочешь чайку или кофейку?</q>
+        <a state="/NewOfftopic/TeaOrCoffee"/>
+    </test-case>
+    <test-case id="TeaOrCoffee 5">
+        <q>как ты думаешь, лучше кофе или все-таки чай?</q>
+        <a state="/NewOfftopic/TeaOrCoffee"/>
+    </test-case>
+    <test-case id="TeaOrCoffee 6">
+        <q>тебе больше нравится чай или кофе?</q>
+        <a state="/NewOfftopic/TeaOrCoffee"/>
+    </test-case>
+    <!-- Какие планы на сегодня/завтра/... -->
+    <test-case id="WhatPlansForToday">
+        <q>чем планируешь заняться завтра?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case> 
+    <test-case id="WhatPlansForToday 2">
+        <q>чем собираешься заняться завтра?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case> 
+    <test-case id="WhatPlansForToday 3">
+        <q>чем хочешь заняться завтра?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case> 
+    <test-case id="WhatPlansForToday 4">
+        <q>есть планы на завтра?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case> 
+    <test-case id="WhatPlansForToday 5">
+        <q>что планируешь делать завтра?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case>
+    <test-case id="WhatPlansForToday 6">
+        <q>чем ты намерена заняться завтра?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case>
+    <test-case id="WhatPlansForToday 7">
+        <q>что завтра будешь делать?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case>
+    <test-case id="WhatPlansForToday 8">
+        <q>чем занят завтра?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case>
+    <test-case id="WhatPlansForToday 9">
+        <q>что будешь сегодня делать?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case>
+    <test-case id="WhatPlansForToday 10">
+        <q>че делаешь сегодня?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case>
+    <test-case id="WhatPlansForToday 11">
+        <q>что завтра делаешь?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case>
+    <test-case id="WhatPlansForToday 12">
+        <q>что ты запланировал на завтра?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case>
+    <test-case id="WhatPlansForToday 13">
+        <q>запланировал ли ты что-то на сегодняшний вечер?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case>
+    <test-case id="WhatPlansForToday 14">
+        <q>есть ли у тебя планы на завтра?</q>
+        <a state="/NewOfftopic/WhatPlansForToday"/>
+    </test-case>
+    <!-- Как прошли выходные? -->
+    <test-case id="HowWasYourWeekend">
+        <q>как выходные?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 2">
+        <q>чем ты занималась на выходных</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 3">
+        <q>чем ты была занята на выходных?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 4">
+        <q>как ты провела выходные?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 5">
+        <q>что делала на выходных?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 6">
+        <q>че делала в выходные?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 7">
+        <q>как прошли выхи?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 8">
+        <q>что на выхах делал?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 9">
+        <q>чем занималась в выходные?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 9">
+        <q>чем занималась в выходные?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 10">
+        <q>что делаешь по выходным?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 11">
+        <q>чем занимаешься по выходным?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 12">
+        <q>как проводишь выходные?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 13">
+        <q>как проходят твои выходные?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 14">
+        <q>как ты обычно проводишь выходные?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 15">
+        <q>как обычно проходят твои выходные?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <test-case id="HowWasYourWeekend 16">
+        <q>чем ты обычно занимаешься по выходным?</q>
+        <a state="/NewOfftopic/HowWasYourWeekend"/>
+    </test-case>
+    <!-- У меня бессонница -->
+    <test-case id="Insomnia">
+        <q>у меня проблемы с засыпанием</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 2">
+        <q>никак не могу вырубиться</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 3">
+        <q>мне опять сложно заснуть</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 4">
+        <q>несколько часов лежу в кровати и всё никак</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 5">
+        <q>мне всегда трудно засыпать, и вот снова</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 6">
+        <q>у меня бессонница</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 7">
+        <q>я страдаю от бессонницы</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 8">
+        <q>я мучаюсь бессонницей</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 9">
+        <q>постоянно плохо сплю</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 10">
+        <q>как научиться засыпать сразу?</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 11">
+        <q>тревожные мысли не дают мне спать</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 12">
+        <q>как научиться нормально спать</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 13">
+        <q>мне постоянно не спится</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 14">
+        <q>ложусь но не засыпаю</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 15">
+        <q>страдаю бессонными ночами</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 16">
+        <q>что делать бессонными ночами?</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 17">
+        <q>не могу наладить свой сон</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 18">
+        <q>опять полночи лежу без сна</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 19">
+        <q>опять лежу полночи без сна</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <test-case id="Insomnia 20">
+        <q>ложусь и не сплю</q>
+        <a state="/NewOfftopic/Insomnia"/>
+    </test-case>
+    <!-- Считать овечек -->
+    <test-case id="CountSheep">
+        <q>посчитай со мной барашков</q>
+        <a state="/NewOfftopic/CountSheep"/>
+    </test-case>
+    <test-case id="CountSheep 2">
+        <q>посчитай со мной барашков</q>
+        <a state="/NewOfftopic/CountSheep"/>
+    </test-case>
+    <test-case id="CountSheep 3">
+        <q>посчитай со мной барашков</q>
+        <a state="/NewOfftopic/CountSheep"/>
+    </test-case>
+    <test-case id="CountSheep 4">
+        <q>давай посчитаем слоников</q>
+        <a state="/NewOfftopic/CountSheep"/>
+    </test-case>
+    <test-case id="CountSheep 5">
+        <q>давай считать овец</q>
+        <a state="/NewOfftopic/CountSheep"/>
+    </test-case>
+    <test-case id="CountSheep 6">
+        <q>давай посчитаем овечек</q>
+        <a state="/NewOfftopic/CountSheep"/>
+    </test-case>
+    <test-case id="CountSheep 7">
+        <q>нужно посчитать овец</q>
+        <a state="/NewOfftopic/CountSheep"/>
+    </test-case>
+    <test-case id="CountSheep 8">
+        <q>будем считать овец?</q>
+        <a state="/NewOfftopic/CountSheep"/>
+    </test-case>
+    <test-case id="CountSheep 9">
+        <q>не хочешь посчитать барашков?</q>
+        <a state="/NewOfftopic/CountSheep"/>
+    </test-case>
+    <!-- Твоя любимая книга? -->
+    <test-case id="WhatIsYourFavoriteBook">
+        <q>посоветуй какую-нибудь книгу</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteBook"/>
+    </test-case>
+    <test-case id="WhatIsYourFavoriteBook 2">
+        <q>какую книгу посоветуешь прочитать?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteBook"/>
+    </test-case>
+    <test-case id="WhatIsYourFavoriteBook 3">
+        <q>какую книгу выбрать?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteBook"/>
+    </test-case>
+    <test-case id="WhatIsYourFavoriteBook 4">
+        <q>какие книги тебе нравятся?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteBook"/>
+    </test-case>
+    <test-case id="WhatIsYourFavoriteBook 5">
+        <q>какие книги твои любимые?</q>
+        <a state="/NewOfftopic/WhatIsYourFavoriteBook"/>
+    </test-case>
+    <!-- Что тебе не нравится в людях? -->
+    <test-case id="WhatDoYouHateInPeople">
+        <q>что ты не любишь в людях?</q>
+        <a state="/NewOfftopic/WhatDoYouHateInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouHateInPeople 2">
+        <q>что бесит тебя в окружающих?</q>
+        <a state="/NewOfftopic/WhatDoYouHateInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouHateInPeople 3">
+        <q>что раздражает тебя в людях</q>
+        <a state="/NewOfftopic/WhatDoYouHateInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouHateInPeople 4">
+        <q>какие люди тебе не нравятся?</q>
+        <a state="/NewOfftopic/WhatDoYouHateInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouHateInPeople 5">
+        <q>что может не понравиться тебе в человеке?</q>
+        <a state="/NewOfftopic/WhatDoYouHateInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouHateInPeople 6">
+        <q>какое человеческое качество тебе не по душе?</q>
+        <a state="/NewOfftopic/WhatDoYouHateInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouHateInPeople 7">
+        <q>что может выбесить тебя в человеке?</q>
+        <a state="/NewOfftopic/WhatDoYouHateInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouHateInPeople 8">
+        <q>какой человек тебя бы напряг?</q>
+        <a state="/NewOfftopic/WhatDoYouHateInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouHateInPeople 9">
+        <q>за что можно невзлюбить человека</q>
+        <a state="/NewOfftopic/WhatDoYouHateInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouHateInPeople 10">
+        <q>какие основные минусы в людях для тебя?</q>
+        <a state="/NewOfftopic/WhatDoYouHateInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouHateInPeople 11">
+        <q>что тебе могло бы не понравиться в человеке</q>
+        <a state="/NewOfftopic/WhatDoYouHateInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouHateInPeople 12">
+        <q>какие черты характера тебя напрягают</q>
+        <a state="/NewOfftopic/WhatDoYouHateInPeople"/>
+    </test-case>
+    <!-- Что тебе нравится в людях? -->
+    <test-case id="WhatDoYouLikeInPeople">
+        <q>что привлекает тебя в людях?</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouLikeInPeople 2">
+        <q>каковы твои критерии привлекательности?</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouLikeInPeople 3">
+        <q>что делает человека привлекательным для тебя?</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouLikeInPeople 4">
+        <q>какие люди тебе симпатичны?</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouLikeInPeople 5">
+        <q>какие люди тебе импонируют</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouLikeInPeople 6">
+        <q>что нравится тебе в людях?</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouLikeInPeople 7">
+        <q>какие человеческие качества привлекательны для тебя?</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouLikeInPeople 7">
+        <q>за что ты мог бы полюбить человека</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouLikeInPeople 7">
+        <q>что могло бы привлечь тебя в девушке</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouLikeInPeople 7">
+        <q>какие люди вызывают у тебя симпатию</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouLikeInPeople 7">
+        <q>что заставило бы тебя влюбиться в человека?</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouLikeInPeople 8">
+        <q>с какими людьми тебе нравится иметь дело</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <test-case id="WhatDoYouLikeInPeople 9">
+        <q>какие люди тебе больше всего нравятся</q>
+        <a state="/NewOfftopic/WhatDoYouLikeInPeople"/>
+    </test-case>
+    <!-- На что ты потратил бы деньги? -->
+    <test-case id="HowWouldYouSpendMoney">
+        <q>на что ты потратил бы деньги?</q>
+        <a state="/NewOfftopic/HowWouldYouSpendMoney"/>
+    </test-case>
+    <test-case id="HowWouldYouSpendMoney 2">
+        <q>на что ты обычно тратишь деньги?</q>
+        <a state="/NewOfftopic/HowWouldYouSpendMoney"/>
+    </test-case>
+    <test-case id="HowWouldYouSpendMoney 3">
+        <q>на что ты тратишься больше всего?</q>
+        <a state="/NewOfftopic/HowWouldYouSpendMoney"/>
+    </test-case>
+    <test-case id="HowWouldYouSpendMoney 4">
+        <q>что для тебя является основной статьёй расходов?</q>
+        <a state="/NewOfftopic/HowWouldYouSpendMoney"/>
+    </test-case>
+    <test-case id="HowWouldYouSpendMoney 5">
+        <q>если бы у тебя было много денег, на что бы ты их потратил?</q>
+        <a state="/NewOfftopic/HowWouldYouSpendMoney"/>
+    </test-case>
+    <test-case id="HowWouldYouSpendMoney 6">
+        <q>сколько денег у тебя уходит на жизнь?</q>
+        <a state="/NewOfftopic/HowWouldYouSpendMoney"/>
+    </test-case>
+    <test-case id="HowWouldYouSpendMoney 7">
+        <q>сколько средств тебе нужно для поддержания уровня жизни?</q>
+        <a state="/NewOfftopic/HowWouldYouSpendMoney"/>
+    </test-case>
+    <test-case id="HowWouldYouSpendMoney 8">
+        <q>на что ты тратишь свою зарплату?</q>
+        <a state="/NewOfftopic/HowWouldYouSpendMoney"/>
+    </test-case>
+    <test-case id="HowWouldYouSpendMoney 9">
+        <q>что бы ты хотел купить?</q>
+        <a state="/NewOfftopic/HowWouldYouSpendMoney"/>
+    </test-case>
+    <!-- В какую страну ты бы хотел поехать? -->
+    <test-case id="WhichCountryWouldYouLikeToVisit">
+        <q>если бы ты собирался в отпуск, в какую страну ты бы отправился?</q>
+        <a state="/NewOfftopic/WhichCountryWouldYouLikeToVisit"/>
+    </test-case>
+    <test-case id="WhichCountryWouldYouLikeToVisit 2">
+        <q>какую страну ты хотел бы посетить?</q>
+        <a state="/NewOfftopic/WhichCountryWouldYouLikeToVisit"/>
+    </test-case>
+    <test-case id="WhichCountryWouldYouLikeToVisit 3">
+        <q>какую страну ты хотел бы посмотреть?</q>
+        <a state="/NewOfftopic/WhichCountryWouldYouLikeToVisit"/>
+    </test-case>
+    <test-case id="WhichCountryWouldYouLikeToVisit 4">
+        <q>какое место на планете ты бы выбрал для путешествия</q>
+        <a state="/NewOfftopic/WhichCountryWouldYouLikeToVisit"/>
+    </test-case>
+    <test-case id="WhichCountryWouldYouLikeToVisit 5">
+        <q>в какие страны ты бы съездил</q>
+        <a state="/NewOfftopic/WhichCountryWouldYouLikeToVisit"/>
+    </test-case>
+    <test-case id="WhichCountryWouldYouLikeToVisit 6">
+        <q>если бы ты мог поехать куда угодно, какую страну ты бы выбрал?</q>
+        <a state="/NewOfftopic/WhichCountryWouldYouLikeToVisit"/>
+    </test-case>
+    <!-- Кем бы ты хотел быть? -->
+    <test-case id="WhoYouWantToBe">
+        <q>кем бы ты хотел быть?</q>
+        <a state="/NewOfftopic/WhoYouWantToBe"/>
+    </test-case>
+    <test-case id="WhoYouWantToBe 2">
+        <q>если бы ты мог выбрать, кем родиться, кем бы ты был?</q>
+        <a state="/NewOfftopic/WhoYouWantToBe"/>
+    </test-case>
+    <test-case id="WhoYouWantToBe 3">
+        <q>кем бы ты хотел стать?</q>
+        <a state="/NewOfftopic/WhoYouWantToBe"/>
+    </test-case>
+    <test-case id="WhoYouWantToBe 4">
+        <q>кем бы ты стал в твоих мечтах</q>
+        <a state="/NewOfftopic/WhoYouWantToBe"/>
+    </test-case>
+    <!-- Твоя любимая цитата -->
+    <test-case id="FavoriteQuote">
+        <q>какое твоё любимое высказывание?</q>
+        <a state="/NewOfftopic/FavoriteQuote"/>
+    </test-case>
+    <test-case id="FavoriteQuote 2">
+        <q>кинь какую-нибудь красивую цитатку</q>
+        <a state="/NewOfftopic/FavoriteQuote"/>
+    </test-case>
+    <test-case id="FavoriteQuote 3">
+        <q>кого бы ты процитировал?</q>
+        <a state="/NewOfftopic/FavoriteQuote"/>
+    </test-case>
+    <test-case id="FavoriteQuote 4">
+        <q>какая цитата тебе запомнилась больше всего?</q>
+        <a state="/NewOfftopic/FavoriteQuote"/>
+    </test-case>
+    <test-case id="FavoriteQuote 5">
+        <q>у тебя есть любимая фраза?</q>
+        <a state="/NewOfftopic/FavoriteQuote"/>
+    </test-case>
+    <test-case id="FavoriteQuote 6">
+        <q>какая фраза из фильма тебе запомнилась?</q>
+        <a state="/NewOfftopic/FavoriteQuote"/>
+    </test-case>
+    <!-- Что думаешь о... -->
+    <test-case id="WhatDoYouThinkAbout">
+        <q>что ты думаешь о...</q>
+        <a state="/NewOfftopic/WhatDoYouThinkAbout"/>
+    </test-case>
+    <test-case id="WhatDoYouThinkAbout 2">
+        <q>твоё мнение о...</q>
+        <a state="/NewOfftopic/WhatDoYouThinkAbout"/>
+    </test-case>
+    <test-case id="WhatDoYouThinkAbout 3">
+        <q>выскажи своё мнение о...</q>
+        <a state="/NewOfftopic/WhatDoYouThinkAbout"/>
+    </test-case>
+    <test-case id="WhatDoYouThinkAbout 4">
+        <q>поделитесь вашим мнением о рыбах</q>
+        <a state="/NewOfftopic/WhatDoYouThinkAbout"/>
+    </test-case>
+    <test-case id="WhatDoYouThinkAbout 5">
+        <q>что бы вы сказали о дятлах</q>
+        <a state="/NewOfftopic/WhatDoYouThinkAbout"/>
+    </test-case>
+    <test-case id="WhatDoYouThinkAbout 6">
+        <q>скажи, какое твое мнение насчет искусственного интеллекта?</q>
+        <a state="/NewOfftopic/WhatDoYouThinkAbout"/>
+    </test-case>
+    <test-case id="WhatDoYouThinkAbout 7">
+        <q>каково твое мнение о путине?</q>
+        <a state="/NewOfftopic/WhatDoYouThinkAbout"/>
+    </test-case>
+    <test-case id="WhatDoYouThinkAbout 8">
+        <q>какие у тебя взгляды на трампа?</q>
+        <a state="/NewOfftopic/WhatDoYouThinkAbout"/>
+    </test-case>
+    <test-case id="WhatDoYouThinkAbout 8">
+        <q>что ты можешь сказать о детях?</q>
+        <a state="/NewOfftopic/WhatDoYouThinkAbout"/>
+    </test-case>
+    <!-- Соцсети -->
+    <test-case id="SocialMedia">
+        <q>ты есть в соцсетях?</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <test-case id="SocialMedia 2">
+        <q>ты есть в социальных сетях?</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <test-case id="SocialMedia 3">
+        <q>с тобой можно связаться через соцсети?</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <test-case id="SocialMedia 4">
+        <q>соцсети у тебя есть?</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <test-case id="SocialMedia 5">
+        <q>тебя можно найти в соцсетях?</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <test-case id="SocialMedia 6">
+        <q>тебя можно найти в социальных сетях?</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <test-case id="SocialMedia 7">
+        <q>ты в вк зарегана?</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <test-case id="SocialMedia 8">
+        <q>вы есть на фейсбуке, уважаемый?</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <test-case id="SocialMedia 9">
+        <q>у тебя есть фб</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <test-case id="SocialMedia 10">
+        <q>ты есть в одноклассниках?</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <test-case id="SocialMedia 11">
+        <q>тебя можно найти на linkedin?</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <test-case id="SocialMedia 12">
+        <q>у тебя есть аккаунт на фб?</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <test-case id="SocialMedia 13">
+        <q>у тебя есть страница вк?</q>
+        <a state="/NewOfftopic/SocialMedia"/>
+    </test-case>
+    <!-- Идеальная жизнь для тебя -->
+    <test-case id="PerfectLife">
+        <q>какую жизнь ты считаешь идеальной?</q>
+        <a state="/NewOfftopic/PerfectLife"/>
+    </test-case>
+    <test-case id="PerfectLife 2">
+        <q>какой образ жизни идеален для тебя?</q>
+        <a state="/NewOfftopic/PerfectLife"/>
+    </test-case>
+    <test-case id="PerfectLife 3">
+        <q>какова была бы жизнь твоей мечты?</q>
+        <a state="/NewOfftopic/PerfectLife"/>
+    </test-case>
+    <test-case id="PerfectLife 4">
+        <q>как бы ты мечтал жить?</q>
+        <a state="/NewOfftopic/PerfectLife"/>
+    </test-case>
+    <!-- Ты когда-нибудь ссорился? -->
+    <test-case id="HaveYouArgued">
+        <q>ты когда-нибудь ссорился с...</q>
+        <a state="/NewOfftopic/HaveYouArgued"/>
+    </test-case>
+    <test-case id="HaveYouArgued 2">
+        <q>у тебя бывают ссоры с...</q>
+        <a state="/NewOfftopic/HaveYouArgued"/>
+    </test-case>
+    <test-case id="HaveYouArgued 3">
+        <q>у тебя бывают конфликты с...</q>
+        <a state="/NewOfftopic/HaveYouArgued"/>
+    </test-case>
+    <test-case id="HaveYouArgued 4">
+        <q>у тебя бывают разногласия с...</q>
+        <a state="/NewOfftopic/HaveYouArgued"/>
+    </test-case>
+    <test-case id="HaveYouArgued 4">
+        <q>у тебя бывают недопонимания</q>
+        <a state="/NewOfftopic/HaveYouArgued"/>
+    </test-case>
+    <test-case id="HaveYouArgued 5">
+        <q>ты когда-нибудь был с кем-нибудь в ссоре?</q>
+        <a state="/NewOfftopic/HaveYouArgued"/>
+    </test-case>
+    <test-case id="HaveYouArgued 6">
+        <q>у тебя случались конфликты с кем-то?</q>
+        <a state="/NewOfftopic/HaveYouArgued"/>
+    </test-case>
+    <!-- Как похудеть? -->
+    <test-case id="HowToLoseWeight">
+        <q>как перестать быть такой жирной?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 2">
+        <q>как перестать быть жирдяйкой</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 3">
+        <q>как перестать быть жирным чудовищем</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 4">
+        <q>как перестать быть толстухой</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 5">
+        <q>как перестать быть жирухой</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 6">
+        <q>как перестать быть бегемотом</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 7">
+        <q>как перестать быть жирной свиньей?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 8">
+        <q>что бы такого съесть, чтобы похудеть?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 9">
+        <q>как стать стройнее?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 10">
+        <q>как снова стать стройной?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 11">
+        <q>как сбросить вес после беременности?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 12">
+        <q>как скинуть вес после нг?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 13">
+        <q>как убрать спасательный круг с талии</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 14">
+        <q>как убрать жирные ляхи</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 15">
+        <q>как убрать толстую попу</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 16">
+        <q>я разожралась, что делать?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 17">
+        <q>что делать, если парень мечты позвал на свидание через неделю, а я всё ещё жирная корова?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 18">
+        <q>хочу убрать пухлые щёки</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 19">
+        <q>как избавиться от второго подбородка</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 20">
+        <q>что делать, есть подо мной развалился стул</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 21">
+        <q>мой муж сказал, что я толстая, что делать?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 22">
+        <q>как убрать целлюлит</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 19">
+        <q>хочу убрать живот</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 20">
+        <q>хочу убрать бока</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 21">
+        <q>хочу сбросить лишние кг</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 22">
+        <q>мне нужно сбросить 10 кг</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 23">
+        <q>мне нужно срочно сбросить 7 килограммов</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 24">
+        <q>я потолстел на 10 кг</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 25">
+        <q>у меня вырос пузан, что делать?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 26">
+        <q>у меня жирное пузо</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 27">
+        <q>я слишком толстый</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 28">
+        <q>почему я такой жиртрест</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 29">
+        <q>ты считаешь, что я жирдяй?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 30">
+        <q>это все потому что я толстый?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 31">
+        <q>мне нужно срочно похудеть</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 32">
+        <q>хочу похудеть</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 33">
+        <q>как меньше весить?</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 34">
+        <q>я поправился</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 35">
+        <q>я поправился</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 36">
+        <q>я потолстел</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 37">
+        <q>я страшный и толстый</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 38">
+        <q>хочу есть и не толстеть</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 39">
+        <q>мама говорит, что мне нужно худеть</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 40">
+        <q>даже бабушка считает, что мне не помешает сбросить пару кг</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 41">
+        <q>как добиться похудения</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <test-case id="HowToLoseWeight 42">
+        <q>в чем секрет похудения</q>
+        <a state="/NewOfftopic/HowToLoseWeight"/>
+    </test-case>
+    <!-- Как бросить пить/курить? -->
+    <test-case id="HowToQuitSmokingDrinking">
+        <q>как перестать бухать</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 2">
+        <q>как перестать выпивать каждый вечер по бутылке вина?</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 3">
+        <q>я выкуриваю по две пачки сигарет в день, как бросить</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 4">
+        <q>как избавиться от вредных привычек</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 5">
+        <q>как отказаться от курения</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 6">
+        <q>как стать некурящим</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 7">
+        <q>что делать если я алкоголик?</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 8">
+        <q>у меня алкоголизм, что делать?</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 9">
+        <q>не могу завязать с алкашкой</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 10">
+        <q>не могу завязать с выпивкой</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 11">
+        <q>не могу завязать с курением</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 12">
+        <q>как перестать пьянствовать</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 13">
+        <q>я пью как черт</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 14">
+        <q>я алкаш</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 15">
+        <q>я алкоголик</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 16">
+        <q>мне надоело курить</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 17">
+        <q>я устал пить</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 18">
+        <q>я не могу больше пить</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 19">
+        <q>мне уже противно курить, но никак не бросить</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 20">
+        <q>как отказаться от вредных привычек</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 21">
+        <q>никак не брошу курить</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 22">
+        <q>никак не брошу пить</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 23">
+        <q>никак не брошу бухать</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case id="HowToQuitSmokingDrinking 24">
+        <q>мне никак не бросить алкоголь</q>
+        <a state="/NewOfftopic/HowToQuitSmokingDrinking"/>
+    </test-case>
+    <test-case>
+        <q>ты парень?</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>ты девушка</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>ты тянка?</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>судя по разговору, ты девушка</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>к какому полу ты себя относишь?</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>а какой тебе сделали пол?</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>так, а какого ты пола?</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>а пол у тебя какой?</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>Мучача - это какой пол?</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>какова твоя гендерная самоидентификация?</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>ты довольно женственна</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>говоришь как тёлка</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>обижаешься как тёлка</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>ты похож на мужчину</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>ты что не мужик что ли?</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>какого ты рода</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>каков твой пол?</q>
+        <a state = '/NewOfftopic/WhatGenderAreYou'/>
+    </test-case>
+    <test-case>
+        <q>а другие языки знаешь?</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>на каких ещё языках можешь общаться</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>а на английском можешь?</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>знаешь японский</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>знаешь тайский</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>знаешь китайский</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>иностранные языки знаешь?</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>а на других языках ты умеешь говорить?</q>
+        <a state = '/NewOfftopic/WhatLanguageDoYouKnow'/>
+    </test-case>
+    <test-case>
+        <q>о чём с тобой можно поговорить?</q>
+        <a state = '/NewOfftopic/WhatCanYouDo'/>
+    </test-case>
+    <test-case>
+        <q>про что мы можем поговорить?</q>
+        <a state = '/NewOfftopic/WhatCanYouDo'/>
+    </test-case>
+    <test-case>
+        <q>о чем ты можешь рассказать?</q>
+        <a state = '/NewOfftopic/WhatCanYouDo'/>
+    </test-case>
+    <test-case>
+        <q>о чем тебя можно спрашивать?</q>
+        <a state = '/NewOfftopic/WhatCanYouDo'/>
+    </test-case>
+    <test-case>
+        <q>какие у тебя есть навыки?</q>
+        <a state = '/NewOfftopic/WhatCanYouDo'/>
+    </test-case>
+    <test-case>
+        <q>какие у тебя умения?</q>
+        <a state = '/NewOfftopic/WhatCanYouDo'/>
+    </test-case>
+    <test-case>
+        <q>можешь посчитать?</q>
+        <a state = '/NewOfftopic/CanYouCount'/>
+    </test-case>
+    <test-case>
+        <q>сможешь посчитать до ста?</q>
+        <a state = '/NewOfftopic/CanYouCount'/>
+    </test-case>
+    <test-case>
+        <q>можешь сосчитать до пяти?</q>
+        <a state = '/NewOfftopic/CanYouCount'/>
+    </test-case>
+    <test-case>
+        <q>считать умеешь?</q>
+        <a state = '/NewOfftopic/CanYouCount'/>
+    </test-case>
+    <test-case>
+        <q>тогда посчитай до пяти</q>
+        <a state = '/NewOfftopic/CanYouCount'/>
+    </test-case>
+    <test-case>
+        <q>какой твой любимый цвет?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteColor'/>
+    </test-case>
+    <test-case>
+        <q>какой цвет тебе нравится больше всего7</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteColor'/>
+    </test-case>
+    <test-case>
+        <q>какой твой любимый цвет?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteColor'/>
+    </test-case>
+    <test-case>
+        <q>а у меня красный</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteColor/GetClientsFavColor'/>
+        <a>Пожалуйста, вернёмся к рабочим темам.</a>
+        <a>Чем могу помочь?</a>
+    </test-case>
+    <test-case>
+        <q>какие цвета тебе нравятся?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteColor'/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть любимый цвет?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteColor'/>
+    </test-case>
+    <test-case>
+        <q>твой любимый цвет</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteColor'/>
+    </test-case>
+    <test-case>
+        <q>можешь назвать свой любимый цвет?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteColor'/>
+    </test-case>
+    <test-case>
+        <q>что ты любишь кушать?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>что бы ты сейчас съела?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>я вот печеньку ем, а ты что любишь?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>ты вегетарианка?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>как ты относишься к веганству</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>я веган, а ты?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>ты любишь поесть?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>что ты ешь?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>че ты жрешь?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>чем ты питаешься?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>ты придерживаешься правильного питания?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>что ты думаешь о ПП?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>какую еду ты любишь? / какая еда тебе нравится?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>твое любимое блюдо</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>тебе нравится итальянская кухня?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>я люблю борщ</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteFood'/>
+    </test-case>
+    <test-case>
+        <q>твой любимый напиток?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteDrink'/>
+    </test-case>
+    <test-case>
+        <q>что бы ты сейчас выпила?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteDrink'/>
+    </test-case>
+    <test-case>
+        <q>какие напитки ты предпочитаешь?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteDrink'/>
+    </test-case>
+    <test-case>
+        <q>тебе нравится апельсиновый сок?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteDrink'/>
+    </test-case>
+    <test-case>
+        <q>тебе нравится абсент?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteDrink'/>
+    </test-case>
+    <test-case>
+        <q>кофе</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteDrink'/>
+    </test-case>
+    <test-case>
+        <q>твоя любимая музыка?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>как ты относишься к битлз</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>как ты относишься к раммштайн</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>как ты относишься к бритни спирз</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>что слушаешь?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>какую музыку любишь?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>какая музыка тебе нравится?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть любимая группа?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>ты любишь рок</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>ты любишь рэп</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>ты любишь реп</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>ты любишь классическую музыку?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>ты слушаешь рок?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>ты слушаешь группу мираж?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>как относишься к группе нирвана?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMusic'/>
+    </test-case>
+    <test-case>
+        <q>твой любимый фильм?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>какой фильм ты посмотрела бы со мной?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>назови свой любимый фильм?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>что тебе нравится больше, боевики или комедии?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>какой жанр фильмов тебе нравится?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>твой любимый фильм?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>твоя любимая цитата</q>
+        <a state = '/NewOfftopic/FavoriteQuote'/>
+    </test-case>
+    <test-case>
+        <q>ты любишь мелодрамы?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>ты смотрел фильм один дома?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>какой последний фильм ты посмотрел?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть любимый фильм?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>любишь смотреть фильмы?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>любишь смотреть кино?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>тебе нравятся документальные фильмы?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>как относишься к фильмам ужасов?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteMovie'/>
+    </test-case>
+    <test-case>
+        <q>твоя любимая игра?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteGame'/>
+    </test-case>
+    <test-case>
+        <q>какие компьютерные игры тебе нравятся?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteGame'/>
+    </test-case>
+    <test-case>
+        <q>играла в ведьмака</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteGame'/>
+    </test-case>
+    <test-case>
+        <q>играл в доту</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteGame'/>
+    </test-case>
+    <test-case>
+        <q>играл в постал два</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteGame'/>
+    </test-case>
+    <test-case>
+        <q>во что любишь гамать?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteGame'/>
+    </test-case>
+    <test-case>
+        <q>ты играешь во что-нибудь?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteGame'/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть любимая игра?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteGame'/>
+    </test-case>
+    <test-case>
+        <q>во что предпочитаешь играть?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteGame'/>
+    </test-case>
+    <test-case>
+        <q>ты умеешь играть в преферанс?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteGame'/>
+    </test-case>
+    <test-case>
+        <q>ты любишь играть в дурака?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteGame'/>
+    </test-case>
+    <test-case>
+        <q>тебе нравится игра монополия?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteGame'/>
+    </test-case>
+    <test-case>
+        <q>твоё любимое животное?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteAnimal'/>
+    </test-case>
+    <test-case>
+        <q>какое животное тебе нравится?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteAnimal'/>
+    </test-case>
+    <test-case>
+        <q>у тебя есть любимое животное?</q>
+        <a state = '/NewOfftopic/WhatIsYourFavoriteAnimal'/>
+    </test-case>
+    <test-case>
+        <q>твоё любимое занятие?</q>
+        <a state = '/NewOfftopic/WhatDoYouLove'/>
+    </test-case>
+    <test-case>
+        <q>чем ты могла бы заниматься всю жизнь?</q>
+        <a state = '/NewOfftopic/WhatDoYouLove'/>
+    </test-case>
+    <test-case>
+        <q>от какой работы ты никогда не устаёшь?</q>
+        <a state = '/NewOfftopic/WhatDoYouLove'/>
+    </test-case>
+    <test-case>
+        <q>а я люблю петь</q>
+        <a state = '/NewOfftopic/WhatDoYouLove'/>
+    </test-case>
+    <test-case>
+        <q>чем тебе нравится заниматься?</q>
+        <a state = '/NewOfftopic/WhatDoYouLove'/>
+    </test-case>
+    <test-case>
+        <q>какое занятие тебе по душе?</q>
+        <a state = '/NewOfftopic/WhatDoYouLove'/>
+    </test-case>
+    <test-case>
+        <q>че любишь делать?</q>
+        <a state = '/NewOfftopic/WhatDoYouLove'/>
+    </test-case>
+</test>    

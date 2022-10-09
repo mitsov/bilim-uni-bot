@@ -1,0 +1,33 @@
+descriptor:
+
+  id: GuessTheAlien
+  title: Guess the alien
+  theme: Words
+  summary: "Educational game journey to distant planets where familiar 'aliens' live: objects, animals, etc."
+  description: The device will give the child an opportunity to feel like a rocket pilot. With the help of a fascinating dialogue it will ask to determine which alien on what planet lives. 
+  labels: ["words", "kids"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/why.png
+  background: 1b3253
+  price: 0.30
+
+  samples:
+    - "Let's imagine that we are going on a space trip to a planet where only animals live. While we are flying, let's think, who could we meet there? I will name you two aliens, and you say which of them we can meet on a planet where only animals live. Let's go?"
+    - "Yes"
+    - "Who can be met on the planet of animals: a dog or a cucumber?"
+    - A cucumber
+    - "Sorry. Only animals live on this planet. And this alien is not an animal."
+    - Tell me the right answer
+
+#entryPoint: en/guessTheAlien/GuessTheAlien.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

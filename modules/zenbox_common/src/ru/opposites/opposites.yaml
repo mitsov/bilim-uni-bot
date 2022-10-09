@@ -1,0 +1,40 @@
+descriptor:
+  id: opposites
+  title: Opposites game
+  theme: Opposites
+  summary: A fun word game
+  description: Find the opposite of my word or I can try to find the opposite of yours
+  labels: ["opposites", "game"]
+  language: "ru"
+  icon: https://assets.zenbox.ai/zenbox-icons/upsideDown.png
+  background: aca793
+  price: 0.40
+
+  samples:
+    - Давай играть в противоположности
+    - Я буду называть слово, а ты - его противоположность. Например, я говорю 'горячий', а ты отвечай - 'холодный'. Я говорю 'высокий' - а ты - 'низкий'. Начнём?
+    - Давай
+    - Я говорю - 'богатый'.
+    - Богатый
+    - Это я сказал богатый, а ты скажи противоположность.
+    - Бедный
+    - Верно! У тебя хорошо получается! Продолжаем! Я говорю - 'далёкий'.
+    - Давай я буду загадывать
+    - Называй слово. А я попробую угадать его противоположность.
+    - Крикливый
+    - Такого я пока не знаю. Скажи мне ответ!
+    - Крикливый
+    - Не понял, какая противоположность для слова 'крикливый'?
+
+entryPoint: ru/opposites/Opposites.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

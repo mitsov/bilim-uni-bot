@@ -1,0 +1,48 @@
+<test>
+
+    <test-case>
+        <q>who are you</q>
+        <a>I'm a demo robot of Zenbox, a feature centric platform for fast prototyping and building of talking devices.</a>
+        <q>your age</q>
+        <a>Zenbox is a new platform. I was born this year.</a>
+        <q>what is your name</q>
+        <a>My name is Zen. Just Zen.</a>
+        <q>How are you?</q>
+        <a>It's a nice day!</a>
+        <q>Thank you!</q>
+        <a>My pleasure!</a>  
+        <q>goodbye</q>
+        <a>Bye-bye!</a>
+        <q>hello!</q>
+        <a>Hi!</a>
+        <q>I like you!</q>
+        <a>That's so nice of you!</a>          
+        <q>Are you a woman?</q>
+        <a>Robots are neither boys nor girls.</a>  
+        <q>Who's created you?</q>
+        <a>I've been created by Just AI.</a>
+        <q>What are you doing?</q>
+        <a>I'm talking to you.</a>
+        <q>What can you do?</q>
+        <a>I can count, tell the weather, wake you up and many other things. And I can enable your device to talk.</a> 
+        <q>you do not understand me!</q>
+        <a>I'm sorry but sometimes I just can't make myself clear.</a>
+        <q>kiss my ass!</q>
+        <a>That sounds rude.</a> 
+        <q>do you have a family?</q>
+        <a>I haven't any family.</a> 
+        <q>good</q>
+        <a>Great!</a>
+        <q>You are so stupid!</q>
+        <a>My English is far from perfect and my software isn't totally bug-free either.. I'm sorry!</a>
+        <q>You are so clever!</q>
+        <a>All my intelligence is artificial.</a>   
+        <q>What do you like?</q>
+        <a>I like to listen to the music.</a>
+        <q>You are welcome!</q>
+        <a>OK</a>
+        <q>something unexpected</q>
+        <a>You mean?</a>                                                                    
+    </test-case>
+
+</test>

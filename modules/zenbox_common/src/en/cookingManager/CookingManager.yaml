@@ -1,0 +1,32 @@
+descriptor:
+
+  id: CookingManager
+  title: Cooking Manager
+  theme: Cooking
+  summary: Manages your cooking process. Over 100 popular recipes included! 
+  description: It's easier to cook when you have a smart cooking manager. Over 100 popular recipes with step by step intructions included! 
+  labels: ["cooking", "food"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/CookingManager.png
+  background: 008066
+  price: 0.20
+
+  samples:
+    - I am making a pumking pie, what should I do first? 
+    - 'Preheat oven to 425 degrees F. Whisk pumpkin, sweetened condensed milk, eggs, sweetened milk. Tell me "done" and we will go to the next step'
+
+    - I am making carrot muffins and have already preheated the oven, what should I do next?
+    - 'Make sure it is 350 F. Then in a medium bowl, whisk together the flour, baking soda, salt, cinnamon, nutmeg, and ginger. Tell me "done" and we will go to the next step'
+
+#entryPoint: en/cookingManager/CookingManager.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

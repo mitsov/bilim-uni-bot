@@ -1,0 +1,12 @@
+1;январь;{"number":"1","seasonNumber":"2","name":"январь","season":"зима","days":"31"}
+2;февраль;{"number":"2","seasonNumber":"3","name":"февраль","season":"зима","days":"28"}
+3;март;{"number":"3","seasonNumber":"1","name":"март","season":"весна","days":"31"}
+4;апрель;{"number":"4","seasonNumber":"2","name":"апрель","season":"весна","days":"30"}
+5;май;{"number":"5","seasonNumber":"3","name":"май","season":"весна","days":"31"}
+6;июнь;{"number":"6","seasonNumber":"1","name":"июнь","season":"лето","days":"30"}
+7;июль,юль;{"number":"7","seasonNumber":"2","name":"июль","season":"лето","days":"31"}
+8;август;{"number":"8","seasonNumber":"3","name":"август","season":"лето","days":"31"}
+9;сентябрь;{"number":"9","seasonNumber":"1","name":"сентябрь","season":"осень","days":"30"}
+10;октябрь;{"number":"10","seasonNumber":"2","name":"октябрь","season":"осень","days":"31"}
+11;ноябрь;{"number":"11","seasonNumber":"3","name":"ноябрь","season":"осень","days":"30"}
+12;декабрь;{"number":"12","seasonNumber":"1","name":"декабрь","season":"зима","days":"31"}

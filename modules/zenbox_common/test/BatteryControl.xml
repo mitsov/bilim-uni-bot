@@ -1,0 +1,19 @@
+<test>
+    <test-case>
+        <requestData>{"batteryStatus":"45"}</requestData>
+        <q>батарея</q>
+        <a>Уровень заряда батареи 45%.</a>
+    </test-case>
+
+    <test-case>
+        <requestData>{"batteryStatus":"15"}</requestData>
+        <q>у тебя ещё много зарядки</q>
+        <a>Уровень заряда батареи 15%.</a>
+    </test-case>
+
+    <test-case>
+        <requestData>{"batteryStatus":"204"}</requestData>
+        <q>покажи статус батареи</q>
+        <a>Не получается получить данные о заряде батареи.</a>
+    </test-case>
+</test>

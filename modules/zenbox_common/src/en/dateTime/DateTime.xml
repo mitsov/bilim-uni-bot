@@ -1,0 +1,925 @@
+<test>
+    <mockData>
+        <query method="get">http://vip.timezonedb.com?key=DLS64LHN9H3Q&amp;format=json&amp;lat=35.6895&amp;lng=139.69171</query>
+        <response type="json" status="200">{"status":"OK","message":"","countryCode":"JP","zoneName":"Asia\/Tokyo","abbreviation":"JST","gmtOffset":"32400","dst":"0","timestamp":1522436788}</response>
+    </mockData>
+    <mockData>
+        <query method="get">http://vip.timezonedb.com?key=DLS64LHN9H3Q&amp;format=json&amp;lat=39.9075&amp;lng=116.39723</query>
+        <response type="json" status="200">{"status":"OK","message":"","countryCode":"CN","zoneName":"Asia\/Shanghai","abbreviation":"CST","gmtOffset":"28800","dst":"0","timestamp":1522433355}</response>
+    </mockData>
+    <mockData>
+        <query method="get">http://vip.timezonedb.com?key=DLS64LHN9H3Q&amp;format=json&amp;lat=48.85341&amp;lng=2.3488</query>
+        <response type="json" status="200">{"status":"OK","message":"","countryCode":"FR","zoneName":"Europe\/Paris","abbreviation":"CEST","gmtOffset":"7200","dst":"1","timestamp":1522411817}</response>
+    </mockData>
+    <mockData>
+        <query method="get">http://vip.timezonedb.com?key=DLS64LHN9H3Q&amp;format=json&amp;lat=51.50853&amp;lng=-0.12574</query>
+        <response type="json" status="200">{"status":"OK","message":"","countryCode":"GB","zoneName":"Europe\/London","abbreviation":"BST","gmtOffset":"3600","dst":"1","timestamp":1522408313}</response>
+    </mockData>
+    <mockData>
+        <query method="get">http://vip.timezonedb.com?key=DLS64LHN9H3Q&amp;format=json&amp;lat=37.77493&amp;lng=-122.41942</query>
+        <response type="json" status="200">{"status":"OK","message":"","countryCode":"US","zoneName":"America\/Los_Angeles","abbreviation":"PDT","gmtOffset":"-25200","dst":"1","timestamp":1522379565}</response>
+    </mockData>
+    <mockData>
+        <query method="get">http://vip.timezonedb.com?key=DLS64LHN9H3Q&amp;format=json&amp;lat=60.16952&amp;lng=24.93545</query>
+        <response type="json" status="200">{"status":"OK","message":"","countryCode":"FI","zoneName":"Europe\/Helsinki","abbreviation":"EEST","gmtOffset":"10800","dst":"1","timestamp":1522415636}</response>
+    </mockData>
+    <mockData>
+        <query method="get">http://vip.timezonedb.com?key=DLS64LHN9H3Q&amp;format=json&amp;lat=41.89193&amp;lng=12.51133</query>
+        <response type="json" status="200">{"status":"OK","message":"","countryCode":"IT","zoneName":"Europe\/Rome","abbreviation":"CEST","gmtOffset":"7200","dst":"1","timestamp":1522412092}</response>
+    </mockData>
+    <mockData>
+        <query method="get">http://vip.timezonedb.com?key=DLS64LHN9H3Q&amp;format=json&amp;lat=50.08804&amp;lng=14.42076</query>
+        <response type="json" status="200">{"status":"OK","message":"","countryCode":"CZ","zoneName":"Europe\/Prague","abbreviation":"CEST","gmtOffset":"7200","dst":"1","timestamp":1522412141}</response>
+    </mockData>
+    <!--Current time-->
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what's the time</q>
+        <responseData field="action">time</responseData>
+        <a>It's 1:23 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>can you tell the time</q>
+        <responseData field="action">time</responseData>
+        <a>It's 1:23 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how late is it</q>
+        <responseData field="action">time</responseData>
+        <a>It's 1:23 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how early is it now</q>
+        <responseData field="action">time</responseData>
+        <a>It's 1:23 pm</a>
+    </test-case>
+    
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what about the time</q>
+        <responseData field="action">time</responseData>
+        <a>It's 1:23 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what's the time in Glasgo</q>
+        <a>Glasgo? Hmm. I don't know this city. But it's 1:23 pm in our city now</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>do you know what time is it in San Francisco</q>
+        <responseData field="action">time</responseData>
+        <a>It's 3:12 am in San Francisco now</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>can you tell me the current time in london</q>
+        <responseData field="action">time</responseData>
+        <a>It's 11:11 am in London now</a>
+        <q>And in Netherland</q>
+        <a>Netherland? Hmm. I don't know this city. But it's 1:23 pm in our city now</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>london current time</q>
+        <responseData field="action">time</responseData>
+        <a>It's 11:11 am in London now</a>
+        <q>and in San Francisco</q>
+        <responseData field="action">time</responseData>
+        <a>It's 3:12 am in San Francisco now</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what date is it today</q>
+        <a>It's March 19 2018, Monday</a>
+        <q>and what about time</q>
+        <responseData field="action">time</responseData>
+        <a>It's 1:23 pm</a>
+    </test-case>
+
+
+    <!--Current date-->
+    
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>current date</q>
+        <a>It's March 19, 2018, Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what date is it today</q>
+        <a>It's March 19 2018, Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what month is it today</q>
+        <a>It's March</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what year is it today</q>
+        <a>It's 2018</a>
+        <q>and month</q>
+        <a>It's March</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what's the day today</q>
+        <a>It's March 19, 2018, Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day do we have today</q>
+        <a>It's March 19 2018, Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what season do we have today</q>
+        <a>It's spring</a>
+    </test-case>
+    
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>current time</q>
+        <responseData field="action">time</responseData>
+        <a>It's 1:23 pm</a>
+        <q>and date</q>
+        <a>It's March 19 2018, Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day is it in london</q>
+        <a>It's March 30 2018, Friday in London now</a>
+        <q>and in Paris</q>
+        <a>It's Friday, March 30, 2018 in Paris now</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-24 13:23:55</dateTime>
+        <q>what day do we have today in Paris</q>
+        <a>It's March 30 2018, Friday in Paris now</a>
+        <q>and in Netherland</q>
+        <a>Netherland? Hmm. I don't know this city. But it's March 24, 2018, Saturday in our city now</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what current year season is it in Tokyo</q>
+        <a>It's spring in Tokyo now</a>
+    </test-case>
+
+    <test-case integration="true">
+        <q>what is the current date in Tokyo</q>
+        <a>It's March 30 2018, Friday in Tokyo now</a>
+    </test-case>
+
+    <test-case integration="true">
+        <q>what date is it now in Beijing</q>
+        <a>It's March 30 2018, Friday in Beijing now</a>
+    </test-case>
+
+    <!--Time check-->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it 3 o'clock now</q>
+        <a>Exact time is 1:23 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it morning</q>
+        <a>Exact time is 1:23 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it afternoon now in tokyo</q>
+        <a>Exact time in Tokyo is 7:06 pm</a>
+        <q>and in paris</q>
+        <a>Exact time in Paris is 12:10 pm</a>
+        <q>and in netherland</q>
+        <a>Netherland? Hmm. I don't know this city. But it's 1:23 pm in our city now</a>
+    </test-case>
+
+
+    <!--Date check-->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it december now in tokyo</q>
+        <a>No, now it's March in Tokyo</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it winter now in tokyo</q>
+        <a>No, now it's spring in Tokyo</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it 2018 year now</q>
+        <a>Yes, now is 2018 year</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it 2018 year in tokyo now</q>
+        <a>Yes, now is 2018 year in Tokyo</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it quarter to ten now</q>
+        <a>Exact time is 1:23 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it midnight</q>
+        <a>Exact time is 1:23 pm</a>
+    </test-case>
+
+    <!--Date check today-->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it 2018 year now</q>
+        <a>Yes, now is 2018 year</a>
+        <q>is it 2026 year now</q>
+        <a>No, now is 2018 year</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it the seventh of may</q>
+        <a>No, today is March 19, 2018, Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it october today</q>
+        <a>No, now it's March</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it august now</q>
+        <a>No, now it's March</a>
+        <q>is it march now</q>
+        <a>Yes, now it's March</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it may the 10th in tokyo now</q>
+        <a>No, today is March 30, 2018, Friday in Tokyo</a>
+        <q>and in paris</q>
+        <a>It's Friday, March 30, 2018 in Paris now</a>
+        <q>and in netherland</q>
+        <a>Netherland? Hmm. I don't know this city. But it's March 19, 2018, Monday in our city now</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it friday</q>
+        <a>No, today is Monday</a>
+        <q>is it monday</q>
+        <a>Yes, today is Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it summer now</q>
+        <a>No, now it's spring</a>
+    </test-case>
+
+    
+
+      <!--Date check other day-->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is today the 7th of january</q>
+        <a>No, today is March 19, 2018, Monday</a>
+    </test-case>
+    
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is Saturday the 7th of january</q>
+        <a>No, the 7th of january is Monday</a>
+    </test-case>
+
+   <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is tomorrow the 20th of august</q>
+        <a>No, tomorrow is Tuesday, March 20, 2018</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>was it the 10th of september three days ago</q>
+        <a>No, three days ago was Friday, March 16, 2018</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>was the 10th of may a friday</q>
+        <a>No, the 10th of may was Wednesday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is tomorrow the 20th of august</q>
+        <a>No, tomorrow is Tuesday, March 20, 2018</a>
+        <q>and the day after tomorrow</q>
+        <a>Wednesday, March 21, 2018</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what is the date today</q>
+        <a>It's March 19, 2018, Monday</a>
+        <q>and tomorrow</q>
+        <a>Tuesday, March 20, 2018</a>
+    </test-case>
+
+    <!--Day of the week today-->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what's the day of the week</q>
+        <a>Today is Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day of the week do we have</q>
+        <a>Today is Monday</a>
+    </test-case>
+
+    <!--Day of the week other day-->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day of the week is it today</q>
+        <a>Today is Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day of week will be in three days</q>
+        <a>In three days is Thursday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>name the day of week two days from today</q>
+        <a>Two days from today is Wednesday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day of the week falls on september 7th</q>
+        <a>September 7th is Friday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day of the week falls on september 7th in 1990</q>
+        <a>September 7th in 1990 is Friday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day of the week falls on september 7th next year</q>
+        <a>September 7th next year is Saturday</a>
+    </test-case>
+
+
+    <!--Day of the week past-->
+
+    <test-case integration="true"> 
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day of the week was three days ago</q>
+        <a>Three days ago was Friday</a>
+    </test-case>
+
+    <test-case integration="true"> 
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day of the week was yesterday</q>
+        <a>Yesterday was Sunday</a>
+    </test-case>
+
+    
+    <!--Day of the week check today-->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it Friday</q>
+        <a>No, today is Monday</a>
+    </test-case>
+
+
+    <!--Day of the week check other day-->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is it Friday today</q>
+        <a>No, today is Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>was yesterday a Friday</q>
+        <a>No, yesterday was Sunday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>was it friday yesterday</q>
+        <a>No, yesterday was Sunday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is tomorrow a tuesday</q>
+        <a>Yes, tomorrow is Tuesday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is the 20th of august a monday</q>
+        <a>Yes, the 20th of august is Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>is 30th april monday</q>
+        <!-- <q>is 30th april a monday</q> -->
+        <a>Yes, 30th april is Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>was 30th april monday</q>
+        <a>No, 30th april was Sunday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>will be 30th december monday</q>
+        <a>No, 30th december is Sunday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>was 30th december wednesday</q>
+        <a>No, 30th december was Saturday</a>
+    </test-case>
+
+
+    <!--Time plus-->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what time will be in half an hour</q>
+        <a>1:53 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what time will be minute later</q>
+        <a>1:24 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what time will be 1 minute later</q>
+        <a>1:24 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what time will be hour later</q>
+        <a>2:23 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what time will be in 1 hour</q>
+        <a>2:23 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what time will be in 3 hours</q>
+        <a>4:23 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what time will it be in one hour from now</q>
+        <a>2:23 pm</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what time is it?</q>
+        <responseData field="action">time</responseData>
+        <a>It's 1:23 pm</a>
+        <q>and in 48 hours 20 minutes</q>
+        <a>1:43 pm</a>
+    </test-case>
+
+
+
+    <!--Date plus-->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day it'll be tomorrow</q>
+        <a>It'll be March 20 2018, Tuesday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what date will be yesterday</q>
+        <a>It'll be March 18 2018, Sunday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what date will be in 4 years 3 months 1 week and 8 days</q>
+        <a>It'll be July 4 2022, Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what date will be fortnight</q>
+        <a>It'll be April 2 2018, Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what month will be in 14 days</q>
+        <a>It'll be April</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what season of year will be in 2 months</q>
+        <a>It'll be spring</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day will be tomorrow</q>
+        <a>It'll be March 20 2018, Tuesday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day will be tomorrow</q>
+        <a>It'll be March 20 2018, Tuesday</a>
+        <q>and in 3 days </q>
+        <a>Thursday, March 22, 2018</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day will be tomorrow</q>
+        <a>It'll be March 20 2018, Tuesday</a>
+        <q>and 3 days  ago</q>
+        <a>Friday, March 16, 2018</a>
+    </test-case>
+
+
+    <test-case integration="true">
+        <dateTime>2018-03-27 13:23:55</dateTime>
+        <q>what date will be on Monday</q>
+        <a>It'll be April 2 2018, Monday</a>
+    </test-case>
+
+    <!--Time minus-->
+
+    
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what time was 40 minutes ago</q>
+        <a>12:43 pm</a>
+    </test-case>
+ 
+
+    <!--Date minus-->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>What date was it 3 days ago</q>
+        <a>It was March 16 2018, Friday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what day was yesterday</q>
+        <a>It was March 18 2018, Sunday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what date was 3 days ago</q>
+        <a>It was March 16 2018, Friday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what date was 2 weeks ago</q>
+        <a>It was March 5 2018, Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what date was a month ago</q>
+        <a>It was February 19 2018, Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what date was 3 years ago</q>
+        <a>It was March 19 2015, Thursday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what date was 1 year ago and 3 months ago</q>
+        <a>It was December 19 2016, Monday</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-27 13:23:55</dateTime>
+        <q>what date was on Monday</q>
+        <a>It was March 26 2018, Monday</a>
+    </test-case>
+
+
+    <!--Time till-->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long is it till 3 o'clock </q>
+        <a>About 14 hours</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how much time do we have till midnight</q>
+        <a>About 11 hours</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how much time do we have till new year</q>
+        <a>About 9 months</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how much time do we have till october 2018</q>
+        <a>About 7 months</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how much time do we have till Christmas day</q>
+        <a>About 9 months</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long till the 4th of July</q>
+        <a>About 3 months</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long it is till the 4th of July</q>
+        <a>About 3 months</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how much is left till the 5th of July</q>
+        <a>About 4 months</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how many time will be the 5th of July</q>
+        <a>About in 4 months</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long it is till the 4th of Setember</q>
+        <a>About 16 days</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long it is till the 2 pm</q>
+        <a>About 36 minutes</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how much time before the end of the week</q>
+        <a>Sorry, I don't know</a>
+    </test-case>
+
+
+    <!--Time after -->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long has it been since the 5th of July</q>
+        <a>About 8 months</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long has it been since Christmas</q>
+        <a>About 3 months</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long has it been since the July 2015</q>
+        <a>About 3 years</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long has it been since new year</q>
+        <a>About 3 months</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how much time has passed since the 10th of march</q>
+        <a>About 9 days</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long ago was July 8</q>
+        <a>About 8 months ago</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long ago was Monday</q>
+        <a>Sorry, I don't know</a>
+    </test-case>
+
+    <test-case integration="true"><!--54-->
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long has it been since 1 o'clock</q>
+        <a>About 12 hours</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how long has it been since 13 pm</q>
+        <a>About 24 minutes</a>
+    </test-case>
+
+    <!--Timezone comparison -->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what's the time difference between Rome and Prague</q>
+        <a>No time difference</a>
+        <q>and between Helsinki and London</q>
+        <a>Time difference between Helsinki and London is -2 hours</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how big is the time difference between Prague and Rome</q>
+        <a>No time difference</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how big is the difference in time between Helsinki and London</q>
+        <a>Time difference between Helsinki and London is -2 hours</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>how big is the difference in time Prague to Rome</q>
+        <a>No time difference</a>
+    </test-case>
+    
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q> time difference Prague to Moscow</q>
+        <a>Time difference between Prague and Moscow is + 1 hour</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q> difference time blablabla and blablablabla</q>
+        <a>Sorry, I can't recognize cities' names</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q> difference time blablabla and prague</q>
+        <a>Sorry, I can't recognize cities' names</a>
+    </test-case>
+
+    <!--Timezone calculator -->
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q>what time is it in rome when it is 4 o'clock in Berlin</q>
+        <a>When it's 4 am in Berlin, it's 4 am in Rome</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q> if in london it's 4 p.m how late is it in rome</q>
+        <a>When it's 4 pm in London, it's 5 pm in Rome</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q> 4 pm in london how late in prague</q>
+        <a>When it's 4 pm in London, it's 5 pm in Prague</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q> how late is it in prague if in london it's 3 p.m.</q>
+        <a>When it's 3 pm in London, it's 4 pm in Prague</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q> how late is it in Chicago if in Tokyo it's 3 a.m.</q>
+        <a>When it's 3 am in Tokyo, it's 1 pm in Chicago</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q> how late is it in Chicago if in Tokyo it's 3 a.m.</q>
+        <a>When it's 3 am in Tokyo, it's 1 pm in Chicago</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q> how late is it in Chicago if in Tokyo it's 3 a.m.</q>
+        <a>When it's 3 am in Tokyo, it's 1 pm in Chicago</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q> how late is it in Delhi if in Novosibirsk it's midnight</q>
+        <a>When it's 12 am in Novosibirsk, it's 10:30 pm in Delhi</a>
+    </test-case>
+
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q> how late is it in Chicago if in balbalbalbal it's 3 a.m.</q>
+        <a>Sorry, I can't recognize cities' names</a>
+    </test-case>
+
+    <test-case integration="true">
+        <dateTime>2018-03-19 13:23:55</dateTime>
+        <q> how late is it in sdfsdfjhsdfj if  it's 3 a.m. in balbalbalbal</q>
+        <a>Sorry, I can't recognize cities' names</a>
+    </test-case>
+
+</test>

@@ -1,0 +1,31 @@
+descriptor:
+
+  id: HolidaySpirit
+  title: HolidaySpirit
+  theme: Holidays
+  summary: World most famous holiday stories and music for kids
+  description: Listen to the fairy stories and enjoy holidays together. 
+  labels: ["holidays", "stories"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/HolidayStories.png
+  background: 008066
+  price: 0.35
+
+  samples:
+    - tell me a christmas story.
+    - "Turning on 'The Elves and the Shoemaker'"
+    - "Now we want to sing 'Jingle Bells'"
+    - "Turning on. Ho-ho-ho!" 
+
+#entryPoint: en/holidaySpirit/HolidaySpirit.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

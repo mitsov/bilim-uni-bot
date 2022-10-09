@@ -1,0 +1,32 @@
+descriptor:
+
+  id: TakeYourPill
+  title: Take your pill
+  theme: Health
+  summary: Smart pill reminder
+  description: The device will remind you to take your medications on time in a prescribed dose.
+  labels: ["health", "medicine", "pill"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/TakeYourPill.png
+  background: 008066
+  price: 0.20
+
+  samples:
+    - What medications should I take today?
+    - "You have to take zyprexa in the morning and prozac in the evening."
+
+    - What drugs do I take for liver?
+    - "You take Ursifalk 250 mg twice a day"
+
+#entryPoint: en/takeYourPill/TakeYourPill.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master

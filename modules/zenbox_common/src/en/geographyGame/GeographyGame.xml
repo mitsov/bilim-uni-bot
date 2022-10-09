@@ -1,0 +1,463 @@
+<test>
+    <test-case id = "level up">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>Amsterdam</q>
+        <a>Right!</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a> 
+        <q>Astana</q>
+        <a>Right!</a>
+        <a>In which country is Astana situated: Kazakhstan or Switzerland?</a> 
+        <q>Kazakhstan</q>
+        <a>Right!</a>
+        <a>In which continent is Netherlands situated?</a>
+        <q>Europe</q>
+        <a>Right!</a>
+        <a>You are doing really well!</a>
+        <a>I'll look for a more difficult question.</a>
+        <a>Astana is the capital of which country?</a> 
+    </test-case>    
+
+    <test-case id = "level down">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>Amsterdam</q>
+        <a>Right!</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a> 
+        <q>Astana</q>
+        <a>Right!</a>
+        <a>In which country is Astana situated: Kazakhstan or Switzerland?</a> 
+        <q>Kazakhstan</q>
+        <a>Right!</a>
+        <a>In which continent is Netherlands situated?</a>
+        <q>Europe</q>
+        <a>Right!</a>
+        <a>You are doing really well!</a>
+        <a>I'll look for a more difficult question.</a>
+        <a>Astana is the capital of which country?</a> 
+        <q>France</q>
+        <a>Not really!</a>
+        <a>Astana is the capital of Kazakhstan.</a>
+        <a>What city is the capital of Kazakhstan?</a>
+        <q>Paris</q>
+        <a>Not really!</a>
+        <a>The capital of Kazakhstan is Astana.</a>
+        <a>Which of the two cities is the capital of United Arab Emirates: Abu Dhabi or Algiers?</a> 
+        <q>Algiers</q>
+        <a>Not really!</a>
+        <a>The capital of United Arab Emirates is Abu Dhabi.</a>
+        <a>In which country is Abu Dhabi situated: United Arab Emirates or Algeria?</a> 
+        <q>Algeria</q>
+        <a>Not really!</a>
+        <a>Abu Dhabi - is the capital of United Arab Emirates.</a>
+        <a>In which continent is Kazakhstan situated?</a>
+        <q>America</q>
+        <a>Not really!</a>
+        <a>Kazakhstan is in Eurasia.</a>
+        <a>Here's an easier question.</a>
+        <a>Athens is the capital of which country?</a> 
+    </test-case>     
+
+
+    <test-case id = "bad type">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Amsterdam</q>
+        <a>It seems we've mixed it up. Amsterdam - is a city, not a country. Try again!</a>
+        <q>Asia</q>?
+        <a>It seems we've mixed it up. Asia - is a continent not a country. Try again!</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>France</q>
+        <a>It seems we've mixed it up. France - is a country, not a city. Try again!</a>
+        <q>Africa</q>
+        <a>It seems we've mixed it up. Africa - is a continent not a city. Try again!</a>
+        <q>Amsterdam</q> 
+        <a>Right!</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a>
+        <q>Astana</q>
+        <a>Right!</a>
+        <a>In which country is Astana situated: Kazakhstan or Switzerland?</a> 
+        <q>Kazakhstan</q>
+        <a>Right!</a>
+        <a>In which continent is Netherlands situated?</a>
+        <q>Amsterdam</q>
+        <a>Something is wrong. Amsterdam - is a city, not a continent. Try again!</a>
+        <q>France</q>
+        <a>It seems we've mixed it up. France - is a country not a continent. Try again!</a>
+        <q>Europe</q>
+        <a>Right!</a>
+        <a>You are doing really well!</a>
+        <a>I'll look for a more difficult question.</a>
+        <a>Astana is the capital of which country?</a> 
+    </test-case>    
+
+    <test-case id = "bad type2">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Amsterdam</q>
+        <a>It seems we've mixed it up. Amsterdam - is a city, not a country. Try again!</a>
+        <q>Asia</q>
+        <a>It seems we've mixed it up. Asia - is a continent not a country. Try again!</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>France</q>
+        <a>It seems we've mixed it up. France - is a country, not a city. Try again!</a>
+        <q>Africa</q>
+        <a>It seems we've mixed it up. Africa - is a continent not a city. Try again!</a>
+        <q>Amsterdam</q> 
+        <a>Right!</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a>
+        <q>Astana</q>
+        <a>Right!</a>
+        <a>In which country is Astana situated: Kazakhstan or Switzerland?</a> 
+        <q>Kazakhstan</q>
+        <a>Right!</a>
+        <a>In which continent is Netherlands situated?</a>
+        <q>Amsterdam</q>
+        <a>Something is wrong. Amsterdam - is a city, not a continent. Try again!</a>
+        <q>France</q>
+        <a>It seems we've mixed it up. France - is a country not a continent. Try again!</a>
+        <q>Europe</q>
+        <a>Right!</a>
+        <a>You are doing really well!</a>
+        <a>I'll look for a more difficult question.</a>
+        <a>Astana is the capital of which country?</a> 
+    </test-case>    
+
+    <test-case id = "bad type3">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands or Egypt</q>
+        <a>No way, choose one country</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>Amsterdam or maybe Paris</q>
+        <a>No way, choose one city</a>
+        <q>Amsterdam</q> 
+        <a>Right!</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a>
+        <q>Astana</q>
+        <a>Right!</a>
+        <a>In which country is Astana situated: Kazakhstan or Switzerland?</a> 
+        <q>Kazakhstan</q>
+        <a>Right!</a>
+        <a>In which continent is Netherlands situated?</a>
+        <q>Asia or Europe</q>
+        <a>No way, choose one continent</a>
+        <q>Europe</q>
+        <a>Right!</a>
+        <a>You are doing really well!</a>
+        <a>I'll look for a more difficult question.</a>
+        <a>Astana is the capital of which country?</a> 
+    </test-case>    
+
+    <test-case id = "other continent name">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>Amsterdam</q>
+        <a>Right!</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a> 
+        <q>Astana</q>
+        <a>Right!</a>
+        <a>In which country is Astana situated: Kazakhstan or Switzerland?</a> 
+        <q>Kazakhstan</q>
+        <a>Right!</a>
+        <a>In which continent is Netherlands situated?</a>
+        <q>Eurasia</q>
+        <a>Right!</a>
+        <a>You are doing really well!</a>
+        <a>I'll look for a more difficult question.</a>
+        <a>Astana is the capital of which country?</a> 
+    </test-case>
+    
+
+    <test-case id = "dont know">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>I have no idea</q>
+        <a>Ok, you don't have to answer.</a>
+        <a>Amsterdam is the capital of Netherlands. The most popular transport in Amsterdam is bike. And now next question.</a>
+        <a>What city is the capital of Netherlands?</a>
+    </test-case>    
+
+    <test-case id = "stop and repeat">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>Amsterdam</q>
+        <a>Right!</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a> 
+        <q>Astana</q>
+        <a>Right!</a>
+        <a>In which country is Astana situated: Kazakhstan or Switzerland?</a> 
+        <q>Kazakhstan</q>
+        <a>Right!</a>
+        <a>In which continent is Netherlands situated?</a>
+        <q>Europe</q>
+        <a>Right!</a>
+        <a>You are doing really well!</a>
+        <a>I'll look for a more difficult question.</a>
+        <a>Astana is the capital of which country?</a> 
+        <q>i am tired</q>
+        <a>Ok, let's finish!</a>
+        <a>We've answered correctly all 5 questions!</a>
+        <a>Great result!</a>
+        <q>let's play another game</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Astana is the capital of which country?</a>
+    </test-case>    
+
+    <test-case id = "another question">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>i want another question</q>
+        <a>Ok, you don't have to answer.</a>
+        <a>Amsterdam is the capital of Netherlands. The most popular transport in Amsterdam is bike. And now next question.</a>
+        <a>What city is the capital of Netherlands?</a>
+    </test-case>  
+
+    <test-case id = "help">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>i need some help</q>
+        <a>Ok, you don't have to answer.</a>
+        <a>Amsterdam is the capital of Netherlands. The most popular transport in Amsterdam is bike. And now next question.</a>
+        <a>What city is the capital of Netherlands?</a>
+    </test-case>
+
+     <test-case id = "maybe">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>Amsterdam maybe</q>
+        <a>Right!</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a> 
+    </test-case>
+
+     <test-case id = "alternate country and city name">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>Amsterdam</q>
+        <a>Right!</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a> 
+        <q>Astana</q>
+        <a>Right!</a>
+        <a>In which country is Astana situated: Kazakhstan or Switzerland?</a> 
+        <q>Kazakhstan</q>
+        <a>Right!</a>
+        <a>In which continent is Netherlands situated?</a>
+        <q>Europe</q>
+        <a>Right!</a>
+        <a>You are doing really well!</a>
+        <a>I'll look for a more difficult question.</a>
+        <a>Astana is the capital of which country?</a> 
+        <q>France</q>
+        <a>Not really!</a>
+        <a>Astana is the capital of Kazakhstan.</a>
+        <a>What city is the capital of Kazakhstan?</a>
+        <q>Paris</q>
+        <a>Not really!</a>
+        <a>The capital of Kazakhstan is Astana.</a>
+        <a>Which of the two cities is the capital of United Arab Emirates: Abu Dhabi or Algiers?</a> 
+        <q>Abu Dhabi</q>
+        <a>Right!</a>
+        <a>In which country is Abu Dhabi situated: United Arab Emirates or Algeria?</a> 
+        <q>United Arab Emirates</q>
+        <a>Right!</a>
+        <a>In which continent is Kazakhstan situated?</a>
+    </test-case> 
+
+    <test-case id = "game ending1">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>let's finish</q>
+        <a>Ok, let's finish!</a>
+        <a>There was only one question and we've given a correct answer!</a>
+    </test-case>
+
+    <test-case id = "game ending2">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q> i am tired enough</q>
+        <a>Ok, let's finish!</a>
+        <a>There was only one question and we've given a correct answer!</a>
+    </test-case>
+
+    <test-case id = "complex continent answer">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>Amsterdam</q>
+        <a>Right!</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a> 
+        <q>Astana</q>
+        <a>Right!</a>
+        <a>In which country is Astana situated: Kazakhstan or Switzerland?</a> 
+        <q>Kazakhstan</q>
+        <a>Right!</a>
+        <a>In which continent is Netherlands situated?</a>
+        <q>Netherlands are in western Europe</q>
+        <a>Right!</a>
+        <a>You are doing really well!</a>
+        <a>I'll look for a more difficult question.</a>
+        <a>Astana is the capital of which country?</a>
+    </test-case>
+
+    <test-case id = "you answer">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>you tell me</q>
+        <a>Ok, you don't have to answer.</a>
+        <a>The capital of Netherlands is Amsterdam. The most popular transport in Amsterdam is bike. And now next question.</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a> 
+    </test-case>  
+
+    <test-case id = "dontknow">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>no idea</q>
+        <a>Ok, you don't have to answer.</a>
+        <a>The capital of Netherlands is Amsterdam. The most popular transport in Amsterdam is bike. And now next question.</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a> 
+    </test-case>  
+
+    <test-case id = "start game 0">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>come on</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+    </test-case>   
+
+    <test-case id = "start game 1">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>of course</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+    </test-case>  
+
+    <test-case id = "lets play 1">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>bubble a</q>
+        <a>I'm sorry I didn't understand.</a>
+        <a>Do you want to play geography?</a>
+        <q>not much</q>
+        <a>Sad, but it seems I'll have to do it all on my own.</a>
+    </test-case> 
+
+    <test-case id = "question mark">
+        <q>let's play geography</q>
+        <a>Let's do it! I'll ask you different questions about the cities, countries and continents. Shall we start?</a>
+        <q>yep</q>
+        <a>Great! A game for you - a test for me! There are many questions - just say stop when you want to stop.</a>
+        <a>Amsterdam is the capital of which country?</a>
+        <q>Netherlands?</q>
+        <a>Right!</a>
+        <a>What city is the capital of Netherlands?</a>
+        <q>Amsterdam?</q>
+        <a>Right!</a>
+        <a>Which of the two cities is the capital of Kazakhstan: Astana or Berne?</a> 
+        <q>Astana?</q>
+        <a>Right!</a>
+        <a>In which country is Astana situated: Kazakhstan or Switzerland?</a> 
+        <q>Kazakhstan?</q>
+        <a>Right!</a>
+        <a>In which continent is Netherlands situated?</a>
+        <q>Netherlands are in western Europe</q>
+        <a>Right!</a>
+        <a>You are doing really well!</a>
+        <a>I'll look for a more difficult question.</a>
+        <a>Astana is the capital of which country?</a>
+   </test-case>
+
+</test>    
+
+
+

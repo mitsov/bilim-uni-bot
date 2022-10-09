@@ -1,0 +1,178 @@
+<test>
+
+    <test-case>
+        <q>20 divided by 100 multiplied by the square root of 122</q>
+        <a>2,21</a>
+    </test-case> 
+
+    <test-case>
+        <q>root of the root of 16</q>
+        <a>2</a>
+    </test-case>   
+
+    <test-case>
+        <q>root of the root of the root of 256</q>
+        <a>2</a>
+    </test-case>      
+
+    <test-case>
+        <q>6 divide by 0</q>
+        <a>This operation is not valid.</a>
+    </test-case>  
+
+    <test-case>
+        <q>the sine of 30 degrees</q>
+        <a>0,5</a>
+    </test-case>
+
+    <test-case>
+        <q>10 squared</q>
+        <a>100</a>
+        <q>multiply by 2</q>
+        <a>200</a>        
+    </test-case>  
+
+    <test-case>
+        <q>two times two</q>
+        <a>4</a>
+        <q>10 squared</q>
+        <a>100</a>        
+    </test-case>  
+
+    <test-case>
+        <q>the cube root of 27</q>
+        <a>3</a>   
+    </test-case>   
+
+    <test-case>
+        <q>2.5 multiplied by 10 minus 25</q>
+        <a>0</a>   
+    </test-case> 
+
+    <test-case>
+        <q>5 multiplied by 3 point 6</q>
+        <a>18</a>   
+    </test-case> 
+
+    <test-case>
+        <q>7.20 add 3 point 60</q>
+        <a>10,8</a>   
+    </test-case> 
+
+    <test-case>
+        <q>How much is thirty per cent of the 45</q>
+        <a>13,5</a>   
+    </test-case>     
+
+    <test-case>
+        <q>Please tell me the 5 + 5 = 8?</q>
+        <a>No, it is 10</a>   
+    </test-case>     
+
+    <test-case>
+        <q>two plus two equals four</q>
+        <a>Yes, it is 4</a>   
+    </test-case>        
+
+    <test-case>
+        <q>6/3</q>
+        <a>2</a>   
+    </test-case>   
+
+    <test-case>
+        <q>How much page 6÷3</q>
+        <a>2</a>   
+    </test-case>      
+
+    <test-case>
+        <q>6÷3</q>
+        <a>2</a>   
+    </test-case> 
+
+    <test-case>
+        <q>1+1</q>
+        <a>2</a>   
+    </test-case> 
+
+    <test-case>
+        <q>1-1</q>
+        <a>0</a>   
+    </test-case> 
+
+    <test-case>
+        <q>how much it will be 2-2</q>
+        <a>0</a>   
+    </test-case> 
+
+    <test-case>
+        <q>how much is 2-2</q>
+        <a>0</a>   
+    </test-case>     
+
+    <test-case>
+        <q>Tell me the result one -1</q>
+        <a>0</a>   
+    </test-case> 
+
+    <test-case>
+        <q>1-1+3</q>
+        <a>3</a>   
+    </test-case> 
+
+    <test-case>
+        <q>one+1</q>
+        <a>2</a>
+    </test-case>
+    <test-case>
+        <q>four+1</q>
+        <a>5</a>
+    </test-case>
+
+    <test-case>
+        <q>zero-3</q>
+        <a>-3</a>
+    </test-case>
+
+    <test-case>
+        <q>four*2</q>
+        <a>8</a>
+    </test-case>
+
+    <test-case>
+        <q>four/2</q>
+        <a>2</a>
+    </test-case>
+
+    <test-case>
+        <q>four÷2</q>
+        <a>2</a>
+    </test-case>
+
+    <test-case>
+        <q>1/4 = 0.25</q>
+        <a>Yes, it is 0,25</a>
+    </test-case>
+
+    <test-case>
+        <q>1/4 = 2/8</q>
+        <a>Yes, it is 0,25</a>
+    </test-case>
+
+    <test-case>
+        <q>1/4 + 1/4</q>
+        <a>0,5</a>
+    </test-case>
+
+    <test-case>
+        <q>1/4 + 1/4</q>
+        <a>0,5</a>
+        <q>and add 3</q>
+        <a>3,5</a>
+        <q>and add 2</q>
+        <a>5,5</a>  
+        <q>minus 3</q>
+        <a>2,5</a>                
+        <q>and add 2</q>
+        <a>4,5</a>              
+    </test-case>
+</test>

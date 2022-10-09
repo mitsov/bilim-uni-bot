@@ -1,0 +1,31 @@
+descriptor:
+
+  id: MagicToothbrush
+  title: Magic toothbrush
+  theme: Kids
+  summary: Tooth brushing as an exciting adventure.
+  description: The device will help to organize kid's teeth brusing without tears and tell an interesting 2min story.
+  labels: ["brushung", "fairytales"]
+  language: "en"
+  icon: https://assets.zenbox.ai/zenbox-icons/MagicToothBrush.png
+  background: 008066
+  price: 0.40 
+
+  samples:
+    - "It's 9 p.m! All earthlings and aliens are getting ready for bed and brushing their teeth. You should keep up with them and start. Are your brush and paste ready?"
+    - "Yes!"
+    - "Then start cleaning. And I will tell you something about the good gnome. As soon as the night falls, a good dwarf enters the house..."
+    - Enough!
+
+#entryPoint: en/magicToothbrush/MagicToothbrush.sc
+module: zenbox_common
+
+dependencies:
+  - name: zenbox_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-zenbox-common.git
+    version: heads/master
+  - name: zb_common
+    type: git
+    url: git@bitbucket.org:just-ai/zb-common.git
+    version: heads/master
